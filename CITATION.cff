@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si usas estos materiales, cítalos así."
+type: dataset
+title: "Carto-Visor · Evidencia 1: entrevistas, codificación y análisis de procesos, actores y necesidades de información territorial (CDMX)"
+version: 1.1.0
+date-released: "2026-10-21"
+authors:
+  - family-names: "Gómez Montuy"
+    given-names: "Emilio"
+    affiliation: "Tecnológico de Monterrey, campus Ciudad de México"
+repository-code: "https://github.com/emimontuy/carto-visor-evidencia1"
+license-url: "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/LICENSE.md"
+keywords:
+  - design thinking
+  - entrevistas semiestructuradas
+  - codificación cualitativa
+  - información territorial
+  - ADIP
+  - Ciudad de México
+  - FAIR
+  - FAIR Digital Objects
+abstract: >-
+  Anexos de la Evidencia 1 del curso Diseño e implementación de innovaciones públicas (Gpo. 501, AD2026):
+  cinco entrevistas semiestructuradas con personas que producen, consumen o construyen herramientas para
+  la información cartográfica de la Ciudad de México, sus transcripciones, libros de códigos, corpus
+  codificados, hallazgos, mapas de proceso y actores, historias de usuario, guion, registro de
+  consentimiento y declaración de uso de IA.

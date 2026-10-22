@@ -1,0 +1,10 @@
+﻿id,modulo,construir,comprobar,historias
+E4-R01,Contrato y carga de capas,"Descriptor de archivo, campos, referencia espacial disponible y prueba de carga sin alterar el original.",Identificar cada capa y conservar claves y nombres; documentar cualquier transformación justificada.,E4-US06
+E4-R02,Selección coherente,"Consulta por campo acordado y estado compartido de capa, versión y elemento en mapa y ficha.",Alternar elementos rápidamente sin mostrar una selección anterior como actual.,E4-US01
+E4-R03,Procedencia y fechas,"Ficha con fuente, versión, cobertura, significado de fechas y datos pendientes.",Distinguir fecha de información y carga; no rellenar ausencias ni prometer actualización automática.,E4-US02
+E4-R04,Descarga de capa completa,"Archivo y documentación con alcance, claves y versión identificables.",Reabrir la descarga y contrastar ejemplos acordados con el responsable de la fuente.,E4-US03
+E4-R05,Estados y permisos,Estados de consulta y mensajes diferenciados; control de permiso al entregar información.,"Ensayar fallo, ausencia de resultados y acceso restringido; identificar información anterior y rechazar solicitudes no autorizadas.",E4-US04
+E4-R06,Controles y accesibilidad,"Nombres visibles, leyenda, selección sin depender sólo del color y recorrido con teclado y ampliación.",Abrir ficha y reconocer capa y elemento con distintas formas de interacción.,E4-US05
+E4-R07,Incidencias y validación,"Ficha de incidencia y guion de tarea con entorno, pasos, resultado y canal de revisión.","Reproducir o dejar pendiente; distinguir dato y programa, observar sin guía y registrar lo realmente probado.",E4-US07 | E4-US08
+E4-R08,Versiones y transferencia,"Referencia compartida de código y datos, decisiones, pendientes e instrucciones de reversión.",Recuperar una versión previa y repetir consultas esenciales con otra persona.,E4-US09
+E4-R09,Ampliación de localización,"Especificación condicionada de direcciones, incertidumbre y contrato de nuevas fuentes.","Mantener fuera del MVP hasta acordar necesidad, datos, responsables y condiciones de uso.",E4-US10

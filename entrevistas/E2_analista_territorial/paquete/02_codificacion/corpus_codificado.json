@@ -1,0 +1,603 @@
+{
+  "entrevista": "E2",
+  "version": "1.0.0",
+  "segmentos": [
+    {
+      "id": "E2-S01",
+      "pagina": 1,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Te puedo hablar de mi experiencia en general. De proyectos actuales hay cosas que no podría compartir, pero la parte de cómo analizas un territorio y cómo organizas la información sí la podemos platicar.",
+      "codigos": [
+        "E2-C00",
+        "E2-C13",
+        "E2-C18"
+      ],
+      "estatus": "contexto",
+      "memo": "Acota el testimonio a prácticas generales; no aporta datos internos de una empresa de telecomunicaciones.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S02",
+      "pagina": 1,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Actualmente trabajo en una empresa de telecomunicaciones, en la parte de planeación territorial. Mi trabajo está relacionado con analizar zonas y entender cómo se distribuyen ciertas necesidades en el territorio. Antes trabajaba en gobierno y participaba en análisis para identificar dónde podía ser conveniente ubicar equipamiento, por ejemplo escuelas o instalaciones de alguna dependencia.",
+      "codigos": [
+        "E2-C00",
+        "E2-C01"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Identifica su experiencia actual y previa; no lo convierte en representante de ADIP o SSC.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S03",
+      "pagina": 1,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "También tienes que decir qué cosas todavía no sabes. El mapa ayuda, pero lo que te están pidiendo es una recomendación que se pueda justificar.",
+      "codigos": [
+        "E2-C01",
+        "E2-C02",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La salida del análisis incluye razones y pendientes, además de la visualización.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S04",
+      "pagina": 1,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Pero al avanzar aparecieron cosas que no se veían en la primera revisión: accesos complicados, servicios que había que confirmar y dudas sobre la disponibilidad de algunos espacios. Entonces la lista inicial fue cambiando.",
+      "codigos": [
+        "E2-C04",
+        "E2-C10",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "El caso muestra revisión de alternativas; no documenta una escuela construida ni sus resultados.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S05",
+      "pagina": 2,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Y había información, como la capacidad real de las escuelas, que tenía que confirmar el área correspondiente. Nosotros no la podíamos inventar a partir de los puntos del mapa.",
+      "codigos": [
+        "E2-C08",
+        "E2-C09",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La presencia de un punto no acredita capacidad de atención.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S06",
+      "pagina": 2,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Primero revisábamos qué teníamos, qué tan reciente era y qué faltaba. Había ocasiones en las que el problema no era que no existiera el dato, sino que no sabíamos quién tenía la versión que debíamos usar.",
+      "codigos": [
+        "E2-C05",
+        "E2-C07",
+        "E2-C09",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Separa disponibilidad del dato de identificación del productor y de la versión pertinente.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S07",
+      "pagina": 2,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Podías tener una lista con el nombre de una colonia y un mapa donde aparecía con otro nombre o con una delimitación diferente. También pasaba que una ubicación estaba registrada con una dirección poco precisa.",
+      "codigos": [
+        "E2-C03",
+        "E2-C04",
+        "E2-C05"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Distinguir nombres, límites y precisión de localización antes de resolver la discrepancia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S08",
+      "pagina": 2,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Primero tratábamos de entender la diferencia. Si era un error de captura, si estábamos usando versiones de años distintos o si cada área estaba hablando de una división diferente.",
+      "codigos": [
+        "E2-C03",
+        "E2-C05",
+        "E2-C07"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Una discrepancia puede tener causas distintas y no justifica una corrección automática.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S09",
+      "pagina": 2,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "A veces trabajábamos con una referencia acordada y dejábamos anotada la limitación. Lo importante era no cambiar silenciosamente el dato original y que después nadie entendiera de dónde había salido el resultado.",
+      "codigos": [
+        "E2-C03",
+        "E2-C06",
+        "E2-C09",
+        "E2-C15",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La referencia acordada requiere conservar la fuente y explicar su límite.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S10",
+      "pagina": 2,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "A veces parte de la explicación se quedaba en un correo. Si tú seguías en el proyecto, recordabas por qué se había tomado una decisión; si llegaba alguien nuevo, tenía que reconstruirlo.",
+      "codigos": [
+        "E2-C06",
+        "E2-C15"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La documentación dispersa dificulta la continuidad; no se cuantifica el tiempo perdido.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S11",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "una barrera que hacía que el trayecto fuera más largo de lo que sugería la distancia en línea recta. Eso no significaba que el terreno quedara descartado automáticamente, pero sí que teníamos que reconsiderar su ventaja frente a otras opciones.",
+      "codigos": [
+        "E2-C04",
+        "E2-C10"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Continúa el ejemplo de la página anterior: una barrera cambia la comparación, no dicta por sí sola la decisión.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S12",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "No es lo mismo un adulto en coche que un niño caminando con su familia. Para una escuela, por ejemplo, hay que pensar en el recorrido cotidiano.",
+      "codigos": [
+        "E2-C04",
+        "E2-C10",
+        "E2-C17"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La accesibilidad depende de la población y del modo de desplazamiento.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S13",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Yo pondría primero aclarar la necesidad: qué se quiere resolver, para quién y en qué territorio. Después identificar qué información existe y pedir la que falta. Luego revisar y preparar los archivos para que se puedan comparar.",
+      "codigos": [
+        "E2-C01",
+        "E2-C05",
+        "E2-C09"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Reconstruye las primeras etapas del proceso desde la perspectiva del entrevistado.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S14",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Pero no es una línea completamente recta. En la validación puedes descubrir que te falta información y volver atrás.",
+      "codigos": [
+        "E2-C10",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "El proceso incluye retornos; no se presenta como una secuencia fija.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S15",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Conseguir una respuesta clara sobre información que dependía de otra área. Preparar un archivo puede llevar tiempo, pero muchas veces tú puedes avanzar. Si necesitas confirmar la disponibilidad de un terreno o la capacidad de un servicio, dependes de otra persona.",
+      "codigos": [
+        "E2-C09",
+        "E2-C10",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "El cuello de botella relatado es la confirmación interáreas, además del trabajo técnico.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S16",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "También costaba cuando te llegaba información nueva después de haber hecho el análisis. Tenías que revisar si cambiaba la recomendación o solamente algún detalle. Por eso ayuda mucho acordar un corte y saber qué versión se está usando.",
+      "codigos": [
+        "E2-C07",
+        "E2-C09",
+        "E2-C15"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Los cambios requieren revisar su impacto; una fecha de corte facilita reconstruir el análisis.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S17",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Nosotros aportábamos el análisis territorial, pero la decisión tenía otros componentes: presupuesto, viabilidad técnica, revisión de los terrenos y prioridades del área responsable.",
+      "codigos": [
+        "E2-C02",
+        "E2-C09",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "El analista aporta evidencia; no tiene por este papel la autoridad de decidir la construcción.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S18",
+      "pagina": 3,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Pondría al área que detecta o recibe la necesidad, al equipo que hace el análisis, a las áreas que producen la información y a quienes revisan la viabilidad de las opciones. También a quienes toman la decisión y a la población que va a usar el servicio.",
+      "codigos": [
+        "E2-C00",
+        "E2-C02",
+        "E2-C09",
+        "E2-C10"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Ubica funciones; la entrevista no identifica cargos ni nombres para todos los proyectos.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S19",
+      "pagina": 4,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Aunque una misma persona puede tener varios papeles. No sé si los pondría como personajes fijos, porque depende del proyecto. Lo que sí preguntaría es quién puede resolver cada duda y quién tiene que aprobar cada paso.",
+      "codigos": [
+        "E2-C02",
+        "E2-C09",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Los roles se definen por facultades y preguntas, sin asignar arquetipos rígidos.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S20",
+      "pagina": 4,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Yo no te diría que siempre había una participación formal, porque no era igual en todos. Pero sí creo que escuchar a quienes usan el territorio ayuda a validar.",
+      "codigos": [
+        "E2-C09",
+        "E2-C10",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "No permite afirmar participación ciudadana formal en todos los proyectos.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S21",
+      "pagina": 4,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "En realidad los combinaría. El mapa te deja ver una relación; la tabla te permite comprobar qué significa y qué datos la sostienen.",
+      "codigos": [
+        "E2-C11",
+        "E2-C14"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La visualización debe permitir consultar los atributos que sostienen la lectura espacial.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S22",
+      "pagina": 4,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Preferiría una ficha breve y una opción para ver más detalle. Y si algo no está disponible, que se note. Un espacio vacío puede ser un dato faltante, no necesariamente que el valor sea cero.",
+      "codigos": [
+        "E2-C06",
+        "E2-C08",
+        "E2-C11",
+        "E2-C14"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Distinguir ausencia de registro de un valor cero y permitir detalle sin saturar la ficha.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S23",
+      "pagina": 4,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Si el archivo solamente tiene ciertos tipos de instalaciones o una parte del territorio, no puedes concluir que donde no hay puntos no existe nada. Necesitas conocer el alcance del registro.",
+      "codigos": [
+        "E2-C06",
+        "E2-C08",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La cobertura de la fuente limita las conclusiones sobre ausencia de servicios.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S24",
+      "pagina": 4,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Ahora cambian el objetivo y algunas variables que se consideran. Hay información interna que no es pública y que tiene sus propias restricciones.",
+      "codigos": [
+        "E2-C00",
+        "E2-C01",
+        "E2-C13"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Las prácticas generales son transferibles; no se incorpora información reservada del empleo actual.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S25",
+      "pagina": 5,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Hay lugares donde trabaja o transita mucha gente, aunque viva poca. Entonces necesitas distinguir entre residencia y actividad.",
+      "codigos": [
+        "E2-C01",
+        "E2-C17",
+        "E2-C18"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "El indicador de población depende de la pregunta; no aporta cifras de movilidad o demanda.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S26",
+      "pagina": 5,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Una referencia común puede ayudar mucho. Pero una división operativa de seguridad, una zona de atención de un servicio y una división administrativa pueden responder a cosas diferentes. No todo lo que no coincide es un error.",
+      "codigos": [
+        "E2-C03",
+        "E2-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Homologar identificación y uso no implica igualar geometrías con finalidades distintas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S27",
+      "pagina": 5,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "El equipo que construye el visor puede mostrar las versiones o facilitar la comparación, pero no siempre le corresponde decidir cuál sustituye a la otra. Esa decisión hay que hablarla con las áreas responsables.",
+      "codigos": [
+        "E2-C02",
+        "E2-C07",
+        "E2-C09",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El desarrollo facilita la consulta; la autoridad sobre la referencia debe acordarse con los responsables.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S28",
+      "pagina": 5,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Revisaría que los archivos estén completos, que se puedan abrir, que los identificadores sean los que les entregaron y que ambas se muestren en la ubicación esperada. También revisaría cómo se relacionan los cuadrantes con los sectores, sin inventar una relación si no viene explicada.",
+      "codigos": [
+        "E2-C03",
+        "E2-C05",
+        "E2-C10",
+        "E2-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Propone comprobaciones de entrada; no demuestra que los archivos entregados tengan errores.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S29",
+      "pagina": 5,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "La fuente, el responsable, qué contiene la capa, el territorio que cubre, la fecha de los datos y la fecha de publicación o entrega. Si hay un sistema de coordenadas o una referencia técnica necesaria para trabajarla, también. Y las restricciones de uso.",
+      "codigos": [
+        "E2-C06",
+        "E2-C07",
+        "E2-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La ficha debe permitir entender origen, periodo, cobertura, referencia espacial y condiciones de uso.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S30",
+      "pagina": 6,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "No prometería una actualización automática si no existe una forma acordada de recibir el cambio. Y si se conserva una versión anterior, que se pueda distinguir claramente de la vigente.",
+      "codigos": [
+        "E2-C07",
+        "E2-C09",
+        "E2-C15",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El procedimiento y los responsables preceden a una automatización de actualizaciones.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S31",
+      "pagina": 6,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Si puedo descargar, me serviría recibir la capa con su documentación, no solamente una imagen del mapa. Y que lo que descargo corresponda a la versión que estaba viendo. También sería útil saber si estoy descargando todo o sólo una selección, porque eso después puede generar confusiones.",
+      "codigos": [
+        "E2-C06",
+        "E2-C07",
+        "E2-C12",
+        "E2-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La descarga requiere un archivo reutilizable, sus metadatos y un alcance explícito.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S32",
+      "pagina": 6,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "El riesgo es diseñar sólo para el especialista y que los demás no entiendan, o simplificar tanto que el analista no pueda comprobar nada. Una consulta básica y un acceso al detalle pueden convivir.",
+      "codigos": [
+        "E2-C11",
+        "E2-C14"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Propone dos niveles de lectura sin eliminar los atributos necesarios para verificar la información.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S33",
+      "pagina": 6,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Que los nombres se entiendan y haya una leyenda. Si sectores y cuadrantes usan colores demasiado parecidos, me puede costar distinguirlos. También que no tenga que adivinar si un botón descarga, cambia la vista o abre la información.",
+      "codigos": [
+        "E2-C11",
+        "E2-C14",
+        "E2-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La autonomía se comprueba con tareas, etiquetas claras y capas distinguibles.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S34",
+      "pagina": 6,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Separaría consultar, descargar y modificar. Que alguien pueda ver no quiere decir que pueda actualizar la capa. Y los permisos de descarga dependerán de lo que autorice el responsable de la información.",
+      "codigos": [
+        "E2-C09",
+        "E2-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La autorización debe definirse por operación; [Analista territorial] no establece la política institucional definitiva.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S35",
+      "pagina": 6,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Buscaría un lugar, activaría una capa y luego la otra, y trataría de identificar el sector y el cuadrante que corresponden. Revisaría los atributos y la fuente. Después intentaría descargar la información, si el usuario que estoy usando tiene permiso.",
+      "codigos": [
+        "E2-C11",
+        "E2-C12",
+        "E2-C13",
+        "E2-C14",
+        "E2-C16"
+      ],
+      "estatus": "prueba_propuesta",
+      "memo": "Describe una tarea observable de prueba, sin afirmar que ya se ejecutó.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S36",
+      "pagina": 7,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "sirve para revisar la consulta, pero no me vuelve el usuario que conoce la operación de Seguridad Ciudadana. Esa parte tendrían que probarla también con ellos.",
+      "codigos": [
+        "E2-C10",
+        "E2-C14",
+        "E2-C16",
+        "E2-C18"
+      ],
+      "estatus": "incertidumbre_explicita",
+      "memo": "Completa el turno de la página anterior y limita su representación del usuario sectorial.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S37",
+      "pagina": 7,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Tener las capas juntas no confirma la disponibilidad de un terreno ni resuelve por sí solo la capacidad de una escuela. Aporta una base para trabajar; la decisión sigue necesitando otras verificaciones.",
+      "codigos": [
+        "E2-C02",
+        "E2-C08",
+        "E2-C10",
+        "E2-C16",
+        "E2-C18"
+      ],
+      "estatus": "expectativa_condicional",
+      "memo": "Los beneficios del visor son potenciales y no sustituyen validaciones de viabilidad o capacidad.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S38",
+      "pagina": 7,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "También que esté claro quién valida el contenido y quién resuelve una duda. Si para actualizar una capa tienes que volver a buscar a todos desde cero, se complica.",
+      "codigos": [
+        "E2-C09",
+        "E2-C15",
+        "E2-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Identificar responsables permite canalizar revisión y dudas sin reconstruir la coordinación.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S39",
+      "pagina": 7,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Los archivos, pero también las decisiones que se tomaron. Qué fuente se eligió, por qué, qué se revisó y qué quedó pendiente.",
+      "codigos": [
+        "E2-C06",
+        "E2-C07",
+        "E2-C15",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La entrega debe conservar razones de elección y pendientes, no sólo el mapa final.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S40",
+      "pagina": 7,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Un mapa se ve muy convincente, aunque esté hecho con datos incompletos. Por eso la claridad sobre el contenido me parece tan importante como la presentación. Si encuentro un error, también quisiera saber a quién avisarlo.",
+      "codigos": [
+        "E2-C06",
+        "E2-C08",
+        "E2-C14",
+        "E2-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La apariencia no acredita calidad; la ficha debe indicar límites y el responsable al que canalizar dudas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S41",
+      "pagina": 7,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "Tercero, prueben la herramienta con usuarios distintos y observen qué hacen sin explicarles cada paso. Y, bueno, una cosa que atraviesa las tres: anoten lo que todavía no está resuelto.",
+      "codigos": [
+        "E2-C14",
+        "E2-C15",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Propone observación de tareas y registro de pendientes; no aporta resultados de usabilidad.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E2-S42",
+      "pagina": 8,
+      "hablante": "[Analista territorial]",
+      "fragmento_literal": "No necesitas toda la información para empezar, pero sí saber qué puedes concluir con la que tienes y qué no. Si logran que eso sea claro para quien consulta, ya es una aportación útil.",
+      "codigos": [
+        "E2-C01",
+        "E2-C08",
+        "E2-C16",
+        "E2-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El valor inicial depende de una consulta delimitada y de comunicar el alcance de la evidencia.",
+      "revision_humana": "pendiente"
+    }
+  ]
+}

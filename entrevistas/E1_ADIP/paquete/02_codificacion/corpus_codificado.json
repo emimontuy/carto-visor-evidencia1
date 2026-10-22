@@ -1,0 +1,698 @@
+[
+  {
+    "id": "E1-S01",
+    "pagina": 2,
+    "pagina_fin": 2,
+    "hablante": "[Enlace ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "[Directora ADIP] es la directora responsable del proyecto de Cartovisor.",
+    "codigos": [
+      "C00"
+    ],
+    "estatus": "contexto",
+    "memo": "Ubica a la responsable del proyecto; no equivale a identificar a todos los usuarios.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S02",
+    "pagina": 3,
+    "pagina_fin": 3,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Tengo aquí a cargo la dirección de monitoreo electrónico y procesamiento estadístico.",
+    "codigos": [
+      "C00"
+    ],
+    "estatus": "contexto",
+    "memo": "La responsabilidad declarada explica su perspectiva institucional.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S03",
+    "pagina": 4,
+    "pagina_fin": 4,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Como les decía, esto es lo que consume como la mayor parte del día. Sin embargo, pues el equipo tiene diferentes proyectos.",
+    "codigos": [
+      "C00",
+      "C17"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "El tablero delictivo pertenece al contexto laboral. No trasladar automáticamente sus funciones al nuevo visor.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S04",
+    "pagina": 4,
+    "pagina_fin": 4,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "me gustaría que empezáramos a lo mejor con algunas capas muy sencillas.",
+    "codigos": [
+      "C09",
+      "C17"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Propone empezar con un alcance acotado; posteriormente especifica las dos capas.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S05",
+    "pagina": 5,
+    "pagina_fin": 5,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Cada una o la mayoría ahorita está utilizando o está intentando georreferenciar o utilizar mapas para diferentes situaciones.",
+    "codigos": [
+      "C01"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "Describe diversidad de usos desde su perspectiva; no es una medición de adopción ni inventario completo.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S06",
+    "pagina": 5,
+    "pagina_fin": 5,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Hay muchas capas. Entonces todo el mundo utiliza capas diferentes. Y al hacer esos cruces pues nos salen a todos resultados diferentes.",
+    "codigos": [
+      "C01"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "Relaciona las referencias cartográficas distintas con resultados distintos; el mecanismo es narrado, no una prueba causal.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S07",
+    "pagina": 5,
+    "pagina_fin": 5,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Entonces el plan es homologar toda esta información para que existiera como una especie de datos abiertos.",
+    "codigos": [
+      "C02"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La biblioteca común es la respuesta propuesta al problema de referencias dispersas.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S08",
+    "pagina": 5,
+    "pagina_fin": 5,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "bueno, vamos a empezar de adentro hacia afuera, tuviéramos como todos esa liga y pudiéramos consumir de ella.",
+    "codigos": [
+      "C02",
+      "C04",
+      "C17"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "El acceso inicial es institucional; la apertura pública es una ampliación posible.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S09",
+    "pagina": 6,
+    "pagina_fin": 6,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Cualquier persona. O sea, el tema es que lo pueda utilizar cualquier persona.",
+    "codigos": [
+      "C13"
+    ],
+    "estatus": "aspiracion",
+    "memo": "Expresa facilidad de uso deseada; no demuestra que ya existan perfiles de usuario validados.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S10",
+    "pagina": 6,
+    "pagina_fin": 6,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Yo no sé el trabajo de las demás dependencias, no conozco incluso la actualización de las demás dependencias y si van a utilizar la cartografía o no.",
+    "codigos": [
+      "C03"
+    ],
+    "estatus": "incertidumbre_explicita",
+    "memo": "Los casos de uso interinstitucionales deben investigarse directamente con esas dependencias.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S11",
+    "pagina": 6,
+    "pagina_fin": 6,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Yo lo que únicamente quiero es tener como una biblioteca que pudieran consultarla en cualquier momento cualquier persona, cualquier persona que tuviera el INC, porque todavía no va a ser público, y ¿en qué momento? En el momento que sea.",
+    "codigos": [
+      "C02",
+      "C04"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La palabra INC se conserva como aparece en el transcript; el contexto refiere al enlace. No usarla como nombre técnico de un sistema.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S12",
+    "pagina": 6,
+    "pagina_fin": 6,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "No, nadie me lo ha solicitado.",
+    "codigos": [
+      "C03"
+    ],
+    "estatus": "incertidumbre_explicita",
+    "memo": "No se documenta una solicitud previa del Carto-Visor a esta entrevistada; no significa que nadie utilice cartografía.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S13",
+    "pagina": 6,
+    "pagina_fin": 6,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Esas dos capas, la fuente es Secretaría de Seguridad Ciudadana, pero si me pidieran la actualización de esas dos capas, yo no se las puedo dar.",
+    "codigos": [
+      "C07",
+      "C11"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "ADIP no debe presentarse como productora de los polígonos ni prometer actualizarlos autónomamente.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S14",
+    "pagina": 6,
+    "pagina_fin": 6,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Yo tendría que solicitarla a quien hace, al dueño de la información, en este caso la Secretaría, y proporcionárselas al técnico para que suba la actualización.",
+    "codigos": [
+      "C07",
+      "C18"
+    ],
+    "estatus": "proceso_propuesto",
+    "memo": "Distingue productor, enlace y técnico. La actualización depende primero del productor.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S15",
+    "pagina": 7,
+    "pagina_fin": 7,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Sí, pues mira, que alguien tenga la necesidad, actualmente no, nadie. Yo o el titular y yo lo platicamos porque es un proyecto totalmente nuevo, a nadie se le ha ocurrido, nadie lo ha proporcionado y es como dejar de hacer lo que todos quieran o consuman lo que quieran, actualizado o no, y homologar la información que sale de la Ciudad de México.",
+    "codigos": [
+      "C02",
+      "C03"
+    ],
+    "estatus": "incertidumbre_explicita",
+    "memo": "La iniciativa parte de una conversación interna. Su utilidad para terceros sigue siendo una hipótesis de diseño.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S16",
+    "pagina": 7,
+    "pagina_fin": 7,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Yo tengo algunos contactos con algunas secretarías y me lo proporcionan como de manera en corto, por WhatsApp, algunos se tienen que hacer por oficio, pero desconozco cómo lo hagan las demás personas.",
+    "codigos": [
+      "C18",
+      "C03"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "Estos canales describen su experiencia; no se generalizan a todo el gobierno ni permiten medir tiempos de entrega.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S17",
+    "pagina": 8,
+    "pagina_fin": 8,
+    "hablante": "[Participante ADIP] de ADIP",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "con sus muy bien asignados permisos para que no sean accesibles por cualquiera, que solo sean accesibles por las dependencias que así lo requieran",
+    "codigos": [
+      "C04"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Plantea acceso por permisos. No es el [Participante ADIP] estudiante mencionado en la presentación del equipo.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S18",
+    "pagina": 8,
+    "pagina_fin": 8,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "De preferencia a ambos. ¿Quién? Pues también las personas que lo consulten. Todos.",
+    "codigos": [
+      "C05"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Responde a consultar en pantalla y descargar. Todos se refiere aquí a quienes tengan acceso autorizado, aclarado en el turno siguiente.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S19",
+    "pagina": 8,
+    "pagina_fin": 8,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "no es como que puedas buscar la liga en Google o te la encuentres por ahí y cualquier persona puede entrar",
+    "codigos": [
+      "C04"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La intención es acceso interno. Ocultar un enlace no basta: se deriva la necesidad de controlar el acceso a archivos y servicios.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S20",
+    "pagina": 8,
+    "pagina_fin": 8,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "No sé, a lo mejor a mí se me ocurre que sea un usuario para la Secretaría de Cultura, uno para Salud y con sus credenciales como bien definidas que puedan consultar.",
+    "codigos": [
+      "C04"
+    ],
+    "estatus": "propuesta_condicional",
+    "memo": "Cuentas por dependencia son un ejemplo de [Directora ADIP], no un esquema de identidad ya decidido.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S21",
+    "pagina": 8,
+    "pagina_fin": 8,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Obviamente nadie editar, pero descargar",
+    "codigos": [
+      "C05",
+      "C06"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Los usuarios de consulta no pueden editar. La carga por un técnico es una función separada, no una contradicción.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S22",
+    "pagina": 8,
+    "pagina_fin": 8,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "que tengas algo que te mande un correo electrónico, ¿no? Así como que, como para que ellos pudieran decir, oye, esta capa la actualizamos el mes pasado.",
+    "codigos": [
+      "C18"
+    ],
+    "estatus": "propuesta_condicional",
+    "memo": "El aviso de cambio es una idea para una fase posterior; no demuestra que exista un flujo automático actual.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S23",
+    "pagina": 9,
+    "pagina_fin": 9,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Sí tienen un identificador único. Son polígonos generados por la Secretaría, por el área de estadística, que son como cercos.",
+    "codigos": [
+      "C07",
+      "C08"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "La existencia y unicidad del identificador se declaran; deben comprobarse al recibir el archivo.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S24",
+    "pagina": 9,
+    "pagina_fin": 9,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "El territorio de Ciudad de México lo dividieron en 72 sectores",
+    "codigos": [
+      "C09"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "72 es un conteo declarado para sectores, pendiente de verificar contra la entrega. El conteo 1022 aparece en una pregunta del entrevistador, no en una confirmación equivalente de [Directora ADIP].",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S25",
+    "pagina": 9,
+    "pagina_fin": 9,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "tanto el nombre como la clave o el identificador, es información que ya viene propia de la Secretaría. Entonces, no podemos moverla",
+    "codigos": [
+      "C07",
+      "C08"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "No cambiar claves ni nombres oficiales para simplificar el visor o estandarizar etiquetas.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S26",
+    "pagina": 9,
+    "pagina_fin": 9,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "No trae como información de datos personales o algo así, no lo tiene.",
+    "codigos": [
+      "C09",
+      "C10"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "Caracteriza las dos capas iniciales. Es una declaración de la entrevistada, no una auditoría independiente del contenido.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S27",
+    "pagina": 9,
+    "pagina_fin": 9,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Para este entregable de estas semanas, únicamente vamos a trabajar con la capa de cuadrantes y la capa de sectores por el tema de la sensibilidad de las bases de datos de fiscalía, solamente con estas dos capas.",
+    "codigos": [
+      "C09",
+      "C17"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Acota el prototipo y excluye bases sensibles de Fiscalía de esta entrega.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S28",
+    "pagina": 10,
+    "pagina_fin": 10,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Estas capas cuadran perfectamente, no vas a tener problemas.",
+    "codigos": [
+      "C10"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "Declara compatibilidad de las capas. No se inventan errores de proyección ni resultados de validación.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S29",
+    "pagina": 10,
+    "pagina_fin": 10,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "puede ser que a lo mejor la secretaría se puede echar dos años sin actualizar, o el resto de la administración sin actualizar, o como puede hacerlo al siguiente mes.",
+    "codigos": [
+      "C07",
+      "C11"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "No existe aquí una periodicidad fija garantizada; la vigencia debe informarse con la fecha aportada por el productor.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S30",
+    "pagina": 10,
+    "pagina_fin": 10,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "vamos a trabajar con esta desde las que ya tiene [Enlace ADIP] de principio a fin. No, ahí sí no vamos a tener actualización.",
+    "codigos": [
+      "C09",
+      "C11"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "El prototipo usa una entrega fija durante el proyecto. Documentar una futura actualización no exige automatizarla ahora.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S31",
+    "pagina": 10,
+    "pagina_fin": 10,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Esta que te comento es la base de datos de fiscalía. Esta contiene las carpetas que se inician un día antes.",
+    "codigos": [
+      "C17"
+    ],
+    "estatus": "contexto",
+    "memo": "Aclara que la actualización diaria mencionada antes corresponde a otra base y otro producto.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S32",
+    "pagina": 10,
+    "pagina_fin": 10,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Entonces eso no va a suceder en estas 10 semanas.",
+    "codigos": [
+      "C09",
+      "C17"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La frase cierra la explicación del acceso al web service de Fiscalía, responsiva y VPN; no trasladar esos requisitos al prototipo de dos capas.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S33",
+    "pagina": 11,
+    "pagina_fin": 11,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Dejarlo a nivel Ciudad de México para otras secretarías.",
+    "codigos": [
+      "C17"
+    ],
+    "estatus": "propuesta_condicional",
+    "memo": "Prefiere ampliar temas dentro de CDMX antes de una etapa nacional; no confirma qué temas o usuarios habrá.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S34",
+    "pagina": 11,
+    "pagina_fin": 11,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "que a lo mejor únicamente tuviéramos como visión sin dejarlo cerrado, pero únicamente como trabajo.",
+    "codigos": [
+      "C09",
+      "C17"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La arquitectura debe permitir ampliar sin convertir todas las ampliaciones en obligaciones del MVP.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S35",
+    "pagina": 12,
+    "pagina_fin": 12,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "O sea, qué tan fácil es sin que le tengas que mandar explicación y nada. O sea, únicamente la visualización y qué tan fácil es encontrar las herramientas dentro de esa.",
+    "codigos": [
+      "C13"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La facilidad se puede convertir en tareas de prueba con usuarios, no solo en una preferencia estética.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S36",
+    "pagina": 12,
+    "pagina_fin": 12,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Dudas, en cualquier momento me pueden escribir o escribirle por parte de [Enlace ADIP], que sea nuestro intermediario.",
+    "codigos": [
+      "C18"
+    ],
+    "estatus": "proceso_propuesto",
+    "memo": "Define un canal de aclaración y el papel de [Enlace ADIP] como enlace con el equipo.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S37",
+    "pagina": 12,
+    "pagina_fin": 12,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Para que después, pues vaya para que cuando tengamos a lo mejor un etapa dos o una etapa tres, pues lo agarramos ahí de la documentación.",
+    "codigos": [
+      "C15",
+      "C17"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La documentación sirve a continuidad entre fases, incluso si cambia el equipo.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S38",
+    "pagina": 13,
+    "pagina_fin": 13,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Si tenemos servidor, incluso la dirección tiene dos.",
+    "codigos": [
+      "C16"
+    ],
+    "estatus": "situacion_actual",
+    "memo": "Hay disponibilidad declarada de servidores; no se conocen capacidad, sistema operativo ni credenciales.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S39",
+    "pagina": 13,
+    "pagina_fin": 13,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Me gustaría que lo estuvieran trabajando en local. O ya que tengamos como todos, o sea, ya que tengamos el producto final, ahora sí quizá hacer la prueba para levantarlo en el servidor.",
+    "codigos": [
+      "C16"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Primero ejecución local reproducible, después prueba de integración institucional si se acuerda.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S40",
+    "pagina": 13,
+    "pagina_fin": 13,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "no sé que se vayan a basar en alguna herramienta que tenga algún costo mensual y que de repente. Ah, y es que pues para que siga funcionando hay que seguir pagando.",
+    "codigos": [
+      "C16"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Evitar dependencias de pago recurrente para funciones esenciales. No implica que los costos de personal o infraestructura sean cero.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S41",
+    "pagina": 14,
+    "pagina_fin": 14,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "obligatorio a lo mejor el metadato. O sea, para que se sepan las personas cuándo fue la actualización y cosas de esas, los metadatos.",
+    "codigos": [
+      "C12",
+      "C11"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Mostrar procedencia y fecha de actualización; distinguirla de la fecha de recepción o publicación en el visor.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S42",
+    "pagina": 14,
+    "pagina_fin": 14,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Darle como un espacio o dejarle ahí pendiente como el nivel de usuario o el role del usuario, porque a lo mejor muchos podrán tener un rol completo y algunos no.",
+    "codigos": [
+      "C04",
+      "C17"
+    ],
+    "estatus": "propuesta_condicional",
+    "memo": "Dejar espacio para permisos más granulares; las categorías concretas requieren validación.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S43",
+    "pagina": 14,
+    "pagina_fin": 14,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "No quiero que mandemos la liga y tengan que buscarnos para explicarnos cómo funciona o para que nosotros tengamos que explicarles cómo funciona.",
+    "codigos": [
+      "C13"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "La consulta y descarga deben poder completarse con etiquetas comprensibles y sin orientación del desarrollador.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S44",
+    "pagina": 14,
+    "pagina_fin": 14,
+    "hablante": "[Enlace ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Segundo es el prototipo del visor, un mapa interactivo con las capas disponibles y funciones de encendido, apagado y de descarga.",
+    "codigos": [
+      "C05",
+      "C14"
+    ],
+    "estatus": "propuesta_intermediario",
+    "memo": "Precisa las funciones del documento de entregables presentado durante la reunión. [Directora ADIP] respalda la lista y prioriza arquitectura.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S45",
+    "pagina": 14,
+    "pagina_fin": 15,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Yo preferiría que incluso una, dos semanas, tres semanas, las que vienen, se dedicaran al punto uno y ese fuera como el entregable más importante, yo creo.",
+    "codigos": [
+      "C14"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "El punto uno presentado por [Enlace ADIP] es la arquitectura funcional: experiencia, capas, metadatos y flujo básico de datos.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S46",
+    "pagina": 15,
+    "pagina_fin": 15,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por continuidad del turno y referencias del diálogo",
+    "fragmento_literal": "Podemos hacerlo a través de [Enlace ADIP]. Si no tiene tema, yo te las mando en un zip, [Enlace ADIP], y con gusto los puedes compartir.",
+    "codigos": [
+      "C07",
+      "C18"
+    ],
+    "estatus": "proceso_propuesto",
+    "memo": "Las capas se entregarían por [Directora ADIP] a través de [Enlace ADIP] en ZIP. La recepción efectiva no consta en esta entrevista.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S47",
+    "pagina": 16,
+    "pagina_fin": 16,
+    "hablante": "[Directora ADIP]",
+    "atribucion": "Por pregunta precedente y turno de respuesta; confirmar con audio si se requiere atribución definitiva",
+    "fragmento_literal": "No, no lo hay.",
+    "codigos": [
+      "C16"
+    ],
+    "estatus": "requisito_expresado",
+    "memo": "Respuesta a si se requiere VPN para el desarrollo local inicial; no implica ausencia de autenticación del visor.",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-S48",
+    "pagina": 16,
+    "pagina_fin": 16,
+    "hablante": "[Participante ADIP] de ADIP",
+    "atribucion": "Inferida por secuencia de turnos de cierre; pendiente de confirmar con audio",
+    "fragmento_literal": "no contar con ello en una primera etapa.",
+    "codigos": [
+      "C16",
+      "C17"
+    ],
+    "estatus": "propuesta_intermediario",
+    "memo": "El contexto es no depender de acceso VPN o integración institucional en la primera etapa.",
+    "revision_humana": "pendiente"
+  }
+]

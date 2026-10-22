@@ -1,0 +1,181 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "objetos": [
+    {
+      "id": "urn:uuid:89161f96-ee7f-5200-831f-e08adbbbc1ee",
+      "nombre": "fuente",
+      "tipo_local": "TranscripcionEntrevistaPDF",
+      "version": "1.0.0",
+      "ruta": "01_fuente/E3_transcripcion_anonimizada.pdf",
+      "sha256": "a9fc5d2df457fb678deeecf6fc5061c48f8d5258a9ef701361df4a7747a24a5e",
+      "esquema_local": null,
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": []
+    },
+    {
+      "id": "urn:uuid:ae85d828-7b72-5625-bf17-ba20c049805f",
+      "nombre": "texto",
+      "tipo_local": "TranscripcionEntrevistaTexto",
+      "version": "1.0.0",
+      "ruta": "01_fuente/transcripcion_por_paginas.txt",
+      "sha256": "64533054586cb062a8bb74ad1add7cf841506aaa0754f49bf764fc6c494873d1",
+      "esquema_local": null,
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:89161f96-ee7f-5200-831f-e08adbbbc1ee"
+      ]
+    },
+    {
+      "id": "urn:uuid:325f7b0e-e105-586f-8dc3-2c8ebf5ae2ca",
+      "nombre": "codigos",
+      "tipo_local": "LibroCodigosCualitativo",
+      "version": "1.0.0",
+      "ruta": "02_codificacion/libro_de_codigos.json",
+      "sha256": "35013a6370648f92211785603aea9ebfee648cb9e7fdfc8cf4d674d6316fc1d8",
+      "esquema_local": "05_metadatos/esquemas/codigos.schema.json",
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:ae85d828-7b72-5625-bf17-ba20c049805f"
+      ]
+    },
+    {
+      "id": "urn:uuid:1af36803-bfc6-58dc-8566-1750b919d526",
+      "nombre": "corpus",
+      "tipo_local": "CorpusCualitativoCodificado",
+      "version": "1.0.0",
+      "ruta": "02_codificacion/corpus_codificado.json",
+      "sha256": "4a4661123dc66a4b5cb3733e6ccfb15c5f09e5ee419ceff7f0063c5145571b29",
+      "esquema_local": "05_metadatos/esquemas/corpus.schema.json",
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:ae85d828-7b72-5625-bf17-ba20c049805f",
+        "urn:uuid:325f7b0e-e105-586f-8dc3-2c8ebf5ae2ca"
+      ]
+    },
+    {
+      "id": "urn:uuid:f212a056-f34b-527f-8181-494e8069a2d0",
+      "nombre": "hallazgos",
+      "tipo_local": "HallazgosCualitativos",
+      "version": "1.0.0",
+      "ruta": "03_analisis/hallazgos_y_mapas.json",
+      "sha256": "5210429c3711e744a94c26c419f3932aa6c88636fb9136f27190289a203c41e0",
+      "esquema_local": "05_metadatos/esquemas/hallazgos.schema.json",
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:1af36803-bfc6-58dc-8566-1750b919d526"
+      ]
+    },
+    {
+      "id": "urn:uuid:e90c5a3a-0729-5ca7-b2a4-881cec10ed0e",
+      "nombre": "historias",
+      "tipo_local": "HistoriasUsuarioTrazables",
+      "version": "1.0.0",
+      "ruta": "04_desarrollo/historias_de_usuario.json",
+      "sha256": "73d49944245779a9c1cc7e6f77a254a5e0e32e1bacaffefb186194df509e4928",
+      "esquema_local": "05_metadatos/esquemas/historias.schema.json",
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:f212a056-f34b-527f-8181-494e8069a2d0",
+        "urn:uuid:1af36803-bfc6-58dc-8566-1750b919d526"
+      ]
+    },
+    {
+      "id": "urn:uuid:f8acd49b-9aa1-5759-9557-e0d679680963",
+      "nombre": "blueprint",
+      "tipo_local": "BlueprintDesarrollo",
+      "version": "1.0.0",
+      "ruta": "04_desarrollo/blueprint.json",
+      "sha256": "6c8c2b606964a99108f7dbf0ea2d8e610bf29c4078a019781f650bcc72227ca5",
+      "esquema_local": "05_metadatos/esquemas/blueprint.schema.json",
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:e90c5a3a-0729-5ca7-b2a4-881cec10ed0e",
+        "urn:uuid:f212a056-f34b-527f-8181-494e8069a2d0"
+      ]
+    },
+    {
+      "id": "urn:uuid:0a5bfb3d-4df1-576c-b907-72a47818673e",
+      "nombre": "contratos",
+      "tipo_local": "ContratosDatosPrototipo",
+      "version": "1.0.0",
+      "ruta": "04_desarrollo/contratos_de_datos.json",
+      "sha256": "818ef10e8509a8a069b7d752ca5e69ece43c23c61cef61c47a0df2455044fb47",
+      "esquema_local": "05_metadatos/esquemas/contratos.schema.json",
+      "pid": null,
+      "estado_pid": "pendiente_asignacion",
+      "perfil_fdo": "propuesta_local_pendiente_revision",
+      "tipo_registrado": null,
+      "fecha_preparacion": "2026-10-14",
+      "autor": "Emilio Gómez Montuy",
+      "acceso": "material_academico",
+      "licencia": "pendiente",
+      "difusion_abierta": "por_confirmar",
+      "deriva_de": [
+        "urn:uuid:f8acd49b-9aa1-5759-9557-e0d679680963",
+        "urn:uuid:e90c5a3a-0729-5ca7-b2a4-881cec10ed0e"
+      ]
+    }
+  ],
+  "estado": "Preparación local para revisión; PID y registro de tipos y perfiles pendientes",
+  "biblioteca_fuente": {
+    "library_file_id": "libfile_6ff3738b4d148191bd9381be061842ad",
+    "nombre": "E3_transcripcion_anonimizada.pdf"
+  }
+}

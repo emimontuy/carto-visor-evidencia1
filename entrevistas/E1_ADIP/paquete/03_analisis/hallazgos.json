@@ -1,0 +1,140 @@
+[
+  {
+    "id": "E1-H01",
+    "titulo": "La primera entrega debe hacer identificable la referencia común",
+    "hallazgo": "[Directora ADIP] relaciona los resultados distintos con el uso de diferentes capas. Sectores y cuadrantes son el punto de entrada acordado para una biblioteca compartida.",
+    "segmentos": [
+      "E1-S06",
+      "E1-S07",
+      "E1-S25",
+      "E1-S27"
+    ],
+    "codigos": [
+      "C01",
+      "C02",
+      "C08",
+      "C09"
+    ],
+    "implicacion": "Construir un catálogo con fuente, versión e identificadores oficiales; no redibujar polígonos para aparentar homologación.",
+    "limite": "Las diferencias entre capas de colonias motivan el problema, pero el prototipo de sectores y cuadrantes no las resuelve por sí solo."
+  },
+  {
+    "id": "E1-H02",
+    "titulo": "La utilidad para otras dependencias todavía requiere validación",
+    "hallazgo": "La iniciativa surge dentro de ADIP y la entrevistada declara desconocer trabajo, frecuencia de actualización y disposición de uso de otras áreas.",
+    "segmentos": [
+      "E1-S09",
+      "E1-S10",
+      "E1-S12",
+      "E1-S15",
+      "E1-S16"
+    ],
+    "codigos": [
+      "C03",
+      "C13",
+      "C18"
+    ],
+    "implicacion": "Tratar al usuario institucional como perfil provisional y validar tareas reales antes de ampliar funciones.",
+    "limite": "No hay evidencia aquí para medir ahorro de tiempo, adopción, solicitudes acumuladas o un proceso homogéneo de todas las dependencias."
+  },
+  {
+    "id": "E1-H03",
+    "titulo": "La consulta combina autonomía y acceso controlado",
+    "hallazgo": "Se busca consultar y descargar de forma sencilla, con credenciales y sin que el usuario de consulta edite.",
+    "segmentos": [
+      "E1-S17",
+      "E1-S18",
+      "E1-S19",
+      "E1-S20",
+      "E1-S21",
+      "E1-S35",
+      "E1-S43"
+    ],
+    "codigos": [
+      "C04",
+      "C05",
+      "C06",
+      "C13"
+    ],
+    "implicacion": "Diseñar consulta, ficha y descarga en un recorrido corto; comprobar permisos también al pedir archivos directamente.",
+    "limite": "La entrevista no decide autenticación, cuentas personales o compartidas, ni establece todavía un resultado de usabilidad."
+  },
+  {
+    "id": "E1-H04",
+    "titulo": "La vigencia depende del productor y debe poder consultarse",
+    "hallazgo": "SSC produce las capas; sus cambios no siguen una frecuencia garantizada y el proyecto usará una entrega fija. [Directora ADIP] exige metadatos para conocer la actualización.",
+    "segmentos": [
+      "E1-S13",
+      "E1-S14",
+      "E1-S29",
+      "E1-S30",
+      "E1-S41",
+      "E1-S46"
+    ],
+    "codigos": [
+      "C07",
+      "C11",
+      "C12",
+      "C18"
+    ],
+    "implicacion": "Separar fecha del productor, recepción y publicación; conservar el original y documentar un procedimiento de reemplazo por versión.",
+    "limite": "No prometer actualizaciones anuales ni diarias; la fecha y el formato efectivos deberán verificarse en los archivos."
+  },
+  {
+    "id": "E1-H05",
+    "titulo": "La compatibilidad inicial no elimina la revisión de entrada",
+    "hallazgo": "La entrevistada declara que las capas coinciden y que no contienen datos personales; exige mantener nombres y claves de SSC.",
+    "segmentos": [
+      "E1-S23",
+      "E1-S24",
+      "E1-S25",
+      "E1-S26",
+      "E1-S28"
+    ],
+    "codigos": [
+      "C07",
+      "C08",
+      "C09",
+      "C10"
+    ],
+    "implicacion": "Verificar integridad, claves, geometrías y sistema de referencia antes de publicar; registrar incidencias sin modificar la fuente silenciosamente.",
+    "limite": "La entrevista no aporta resultados de auditoría. 72 sectores es un conteo declarado y 1022 cuadrantes se menciona en una pregunta, pendientes de verificar."
+  },
+  {
+    "id": "E1-H06",
+    "titulo": "La arquitectura y la documentación deben anteceder a la expansión",
+    "hallazgo": "[Directora ADIP] prioriza la arquitectura y pide que la documentación permita retomar el trabajo en fases siguientes.",
+    "segmentos": [
+      "E1-S34",
+      "E1-S37",
+      "E1-S44",
+      "E1-S45"
+    ],
+    "codigos": [
+      "C09",
+      "C14",
+      "C15",
+      "C17"
+    ],
+    "implicacion": "Acordar contratos de catálogo, metadatos, acceso y entrega; dejar las ampliaciones en una lista separada y con condiciones de entrada.",
+    "limite": "La duración sugerida para arquitectura no es un calendario cerrado y la aprobación del diseño aún está pendiente."
+  },
+  {
+    "id": "E1-H07",
+    "titulo": "El prototipo debe poder mantenerse sin suscripciones esenciales",
+    "hallazgo": "El desarrollo se pide en local y se evita que la operación dependa de un pago mensual; la integración a servidores vendría después.",
+    "segmentos": [
+      "E1-S38",
+      "E1-S39",
+      "E1-S40",
+      "E1-S47",
+      "E1-S48"
+    ],
+    "codigos": [
+      "C16",
+      "C17"
+    ],
+    "implicacion": "Preparar ejecución local reproducible, inventario de dependencias y prueba posterior de integración institucional.",
+    "limite": "No se conocen características de los servidores; no hay evidencia de costo total cero ni despliegue realizado."
+  }
+]

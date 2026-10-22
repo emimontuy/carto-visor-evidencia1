@@ -1,0 +1,143 @@
+{
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "requisitos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "modulo": {
+            "type": "string"
+          },
+          "construir": {
+            "type": "string"
+          },
+          "comprobar": {
+            "type": "string"
+          },
+          "historias": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "modulo",
+          "construir",
+          "comprobar",
+          "historias"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "decisiones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string"
+          },
+          "razon": {
+            "type": "string"
+          },
+          "requisitos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "decision",
+          "razon",
+          "requisitos",
+          "segmentos"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "preguntas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "pregunta": {
+            "type": "string"
+          },
+          "proposito": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "pregunta",
+          "proposito"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "contraste": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dimension": {
+            "type": "string"
+          },
+          "documentado": {
+            "type": "string"
+          },
+          "relatado": {
+            "type": "string"
+          },
+          "implicacion": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "dimension",
+          "documentado",
+          "relatado",
+          "implicacion"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entrevista",
+    "version",
+    "requisitos",
+    "decisiones",
+    "preguntas",
+    "contraste"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BlueprintDesarrollo E5 1.0.0"
+}

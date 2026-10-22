@@ -1,0 +1,28 @@
+{
+  "entrevista": "E5",
+  "fecha_preparacion": "2026-10-15",
+  "fecha_entrevista": "no_identificada_en_la_fuente",
+  "fuente_paginas": 11,
+  "fragmentos": 60,
+  "codigos": 22,
+  "hallazgos": 9,
+  "historias": 11,
+  "metodo": "Codificación temática inicial de una entrevista; análisis asistido por IA con revisión humana pendiente",
+  "unidades": "Fragmentos de una idea sustantiva; pueden recibir varias etiquetas",
+  "normalizacion": "Unicode NFC y espacios para comprobación literal; PDF original sin modificaciones",
+  "exclusion": "Preguntas de Emilio son contexto; el caso municipal no se convierte en evidencia directa de ADIP o SSC",
+  "clases": [
+    "Clase 09 Critical Geography y AI para Transcripción y Reporte de Entrevistas",
+    "Clase 11 Procesamiento de la Información Cualitativa y Mapa de Empatía con el Usuario",
+    "Clase 12 Diagramas de Causalidad con Bucles",
+    "Clase 13 07 10 2026"
+  ],
+  "contraste": "Ficha ejecutiva ADIP; periodicidad documentada y relato sobre cambios del productor se distinguen y requieren confirmación",
+  "bucles": "Hipótesis; el segundo cierre incluye inferencia analítica explícita",
+  "revisiones_pendientes": [
+    "Revisión humana de codificación",
+    "Acuerdos de tarea aceptación permisos y mantenimiento con ADIP y SSC",
+    "Pruebas de contenido uso y comparación de tiempos",
+    "PID resoluble y registro de tipos y perfiles para conformidad FDO formal"
+  ]
+}

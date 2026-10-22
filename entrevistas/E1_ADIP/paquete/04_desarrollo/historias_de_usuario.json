@@ -1,0 +1,272 @@
+[
+  {
+    "id": "E1-US01",
+    "titulo": "Reconocer una referencia institucional",
+    "rol": "persona autorizada que utiliza cartografía",
+    "accion": "identificar la fuente y versión de sectores y cuadrantes",
+    "beneficio": "usar una referencia explícita en mi trabajo",
+    "historia": "Como persona autorizada que utiliza cartografía, quiero identificar la fuente y versión de sectores y cuadrantes para usar una referencia explícita en mi trabajo.",
+    "hallazgos": [
+      "E1-H01",
+      "E1-H04"
+    ],
+    "segmentos": [
+      "E1-S06",
+      "E1-S07",
+      "E1-S25",
+      "E1-S27",
+      "E1-S41"
+    ],
+    "prioridad": "P0",
+    "estatus": "derivada_para_validar",
+    "criterios_aceptacion": [
+      "Dadas las dos capas recibidas, cuando abro el catálogo, entonces cada una muestra título, fuente SSC y versión del archivo.",
+      "Dado un registro, cuando abro su ficha, entonces veo el identificador y nombre oficiales conservados.",
+      "Si no se recibió o validó una capa, no se presenta como disponible ni se sustituyen sus datos con cifras supuestas."
+    ],
+    "requisitos": [
+      "E1-R01",
+      "E1-R04",
+      "E1-R06"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US02",
+    "titulo": "Consultar el mapa sin asistencia",
+    "rol": "persona autorizada que consulta el visor",
+    "accion": "activar y desactivar sectores y cuadrantes en el mapa",
+    "beneficio": "examinar la referencia territorial sin pedir una explicación al equipo",
+    "historia": "Como persona autorizada que consulta el visor, quiero activar y desactivar sectores y cuadrantes en el mapa para examinar la referencia territorial sin pedir una explicación al equipo.",
+    "hallazgos": [
+      "E1-H03"
+    ],
+    "segmentos": [
+      "E1-S18",
+      "E1-S35",
+      "E1-S43",
+      "E1-S44"
+    ],
+    "prioridad": "P0",
+    "estatus": "derivada_para_validar",
+    "criterios_aceptacion": [
+      "Dada una sesión autorizada, cuando activo una capa, entonces se ve su geometría y una leyenda con nombre comprensible.",
+      "Cuando desactivo una capa, deja de dibujarse sin cambiar ni borrar el archivo.",
+      "En una prueba propuesta, la persona puede localizar una capa, alternar visibilidad, abrir la ficha y encontrar descarga sin instrucciones del desarrollador; se registra cada dificultad."
+    ],
+    "requisitos": [
+      "E1-R02"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US03",
+    "titulo": "Descargar la versión que estoy consultando",
+    "rol": "persona autorizada que reutiliza cartografía",
+    "accion": "descargar la capa identificada en la ficha",
+    "beneficio": "trabajar fuera del visor con la misma referencia y conservar sus claves",
+    "historia": "Como persona autorizada que reutiliza cartografía, quiero descargar la capa identificada en la ficha para trabajar fuera del visor con la misma referencia y conservar sus claves.",
+    "hallazgos": [
+      "E1-H01",
+      "E1-H03",
+      "E1-H04"
+    ],
+    "segmentos": [
+      "E1-S18",
+      "E1-S21",
+      "E1-S25",
+      "E1-S41"
+    ],
+    "prioridad": "P0",
+    "estatus": "derivada_para_validar",
+    "criterios_aceptacion": [
+      "Dada una capa disponible, cuando la descargo, entonces el archivo y sus metadatos corresponden al mismo identificador de versión del catálogo.",
+      "La descarga mantiene nombres y claves de SSC; el original se conserva y toda conversión se documenta.",
+      "Si no tengo autorización o el archivo no existe, la descarga se rechaza con un mensaje claro."
+    ],
+    "requisitos": [
+      "E1-R03",
+      "E1-R05",
+      "E1-R06"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US04",
+    "titulo": "Distinguir la fecha de la capa de la fecha del visor",
+    "rol": "persona autorizada que evalúa información",
+    "accion": "ver la fecha de actualización del productor y el estado de la ficha",
+    "beneficio": "decidir si la capa corresponde al periodo que necesito",
+    "historia": "Como persona autorizada que evalúa información, quiero ver la fecha de actualización del productor y el estado de la ficha para decidir si la capa corresponde al periodo que necesito.",
+    "hallazgos": [
+      "E1-H04"
+    ],
+    "segmentos": [
+      "E1-S13",
+      "E1-S29",
+      "E1-S30",
+      "E1-S41"
+    ],
+    "prioridad": "P0",
+    "estatus": "derivada_para_validar",
+    "criterios_aceptacion": [
+      "Si SSC aporta fecha de actualización, la ficha la muestra como fecha del productor.",
+      "Si esa fecha no se conoce, aparece No proporcionada, sin reemplazarla por recepción ni publicación.",
+      "La ficha distingue recepción y publicación, y no anuncia una actualización diaria o anual que no se haya confirmado."
+    ],
+    "requisitos": [
+      "E1-R04"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US05",
+    "titulo": "Consultar con permisos y sin editar",
+    "rol": "responsable del acceso institucional por designar",
+    "accion": "permitir consulta y descarga a personas autorizadas y reservar la modificación al proceso técnico",
+    "beneficio": "distribuir las capas sin habilitar cambios por los usuarios de consulta",
+    "historia": "Como responsable del acceso institucional por designar, quiero permitir consulta y descarga a personas autorizadas y reservar la modificación al proceso técnico para distribuir las capas sin habilitar cambios por los usuarios de consulta.",
+    "hallazgos": [
+      "E1-H03"
+    ],
+    "segmentos": [
+      "E1-S17",
+      "E1-S19",
+      "E1-S20",
+      "E1-S21",
+      "E1-S42"
+    ],
+    "prioridad": "P0",
+    "estatus": "derivada_para_validar",
+    "criterios_aceptacion": [
+      "Una sesión no autorizada no recibe capas, fichas protegidas ni archivos al solicitar sus rutas directamente.",
+      "Una sesión de consulta puede leer y descargar; una petición de escritura con ese permiso se rechaza.",
+      "La arquitectura separa consulta de mantenimiento y deja documentada la decisión pendiente sobre cuentas, altas y revocación."
+    ],
+    "requisitos": [
+      "E1-R05"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US06",
+    "titulo": "Preparar las capas sin alterar la fuente",
+    "rol": "persona técnica encargada de incorporar capas",
+    "accion": "validar la entrega y conservar el original con un informe de revisión",
+    "beneficio": "publicar una referencia verificable sin cambiar la identidad institucional de los polígonos",
+    "historia": "Como persona técnica encargada de incorporar capas, quiero validar la entrega y conservar el original con un informe de revisión para publicar una referencia verificable sin cambiar la identidad institucional de los polígonos.",
+    "hallazgos": [
+      "E1-H01",
+      "E1-H04",
+      "E1-H05"
+    ],
+    "segmentos": [
+      "E1-S14",
+      "E1-S23",
+      "E1-S25",
+      "E1-S26",
+      "E1-S28",
+      "E1-S46"
+    ],
+    "prioridad": "P0",
+    "estatus": "derivada_para_validar",
+    "criterios_aceptacion": [
+      "Antes de incorporar una capa se registra archivo original, huella SHA-256, fuente y fecha de recepción.",
+      "La revisión informa claves vacías o repetidas, geometrías inválidas, sistema de referencia, extensión y campos inesperados; no presupone que existan esos errores.",
+      "Si hay un error bloqueante o falta confirmar la procedencia, la capa queda en revisión; ninguna reparación reemplaza silenciosamente el original."
+    ],
+    "requisitos": [
+      "E1-R06",
+      "E1-R07"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US07",
+    "titulo": "Acordar la arquitectura y conservar las decisiones",
+    "rol": "coordinador del equipo del TEC",
+    "accion": "documentar recorrido de usuario, contratos de datos, permisos y decisiones de alcance antes de ampliar el prototipo",
+    "beneficio": "construir una herramienta que pueda revisarse y continuar en otra fase",
+    "historia": "Como coordinador del equipo del TEC, quiero documentar recorrido de usuario, contratos de datos, permisos y decisiones de alcance antes de ampliar el prototipo para construir una herramienta que pueda revisarse y continuar en otra fase.",
+    "hallazgos": [
+      "E1-H02",
+      "E1-H06"
+    ],
+    "segmentos": [
+      "E1-S10",
+      "E1-S34",
+      "E1-S37",
+      "E1-S44",
+      "E1-S45"
+    ],
+    "prioridad": "P0",
+    "estatus": "soporte_del_desarrollo",
+    "criterios_aceptacion": [
+      "El primer entregable identifica pantallas, fuente de datos, responsables por confirmar y criterios de aceptación de las historias.",
+      "Cada decisión distingue requisito expresado, decisión derivada y punto pendiente de validación.",
+      "La entrega conserva instrucciones de uso técnico, decisiones y límites para que otra persona pueda retomar el proyecto."
+    ],
+    "requisitos": [
+      "E1-R08",
+      "E1-R09"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US08",
+    "titulo": "Ejecutar el prototipo en local",
+    "rol": "persona técnica que mantiene el prototipo",
+    "accion": "ejecutarlo desde una entrega documentada sin suscripciones esenciales",
+    "beneficio": "reproducir el funcionamiento y preparar una futura integración institucional",
+    "historia": "Como persona técnica que mantiene el prototipo, quiero ejecutarlo desde una entrega documentada sin suscripciones esenciales para reproducir el funcionamiento y preparar una futura integración institucional.",
+    "hallazgos": [
+      "E1-H07"
+    ],
+    "segmentos": [
+      "E1-S38",
+      "E1-S39",
+      "E1-S40",
+      "E1-S47"
+    ],
+    "prioridad": "P0",
+    "estatus": "soporte_del_desarrollo",
+    "criterios_aceptacion": [
+      "Otra persona del equipo puede iniciar el prototipo en un entorno local siguiendo instrucciones y dependencias versionadas.",
+      "Las tareas esenciales de catálogo, consulta y descarga no dependen de una suscripción de pago mensual ni de una VPN de Fiscalía.",
+      "Se documentan requisitos de integración; no se declara despliegue institucional exitoso hasta realizar una prueba."
+    ],
+    "requisitos": [
+      "E1-R08"
+    ],
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "E1-US09",
+    "titulo": "Avisar de una nueva versión de una capa",
+    "rol": "enlace de una dependencia productora",
+    "accion": "avisar que existe una nueva versión",
+    "beneficio": "iniciar una revisión antes de que la biblioteca la publique",
+    "historia": "Como enlace de una dependencia productora, quiero avisar que existe una nueva versión para iniciar una revisión antes de que la biblioteca la publique.",
+    "hallazgos": [
+      "E1-H04",
+      "E1-H06"
+    ],
+    "segmentos": [
+      "E1-S14",
+      "E1-S22",
+      "E1-S29",
+      "E1-S34"
+    ],
+    "prioridad": "P2",
+    "estatus": "ampliacion_condicional",
+    "criterios_aceptacion": [
+      "El aviso identifica capa, productor y fecha o versión propuesta.",
+      "Un aviso no sustituye el archivo publicado: primero se solicita la entrega, se valida y se registra la decisión.",
+      "La construcción de este flujo se programa solo después de validar responsable, canal y autorización con ADIP."
+    ],
+    "requisitos": [
+      "E1-R09"
+    ],
+    "revision_humana": "pendiente"
+  }
+]

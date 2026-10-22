@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Perfil.schema.json",
+  "title": "Perfil",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "rol",
+    "tipo_de_actor",
+    "entrevista",
+    "hace",
+    "le_frena",
+    "necesita"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^P[0-9]+$"
+    },
+    "rol": {
+      "type": "string"
+    },
+    "tipo_de_actor": {
+      "type": "string"
+    },
+    "entrevista": {
+      "type": "string"
+    },
+    "fecha_entrevista": {
+      "type": "string",
+      "format": "date"
+    },
+    "contexto": {
+      "type": "string"
+    },
+    "hace": {
+      "type": "string"
+    },
+    "le_frena": {
+      "type": "string"
+    },
+    "necesita": {
+      "type": "string"
+    }
+  }
+}

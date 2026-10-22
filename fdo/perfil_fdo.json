@@ -1,0 +1,25 @@
+{
+  "nombre": "Perfil FDO local · Carto-Visor Evidencia 1",
+  "version": "1.0.0",
+  "basado_en": [
+    "FDO Forum: FAIR Digital Object Overview and Specifications",
+    "Kernel attributes de la RDA PID Kernel Information Profile"
+  ],
+  "atributos_kernel": {
+    "digitalObjectType": "URL del esquema JSON del tipo",
+    "digitalObjectLocation": "URL del archivo en GitHub",
+    "dateCreated": "fecha ISO 8601",
+    "version": "versión semántica",
+    "license": "identificador SPDX",
+    "creator": "autor",
+    "checksum": "sha256 del bloque 'datos' serializado en JSON canónico (claves ordenadas, sin espacios)"
+  },
+  "relaciones_permitidas": {
+    "derivaDe": "el objeto se construyó a partir de otro",
+    "evidenciadoPor": "cita literal que lo sostiene",
+    "satisface": "la historia atiende una necesidad",
+    "expresadaPor": "perfil que expresa la necesidad o protagoniza la historia",
+    "fragmentoFuente": "identificador de fragmento codificado en un paquete de entrevista"
+  },
+  "pid_estado": "Identificadores URN UUID v5 estables y deterministas; no se registraron en Handle ni DOI (el profesor indicó que no era necesario Zenodo)."
+}

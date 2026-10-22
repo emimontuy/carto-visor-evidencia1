@@ -1,0 +1,11 @@
+﻿id,modulo,construir,comprobar,historias
+E5-R01,Recepción y comprobaciones,"Descriptor de entrega con original, componentes, diccionario, claves, referencia y derivados.",Cargar ambas capas y registrar excepciones sin alterar la fuente ni inventar incompatibilidades.,E5-US07
+E5-R02,Selección y ficha,"Identificación de capa, tipo, clave, nombre y selección coherente con detalle comprensible.",Reconocer división y elemento sin perder la selección o inventar relaciones entre niveles.,E5-US01 | E5-US04
+E5-R03,Fuente fechas y versión,"Metadatos por significado, descripción y ausencias explícitas.","Distinguir dato, recepción y publicación y conservar versión de origen sin inferir vigencia por fecha.",E5-US02
+E5-R04,Descarga con documentación,"Paquete de capa completa con alcance, formato y versión identificados.","Abrir en otra sesión y contrastar campos, clave y ubicación; reconocer procedencia fuera del visor.",E5-US03
+E5-R05,Canal y registro de dudas,"Procedimiento simple con capa, versión, elemento, descripción, estado y responsable.",Retomar una duda y distinguir respuesta de corrección incorporada; sin exigir diagnóstico al usuario.,E5-US05 | E5-US08
+E5-R06,Acceso y acciones,"Permisos acordados para consulta, descarga y publicación, con mensajes claros.",Restringir acciones no autorizadas al entregar información y separar consulta de edición.,E5-US06
+E5-R07,Cambio de versión,"Bitácora de origen, diferencias, autorización, referencia previa y efecto sobre usos anteriores.",Repetir consulta y descarga al reemplazar y señalar comparabilidad pendiente cuando cambien claves o divisiones.,E5-US08
+E5-R08,Pruebas por tarea y perfil,"Guion sin guía de clics, ejemplos confirmados, condiciones, ayudas y corrección del resultado.",Separar comprensión y validación sectorial; comparar tareas antes de reportar tiempos o beneficios.,E5-US04 | E5-US09
+E5-R09,Transferencia y continuidad,"Instrucciones de carga y consulta, originales, derivados, permisos, decisiones y pendientes.",Otra persona repite el recorrido y reconoce por qué se conservan versiones y quién continúa.,E5-US10
+E5-R10,Cruces y comparación futura,"Especificación condicionada de unidad, regla espacial, cardinalidad, versiones y excepciones.",Validar caso y fuentes antes de añadirlo; conservar pendientes sin inferir prioridad por conteos.,E5-US11

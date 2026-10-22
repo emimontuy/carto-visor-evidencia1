@@ -1,0 +1,536 @@
+{
+  "entrevista": "E2",
+  "version": "1.0.0",
+  "hallazgos": [
+    {
+      "id": "E2-H01",
+      "titulo": "La pregunta de análisis define la utilidad de la información",
+      "hallazgo": "[Analista territorial] inicia el trabajo aclarando qué necesidad se quiere atender, para quién y en qué territorio. El resultado es una recomendación justificada que conserva las dudas; la decisión también depende de presupuesto, viabilidad y prioridades del área responsable.",
+      "segmentos": [
+        "E2-S03",
+        "E2-S13",
+        "E2-S17",
+        "E2-S25",
+        "E2-S42"
+      ],
+      "codigos": [
+        "E2-C01",
+        "E2-C02",
+        "E2-C17",
+        "E2-C18"
+      ],
+      "implicacion": "Definir la consulta que el prototipo permite completar y explicar qué conclusiones admite. Los ejemplos de escuelas sirven para comprender el proceso, sin incorporarlos como nuevas capas de esta entrega.",
+      "limite": "La entrevista no demuestra que los sectores y cuadrantes sean suficientes para decidir dónde construir o para estimar necesidades de servicios."
+    },
+    {
+      "id": "E2-H02",
+      "titulo": "Homologar exige explicar las referencias y conservar su significado",
+      "hallazgo": "Las diferencias pueden surgir de captura, versiones o divisiones creadas con finalidades distintas. [Analista territorial] recomienda identificar cada referencia y resolver con las áreas responsables cuál utilizar cuando sí se trata del mismo tipo de límite.",
+      "segmentos": [
+        "E2-S07",
+        "E2-S08",
+        "E2-S09",
+        "E2-S26",
+        "E2-S27",
+        "E2-S28"
+      ],
+      "codigos": [
+        "E2-C02",
+        "E2-C03",
+        "E2-C05",
+        "E2-C07",
+        "E2-C09"
+      ],
+      "implicacion": "Conservar claves y geometrías originales; documentar la finalidad de sectores y cuadrantes. Revisar correspondencias sólo cuando el productor las explique. La interfaz no debe presentar una división operativa como un límite administrativo universal.",
+      "limite": "[Analista territorial] no determina qué dependencia tiene la última palabra ni acredita problemas geométricos en los archivos iniciales de SSC."
+    },
+    {
+      "id": "E2-H03",
+      "titulo": "La explicación del dato debe acompañar tanto la consulta como la descarga",
+      "hallazgo": "El entrevistado pide fuente, contenido, cobertura, fechas diferenciadas, referencia técnica y restricciones. Advierte que un espacio vacío puede indicar un dato faltante y que la ausencia de puntos no prueba ausencia de servicios.",
+      "segmentos": [
+        "E2-S10",
+        "E2-S22",
+        "E2-S23",
+        "E2-S29",
+        "E2-S31",
+        "E2-S40"
+      ],
+      "codigos": [
+        "E2-C06",
+        "E2-C07",
+        "E2-C08",
+        "E2-C12",
+        "E2-C14"
+      ],
+      "implicacion": "Vincular mapa, ficha y archivo a la misma versión. Mostrar cobertura y limitaciones; representar un campo desconocido como No proporcionado. Identificar si la descarga entrega toda la capa o una selección.",
+      "limite": "La ficha no puede completar fechas, atributos o cobertura que el productor no haya proporcionado. Las advertencias sobre servicios son criterios de interpretación, no resultados calculados con SSC."
+    },
+    {
+      "id": "E2-H04",
+      "titulo": "La cercanía espacial requiere validación de accesibilidad y capacidad",
+      "hallazgo": "En el caso de la escuela, una barrera modificó la comparación de alternativas y la capacidad real tuvo que confirmarse con el área correspondiente. Las condiciones de acceso dependen de quién se desplaza y cómo lo hace.",
+      "segmentos": [
+        "E2-S04",
+        "E2-S05",
+        "E2-S11",
+        "E2-S12",
+        "E2-S20",
+        "E2-S23",
+        "E2-S37"
+      ],
+      "codigos": [
+        "E2-C04",
+        "E2-C08",
+        "E2-C10",
+        "E2-C17",
+        "E2-C18"
+      ],
+      "implicacion": "Separar la consulta cartográfica de la validación territorial. En una ampliación, documentar recorridos, capacidad y fuentes sectoriales antes de formular conclusiones de cobertura o localización.",
+      "limite": "No se registra una decisión de construcción, mediciones de viaje ni resultados de cobertura. Una futura herramienta de accesibilidad necesita datos adicionales."
+    },
+    {
+      "id": "E2-H05",
+      "titulo": "La coordinación y los cambios de versión condicionan el proceso",
+      "hallazgo": "El proceso vuelve a etapas anteriores cuando la validación identifica faltantes. [Analista territorial] ubica dificultades en obtener confirmaciones de otras áreas y en revisar información nueva después del análisis.",
+      "segmentos": [
+        "E2-S06",
+        "E2-S14",
+        "E2-S15",
+        "E2-S16",
+        "E2-S19",
+        "E2-S27",
+        "E2-S30",
+        "E2-S38"
+      ],
+      "codigos": [
+        "E2-C07",
+        "E2-C09",
+        "E2-C10",
+        "E2-C15",
+        "E2-C18"
+      ],
+      "implicacion": "Registrar el corte, el archivo recibido, quién valida cada duda y quién autoriza un reemplazo. Mantener una lista explícita de pendientes y un procedimiento de actualización antes de automatizarlo.",
+      "limite": "La entrevista no mide plazos ni demuestra que un visor elimine la espera institucional. Las funciones de recepción y aprobación todavía deben acordarse con ADIP y SSC."
+    },
+    {
+      "id": "E2-H06",
+      "titulo": "La consulta debe comprobarse con tareas y permisos diferenciados",
+      "hallazgo": "[Analista territorial] propone localizar un lugar, alternar capas, identificar sector y cuadrante, revisar atributos y descargar si el usuario tiene permiso. Recomienda consulta básica con acceso al detalle, leyendas claras y pruebas con personas ajenas al diseño.",
+      "segmentos": [
+        "E2-S21",
+        "E2-S22",
+        "E2-S31",
+        "E2-S32",
+        "E2-S33",
+        "E2-S34",
+        "E2-S35",
+        "E2-S36",
+        "E2-S41"
+      ],
+      "codigos": [
+        "E2-C11",
+        "E2-C12",
+        "E2-C13",
+        "E2-C14",
+        "E2-C16",
+        "E2-C18"
+      ],
+      "implicacion": "Construir un recorrido observable y probarlo con dos perspectivas: consulta general y conocimiento de la operación de SSC. Autorizar lectura, descarga y mantenimiento por separado.",
+      "limite": "Se trata de una prueba propuesta. [Analista territorial] puede aportar a la consulta general, pero no sustituye al usuario sectorial de seguridad ni aprueba el esquema de autenticación."
+    },
+    {
+      "id": "E2-H07",
+      "titulo": "La continuidad depende de conservar decisiones y responsables",
+      "hallazgo": "Cuando las razones quedan en correos o en la memoria del equipo, quien llega después debe reconstruirlas. [Analista territorial] pide conservar fuentes elegidas, revisiones, pendientes y responsables de mantenimiento, validación y dudas.",
+      "segmentos": [
+        "E2-S09",
+        "E2-S10",
+        "E2-S16",
+        "E2-S30",
+        "E2-S38",
+        "E2-S39",
+        "E2-S40",
+        "E2-S41"
+      ],
+      "codigos": [
+        "E2-C06",
+        "E2-C07",
+        "E2-C09",
+        "E2-C15",
+        "E2-C18",
+        "E2-C19"
+      ],
+      "implicacion": "Entregar archivos con una bitácora de decisiones y una ficha de responsabilidades. La información que falta se registra como pendiente y una persona de otro equipo debe poder explicar cómo se obtuvo la versión publicada.",
+      "limite": "No se ha identificado un responsable nominal para todas esas funciones, ni se ha realizado una prueba de transferencia entre equipos."
+    }
+  ],
+  "actores": [
+    {
+      "actor": "[Analista territorial]",
+      "papel": "Analista territorial y entrevistado",
+      "necesidad": "Explorar, verificar atributos y justificar una recomendación",
+      "facultad": "Aporta experiencia y una tarea de prueba; no representa a SSC ni aprueba referencias ADIP",
+      "estado": "Entrevistado; trayectoria declarada",
+      "segmentos": [
+        "E2-S02",
+        "E2-S03",
+        "E2-S35",
+        "E2-S36"
+      ]
+    },
+    {
+      "actor": "Área que detecta o recibe la necesidad",
+      "papel": "Formula la solicitud del análisis",
+      "necesidad": "Precisar población, objetivo y territorio",
+      "facultad": "Plantea la necesidad; sus atribuciones dependen del proyecto",
+      "estado": "Actor del proceso relatado",
+      "segmentos": [
+        "E2-S13",
+        "E2-S18"
+      ]
+    },
+    {
+      "actor": "Equipo de análisis",
+      "papel": "Revisa fuentes y compara alternativas",
+      "necesidad": "Tener versiones identificables y confirmaciones sectoriales",
+      "facultad": "Recomienda y documenta; no autoriza por sí mismo la ejecución",
+      "estado": "Función relatada desde la experiencia de [Analista territorial]",
+      "segmentos": [
+        "E2-S03",
+        "E2-S08",
+        "E2-S09",
+        "E2-S17"
+      ]
+    },
+    {
+      "actor": "Productores de información y áreas sectoriales",
+      "papel": "Aportan y explican los registros",
+      "necesidad": "Que se entienda la cobertura, vigencia y significado del dato",
+      "facultad": "Confirman información como capacidad de atención; autoridad específica por acordar",
+      "estado": "Actores mencionados; no entrevistados en E2",
+      "segmentos": [
+        "E2-S05",
+        "E2-S06",
+        "E2-S15",
+        "E2-S18",
+        "E2-S27"
+      ]
+    },
+    {
+      "actor": "Responsable del proyecto o enlace",
+      "papel": "Conecta equipos y canaliza dudas",
+      "necesidad": "Saber quién resuelve y quién aprueba cada paso",
+      "facultad": "Coordina; puede coincidir con otros roles según el proyecto",
+      "estado": "Función descrita, sin nombre para el caso",
+      "segmentos": [
+        "E2-S19",
+        "E2-S38"
+      ]
+    },
+    {
+      "actor": "Equipos de viabilidad y decisión",
+      "papel": "Revisan terreno, presupuesto y prioridades",
+      "necesidad": "Recibir alternativas y límites del análisis",
+      "facultad": "Evalúan viabilidad y quienes tienen atribución deciden y comprometen recursos",
+      "estado": "Funciones relatadas; no observadas directamente",
+      "segmentos": [
+        "E2-S17",
+        "E2-S18",
+        "E2-S19"
+      ]
+    },
+    {
+      "actor": "Población que utiliza el territorio",
+      "papel": "Aporta conocimiento sobre recorridos y uso del servicio",
+      "necesidad": "Que se considere el acceso cotidiano según sus condiciones",
+      "facultad": "Puede validar la interpretación local; participación formal variable",
+      "estado": "Actor mencionado, sin entrevista directa en E2",
+      "segmentos": [
+        "E2-S12",
+        "E2-S18",
+        "E2-S20"
+      ]
+    },
+    {
+      "actor": "ADIP y SSC para el prototipo",
+      "papel": "Validación institucional y productor de las capas iniciales",
+      "necesidad": "Acordar consulta, responsables, relación entre capas y permisos",
+      "facultad": "Su rol deriva del encargo; [Analista territorial] recomienda consultarles las decisiones pendientes",
+      "estado": "Interlocutores del reto, no entrevistados en esta sesión",
+      "segmentos": [
+        "E2-S27",
+        "E2-S28",
+        "E2-S34",
+        "E2-S36"
+      ]
+    }
+  ],
+  "proceso": [
+    {
+      "paso": 1,
+      "actor": "Área solicitante y analista",
+      "accion": "Aclarar la necesidad, la población y el territorio",
+      "control": "Pregunta de trabajo y alcance explícitos",
+      "retorno": "Reformular si la información no permite responder",
+      "segmentos": [
+        "E2-S03",
+        "E2-S13",
+        "E2-S42"
+      ]
+    },
+    {
+      "paso": 2,
+      "actor": "Analista y productores",
+      "accion": "Inventariar la información disponible y pedir lo que falta",
+      "control": "Fuente, versión, responsable y faltantes",
+      "retorno": "Esperar o delimitar una conclusión cuando no llega una confirmación",
+      "segmentos": [
+        "E2-S05",
+        "E2-S06",
+        "E2-S15"
+      ]
+    },
+    {
+      "paso": 3,
+      "actor": "Equipo de análisis",
+      "accion": "Revisar archivos y explicar discrepancias",
+      "control": "Distinguir captura, versiones y divisiones; conservar original",
+      "retorno": "Consultar al productor si el significado sigue dudoso",
+      "segmentos": [
+        "E2-S07",
+        "E2-S08",
+        "E2-S09",
+        "E2-S28"
+      ]
+    },
+    {
+      "paso": 4,
+      "actor": "Analista",
+      "accion": "Hacer una primera selección y comparación territorial",
+      "control": "Atributos, escala y referencias con límites conocidos",
+      "retorno": "Revisar la comparación si cambia el corte o aparece información nueva",
+      "segmentos": [
+        "E2-S04",
+        "E2-S16",
+        "E2-S21",
+        "E2-S25"
+      ]
+    },
+    {
+      "paso": 5,
+      "actor": "Áreas de viabilidad y población local",
+      "accion": "Confirmar capacidad, condiciones del terreno y acceso real",
+      "control": "Contrastar mapa, registros y validación local",
+      "retorno": "Volver al inventario o a la comparación cuando se detecta un faltante",
+      "segmentos": [
+        "E2-S04",
+        "E2-S05",
+        "E2-S11",
+        "E2-S12",
+        "E2-S14",
+        "E2-S20"
+      ]
+    },
+    {
+      "paso": 6,
+      "actor": "Analista y responsable del proyecto",
+      "accion": "Entregar una recomendación con razones y pendientes",
+      "control": "Registro de decisiones y de la evidencia utilizada",
+      "retorno": "Rehacer las partes afectadas si cambian datos o condiciones",
+      "segmentos": [
+        "E2-S03",
+        "E2-S16",
+        "E2-S17",
+        "E2-S39"
+      ]
+    },
+    {
+      "paso": 7,
+      "actor": "Área con atribución para decidir",
+      "accion": "Valorar presupuesto, viabilidad y prioridades",
+      "control": "La recomendación no equivale a autorización de construcción",
+      "retorno": "Pedir revisión de alternativas si aparece otra condición",
+      "segmentos": [
+        "E2-S17",
+        "E2-S19",
+        "E2-S37"
+      ]
+    }
+  ],
+  "empatia": [
+    {
+      "dimension": "Dice",
+      "contenido": "El mapa ayuda a justificar una recomendación; las referencias requieren explicación y límites.",
+      "origen": "Expresado por [Analista territorial]",
+      "segmentos": [
+        "E2-S03",
+        "E2-S26",
+        "E2-S42"
+      ]
+    },
+    {
+      "dimension": "Hace",
+      "contenido": "Relata búsqueda de fuentes, revisión de archivos, comparación y validación con otras áreas o en campo.",
+      "origen": "Práctica narrada, sin observación directa de una sesión de trabajo",
+      "segmentos": [
+        "E2-S06",
+        "E2-S08",
+        "E2-S13",
+        "E2-S14",
+        "E2-S15"
+      ]
+    },
+    {
+      "dimension": "Piensa",
+      "contenido": "Da importancia al significado de cada dato y a poder explicar por qué se usa una versión.",
+      "origen": "Inferencia analítica respaldada por sus recomendaciones",
+      "segmentos": [
+        "E2-S23",
+        "E2-S27",
+        "E2-S29",
+        "E2-S39"
+      ]
+    },
+    {
+      "dimension": "Siente",
+      "contenido": "Señala condiciones que le harían desconfiar de un visor: falta de claridad del contenido y de a quién avisar errores.",
+      "origen": "Condición de confianza expresada; no diagnóstico emocional general",
+      "segmentos": [
+        "E2-S40"
+      ]
+    },
+    {
+      "dimension": "Dificultades",
+      "contenido": "Confirmaciones que dependen de otra área, direcciones imprecisas y razones dispersas al cambiar el equipo.",
+      "origen": "Dificultades relatadas",
+      "segmentos": [
+        "E2-S07",
+        "E2-S10",
+        "E2-S15",
+        "E2-S16"
+      ]
+    },
+    {
+      "dimension": "Necesidades",
+      "contenido": "Fuente y versión identificables, atributos revisables, descarga documentada, responsables y pendientes claros.",
+      "origen": "Necesidades derivadas del relato, por validar en el prototipo",
+      "segmentos": [
+        "E2-S22",
+        "E2-S29",
+        "E2-S31",
+        "E2-S38",
+        "E2-S39"
+      ]
+    }
+  ],
+  "afinidad": [
+    {
+      "id": "E2-A01",
+      "tema": "Elegir y explicar una referencia territorial",
+      "codigos": [
+        "E2-C03",
+        "E2-C05",
+        "E2-C06",
+        "E2-C07",
+        "E2-C08"
+      ],
+      "hallazgos": [
+        "E2-H02",
+        "E2-H03"
+      ],
+      "segmentos": [
+        "E2-S07",
+        "E2-S08",
+        "E2-S09",
+        "E2-S22",
+        "E2-S23",
+        "E2-S26",
+        "E2-S28",
+        "E2-S29",
+        "E2-S31"
+      ]
+    },
+    {
+      "id": "E2-A02",
+      "tema": "Validar una lectura del territorio",
+      "codigos": [
+        "E2-C01",
+        "E2-C02",
+        "E2-C04",
+        "E2-C10",
+        "E2-C17",
+        "E2-C18"
+      ],
+      "hallazgos": [
+        "E2-H01",
+        "E2-H04"
+      ],
+      "segmentos": [
+        "E2-S03",
+        "E2-S04",
+        "E2-S05",
+        "E2-S11",
+        "E2-S12",
+        "E2-S17",
+        "E2-S20",
+        "E2-S25",
+        "E2-S37",
+        "E2-S42"
+      ]
+    },
+    {
+      "id": "E2-A03",
+      "tema": "Completar una consulta y reutilizar la capa",
+      "codigos": [
+        "E2-C11",
+        "E2-C12",
+        "E2-C13",
+        "E2-C14",
+        "E2-C16"
+      ],
+      "hallazgos": [
+        "E2-H06"
+      ],
+      "segmentos": [
+        "E2-S21",
+        "E2-S22",
+        "E2-S31",
+        "E2-S32",
+        "E2-S33",
+        "E2-S34",
+        "E2-S35",
+        "E2-S36",
+        "E2-S41"
+      ]
+    },
+    {
+      "id": "E2-A04",
+      "tema": "Coordinar la validación y conservar las decisiones",
+      "codigos": [
+        "E2-C02",
+        "E2-C07",
+        "E2-C09",
+        "E2-C15",
+        "E2-C19"
+      ],
+      "hallazgos": [
+        "E2-H05",
+        "E2-H07"
+      ],
+      "segmentos": [
+        "E2-S06",
+        "E2-S10",
+        "E2-S14",
+        "E2-S15",
+        "E2-S16",
+        "E2-S19",
+        "E2-S27",
+        "E2-S30",
+        "E2-S38",
+        "E2-S39",
+        "E2-S40"
+      ]
+    }
+  ]
+}

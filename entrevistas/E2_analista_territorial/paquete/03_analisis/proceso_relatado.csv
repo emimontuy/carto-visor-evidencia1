@@ -1,0 +1,8 @@
+﻿paso,actor,accion,control,retorno,segmentos
+1,Área solicitante y analista,"Aclarar la necesidad, la población y el territorio",Pregunta de trabajo y alcance explícitos,Reformular si la información no permite responder,E2-S03 | E2-S13 | E2-S42
+2,Analista y productores,Inventariar la información disponible y pedir lo que falta,"Fuente, versión, responsable y faltantes",Esperar o delimitar una conclusión cuando no llega una confirmación,E2-S05 | E2-S06 | E2-S15
+3,Equipo de análisis,Revisar archivos y explicar discrepancias,"Distinguir captura, versiones y divisiones; conservar original",Consultar al productor si el significado sigue dudoso,E2-S07 | E2-S08 | E2-S09 | E2-S28
+4,Analista,Hacer una primera selección y comparación territorial,"Atributos, escala y referencias con límites conocidos",Revisar la comparación si cambia el corte o aparece información nueva,E2-S04 | E2-S16 | E2-S21 | E2-S25
+5,Áreas de viabilidad y población local,"Confirmar capacidad, condiciones del terreno y acceso real","Contrastar mapa, registros y validación local",Volver al inventario o a la comparación cuando se detecta un faltante,E2-S04 | E2-S05 | E2-S11 | E2-S12 | E2-S14 | E2-S20
+6,Analista y responsable del proyecto,Entregar una recomendación con razones y pendientes,Registro de decisiones y de la evidencia utilizada,Rehacer las partes afectadas si cambian datos o condiciones,E2-S03 | E2-S16 | E2-S17 | E2-S39
+7,Área con atribución para decidir,"Valorar presupuesto, viabilidad y prioridades",La recomendación no equivale a autorización de construcción,Pedir revisión de alternativas si aparece otra condición,E2-S17 | E2-S19 | E2-S37

@@ -1,0 +1,507 @@
+{
+  "id": "E1-BP01",
+  "version": "1.0.0",
+  "estado": "propuesta_para_validar",
+  "objetivo": "Prototipo interno de biblioteca y visor de sectores y cuadrantes de SSC, con referencia identificable, consulta sencilla y descarga controlada.",
+  "alcance_inicial": [
+    "Entrega fija de sectores y cuadrantes",
+    "Catálogo y ficha de metadatos",
+    "Mapa con controles de visibilidad",
+    "Descarga de la versión identificada",
+    "Consulta sin edición",
+    "Arquitectura documentada y ejecución local reproducible"
+  ],
+  "fuera_del_alcance_inicial": [
+    "Carpetas de Fiscalía y datos personales",
+    "Actualización diaria o anual garantizada",
+    "Chatbot y analítica delictiva",
+    "Apertura pública",
+    "Cobertura nacional",
+    "Notificaciones automáticas y roles granulares no validados"
+  ],
+  "recorrido": "Acceso autorizado → catálogo → activar capa en mapa → consultar ficha → descargar la misma versión.",
+  "contratos_servicios": [
+    {
+      "operacion": "Leer catálogo",
+      "entrada": "Sesión autorizada",
+      "salida": "CapaCatalogo[]",
+      "regla": "No anunciar capas no recibidas como disponibles"
+    },
+    {
+      "operacion": "Leer ficha de una versión",
+      "entrada": "Sesión autorizada + id_capa + id_version",
+      "salida": "VersionCapa",
+      "regla": "Mostrar procedencia y fechas sin inferir vigencia"
+    },
+    {
+      "operacion": "Leer geometrías para el mapa",
+      "entrada": "Sesión autorizada + id_capa + id_version",
+      "salida": "Representación validada de EntidadCartografica[]",
+      "regla": "Conservar clave y nombre oficiales"
+    },
+    {
+      "operacion": "Descargar archivo",
+      "entrada": "Sesión autorizada + id_capa + id_version",
+      "salida": "Archivo y metadatos de esa versión",
+      "regla": "Comprobar permiso también en ruta directa"
+    },
+    {
+      "operacion": "Incorporar entrega",
+      "entrada": "Archivo original + procedencia + responsable técnico",
+      "salida": "VersionCapa + InformeValidacion",
+      "regla": "Proceso técnico separado; usuario de consulta no escribe"
+    }
+  ],
+  "requisitos": [
+    {
+      "id": "E1-R01",
+      "modulo": "Catálogo",
+      "construir": "Catálogo de las dos capas iniciales con fuente, versión y estado de disponibilidad.",
+      "historias": [
+        "E1-US01"
+      ],
+      "prueba": "Dos registros vinculados a archivos recibidos y validados; ninguna capa anunciada sin entrega.",
+      "tipo_datos": [
+        "CapaCatalogo"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R02",
+      "modulo": "Mapa",
+      "construir": "Controles visibles de encendido y apagado, leyenda y acceso a ficha y descarga.",
+      "historias": [
+        "E1-US02"
+      ],
+      "prueba": "Prueba de tareas sin asistencia; registrar tiempo, finalización, errores y ayudas solicitadas.",
+      "tipo_datos": [
+        "CapaCatalogo",
+        "ResultadoPruebaUsuario"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R03",
+      "modulo": "Descarga",
+      "construir": "Archivo de la versión consultada y metadatos asociados; conservar el formato original recibido.",
+      "historias": [
+        "E1-US03"
+      ],
+      "prueba": "Identificador de versión y huella del archivo descargado coinciden con catálogo y manifiesto.",
+      "tipo_datos": [
+        "VersionCapa"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R04",
+      "modulo": "Ficha de metadatos",
+      "construir": "Fuente, fecha del productor, recepción, publicación, versión, CRS, descripción y limitaciones.",
+      "historias": [
+        "E1-US01",
+        "E1-US04"
+      ],
+      "prueba": "Una fecha ausente se informa como No proporcionada y nunca se reemplaza por la del visor.",
+      "tipo_datos": [
+        "VersionCapa"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R05",
+      "modulo": "Autorización",
+      "construir": "Control de lectura y descarga en servicios y archivos; usuarios de consulta sin escritura.",
+      "historias": [
+        "E1-US03",
+        "E1-US05"
+      ],
+      "prueba": "Acceso anónimo y escritura con permiso de consulta rechazados incluso por ruta directa.",
+      "tipo_datos": [
+        "PermisoAcceso"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R06",
+      "modulo": "Identidad de polígonos",
+      "construir": "Correspondencia explícita con clave y nombre oficiales, conservados en consulta y descarga.",
+      "historias": [
+        "E1-US01",
+        "E1-US03",
+        "E1-US06"
+      ],
+      "prueba": "Comparación con entrega original; reporte de claves vacías, repetidas o modificadas.",
+      "tipo_datos": [
+        "EntidadCartografica"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R07",
+      "modulo": "Ingreso de archivos",
+      "construir": "Revisión de fuente, integridad, esquema y geometrías; registro de incidencias antes de publicar.",
+      "historias": [
+        "E1-US06"
+      ],
+      "prueba": "Un archivo con fallo bloqueante permanece en revisión y no sustituye una versión validada.",
+      "tipo_datos": [
+        "VersionCapa",
+        "InformeValidacion"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R08",
+      "modulo": "Operación y transferencia",
+      "construir": "Ejecución local, inventario de dependencias e instrucciones para continuar sin suscripciones esenciales.",
+      "historias": [
+        "E1-US07",
+        "E1-US08"
+      ],
+      "prueba": "Reproducción por otra persona; catálogo, mapa y descarga funcionan desde la entrega documentada.",
+      "tipo_datos": [
+        "DecisionArquitectura"
+      ],
+      "prioridad": "P0",
+      "estatus": "propuesta_derivada"
+    },
+    {
+      "id": "E1-R09",
+      "modulo": "Gestión de fases",
+      "construir": "Bitácora de decisiones, contrato ampliable y lista de cambios sujetos a nueva validación.",
+      "historias": [
+        "E1-US07",
+        "E1-US09"
+      ],
+      "prueba": "Datos de Fiscalía, apertura pública y avisos automáticos permanecen fuera del alcance inicial.",
+      "tipo_datos": [
+        "DecisionArquitectura",
+        "AvisoCambio"
+      ],
+      "prioridad": "P0 para documentación; P2 para avisos",
+      "estatus": "propuesta_derivada"
+    }
+  ],
+  "tipos_datos": [
+    {
+      "tipo": "CapaCatalogo",
+      "finalidad": "Identificar cada capa disponible sin depender de su nombre de archivo.",
+      "campos": "id_capa string; titulo string; descripcion string; productor string; alcance_territorial string; version_activa string o null; estado enum recibido/revision/disponible/no_recibido",
+      "regla": "Al inicio solo sectores y cuadrantes de SSC. El catálogo apunta a una versión, no reemplaza el identificador de cada polígono.",
+      "evidencia": [
+        "E1-S07",
+        "E1-S25",
+        "E1-S27"
+      ]
+    },
+    {
+      "tipo": "VersionCapa",
+      "finalidad": "Vincular archivo, procedencia, vigencia y representación para mapa.",
+      "campos": "id_version string; id_capa string; archivo_original string; sha256 string; formato_original string; crs_original string o null; fecha_productor date o null; fecha_recepcion date; fecha_publicacion date o null; representacion_mapa string o null; transformaciones array; limitaciones string",
+      "regla": "Fecha del productor y fecha del visor son diferentes. Conservar original; toda representación derivada apunta a él. No asumir que el archivo será SHP o GeoJSON.",
+      "evidencia": [
+        "E1-S13",
+        "E1-S29",
+        "E1-S30",
+        "E1-S41",
+        "E1-S46"
+      ]
+    },
+    {
+      "tipo": "EntidadCartografica",
+      "finalidad": "Conservar la identidad oficial de cada sector o cuadrante.",
+      "campos": "id_capa string; id_version string; clave_oficial string; nombre_oficial string; geometria Polygon o MultiPolygon; atributos_originales object",
+      "regla": "Los nombres reales de columnas se confirman al recibir la entrega. Las claves se preservan como texto para no perder ceros. No inventar relación cuadrante-sector si no viene documentada.",
+      "evidencia": [
+        "E1-S23",
+        "E1-S25"
+      ]
+    },
+    {
+      "tipo": "PermisoAcceso",
+      "finalidad": "Separar consulta de mantenimiento y reservar el acceso a personas autorizadas.",
+      "campos": "id_principal string; ambito_dependencia string o null; acciones array leer/descargar/mantener; recursos array; estado activo/revocado; mecanismo_identidad string pendiente de definir",
+      "regla": "La persona de consulta tiene leer y descargar, no mantener. Autenticación institucional, altas y granularidad de roles se validan antes de un despliegue.",
+      "evidencia": [
+        "E1-S17",
+        "E1-S20",
+        "E1-S21",
+        "E1-S42"
+      ]
+    },
+    {
+      "tipo": "InformeValidacion",
+      "finalidad": "Registrar qué se revisó y por qué una versión está disponible o detenida.",
+      "campos": "id_informe string; id_version string; fecha datetime; comprobaciones array; incidencias array; resultado apto/revision/rechazado; revisor string o null",
+      "regla": "Comprobar integridad, esquema, claves, geometrías, CRS y campos sensibles. Reportar fallas, no corregir silenciosamente. La compatibilidad declarada por [Directora ADIP] no sustituye esta prueba.",
+      "evidencia": [
+        "E1-S23",
+        "E1-S26",
+        "E1-S28"
+      ]
+    },
+    {
+      "tipo": "DecisionArquitectura",
+      "finalidad": "Conservar acuerdos y pendientes para otro equipo o fase.",
+      "campos": "id_decision string; tema string; alternativa_elegida string o null; razon string; segmentos array; estatus propuesta/acordada/pendiente; responsable_por_confirmar string o null; version string",
+      "regla": "Distinguir decisión de este análisis de un acuerdo aprobado por ADIP. Mantener documentación de ejecución y alcance junto a la entrega.",
+      "evidencia": [
+        "E1-S37",
+        "E1-S39",
+        "E1-S40",
+        "E1-S45"
+      ]
+    },
+    {
+      "tipo": "ResultadoPruebaUsuario",
+      "finalidad": "Comprobar tareas del perfil provisional sin inventar resultados.",
+      "campos": "id_prueba string; perfil string; tarea string; finalizada boolean o null; tiempo_segundos number o null; errores array; ayudas_solicitadas number o null; observaciones string; fecha date o null",
+      "regla": "No hay resultados todavía. Umbrales de éxito se acuerdan antes de la prueba y se documentan también los casos que fallan.",
+      "evidencia": [
+        "E1-S10",
+        "E1-S35",
+        "E1-S43"
+      ]
+    },
+    {
+      "tipo": "AvisoCambio",
+      "finalidad": "Documentar una posible solicitud de nueva versión en una fase posterior.",
+      "campos": "id_aviso string; id_capa string; productor string; fecha_version_declarada date o null; canal string; estado recibido/solicitado/validado/publicado/rechazado; id_version_resultante string o null",
+      "regla": "Un aviso no actualiza ni autoriza por sí solo. El proceso completo y sus responsables están pendientes de validación; no es función obligatoria del MVP.",
+      "evidencia": [
+        "E1-S14",
+        "E1-S22",
+        "E1-S29"
+      ]
+    }
+  ],
+  "decisiones": [
+    {
+      "id": "E1-D01",
+      "decision": "Resolver primero identificación y distribución de la referencia",
+      "razon": "El problema relatado es usar referencias distintas, mientras las dos capas iniciales se declaran compatibles.",
+      "requisitos": [
+        "E1-R01",
+        "E1-R04",
+        "E1-R06"
+      ],
+      "segmentos": [
+        "E1-S06",
+        "E1-S25",
+        "E1-S28"
+      ],
+      "estatus": "propuesta_para_validar"
+    },
+    {
+      "id": "E1-D02",
+      "decision": "Separar original recibido de representación del mapa",
+      "razon": "Puede requerirse una conversión para visualizar sin modificar las claves, nombres o fuente de SSC.",
+      "requisitos": [
+        "E1-R03",
+        "E1-R06",
+        "E1-R07"
+      ],
+      "segmentos": [
+        "E1-S23",
+        "E1-S25",
+        "E1-S46"
+      ],
+      "estatus": "propuesta_para_validar"
+    },
+    {
+      "id": "E1-D03",
+      "decision": "Usar entrega fija con metadatos de vigencia",
+      "razon": "No habrá actualización de las capas durante esta entrega y SSC cambia sus datos con frecuencia variable.",
+      "requisitos": [
+        "E1-R04",
+        "E1-R09"
+      ],
+      "segmentos": [
+        "E1-S29",
+        "E1-S30",
+        "E1-S41"
+      ],
+      "estatus": "propuesta_para_validar"
+    },
+    {
+      "id": "E1-D04",
+      "decision": "Aplicar permisos también a archivos y servicios",
+      "razon": "El acceso institucional requiere que una ruta directa no eluda la restricción de consulta y descarga.",
+      "requisitos": [
+        "E1-R05"
+      ],
+      "segmentos": [
+        "E1-S17",
+        "E1-S19",
+        "E1-S21"
+      ],
+      "estatus": "propuesta_para_validar"
+    },
+    {
+      "id": "E1-D05",
+      "decision": "Validar el recorrido con personas de otras dependencias antes de expandir",
+      "razon": "No se conocen sus tareas ni uso efectivo, aunque se desea una interfaz autónoma.",
+      "requisitos": [
+        "E1-R02",
+        "E1-R09"
+      ],
+      "segmentos": [
+        "E1-S10",
+        "E1-S15",
+        "E1-S43"
+      ],
+      "estatus": "propuesta_para_validar"
+    },
+    {
+      "id": "E1-D06",
+      "decision": "Mantener contratos simples y documentar las ampliaciones",
+      "razon": "La arquitectura debe servir como primer entregable y permitir continuidad sin asumir nuevas bases sensibles.",
+      "requisitos": [
+        "E1-R08",
+        "E1-R09"
+      ],
+      "segmentos": [
+        "E1-S34",
+        "E1-S37",
+        "E1-S45"
+      ],
+      "estatus": "propuesta_para_validar"
+    }
+  ],
+  "secuencia_construccion": [
+    {
+      "paso": 1,
+      "resultado": "Cerrar arquitectura y decisiones de acceso, fuente y metadatos",
+      "dependencias": [
+        "E1-Q02",
+        "E1-Q03",
+        "E1-Q04"
+      ],
+      "requisitos": [
+        "E1-R01",
+        "E1-R04",
+        "E1-R05",
+        "E1-R08"
+      ]
+    },
+    {
+      "paso": 2,
+      "resultado": "Recibir, conservar y revisar las dos capas",
+      "dependencias": [
+        "Entrega de SSC por [Directora ADIP] y [Enlace ADIP]"
+      ],
+      "requisitos": [
+        "E1-R06",
+        "E1-R07"
+      ]
+    },
+    {
+      "paso": 3,
+      "resultado": "Construir catálogo, mapa, ficha y descarga con control de acceso",
+      "dependencias": [
+        "Pasos 1 y 2"
+      ],
+      "requisitos": [
+        "E1-R01",
+        "E1-R02",
+        "E1-R03",
+        "E1-R04",
+        "E1-R05"
+      ]
+    },
+    {
+      "paso": 4,
+      "resultado": "Probar las tareas con usuarios y documentar correcciones",
+      "dependencias": [
+        "E1-Q01",
+        "E1-Q05",
+        "Prototipo local"
+      ],
+      "requisitos": [
+        "E1-R02",
+        "E1-R08"
+      ]
+    },
+    {
+      "paso": 5,
+      "resultado": "Entregar instrucciones y preparar integración institucional si se acuerda",
+      "dependencias": [
+        "E1-Q06",
+        "Revisión de ADIP"
+      ],
+      "requisitos": [
+        "E1-R08",
+        "E1-R09"
+      ]
+    }
+  ],
+  "preguntas_pendientes": [
+    {
+      "id": "E1-Q01",
+      "pregunta": "¿Qué tarea concreta hace una persona de otra dependencia con sectores o cuadrantes y qué problema enfrenta con la referencia actual?",
+      "motivo": "Validar la utilidad fuera de ADIP",
+      "segmentos": [
+        "E1-S10",
+        "E1-S15"
+      ]
+    },
+    {
+      "id": "E1-Q02",
+      "pregunta": "¿Qué archivos, campos, CRS, fechas y conteos trae la entrega de SSC?",
+      "motivo": "Completar contrato de entrada y comprobar conteos; no asumir 1022 cuadrantes",
+      "segmentos": [
+        "E1-S23",
+        "E1-S24",
+        "E1-S25",
+        "E1-S46"
+      ]
+    },
+    {
+      "id": "E1-Q03",
+      "pregunta": "¿Quién da de alta, autoriza y revoca accesos? ¿Las cuentas son personales o por dependencia?",
+      "motivo": "Cerrar la política de acceso sin convertir un ejemplo en acuerdo",
+      "segmentos": [
+        "E1-S17",
+        "E1-S20",
+        "E1-S42"
+      ]
+    },
+    {
+      "id": "E1-Q04",
+      "pregunta": "¿Quién confirma vigencia, autoriza publicación y recibe incidencias de datos?",
+      "motivo": "Separar productor, enlace y técnico",
+      "segmentos": [
+        "E1-S14",
+        "E1-S29",
+        "E1-S41"
+      ]
+    },
+    {
+      "id": "E1-Q05",
+      "pregunta": "¿Qué tareas y umbrales demostrarían uso sin explicación externa?",
+      "motivo": "Acordar prueba y criterios con personas representativas",
+      "segmentos": [
+        "E1-S35",
+        "E1-S43"
+      ]
+    },
+    {
+      "id": "E1-Q06",
+      "pregunta": "¿Qué condiciones técnicas y de acceso exige el servidor de ADIP?",
+      "motivo": "Preparar integración posterior sin bloquear el desarrollo local",
+      "segmentos": [
+        "E1-S38",
+        "E1-S39",
+        "E1-S47"
+      ]
+    }
+  ],
+  "notas": "No se ha implementado ni probado este blueprint. Los contratos y controles técnicos son propuestas derivadas del análisis, no afirmaciones textuales de los entrevistados."
+}

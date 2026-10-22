@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hallazgos cualitativos con evidencia",
+  "description": "Tipo semántico local propuesto; no registrado en un registro FDO.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "titulo",
+      "hallazgo",
+      "segmentos",
+      "codigos",
+      "implicacion",
+      "limite"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "titulo": {
+        "type": "string"
+      },
+      "hallazgo": {
+        "type": "string"
+      },
+      "segmentos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "codigos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "implicacion": {
+        "type": "string"
+      },
+      "limite": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

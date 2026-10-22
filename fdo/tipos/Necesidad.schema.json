@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Necesidad.schema.json",
+  "title": "Necesidad",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "prioridad",
+    "sector",
+    "enunciado",
+    "criterio_de_verificacion"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^N[0-9]+$"
+    },
+    "prioridad": {
+      "enum": [
+        "P1",
+        "P2"
+      ]
+    },
+    "sector": {
+      "type": "string"
+    },
+    "enunciado": {
+      "type": "string"
+    },
+    "criterio_de_verificacion": {
+      "type": "string"
+    },
+    "perfiles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

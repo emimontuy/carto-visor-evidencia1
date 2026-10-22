@@ -1,0 +1,38 @@
+{
+  "perfil": "Personal autorizado de una dependencia, perfil provisional",
+  "dice": {
+    "contenido": "Se desea que consulte y descargue sin explicación externa.",
+    "segmentos": [
+      "E1-S18",
+      "E1-S35",
+      "E1-S43"
+    ],
+    "origen": "Expectativa de [Directora ADIP]; no testimonio de usuarios externos"
+  },
+  "hace": {
+    "contenido": "Usos de mapas y cruces entre capas descritos por [Directora ADIP]; sin observación directa de una tarea externa.",
+    "segmentos": [
+      "E1-S05",
+      "E1-S06"
+    ],
+    "origen": "Relato institucional"
+  },
+  "necesita": {
+    "contenido": "Saber de dónde proviene la capa, qué versión usa y obtenerla sin alterar claves oficiales.",
+    "segmentos": [
+      "E1-S25",
+      "E1-S41"
+    ],
+    "origen": "Necesidad derivada del relato"
+  },
+  "piensa_y_siente": {
+    "contenido": null,
+    "origen": "No hay evidencia suficiente para atribuir emociones o pensamientos a este perfil"
+  },
+  "por_validar": [
+    "Tarea real que resuelve con una capa",
+    "Frecuencia de consulta y descarga",
+    "Formación y herramientas que utiliza",
+    "Consecuencia concreta de usar otra referencia"
+  ]
+}

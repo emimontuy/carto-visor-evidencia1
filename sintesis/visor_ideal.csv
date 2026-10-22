@@ -1,0 +1,9 @@
+id,elemento,evidencia,lo_que_piden
+V1,Buscador por nombre o clave,E3 p. 3–4; E4 p. 5,La usuaria empieza escribiendo; el desarrollador propone buscar por clave de sector o cuadrante antes que por dirección.
+V2,Panel de capas con explicación y leyenda,E3 p. 5; E4 p. 5; E2 p. 6,Qué es un sector y qué es un cuadrante; cuál está activa; no depender sólo del color.
+V3,Ficha breve al seleccionar,E2 p. 4; E5 p. 6; E4 p. 4,"Tipo de capa, clave idéntica a la fuente, nombre; acceso a más detalle."
+V4,Fuente y fechas con nombre propio,E3 p. 4; E2 p. 5; E5 p. 7; E1 p. 14,"'Fuente de la información', 'fecha de la información' y 'fecha de carga' por separado; si falta, se dice."
+V5,¿A quién preguntar? y reportar una duda,E3 p. 3; E5 pp. 8–9; E2 p. 7,"Contacto responsable y un reporte con elemento, versión y estado de revisión."
+V6,Descarga que dice qué entrega,E2 p. 6; E5 p. 7; E4 p. 6,"Capa completa o selección, con claves, versión y documentación en el mismo paquete."
+V7,Mensajes de estado y de permiso,E4 pp. 5–6; E3 p. 5,"Distinguir 'cargando', 'sin resultados', 'falló la conexión' y 'tu perfil no puede descargar'."
+V8,"Roles: consultar, descargar, publicar",E1 p. 8; E2 p. 6; E5 p. 9,Nadie edita desde el visor; publicar una versión es una tarea aparte.

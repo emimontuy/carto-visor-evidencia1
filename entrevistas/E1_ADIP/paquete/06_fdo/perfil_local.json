@@ -1,0 +1,30 @@
+{
+  "nombre": "Perfil local propuesto para análisis cualitativo del Carto-Visor",
+  "version": "1.0.0",
+  "estado": "no_registrado",
+  "perfil_pid": null,
+  "tipo_pid": null,
+  "pid_objeto": null,
+  "atributos_preparados": [
+    "identificador_interno",
+    "tipo_semantico_local",
+    "archivo",
+    "esquema_local",
+    "sha256",
+    "version",
+    "derivados_de",
+    "derechos",
+    "acceso",
+    "revision_humana"
+  ],
+  "pendiente": [
+    "Revisión humana",
+    "Confirmar derechos de difusión y licencia",
+    "Registrar tipos y perfil con definiciones persistentes si se exige FDO formal",
+    "Asignar y resolver PID por objeto",
+    "Vincular PID del objeto, metadatos, tipo y perfil",
+    "Registrar e indexar metadatos",
+    "Asegurar conservación y política de versiones"
+  ],
+  "nota": "Zenodo puede respaldar preservación, metadatos y DOI de objetos publicados; una carpeta con JSON o un DOI por sí solos no certifican conformidad con un perfil FDO. Se sigue la indicación del profesor de preparar el protocolo sin crear un repositorio."
+}

@@ -1,0 +1,239 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "requisitos": [
+    {
+      "id": "E3-R01",
+      "modulo": "Propósito y lenguaje",
+      "construir": "Descripción del contenido, cobertura y nombres comprensibles de acciones y divisiones.",
+      "comprobar": "La persona explica qué incluye el visor y distingue sectores o cuadrantes de colonias y oficinas.",
+      "historias": [
+        "E3-US01",
+        "E3-US02"
+      ]
+    },
+    {
+      "id": "E3-R02",
+      "modulo": "Mapa y leyenda",
+      "construir": "Activación de capas, estado visible, leyenda y selección de un elemento.",
+      "comprobar": "Alternar las dos capas y reconocer el elemento sin ayuda sobre cada botón.",
+      "historias": [
+        "E3-US02"
+      ]
+    },
+    {
+      "id": "E3-R03",
+      "modulo": "Ficha comprensible",
+      "construir": "Identificación, fuente, fechas diferenciadas, versión, límites y responsable o pendiente.",
+      "comprobar": "Entender la ficha y señalar lo que falta confirmar; la fecha de publicación no sustituye la del dato.",
+      "historias": [
+        "E3-US03",
+        "E3-US04"
+      ]
+    },
+    {
+      "id": "E3-R04",
+      "modulo": "Descarga explicada",
+      "construir": "Archivo de la capa con formato, alcance y documentación correspondientes a la versión consultada.",
+      "comprobar": "La persona distingue consultar de descargar; el archivo y los metadatos conservan la misma versión.",
+      "historias": [
+        "E3-US05"
+      ]
+    },
+    {
+      "id": "E3-R05",
+      "modulo": "Acciones y acceso",
+      "construir": "Permisos por operación y mensajes claros para consulta, descarga y acciones no permitidas.",
+      "comprobar": "Consulta sin edición; falta de permiso comunicada y protegida también por solicitud directa.",
+      "historias": [
+        "E3-US05",
+        "E3-US06"
+      ]
+    },
+    {
+      "id": "E3-R06",
+      "modulo": "Prueba de comprensión",
+      "construir": "Guion de tareas, observación sin dirección y revisión posterior del significado de acciones.",
+      "comprobar": "Registro de dificultades de navegación, contenido y acceso; revisión técnica y sectorial independiente.",
+      "historias": [
+        "E3-US01",
+        "E3-US02",
+        "E3-US07"
+      ]
+    },
+    {
+      "id": "E3-R07",
+      "modulo": "Responsables y continuidad",
+      "construir": "Bitácora de versión y notas de cambio con responsables de validación, autorización y dudas.",
+      "comprobar": "Una persona nueva identifica qué se recibió y qué cambió; ninguna fuente ajena se modifica sin revisión.",
+      "historias": [
+        "E3-US04",
+        "E3-US08"
+      ]
+    },
+    {
+      "id": "E3-R08",
+      "modulo": "Búsqueda futura de ubicaciones",
+      "construir": "Especificación condicionada de directorio, búsqueda y comunicación contextual.",
+      "comprobar": "Se mantiene fuera de la primera entrega; requiere datos, responsables, finalidad y permisos acordados.",
+      "historias": [
+        "E3-US09"
+      ]
+    }
+  ],
+  "decisiones": [
+    {
+      "id": "E3-D01",
+      "decision": "Usar etiquetas orientadas a la acción y explicar sectores y cuadrantes en la primera vista.",
+      "razon": "[Usuaria administrativa] no reconoce todos los términos cartográficos y distingue comprensión de validación técnica.",
+      "requisitos": [
+        "E3-R01",
+        "E3-R02",
+        "E3-R06"
+      ],
+      "segmentos": [
+        "E3-S21",
+        "E3-S23",
+        "E3-S25",
+        "E3-S28"
+      ]
+    },
+    {
+      "id": "E3-D02",
+      "decision": "Mostrar una ficha breve con acceso al detalle y campos de procedencia y tiempo explicados.",
+      "razon": "Una referencia completa o publicada recientemente puede corresponder a otro contexto.",
+      "requisitos": [
+        "E3-R03"
+      ],
+      "segmentos": [
+        "E3-S05",
+        "E3-S10",
+        "E3-S20",
+        "E3-S22"
+      ]
+    },
+    {
+      "id": "E3-D03",
+      "decision": "Conservar incertidumbre y el canal de revisión; no convertir la representación en una decisión sobre competencias o trámites.",
+      "razon": "El mapa no confirma por sí solo los datos o decisiones que faltan.",
+      "requisitos": [
+        "E3-R03",
+        "E3-R07"
+      ],
+      "segmentos": [
+        "E3-S20",
+        "E3-S26",
+        "E3-S27"
+      ]
+    },
+    {
+      "id": "E3-D04",
+      "decision": "Hacer opcional la descarga y explicar contenido, formato, alcance y permiso.",
+      "razon": "Un archivo cartográfico no responde necesariamente a una tarea administrativa.",
+      "requisitos": [
+        "E3-R04",
+        "E3-R05"
+      ],
+      "segmentos": [
+        "E3-S23",
+        "E3-S31",
+        "E3-S32"
+      ]
+    },
+    {
+      "id": "E3-D05",
+      "decision": "Probar comprensión sin explicar cada botón y registrar por separado navegación, interpretación y acceso.",
+      "razon": "La asistencia del desarrollador puede ocultar dificultades del primer uso.",
+      "requisitos": [
+        "E3-R06"
+      ],
+      "segmentos": [
+        "E3-S28",
+        "E3-S29",
+        "E3-S37",
+        "E3-S38"
+      ]
+    },
+    {
+      "id": "E3-D06",
+      "decision": "Conservar notas breves de cambio y responsables antes de proponer un directorio o compartir vistas.",
+      "razon": "La continuidad requiere explicación y la ampliación necesita otros datos y permisos.",
+      "requisitos": [
+        "E3-R07",
+        "E3-R08"
+      ],
+      "segmentos": [
+        "E3-S16",
+        "E3-S17",
+        "E3-S18",
+        "E3-S32",
+        "E3-S34",
+        "E3-S35"
+      ]
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "E3-Q01",
+      "pregunta": "¿Qué explicación de sector y cuadrante valida SSC para una persona no especializada?",
+      "proposito": "Usar términos comprensibles sin cambiar el significado operativo de las capas."
+    },
+    {
+      "id": "E3-Q02",
+      "pregunta": "¿Qué tarea real puede realizar un perfil administrativo con las dos capas disponibles?",
+      "proposito": "Comprobar pertinencia del uso y evitar evaluar una búsqueda de oficinas que no existe."
+    },
+    {
+      "id": "E3-Q03",
+      "pregunta": "¿Qué representan las fechas de la entrega y qué datos sobre revisión o vigencia proporcionó el productor?",
+      "proposito": "Explicar el periodo y mostrar pendientes sin sustituir fechas."
+    },
+    {
+      "id": "E3-Q04",
+      "pregunta": "¿Quién valida cambios y recibe dudas sobre la fuente o interpretación de la información?",
+      "proposito": "Cerrar roles y canales sin atribuirlos al usuario que consulta."
+    },
+    {
+      "id": "E3-Q05",
+      "pregunta": "¿Qué acciones permite cada perfil y cómo se informa una falta de acceso?",
+      "proposito": "Alinear mensajes, descarga y controles de autorización."
+    },
+    {
+      "id": "E3-Q06",
+      "pregunta": "¿Cómo se evaluarán navegación, comprensión del resultado y utilidad para la tarea?",
+      "proposito": "Acordar el guion y los criterios antes de medir la prueba."
+    }
+  ],
+  "contraste": [
+    {
+      "dimension": "Información disponible",
+      "documentado": "El encargo inicia con dos capas de SSC: sectores y cuadrantes.",
+      "relatado": "[Usuaria administrativa] suele necesitar sedes, direcciones y actividades; pide búsqueda por nombre o dirección.",
+      "implicacion": "Explicar el contenido inicial y dejar un directorio de ubicaciones para una ampliación con otras fuentes."
+    },
+    {
+      "dimension": "Claridad de consulta",
+      "documentado": "La ficha pide activar o desactivar capas y una experiencia clara y estable.",
+      "relatado": "[Usuaria administrativa] necesita nombres comprensibles, leyenda y distinguir controles de lectura o descarga.",
+      "implicacion": "Validar comprensión mediante tareas sin instrucciones sobre cada botón."
+    },
+    {
+      "dimension": "Metadatos y vigencia",
+      "documentado": "La ficha pide metadatos y lógica básica de actualización.",
+      "relatado": "Un archivo completo y oficial puede corresponder a otro momento o actividad.",
+      "implicacion": "Separar fecha del dato y publicación, y explicar qué se conoce y qué falta confirmar."
+    },
+    {
+      "dimension": "Acceso y reutilización",
+      "documentado": "La primera versión es institucional, con descarga y seguridad básica; ampliaciones por validar.",
+      "relatado": "Consulta, descarga y comunicación dependen de la tarea y de los permisos del destinatario.",
+      "implicacion": "Explicar el archivo y las acciones autorizadas; compartir una vista no implica acceso público."
+    },
+    {
+      "dimension": "Validación de usuarios",
+      "documentado": "ADIP valida el prototipo y la integración de otros actores requiere contacto y validación.",
+      "relatado": "[Usuaria administrativa] aporta comprensión de interfaz, pero no evalúa geometrías ni el uso operativo de SSC.",
+      "implicacion": "Complementar su perspectiva con usuarios reales del encargo y revisión sectorial."
+    }
+  ]
+}

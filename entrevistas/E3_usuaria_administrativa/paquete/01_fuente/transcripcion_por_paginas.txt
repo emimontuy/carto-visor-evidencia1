@@ -1,0 +1,278 @@
+Transcripción de entrevista con [Usuaria administrativa] 
+Entrevistador: Emilio Gómez Montuy. Perfil considerado: secretaria en una institución federal y usuaria administrativa de información sobre ubicaciones. 
+Emilio: Hola, [Usuaria administrativa], ¿cómo estás? Pues primero que nada, muchas gracias por darte el tiempo. Como te 
+había comentado, estamos trabajando en un proyecto de la universidad con la ADIP que se llama 
+Carto-Visor. Básicamente estamos viendo cómo hacer más fácil consultar información de la Ciudad de 
+México en un mapa. Ahorita nos interesa entender cómo busca información la gente y con qué 
+dificultades se encuentra. 
+[Usuaria administrativa]: Hola, Emi. Bien, muchas gracias. Sí, claro, con mucho gusto. Nada más que de mapas y de esas 
+cosas sí sé poquito. Pero no trabajo haciendo mapas. 
+Emilio: Sí, justamente también nos sirve escuchar esa parte. No todos los que podrían consultar una 
+herramienta así se dedican a analizar mapas. Entonces te voy a preguntar de tu experiencia en el trabajo y 
+de cosas que haces normalmente cuando necesitas ubicar un lugar. No necesitamos detalles de asuntos 
+internos, más bien ejemplos generales de cómo buscas y confirmas información. 
+[Usuaria administrativa]: Ah, bueno, entonces sí. Te puedo contar cómo me organizo y lo que hago cuando necesito 
+encontrar una dirección o preguntar por alguna oficina. 
+Emilio: Perfecto. Para empezar, ¿nos podrías contar un poquito a qué te dedicas y qué tipo de actividades 
+haces durante el día? 
+[Usuaria administrativa]: Trabajo como secretaria en una institución federal. En mi caso hago actividades 
+administrativas, como organizar documentos, apoyar con la agenda, revisar información que me solicitan 
+y comunicarme con otras personas para confirmar pendientes. Hay cosas que ya conozco porque las hago 
+seguido y otras que tengo que preguntar. No me dedico a analizar información geográfica ni a decidir 
+dónde se ubican las oficinas. 
+Emilio: Y dentro de esas actividades, ¿en qué momento necesitas saber dónde está un lugar? O sea, ¿para 
+qué usas una dirección o un mapa en el trabajo? 
+[Usuaria administrativa]: Cuando hay una reunión fuera de la oficina, por ejemplo, o cuando necesitamos confirmar a qué 
+sede se debe dirigir alguien para una actividad administrativa. A veces me piden la ubicación de una 
+oficina y tengo que revisar que sea la correcta. Hay ocasiones en las que ya tengo el contacto y es rápido; 
+cuando no conozco el lugar, necesito buscar y preguntar. No es algo que haga todo el día, pero sí aparece 
+dentro del trabajo. 
+Emilio: Va. ¿Me podrías contar alguna situación de esas que recuerdes? Una en la que hayas tenido que 
+buscar o confirmar una ubicación, para entenderlo un poquito mejor. 
+[Usuaria administrativa]: mmmmm Sí. En una ocasión estábamos organizando una reunión administrativa y me pasaron el 
+nombre de una oficina. Yo tenía una dirección guardada en un archivo, pero cuando pregunté por la 
+reunión me dijeron que el área estaba atendiendo en otra sede. El nombre era prácticamente el mismo, 
+entonces al principio pensé que hablábamos del mismo lugar. Antes de mandar la información tuve que 
+confirmar la dirección y cómo se entraba. Si me hubiera quedado con el archivo que ya tenía, habría 
+enviado una ubicación que no correspondía a esa reunión. 
+Emilio: ¿Y cómo te diste cuenta de que podía estar mal? ¿Algo del archivo te hizo dudar o fue hasta que 
+hablaste con alguien? 
+1 
+[Usuaria administrativa]: Fue al hablar con alguien. El archivo tenía una dirección completa y no se veía raro. Pero no decía 
+cuándo se había revisado. Yo lo tenía porque me había servido para otra actividad y asumí que seguía 
+siendo útil. Cuando mencionaron la sede donde sería la reunión, ya pregunté si era la misma dirección. 
+Ahí me aclararon que no. El problema no era que yo hubiera escrito mal la calle, sino que estaba usando 
+una referencia de otro momento. 
+Emilio: Ah, sí, entiendo. Entonces que la dirección estuviera completa no significaba que todavía fuera la 
+que necesitabas. ¿Y qué hiciste después? 
+[Usuaria administrativa]: Pedí que me confirmaran la sede y la dirección para esa reunión. También pregunté por el acceso, 
+porque a veces el edificio tiene una entrada que no es la que debes usar. Ya con eso revisé la ubicación en 
+el mapa y mandé la información a las personas que tenían que asistir. Guardé la nueva referencia con una 
+nota para no confundirla con la anterior. Pero si más adelante me la volvían a pedir para otra cosa, igual 
+tendría que confirmar que correspondiera. 
+Emilio: En ese caso, ¿te tomó más tiempo encontrar el lugar en el mapa o conseguir que te confirmaran 
+que sí era ahí? 
+[Usuaria administrativa]: Confirmarlo. Poner una dirección en el mapa es rápido. Lo que tarda es que la persona que sabe te 
+responda o que te digan con quién debes verlo. A veces una persona te orienta, pero no está segura de 
+todos los detalles. Entonces prefiero esperar la confirmación antes de enviar algo como si ya estuviera 
+revisado. Si la reunión es pronto, eso sí te hace estar más pendiente. 
+Emilio: Y cuando no tienes a alguien a quien preguntarle directamente, ¿por dónde empiezas a buscar? 
+[Usuaria administrativa]: Primero reviso si tengo algún correo o documento relacionado con la solicitud. Después busco 
+información publicada por la institución correspondiente. El mapa me ayuda a ubicar la dirección, pero si 
+aparecen varios resultados con nombres parecidos, no siempre sé cuál elegir. En ese caso intento 
+encontrar un teléfono o un contacto que me pueda confirmar. También puedo preguntar a un compañero si 
+sabe quién lleva ese tema. 
+Emilio: ¿Qué te hace confiar más en una dirección que encuentras? Por ejemplo, si un documento y el 
+mapa dicen cosas distintas, ¿qué revisas? 
+[Usuaria administrativa]: Me fijo en quién me dio el documento, para qué se hizo y si es reciente. Si hay una diferencia, no 
+escogería solamente la que se vea más completa. Buscaría confirmarla con la oficina a la que necesitamos 
+ir. En el mapa puede salir un nombre que todos conocen, pero no necesariamente el área que buscas. Y un 
+documento puede ser oficial y aun así corresponder a una actividad anterior. Por eso me sirve que tenga 
+fecha y un contacto. 
+Emilio: Va. Y cuando ya confirmaste la información, ¿cómo la compartes normalmente para que la otra 
+persona entienda dónde tiene que ir? 
+[Usuaria administrativa]: Le paso la dirección por escrito y, si sirve, también la ubicación en el mapa. Agrego alguna 
+referencia que me hayan confirmado, como el acceso o el nombre de la sede. No me gusta mandar 
+solamente una imagen porque a veces no se alcanza a leer o no se entiende qué punto es. Si la persona no 
+conoce la zona, le ayuda tener las dos cosas. Y si hay una duda que todavía no se resolvió, se la digo. 
+Emilio: Ahora me gustaría hacer un ejercicio que vimos en clase. Si ordenaras ese proceso desde que te 
+piden la ubicación hasta que la compartes, ¿cómo lo pondrías paso por paso? 
+[Usuaria administrativa]: Primero entendería qué lugar necesitan y para qué actividad. Después revisaría la información que 
+ya tengo. Si no estoy segura, buscaría quién me la puede confirmar. Ya que tengo la dirección correcta, 
+reviso dónde está en el mapa y si hace falta alguna indicación para llegar. Después la comparto y guardo 
+2 
+la referencia. Aunque a veces tengo que regresar al principio, porque me dicen solamente el nombre de 
+una oficina y no está claro qué sede buscan. 
+Emilio: Eso que dices de entender la solicitud, ¿qué necesitas que te digan para no empezar buscando 
+algo que no era? 
+[Usuaria administrativa]: El nombre del área o la oficina, qué actividad van a hacer y, si hay más de una sede, cuál les 
+indicaron. También me sirve saber quién organizó la actividad, porque esa persona puede confirmar. A 
+veces te dicen “la oficina de tal área” y para quien lo pide es clarísimo, pero tú no sabes si habla del 
+edificio, de una sede específica o de un lugar donde sólo se hará una reunión. Una pregunta al principio te 
+evita varias búsquedas. 
+Emilio: ¿Y te ha pasado que la información está disponible, pero no la encuentras porque no sabes cómo 
+la guardaron o qué nombre buscar? 
+[Usuaria administrativa]: Sí. Hay documentos que se guardan con el nombre del evento y otros con el nombre de la oficina. 
+Si no recuerdas cómo quedó, tienes que abrir varios. También puede haber archivos con nombres muy 
+parecidos. Yo trato de ponerles algo que me permita identificarlos después, pero cuando recibes archivos 
+de otras personas no siempre vienen igual. En esas situaciones terminas preguntando aunque 
+probablemente ya tengas la información guardada. 
+Emilio: Entonces no sería solamente tener los documentos, también que puedas reconocer cuál necesitas. 
+Ahora, para el ejercicio de los actores, ¿qué personas participan cuando haces esa búsqueda y compartes 
+la información? 
+[Usuaria administrativa]: La persona que me pide la ubicación, yo que hago la búsqueda y quien conoce o puede confirmar 
+la información de la sede. A veces participa otro compañero para orientarme. Si hace falta una 
+autorización para compartir un documento, tengo que verlo con quien corresponda. Y al final está la 
+persona que recibe la dirección y la usa para llegar. Cada una sabe una parte distinta. 
+Emilio: ¿Y quién podría corregir la información si ustedes detectan que una dirección o un dato ya no 
+corresponde? 
+[Usuaria administrativa]: Si es una lista que yo uso para organizarme, puedo anotar la corrección después de confirmarla. Si 
+es un documento que pertenece a otra área, no me tocaría cambiarlo por mi cuenta. Avisaría a quien lo 
+lleva. Y si hablamos de información que está publicada en una página, yo no sabría quién la actualiza sin 
+preguntar. Eso también sería útil: que haya una forma clara de avisar que encontraste un dato que necesita 
+revisión. 
+Emilio: En clase nos propusieron pensar en el papel de cada persona, como quién decide, quién tiene la 
+información y quién ayuda a conectar a los demás. En ese proceso, ¿dónde te pondrías tú? 
+[Usuaria administrativa]: Yo estaría en la parte de buscar, organizar y comunicar. Muchas veces soy quien pregunta a una 
+persona y le pasa la respuesta a otra. Pero no necesariamente soy quien puede confirmar todos los datos ni 
+quien decide qué información se comparte. Depende de lo que me estén pidiendo. Por eso para mí es 
+importante saber a quién acudir y no dar una respuesta sólo porque me parece que así debe ser. 
+Emilio: Sí, claro. Ahora vamos con la información que necesitarías ver. Imagina que tienes una página 
+donde puedes encontrar ubicaciones. ¿Por dónde empezarías: por el mapa, por una lista o por un 
+buscador? 
+[Usuaria administrativa]: Por un buscador. Yo normalmente ya tengo el nombre de algo y quiero encontrarlo. Si al abrir veo 
+nada más un mapa con muchos puntos, no sé por dónde empezar. Me serviría escribir el nombre de la 
+3 
+oficina o la dirección y que me salgan opciones que pueda distinguir. Después ya abriría el mapa para ver 
+dónde queda. Si no encuentro lo que escribí, también necesitaría saber qué otra cosa puedo buscar. 
+Emilio: Y si aparecen dos lugares con un nombre parecido, ¿qué tendría que decir cada resultado para 
+que puedas escoger? 
+[Usuaria administrativa]: La dirección y el nombre completo, para empezar. También qué sede o área es, si esa información 
+se puede mostrar. A veces el nombre corto se repite y no te dice suficiente. Si uno está en otra zona o 
+corresponde a otra actividad, quisiera verlo antes de abrirlo. Yo no escogería sólo porque fue el primero 
+que apareció. Si siguen pareciéndose mucho, tendría que confirmar con alguien. 
+Emilio: Cuando seleccionas uno, ¿qué información te gustaría encontrar sin tener que entrar a otras 
+páginas? 
+[Usuaria administrativa]: La dirección completa, la ubicación y alguna forma de confirmar que la información sigue 
+vigente. Si hay horarios o indicaciones de acceso y están revisados, también ayudarían. Pero si la página 
+no tiene esa información, que no parezca que me la está confirmando. Para mí sería suficiente una ficha 
+que se entienda y que me permita saber a quién preguntar lo que falta. No necesito ver una tabla enorme 
+con datos que no sé para qué sirven. 
+Emilio: Hay una palabra que nos han mencionado bastante, que es metadatos. Básicamente es 
+información que explica de dónde viene un dato, de cuándo es y quién lo proporciona. ¿Cómo te gustaría 
+que apareciera esa parte? 
+[Usuaria administrativa]: Yo no sabría qué abrir si un botón dijera solamente “metadatos”. Me sería más claro algo como 
+“fuente de la información” o “fecha de actualización”. Ya con eso entiendo qué voy a revisar. Y si ponen 
+una fecha, que se entienda qué fecha es. Porque puede ser la fecha en que subieron el archivo y no cuando 
+alguien confirmó la dirección. Para mí sería importante saber esa diferencia sin tener que adivinarla. 
+Emilio: Justamente, eso también nos lo decía [Analista territorial] desde su trabajo con mapas. Y de algo que te resulte 
+difícil en una página, ¿qué has visto que te haga detenerte o tener que pedir ayuda? 
+[Usuaria administrativa]: Cuando hay muchos botones y no sé cuál corresponde a lo que quiero hacer. También cuando todo 
+viene con siglas o nombres que sólo entiende quien trabaja en esa área. A veces sí puedo encontrar el 
+documento, pero no sé si debo descargarlo, si ya se abrió o si estoy viendo una vista previa. No me 
+molesta aprender una herramienta, pero sí que una consulta sencilla se vuelva estar probando botones para 
+ver qué pasa. 
+Emilio: ¿Y qué haces normalmente cuando eso pasa? ¿Le sigues intentando o buscas a alguien? 
+[Usuaria administrativa]: Depende del tiempo. Si tengo un rato, intento otra opción o reviso si hay instrucciones. Si necesito 
+resolverlo pronto, le pregunto a un compañero o busco la información por otro lado. Lo que no haría es 
+mandar una respuesta sin estar segura sólo por no preguntar. Pero sí puede pasar que, después de varias 
+veces, ya vayas directo con quien te ayuda y dejes de usar la página. 
+Emilio: Va. Te cuento un poquito más de nuestra primera versión. Vamos a empezar con dos capas de 
+información de Seguridad Ciudadana: sectores y cuadrantes. No sería una página para buscar todas las 
+oficinas ni para hacer trámites. Cuando escuchas eso de capas, ¿qué te imaginas? 
+[Usuaria administrativa]: Pues, la verdad, no sé bien. ¿Son como diferentes páginas del mapa o como las zonas que salen 
+marcadas con colores? 
+Emilio: Más bien conjuntos de información que puedes mostrar sobre el mismo mapa. Por ejemplo, 
+puedes ver una división del territorio y después mostrar otra, o quitarla. En nuestro caso son divisiones 
+4 
+que utiliza Seguridad Ciudadana para organizar su trabajo. ¿Qué necesitarías ver para entender cuál estás 
+consultando? 
+[Usuaria administrativa]: Primero una explicación sencilla de qué significa cada una. Yo conozco cosas como la colonia o la 
+alcaldía, pero no necesariamente qué diferencia hay entre un sector y un cuadrante. También que se vea 
+cuál está activada y qué significan los colores. Si nada más aparecen líneas, puedo ver que hay divisiones, 
+pero no saber qué representan. No quisiera pensar que una de esas zonas es una colonia cuando en 
+realidad es otra cosa. 
+Emilio: Sí, claro. Y si te pidiera ubicar una dirección y decir qué zona aparece en el mapa, ¿qué te podría 
+generar duda? 
+[Usuaria administrativa]: Que el punto quede cerca de una línea y no sepa de qué lado está, o que aparezcan varias 
+divisiones al mismo tiempo. También si no encuentro la dirección exacta y el mapa me manda a un lugar 
+aproximado. Ahí preguntaría antes de decir que pertenece a una zona. Y aunque el mapa me lo muestre, 
+yo no usaría eso para decidir a qué autoridad le corresponde un asunto. Esa parte tendría que confirmarla 
+con quien conoce el tema. 
+Emilio: Eso es importante. Nosotros tampoco queremos que la gente interprete más de lo que la 
+información permite. Y tomando en cuenta que tú trabajas en una institución federal y el proyecto es para 
+la Ciudad de México, ¿en qué parte crees que sí podrías ayudarnos a probarlo? 
+[Usuaria administrativa]: En ver si alguien que no conoce esos términos entiende la página y puede hacer una consulta. Yo 
+no podría decirles si las divisiones están bien ni qué necesita un analista de Seguridad Ciudadana. 
+Tampoco conozco el trabajo de la ADIP. Pero sí puedo decirles si encuentro el buscador, si entiendo la 
+explicación o si no sé qué estoy viendo. Eso lo puedo probar como persona que usa una computadora para 
+trabajar, aunque no haga mapas. 
+Emilio: Perfecto. Ahorita estamos hablando de la idea, todavía no te estoy mostrando una pantalla. 
+Cuando tengamos el prototipo, ¿cómo te gustaría que fuera esa prueba? 
+[Usuaria administrativa]: Que me digas qué tengo que encontrar y me dejes intentarlo. Si me vas diciendo cada botón, al 
+final vamos a pensar que lo entendí, pero a lo mejor no lo habría hecho sola. Después ya te puedo contar 
+dónde me atoré. También me serviría que me preguntaras qué pensé que hacía una opción antes de 
+explicarme. A veces uno entiende otra cosa por el nombre o el dibujo del botón. 
+Emilio: Sí, eso nos sirve bastante. Y cuando una herramienta pide un usuario para entrar, ¿qué cosas te 
+gustaría que quedaran claras? 
+[Usuaria administrativa]: Si tengo acceso y cómo lo consigo, para empezar. También qué puedo hacer una vez que entré. Si 
+sólo voy a consultar, no quiero terminar cambiando algo por equivocación. Si una opción no está 
+disponible para mi usuario, que me diga qué pasa. No sabría decirte cómo se configura eso, pero sí qué 
+información necesito para seguir con mi trabajo. Si me sale un error sin explicación, no sé si hice algo mal 
+o si tengo que pedir acceso. 
+Emilio: ¿Y tú necesitarías descargar la información del mapa o con verla te serviría? 
+[Usuaria administrativa]: Para una ubicación, probablemente con verla y poder compartir una referencia sería suficiente. No 
+sabría qué hacer con un archivo técnico de un mapa. Si me piden un documento o una lista, ahí sí podría 
+necesitar descargarlo, siempre que tenga permitido hacerlo. Pero eso no significa que yo quiera descargar 
+todo. Depende de para qué lo necesito y de qué información se puede compartir. Una imagen tampoco 
+siempre me resuelve, porque después la otra persona puede necesitar buscar la dirección. 
+5 
+Emilio: Cuando dices compartir una referencia, ¿te serviría que la otra persona abriera exactamente lo 
+mismo que estabas viendo tú? 
+[Usuaria administrativa]: Sí, si esa persona tiene acceso. Porque si le paso la página y se abre desde el inicio, le tengo que 
+explicar qué buscar y qué seleccionar. Pero también tendría que saber si la otra persona puede entrar. Si 
+no puede, no sirve mandarle solamente el enlace. Para algo tan sencillo como una dirección, tenerla por 
+escrito sigue siendo útil. Ya ustedes tendrían que ver qué se puede compartir en esta primera versión. 
+Emilio: Ahora, fuera del trabajo, ¿te ha pasado algo parecido al buscar un lugar para hacer un trámite o 
+llegar a una cita? 
+[Usuaria administrativa]: Sí. Alguna vez llegué al edificio que aparecía en el mapa, pero el módulo al que tenía que ir estaba 
+en otro acceso. Yo veía que ya estaba en la dirección y aun así no encontraba dónde preguntar. Tuve que 
+pedir indicaciones ahí. En ese caso la ubicación general estaba bien, pero me faltaba una indicación más 
+práctica. Cuando ya conoces el lugar no lo piensas tanto; para quien va por primera vez sí hace diferencia. 
+Emilio: ¿Y en ese tipo de situación qué te ayudaría más: ver más detalles del mapa o tener una 
+explicación corta? 
+[Usuaria administrativa]: Una explicación corta con una referencia que esté confirmada. Un mapa con más cosas no siempre 
+me ayuda. Si lo que necesito es saber dónde está la entrada, prefiero que me digan eso. Y si la 
+información viene de varias fuentes, quisiera saber cuál corresponde al lugar que busco. No me serviría 
+que hubiera muchas opciones y todas parecieran igual de válidas. 
+Emilio: Volviendo al trabajo, cuando alguien nuevo llega y todavía no conoce las oficinas o los contactos, 
+¿cómo aprende a resolver esas búsquedas? 
+[Usuaria administrativa]: Preguntando y revisando la información que le comparten. Hay cosas que quienes llevamos más 
+tiempo ya sabemos a quién pedir, pero para alguien nuevo no es tan claro. Ayuda tener una lista revisada y 
+saber quién la mantiene. Si sólo te pasan muchos archivos sin explicación, te tardas en reconocer cuál 
+sirve. También aprendemos de situaciones como la que te conté: después de una dirección que cambió, ya 
+sabes que tienes que confirmarla otra vez. 
+Emilio: ¿Y qué te gustaría que tuviera esa lista para que no dependa tanto de que otra persona se acuerde? 
+[Usuaria administrativa]: Que los nombres estén claros, que tenga fecha y que se sepa quién puede confirmar una duda. Si 
+una sede dejó de usarse para cierta actividad, que quede explicado y no solamente se borre una dirección 
+sin que sepamos por qué. Pero tampoco me gustaría que se volviera una lista tan complicada que nadie la 
+pudiera mantener. A veces con una nota breve ya evitas que otra persona se confunda. 
+Emilio: Algo que también estamos tratando de entender es cuándo una herramienta nueva realmente se 
+usa. ¿Qué haría que tú volvieras a consultar un visor después de probarlo? 
+[Usuaria administrativa]: Que me ayude a resolver algo que sí necesito y que encuentre información confiable. Si cada vez 
+que entro tengo que pedir ayuda o confirmar todo por otro lado, probablemente lo usaría poco. Y si sólo 
+tiene información que no necesito para mis tareas, tampoco lo abriría diario. Eso no significa que no le 
+sirva a alguien más. Yo lo usaría cuando tenga una consulta para la que el mapa aporte algo. 
+Emilio: Sí, claro. Entonces tampoco tendríamos que asumir que por trabajar en gobierno lo vas a 
+necesitar todo el tiempo. 
+[Usuaria administrativa]: Exactamente. Hay partes de mi trabajo que resuelvo con una agenda o con documentos, sin un 
+mapa. Pero cuando necesito ubicar algo o entender dónde queda una zona, sí puede ayudar. Ustedes 
+6 
+tendrían que preguntar también a quienes realmente trabajan con esas divisiones. Yo les puedo aportar la 
+parte de qué entiende una persona cuando lo abre por primera vez. 
+Emilio: Ya para cerrar, ¿qué sería lo primero que revisarías si te compartimos una versión para probarla? 
+[Usuaria administrativa]: Si entiendo para qué sirve. Después intentaría buscar algo que conozca para orientarme. Revisaría 
+qué información aparece y de dónde viene. Si me quedo atorada, te diría exactamente en qué parte, 
+porque no es lo mismo no encontrar el botón que no saber qué significa el resultado. Y si no encuentro lo 
+que busco, quisiera saber si es porque la herramienta no lo incluye o porque lo estoy buscando de otra 
+forma. 
+Emilio: Va. Y de todo lo que platicamos, ¿hay algo que consideres importante y que no te haya 
+preguntado? 
+[Usuaria administrativa]: Tal vez que no den por hecho que todos sabemos las palabras que usan ustedes. A veces una 
+página tiene la información, pero no entiendes cómo está nombrada. También que una dirección puede 
+estar bien escrita y aun así no ser la que necesitas para esa actividad. Y que haya alguien a quien 
+preguntar cuando la información no sea suficiente. Eso, en mi trabajo, me ayuda mucho más que tener 
+una pantalla con muchas opciones. 
+Emilio: Perfecto, [Usuaria administrativa]. Para ver si entendí bien, lo que más necesitas es encontrar la información sin 
+adivinar cómo la nombraron, saber si corresponde a lo que te están pidiendo y tener una forma de 
+confirmar las dudas. Y para el visor nos podrías ayudar a ver si la consulta se entiende, aunque no trabajes 
+directamente con mapas. ¿Sí va por ahí? 
+[Usuaria administrativa]: Sí, así es. Yo no puedo evaluar la parte técnica, pero sí les puedo decir qué entendí y qué me falta 
+para usarlo. Y en las cosas que no conozca, prefiero decirles que no sé antes que darles una respuesta que 
+no les vaya a servir. 
+Emilio: Va, muchísimas gracias por tu tiempo. Nos sirve escuchar esa experiencia porque a veces 
+nosotros ya estamos usando términos del proyecto y se nos olvida que otras personas no los conocen. 
+Vamos a ordenar lo que platicamos y, cuando tengamos una pantalla para probar, podremos revisar esas 
+dudas de una forma más concreta. 
+[Usuaria administrativa]: Claro, Emi, con mucho gusto. Espero que les sirva para el proyecto. 
+7

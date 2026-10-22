@@ -1,0 +1,21 @@
+﻿id,nombre,definicion,incluir,excluir,ejemplo_segmento
+E4-C00,Perfil y alcance de la experiencia,Funciones y límites que [Desarrollador] declara.,Desarrollo remoto y revisión de comportamiento.,Representación oficial de Google o decisiones de ADIP.,E4-S01
+E4-C01,Consulta y resultado esperado,Definición de quién necesita qué y para qué.,"Objetivo, pasos y criterio comprobable.",Agregar funciones sin una tarea identificada.,E4-S02
+E4-C02,Reproducción y diagnóstico,Información para repetir y localizar una incidencia.,"Secuencia, entorno, esperado y observado.",Dar por resuelta la causa con una captura.,E4-S06
+E4-C03,Dato interpretación y software,Diferencias entre causas de un resultado incorrecto.,Contrastar fuente y programa con conocimiento sectorial.,Cambiar territorio desde el código sin confirmación.,E4-S07
+E4-C04,Identificadores de origen,Conservación y uso de claves y nombres.,"Ceros iniciales, campo clave y etiqueta.",Cambiar un identificador para hacerlo más legible.,E4-S08
+E4-C05,Responsables de decisión y validación,"Facultades para definir uso, confirmar datos y autorizar cambios.","Entrega, contenido, validación y consulta.",Atribuir todas las funciones al desarrollador.,E4-S09
+E4-C06,Acuerdos y contexto compartido,Registro de definiciones y dudas para trabajar en equipo.,"Qué se entendió, qué falta y referencia común.",Suponer que todos escucharon las mismas llamadas.,E4-S11
+E4-C07,Carga y contrato de incorporación,Requisitos del archivo y prueba de consumo.,"Campos, referencia espacial y compatibilidad por revisar.",Presumir que las capas iniciales son incompatibles.,E4-S16
+E4-C08,Procedencia fechas y versiones,Contexto documental que permite reconocer una entrega.,"Fuente, versión y fechas con significado.",Completar una fecha ausente con el día de carga.,E4-S18
+E4-C09,Cambios e incidencias del dato,"Separación entre reportar, revisar y modificar.","Original, reemplazo y autorización.",Edición directa de la fuente por cualquier usuario.,E4-S21
+E4-C10,Coherencia entre componentes,"Correspondencia entre consulta, mapa, ficha y archivo.","Selección activa, versión y campos coincidentes.",Afirmar un defecto real a partir de un ejemplo general.,E4-S27
+E4-C11,Comprensión y accesibilidad,Reconocimiento de opciones con distintas formas de interacción.,"Etiquetas, leyenda, teclado, ampliación y señales sin color.",Confundir una revisión inicial con certificación.,E4-S38
+E4-C12,Alcance y avance por recorridos,Funciones acordes con el uso y el tiempo del prototipo.,Consulta completa inicial y ampliación justificada.,"Rutas, geocodificación o automatización sin acuerdo.",E4-S41
+E4-C13,Localización aproximada,Incertidumbre de una futura búsqueda de direcciones.,"Exactitud, límites y confirmación pendiente.",Asignar competencia institucional sólo por ubicación.,E4-S26
+E4-C14,Estados y mensajes de operación,Explicación de lo que logró o no logró una consulta.,"Cargando, sin resultados, fallo y datos anteriores.",Interpretar un mapa en blanco como inexistencia.,E4-S28
+E4-C15,Rendimiento en condiciones reales,Prueba de respuesta con archivos y entorno representativos.,"Conexión, equipo, pasos y carga repetida.",Prometer rapidez sólo por el número de polígonos.,E4-S30
+E4-C16,Acceso por acción,"Comprobación de quién puede consultar, descargar o administrar.",Permisos al entregar información y mensajes por motivo.,Proteger una acción únicamente ocultando el botón.,E4-S31
+E4-C17,Descarga verificable,Correspondencia entre alcance anunciado y archivo recibido.,"Capa completa o filtro acordado, claves y reapertura.",Aceptar la descarga porque apareció un botón.,E4-S35
+E4-C18,Prueba de tarea y comprensión,Observación del uso con resultado reconocible.,"Intento sin guía, dudas y revisión de contenido.",Tomar gusto por la pantalla como tarea completada.,E4-S36
+E4-C19,Continuidad y reversión,Identificación de cambios y posibilidad de retomar una entrega.,"Código y datos compartidos, notas y versión anterior.",Depender de un mensaje que sólo dice el último.,E4-S40

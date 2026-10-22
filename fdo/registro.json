@@ -1,0 +1,496 @@
+{
+  "descripcion": "Índice de los objetos digitales FAIR de la Evidencia 1",
+  "total": 70,
+  "objetos": [
+    {
+      "id": "Q01",
+      "pid": "urn:uuid:110bacbe-9cae-5e81-acb3-112698b3181a",
+      "tipo": "Cita",
+      "titulo": "Cita Q01 · E1, p. 6",
+      "ruta": "fdo/objetos/citas/Q01.json"
+    },
+    {
+      "id": "Q02",
+      "pid": "urn:uuid:9013c089-5ea4-5763-bbfa-17fea56f10a7",
+      "tipo": "Cita",
+      "titulo": "Cita Q02 · E1, p. 5",
+      "ruta": "fdo/objetos/citas/Q02.json"
+    },
+    {
+      "id": "Q03",
+      "pid": "urn:uuid:6f8a78f9-008d-566d-9f53-5f5a74064352",
+      "tipo": "Cita",
+      "titulo": "Cita Q03 · E1, p. 6",
+      "ruta": "fdo/objetos/citas/Q03.json"
+    },
+    {
+      "id": "Q04",
+      "pid": "urn:uuid:64d24c47-37af-5d2b-b7bd-9d7dac05b01c",
+      "tipo": "Cita",
+      "titulo": "Cita Q04 · E1, p. 14",
+      "ruta": "fdo/objetos/citas/Q04.json"
+    },
+    {
+      "id": "Q05",
+      "pid": "urn:uuid:3df79cea-74e9-5f97-82e2-d018bc11d3a2",
+      "tipo": "Cita",
+      "titulo": "Cita Q05 · E1, p. 7",
+      "ruta": "fdo/objetos/citas/Q05.json"
+    },
+    {
+      "id": "Q26",
+      "pid": "urn:uuid:3f2cea79-a914-538d-8c9c-5223b251411d",
+      "tipo": "Cita",
+      "titulo": "Cita Q26 · E1, p. 6",
+      "ruta": "fdo/objetos/citas/Q26.json"
+    },
+    {
+      "id": "Q27",
+      "pid": "urn:uuid:22e0fd21-763c-59a8-9cd2-2760b4f50e9e",
+      "tipo": "Cita",
+      "titulo": "Cita Q27 · E1, p. 8",
+      "ruta": "fdo/objetos/citas/Q27.json"
+    },
+    {
+      "id": "Q28",
+      "pid": "urn:uuid:195cfcb6-5783-5cbc-ae33-beb730cbb80c",
+      "tipo": "Cita",
+      "titulo": "Cita Q28 · E1, p. 14",
+      "ruta": "fdo/objetos/citas/Q28.json"
+    },
+    {
+      "id": "Q29",
+      "pid": "urn:uuid:1aa0cb3d-49f4-520d-ac6c-12f964ad4731",
+      "tipo": "Cita",
+      "titulo": "Cita Q29 · E1, p. 8",
+      "ruta": "fdo/objetos/citas/Q29.json"
+    },
+    {
+      "id": "Q06",
+      "pid": "urn:uuid:b8ccb694-f081-57f3-879d-6d8bd2266452",
+      "tipo": "Cita",
+      "titulo": "Cita Q06 · E2, p. 2",
+      "ruta": "fdo/objetos/citas/Q06.json"
+    },
+    {
+      "id": "Q07",
+      "pid": "urn:uuid:2ff56237-dfed-5086-aedc-493ac0732936",
+      "tipo": "Cita",
+      "titulo": "Cita Q07 · E2, p. 2",
+      "ruta": "fdo/objetos/citas/Q07.json"
+    },
+    {
+      "id": "Q08",
+      "pid": "urn:uuid:f7082ac3-5a8e-5c3a-9460-082fa9c67fb3",
+      "tipo": "Cita",
+      "titulo": "Cita Q08 · E2, p. 2",
+      "ruta": "fdo/objetos/citas/Q08.json"
+    },
+    {
+      "id": "Q09",
+      "pid": "urn:uuid:bb3197a3-6224-53f9-8176-397af45417e6",
+      "tipo": "Cita",
+      "titulo": "Cita Q09 · E2, p. 5",
+      "ruta": "fdo/objetos/citas/Q09.json"
+    },
+    {
+      "id": "Q10",
+      "pid": "urn:uuid:64b9307e-c8d0-565a-8788-30f6d423e12a",
+      "tipo": "Cita",
+      "titulo": "Cita Q10 · E2, p. 5",
+      "ruta": "fdo/objetos/citas/Q10.json"
+    },
+    {
+      "id": "Q30",
+      "pid": "urn:uuid:140f0319-42c8-5328-9a1c-0dccc3e71269",
+      "tipo": "Cita",
+      "titulo": "Cita Q30 · E2, p. 4",
+      "ruta": "fdo/objetos/citas/Q30.json"
+    },
+    {
+      "id": "Q31",
+      "pid": "urn:uuid:7b256b9b-2b1d-556d-91bf-5686756a00e4",
+      "tipo": "Cita",
+      "titulo": "Cita Q31 · E2, p. 7",
+      "ruta": "fdo/objetos/citas/Q31.json"
+    },
+    {
+      "id": "Q32",
+      "pid": "urn:uuid:1933a11c-9ca0-570f-982a-1281fc5c6479",
+      "tipo": "Cita",
+      "titulo": "Cita Q32 · E2, p. 3",
+      "ruta": "fdo/objetos/citas/Q32.json"
+    },
+    {
+      "id": "Q33",
+      "pid": "urn:uuid:cf3beb41-07ba-59ce-9672-c27e31d30760",
+      "tipo": "Cita",
+      "titulo": "Cita Q33 · E2, p. 6",
+      "ruta": "fdo/objetos/citas/Q33.json"
+    },
+    {
+      "id": "Q34",
+      "pid": "urn:uuid:7b813380-e087-58ad-b774-13064ec8cc21",
+      "tipo": "Cita",
+      "titulo": "Cita Q34 · E2, p. 1",
+      "ruta": "fdo/objetos/citas/Q34.json"
+    },
+    {
+      "id": "Q11",
+      "pid": "urn:uuid:ea033d8a-d613-5cf4-b02c-18010978378d",
+      "tipo": "Cita",
+      "titulo": "Cita Q11 · E3, p. 2",
+      "ruta": "fdo/objetos/citas/Q11.json"
+    },
+    {
+      "id": "Q12",
+      "pid": "urn:uuid:fbdc54a0-6bce-5303-b504-95f6aac16868",
+      "tipo": "Cita",
+      "titulo": "Cita Q12 · E3, p. 2",
+      "ruta": "fdo/objetos/citas/Q12.json"
+    },
+    {
+      "id": "Q13",
+      "pid": "urn:uuid:d0b7f62d-a4b2-5f21-ba8e-24a4f0022503",
+      "tipo": "Cita",
+      "titulo": "Cita Q13 · E3, p. 4",
+      "ruta": "fdo/objetos/citas/Q13.json"
+    },
+    {
+      "id": "Q14",
+      "pid": "urn:uuid:754c7bac-2ccc-59f5-9227-587013e0abfd",
+      "tipo": "Cita",
+      "titulo": "Cita Q14 · E3, p. 5",
+      "ruta": "fdo/objetos/citas/Q14.json"
+    },
+    {
+      "id": "Q15",
+      "pid": "urn:uuid:45cf14fa-0e0f-536c-ae77-3c961ef8e40b",
+      "tipo": "Cita",
+      "titulo": "Cita Q15 · E3, p. 5",
+      "ruta": "fdo/objetos/citas/Q15.json"
+    },
+    {
+      "id": "Q35",
+      "pid": "urn:uuid:059085b2-f7a0-505f-94ce-7e9a40fa151f",
+      "tipo": "Cita",
+      "titulo": "Cita Q35 · E3, p. 3",
+      "ruta": "fdo/objetos/citas/Q35.json"
+    },
+    {
+      "id": "Q46",
+      "pid": "urn:uuid:40ae8c18-b006-57a8-ae92-e9fd62e9cc34",
+      "tipo": "Cita",
+      "titulo": "Cita Q46 · E3, p. 5",
+      "ruta": "fdo/objetos/citas/Q46.json"
+    },
+    {
+      "id": "Q36",
+      "pid": "urn:uuid:50ea8b47-4625-56f5-a994-e676cdfe6476",
+      "tipo": "Cita",
+      "titulo": "Cita Q36 · E3, p. 4",
+      "ruta": "fdo/objetos/citas/Q36.json"
+    },
+    {
+      "id": "Q16",
+      "pid": "urn:uuid:9d730762-3c92-5c8a-8037-4aaa9c63b213",
+      "tipo": "Cita",
+      "titulo": "Cita Q16 · E4, p. 1",
+      "ruta": "fdo/objetos/citas/Q16.json"
+    },
+    {
+      "id": "Q17",
+      "pid": "urn:uuid:697ef4a9-f1a0-5c36-bf14-7e78b6d5d02b",
+      "tipo": "Cita",
+      "titulo": "Cita Q17 · E4, p. 2",
+      "ruta": "fdo/objetos/citas/Q17.json"
+    },
+    {
+      "id": "Q18",
+      "pid": "urn:uuid:58fbb890-66e9-55ae-9120-60b11b5cf25f",
+      "tipo": "Cita",
+      "titulo": "Cita Q18 · E4, p. 6",
+      "ruta": "fdo/objetos/citas/Q18.json"
+    },
+    {
+      "id": "Q19",
+      "pid": "urn:uuid:0f8f6bdf-dba8-52e7-a66c-43f96ecf7eb3",
+      "tipo": "Cita",
+      "titulo": "Cita Q19 · E4, p. 8",
+      "ruta": "fdo/objetos/citas/Q19.json"
+    },
+    {
+      "id": "Q20",
+      "pid": "urn:uuid:2cef8a3d-f1e0-5cb8-a6f5-9a2e373d46fd",
+      "tipo": "Cita",
+      "titulo": "Cita Q20 · E4, p. 8",
+      "ruta": "fdo/objetos/citas/Q20.json"
+    },
+    {
+      "id": "Q37",
+      "pid": "urn:uuid:4c98d1a1-2a46-527b-a393-3d85e4f8684d",
+      "tipo": "Cita",
+      "titulo": "Cita Q37 · E4, p. 2",
+      "ruta": "fdo/objetos/citas/Q37.json"
+    },
+    {
+      "id": "Q38",
+      "pid": "urn:uuid:3aa6e75b-8800-56b6-8138-bbbffffbd400",
+      "tipo": "Cita",
+      "titulo": "Cita Q38 · E4, p. 1",
+      "ruta": "fdo/objetos/citas/Q38.json"
+    },
+    {
+      "id": "Q39",
+      "pid": "urn:uuid:babfc9bb-eee7-54bc-a070-073da4ace7e0",
+      "tipo": "Cita",
+      "titulo": "Cita Q39 · E4, p. 2",
+      "ruta": "fdo/objetos/citas/Q39.json"
+    },
+    {
+      "id": "Q21",
+      "pid": "urn:uuid:d498b600-e076-5e38-a013-b79c90ddb03a",
+      "tipo": "Cita",
+      "titulo": "Cita Q21 · E5, p. 2",
+      "ruta": "fdo/objetos/citas/Q21.json"
+    },
+    {
+      "id": "Q22",
+      "pid": "urn:uuid:1881e41d-1ab5-5a86-bb1d-a37a3adf2375",
+      "tipo": "Cita",
+      "titulo": "Cita Q22 · E5, p. 2",
+      "ruta": "fdo/objetos/citas/Q22.json"
+    },
+    {
+      "id": "Q23",
+      "pid": "urn:uuid:782697f2-130d-5393-b42a-ddbb03f1a824",
+      "tipo": "Cita",
+      "titulo": "Cita Q23 · E5, p. 3",
+      "ruta": "fdo/objetos/citas/Q23.json"
+    },
+    {
+      "id": "Q24",
+      "pid": "urn:uuid:becfcfc9-477e-59bd-810e-8a89971ad122",
+      "tipo": "Cita",
+      "titulo": "Cita Q24 · E5, p. 6",
+      "ruta": "fdo/objetos/citas/Q24.json"
+    },
+    {
+      "id": "Q25",
+      "pid": "urn:uuid:d9d1d4f8-2102-5964-bcb8-efea619f3f58",
+      "tipo": "Cita",
+      "titulo": "Cita Q25 · E5, p. 10",
+      "ruta": "fdo/objetos/citas/Q25.json"
+    },
+    {
+      "id": "Q40",
+      "pid": "urn:uuid:0d9d4d8c-b61c-51c6-9240-1727fb45d148",
+      "tipo": "Cita",
+      "titulo": "Cita Q40 · E5, p. 4",
+      "ruta": "fdo/objetos/citas/Q40.json"
+    },
+    {
+      "id": "Q41",
+      "pid": "urn:uuid:19bd3743-e92c-5664-bf4b-d3e09851dcfa",
+      "tipo": "Cita",
+      "titulo": "Cita Q41 · E5, p. 4",
+      "ruta": "fdo/objetos/citas/Q41.json"
+    },
+    {
+      "id": "Q42",
+      "pid": "urn:uuid:06a8f78f-d99e-5911-b2a7-e32776a4515d",
+      "tipo": "Cita",
+      "titulo": "Cita Q42 · E5, p. 8",
+      "ruta": "fdo/objetos/citas/Q42.json"
+    },
+    {
+      "id": "Q43",
+      "pid": "urn:uuid:86340fa4-ea40-5f22-bd89-44763803aae2",
+      "tipo": "Cita",
+      "titulo": "Cita Q43 · E5, p. 10",
+      "ruta": "fdo/objetos/citas/Q43.json"
+    },
+    {
+      "id": "Q44",
+      "pid": "urn:uuid:12a1edce-3e04-5dbe-a501-3e779a6f3bef",
+      "tipo": "Cita",
+      "titulo": "Cita Q44 · E5, p. 10",
+      "ruta": "fdo/objetos/citas/Q44.json"
+    },
+    {
+      "id": "Q45",
+      "pid": "urn:uuid:a57bb30b-75be-52a0-a8ef-41edda2e1516",
+      "tipo": "Cita",
+      "titulo": "Cita Q45 · E5, p. 5",
+      "ruta": "fdo/objetos/citas/Q45.json"
+    },
+    {
+      "id": "P1",
+      "pid": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c",
+      "tipo": "Perfil",
+      "titulo": "La coordinadora del encargo",
+      "ruta": "fdo/objetos/perfiles/P1.json"
+    },
+    {
+      "id": "P2",
+      "pid": "urn:uuid:f010fc57-562a-5c24-890b-956553a7e329",
+      "tipo": "Perfil",
+      "titulo": "El analista territorial",
+      "ruta": "fdo/objetos/perfiles/P2.json"
+    },
+    {
+      "id": "P3",
+      "pid": "urn:uuid:e1472d19-a0d4-5615-845b-21ee745813a5",
+      "tipo": "Perfil",
+      "titulo": "La usuaria administrativa",
+      "ruta": "fdo/objetos/perfiles/P3.json"
+    },
+    {
+      "id": "P4",
+      "pid": "urn:uuid:9ed9b4ce-01aa-52b2-a64a-82201d378d06",
+      "tipo": "Perfil",
+      "titulo": "El desarrollador",
+      "ruta": "fdo/objetos/perfiles/P4.json"
+    },
+    {
+      "id": "P5",
+      "pid": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204",
+      "tipo": "Perfil",
+      "titulo": "El cartógrafo de alcaldía",
+      "ruta": "fdo/objetos/perfiles/P5.json"
+    },
+    {
+      "id": "N1",
+      "pid": "urn:uuid:6ace627a-16e9-532c-bc5b-675a1ea14630",
+      "tipo": "Necesidad",
+      "titulo": "Saber qué capa y qué elemento estoy viendo (tipo, clave, nombre, alcance) para usar la referencia adecuada.",
+      "ruta": "fdo/objetos/necesidades/N1.json"
+    },
+    {
+      "id": "N2",
+      "pid": "urn:uuid:8baf25c8-2643-5af3-8180-a7df266c68b5",
+      "tipo": "Necesidad",
+      "titulo": "Conocer origen, versión y el significado de cada fecha para decidir si la capa sirve a mi tarea.",
+      "ruta": "fdo/objetos/necesidades/N2.json"
+    },
+    {
+      "id": "N3",
+      "pid": "urn:uuid:29cc95f8-0a6d-5088-8302-d5522004b01b",
+      "tipo": "Necesidad",
+      "titulo": "Descargar la misma versión que consulté, con claves y documentación.",
+      "ruta": "fdo/objetos/necesidades/N3.json"
+    },
+    {
+      "id": "N4",
+      "pid": "urn:uuid:46c44e29-acfe-5e88-aa17-41e4009e3167",
+      "tipo": "Necesidad",
+      "titulo": "Entender opciones y límites sin capacitación previa.",
+      "ruta": "fdo/objetos/necesidades/N4.json"
+    },
+    {
+      "id": "N5",
+      "pid": "urn:uuid:e2beac35-c221-5b91-860c-a08ffacbf286",
+      "tipo": "Necesidad",
+      "titulo": "Saber qué puedo hacer con mi perfil y por qué algo no está disponible.",
+      "ruta": "fdo/objetos/necesidades/N5.json"
+    },
+    {
+      "id": "N6",
+      "pid": "urn:uuid:e82af71c-0d2b-5557-bf0a-ad6cae01f41e",
+      "tipo": "Necesidad",
+      "titulo": "Saber a quién preguntar y si mi duda llegó a la fuente.",
+      "ruta": "fdo/objetos/necesidades/N6.json"
+    },
+    {
+      "id": "N7",
+      "pid": "urn:uuid:957be1da-f9ed-5ce2-bc51-c6e08352ba1e",
+      "tipo": "Necesidad",
+      "titulo": "Reconocer qué cambió entre versiones y si puedo comparar con un análisis anterior.",
+      "ruta": "fdo/objetos/necesidades/N7.json"
+    },
+    {
+      "id": "N8",
+      "pid": "urn:uuid:e15625ba-831c-5d3b-b80c-743bb3755c7a",
+      "tipo": "Necesidad",
+      "titulo": "Retomar el proyecto sin depender de quien lo construyó.",
+      "ruta": "fdo/objetos/necesidades/N8.json"
+    },
+    {
+      "id": "HU-01",
+      "pid": "urn:uuid:4dc8058c-d35f-5e61-8c27-77f02b23597d",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Saber qué estoy viendo",
+      "ruta": "fdo/objetos/historias/HU-01.json"
+    },
+    {
+      "id": "HU-02",
+      "pid": "urn:uuid:1c99cf19-b1b5-5877-b424-45d074bb44f5",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Fuente y fechas en palabras claras",
+      "ruta": "fdo/objetos/historias/HU-02.json"
+    },
+    {
+      "id": "HU-03",
+      "pid": "urn:uuid:98fd3096-4933-5888-b727-ecb49aa6abd3",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Descargar la misma versión con su ficha",
+      "ruta": "fdo/objetos/historias/HU-03.json"
+    },
+    {
+      "id": "HU-04",
+      "pid": "urn:uuid:10418540-9e0a-52c4-9cb2-cd58b51f2811",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Entender el visor sin que me lo expliquen",
+      "ruta": "fdo/objetos/historias/HU-04.json"
+    },
+    {
+      "id": "HU-05",
+      "pid": "urn:uuid:d3f5c702-f80b-517a-aab8-a8c7f3578dd7",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Saber qué puedo hacer con mi perfil",
+      "ruta": "fdo/objetos/historias/HU-05.json"
+    },
+    {
+      "id": "HU-06",
+      "pid": "urn:uuid:c6e1caa8-9288-56c3-b436-9e26e61e3181",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Reportar una duda y seguir su estado",
+      "ruta": "fdo/objetos/historias/HU-06.json"
+    },
+    {
+      "id": "HU-07",
+      "pid": "urn:uuid:a7ad4ebd-052b-5a8f-bf11-e60259fe9d7e",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Incorporar una nueva versión autorizada",
+      "ruta": "fdo/objetos/historias/HU-07.json"
+    },
+    {
+      "id": "HU-08",
+      "pid": "urn:uuid:f202db6b-9e57-5a01-b301-cd26ca3fefea",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Cargar la capa sin alterar la fuente",
+      "ruta": "fdo/objetos/historias/HU-08.json"
+    },
+    {
+      "id": "HU-09",
+      "pid": "urn:uuid:e268004d-ccd4-5212-b0fd-4aa99eb179ee",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Retomar el proyecto sin depender de nadie",
+      "ruta": "fdo/objetos/historias/HU-09.json"
+    },
+    {
+      "id": "HU-10",
+      "pid": "urn:uuid:13dadc80-9d7d-5f1d-ba77-1c4f52c75fee",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Probar con una tarea real sin guiar",
+      "ruta": "fdo/objetos/historias/HU-10.json"
+    },
+    {
+      "id": "HU-11",
+      "pid": "urn:uuid:ea48733a-362a-5c0e-a446-fbff1aae3578",
+      "tipo": "HistoriaDeUsuario",
+      "titulo": "Fase 2: buscar direcciones y cruzar capas nuevas",
+      "ruta": "fdo/objetos/historias/HU-11.json"
+    }
+  ]
+}

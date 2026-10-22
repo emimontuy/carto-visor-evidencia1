@@ -1,0 +1,5 @@
+﻿id,tema,codigos,hallazgos,segmentos
+E4-A01,Definir y diagnosticar una consulta,E4-C00 | E4-C01 | E4-C02 | E4-C03 | E4-C05,E4-H01 | E4-H02 | E4-H05,E4-S01 | E4-S02 | E4-S03 | E4-S04 | E4-S05 | E4-S06 | E4-S07 | E4-S09 | E4-S10 | E4-S13 | E4-S43 | E4-S46
+E4-A02,Conservar identidad fuente y versión,E4-C04 | E4-C07 | E4-C08 | E4-C09 | E4-C10 | E4-C17,E4-H03 | E4-H04 | E4-H08,E4-S08 | E4-S15 | E4-S16 | E4-S17 | E4-S18 | E4-S19 | E4-S20 | E4-S21 | E4-S22 | E4-S27 | E4-S34 | E4-S35
+E4-A03,Comprender y probar con acceso autorizado,E4-C10 | E4-C11 | E4-C14 | E4-C15 | E4-C16 | E4-C18,E4-H05 | E4-H06,E4-S23 | E4-S24 | E4-S28 | E4-S29 | E4-S30 | E4-S31 | E4-S32 | E4-S33 | E4-S36 | E4-S37 | E4-S38
+E4-A04,Entregar una solución que pueda continuarse,E4-C06 | E4-C09 | E4-C12 | E4-C13 | E4-C19,E4-H01 | E4-H07 | E4-H08,E4-S11 | E4-S12 | E4-S14 | E4-S20 | E4-S25 | E4-S26 | E4-S39 | E4-S40 | E4-S41 | E4-S42 | E4-S44 | E4-S45

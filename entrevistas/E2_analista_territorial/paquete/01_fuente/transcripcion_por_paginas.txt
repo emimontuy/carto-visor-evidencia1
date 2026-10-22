@@ -1,0 +1,315 @@
+ 
+Transcripción entrevista con [Analista territorial] 
+Entrevistador: Emilio Gómez Montuy. Perfil considerado: planeación territorial en una empresa de telecomunicaciones y experiencia 
+previa en análisis gubernamental de posibles ubicaciones para escuelas e instalaciones públicas. 
+Emilio: Qué onda, ¿cómo estás? Pues primero que nada, muchas gracias por darte el tiempo. 
+Como te había comentado, estamos trabajando en un proyecto de la universidad con la ADIP que se llama 
+Carto-Visor. Básicamente queremos entender cómo se usa la información de los mapas para tomar 
+decisiones y qué dificultades hay cuando esa información viene de diferentes lugares. 
+[Analista territorial]: Hola, Emi. Bien, muchas gracias. Sí, claro, con mucho gusto. Me habías contado un poquito y 
+creo que sí hay varias cosas que se relacionan con lo que he hecho. 
+Emilio: Sí, justamente. Ahorita estamos en la primera parte, que es hacer entrevistas para entender bien el 
+problema. Todavía no queremos asumir que ya sabemos qué necesita todo el mundo. Entonces me 
+gustaría preguntarte de tu experiencia actual y también de cuando trabajabas en gobierno. No necesitamos 
+que compartas información interna de tu trabajo, más bien cómo haces las cosas y con qué problemas te 
+has encontrado. 
+[Analista territorial]: Sí, está bien. Te puedo hablar de mi experiencia en general. De proyectos actuales hay cosas que 
+no podría compartir, pero la parte de cómo analizas un territorio y cómo organizas la información sí la 
+podemos platicar. 
+Emilio: Perfecto, muchas gracias. Para empezar, ¿nos podrías contar un poquito a qué te dedicas 
+actualmente y qué hacías antes en gobierno? 
+[Analista territorial]: Actualmente trabajo en una empresa de telecomunicaciones, en la parte de planeación territorial. Mi trabajo está relacionado 
+con analizar zonas y entender cómo se distribuyen ciertas necesidades en el territorio. Antes trabajaba en 
+gobierno y participaba en análisis para identificar dónde podía ser conveniente ubicar equipamiento, por 
+ejemplo escuelas o instalaciones de alguna dependencia. Nos tocaba revisar el entorno, la población a la 
+que iba a atender y las condiciones del lugar. No era solamente encontrar un terreno vacío. 
+Emilio: Cuando dices analizar una zona, ¿cómo se ve eso en tu día a día? O sea, ¿qué te llega y qué tienes 
+que entregar tú? 
+[Analista territorial]: Normalmente empiezas con una pregunta. Puede ser revisar una zona determinada o comparar 
+varias alternativas. Después buscas la información que te permita responderla, la ubicas en un mapa y vas 
+haciendo cruces. El resultado no siempre es un mapa muy elaborado; a veces es una comparación de 
+opciones con una explicación de por qué conviene revisar una y descartar otra. También tienes que decir 
+qué cosas todavía no sabes. El mapa ayuda, pero lo que te están pidiendo es una recomendación que se 
+pueda justificar. 
+Emilio: Va, entiendo. Y de lo que hacías antes, ¿me podrías contar algún caso que recuerdes? Por 
+ejemplo, uno de una escuela, para ir entendiendo el proceso con algo más concreto. Sin nombres ni 
+ubicaciones exactas, si prefieres. 
+[Analista territorial]: Sí. Recuerdo una revisión de posibles ubicaciones para una escuela en una zona que estaba 
+creciendo. Había terrenos que, viendo solamente el mapa, parecían buenas opciones. La idea era revisar si 
+realmente ayudaban a cubrir la necesidad de la población de esa zona. Empezamos viendo dónde estaban 
+las escuelas existentes, cómo se distribuía la población y qué tan conectados estaban los terrenos. Pero al 
+avanzar aparecieron cosas que no se veían en la primera revisión: accesos complicados, servicios que 
+había que confirmar y dudas sobre la disponibilidad de algunos espacios. Entonces la lista inicial fue 
+cambiando. 
+1 
+ 
+Emilio: O sea, en ese caso, ¿la necesidad de la escuela ya estaba identificada y ustedes buscaban dónde 
+ponerla, o también tenían que comprobar si hacía falta? 
+[Analista territorial]: Había una solicitud y una percepción de que hacía falta. Nosotros teníamos que revisar qué tanto 
+la información respaldaba eso y en qué parte tenía más sentido. Que haya crecimiento de población no te 
+dice automáticamente dónde construir. También necesitas saber quiénes son esas personas, qué oferta 
+existe alrededor y si pueden llegar a ella. Y había información, como la capacidad real de las escuelas, 
+que tenía que confirmar el área correspondiente. Nosotros no la podíamos inventar a partir de los puntos 
+del mapa. 
+Emilio: Sí, claro. Entonces, ¿qué información necesitabas primero y de dónde la conseguías? 
+[Analista territorial]: Información de población, ubicación de los servicios existentes, vialidades, algunos límites 
+territoriales y datos de los terrenos que se estaban considerando. Parte venía de fuentes públicas, como 
+información estadística; otra parte la solicitábamos a las áreas que tenían los registros. Los terrenos 
+podían venir en un listado con direcciones, y los servicios en otro archivo. Primero revisábamos qué 
+teníamos, qué tan reciente era y qué faltaba. Había ocasiones en las que el problema no era que no 
+existiera el dato, sino que no sabíamos quién tenía la versión que debíamos usar. 
+Emilio: Eso se parece un poco a lo que nos platicó [Directora ADIP]. Ella nos decía que diferentes dependencias 
+podían usar capas distintas y al cruzarlas les salían resultados diferentes. En tu caso, ¿te pasó algo así? 
+[Analista territorial]: Sí, aunque no siempre era un problema del límite como tal. Podías tener una lista con el nombre 
+de una colonia y un mapa donde aparecía con otro nombre o con una delimitación diferente. También 
+pasaba que una ubicación estaba registrada con una dirección poco precisa. En una tabla parecía que 
+estaba en una zona y, al ubicarla, quedaba muy cerca del límite o del otro lado. Eso te obligaba a revisar. 
+Si solamente hacías el cruce automático y seguías, podías dar por bueno algo que todavía no estaba 
+confirmado. 
+Emilio: Y cuando te encontrabas con eso, qué hacías? ¿Quién decidía cuál información sí se iba a 
+utilizar? 
+[Analista territorial]: Primero tratábamos de entender la diferencia. Si era un error de captura, si estábamos usando 
+versiones de años distintos o si cada área estaba hablando de una división diferente. Después lo 
+revisábamos con quien había entregado la información y con el responsable del análisis. No siempre 
+quedaba resuelto en ese momento. A veces trabajábamos con una referencia acordada y dejábamos 
+anotada la limitación. Lo importante era no cambiar silenciosamente el dato original y que después nadie 
+entendiera de dónde había salido el resultado. 
+Emilio: ¿Y eso cómo lo dejaban anotado? Porque me imagino que después otra persona podía agarrar el 
+archivo y no saber que habían hecho esa revisión. 
+[Analista territorial]: Exactamente. Podía quedar en una nota del proyecto o en la tabla de trabajo, con la fuente, la 
+fecha y la observación. Pero no siempre estaba todo en el mismo lugar. A veces parte de la explicación se 
+quedaba en un correo. Si tú seguías en el proyecto, recordabas por qué se había tomado una decisión; si 
+llegaba alguien nuevo, tenía que reconstruirlo. Esa es una de las cosas que yo mejoraría: que la 
+explicación viaje junto con el archivo, aunque sea con una ficha sencilla. 
+Emilio: Va. Y regresando al caso de la escuela, hubo algo que les cambiara la idea después de ver el lugar 
+directamente? 
+[Analista territorial]: Sí. Una de las opciones parecía bien conectada porque en el mapa se veía una vialidad cercana. 
+Pero al revisar el recorrido, el acceso para la población que queríamos atender no era tan directo. Había 
+2 
+ 
+una barrera que hacía que el trayecto fuera más largo de lo que sugería la distancia en línea recta. Eso no 
+significaba que el terreno quedara descartado automáticamente, pero sí que teníamos que reconsiderar su 
+ventaja frente a otras opciones. Ahí ves por qué una visita o una validación local puede cambiar lo que 
+creías al inicio. 
+Emilio: Ah, sí. Entonces estar cerca no necesariamente significa poder llegar fácil. 
+[Analista territorial]: Así es. Y también depende de quién va a llegar. No es lo mismo un adulto en coche que un niño 
+caminando con su familia. Para una escuela, por ejemplo, hay que pensar en el recorrido cotidiano. A 
+veces una zona tiene un servicio relativamente cerca, pero una avenida grande o la falta de un cruce 
+adecuado complica el acceso. Si solamente dibujas un círculo alrededor de la escuela, puedes perder eso. 
+Emilio: Perfecto. Ahora me gustaría hacer un ejercicio que vimos en clase. Si ordenaras todo ese proceso 
+en una línea del tiempo, desde que llega la solicitud hasta que ustedes entregan una recomendación, ¿qué 
+pasos pondrías? 
+[Analista territorial]: Yo pondría primero aclarar la necesidad: qué se quiere resolver, para quién y en qué territorio. 
+Después identificar qué información existe y pedir la que falta. Luego revisar y preparar los archivos para 
+que se puedan comparar. Con eso haces una primera selección de opciones. Después viene validar con 
+otras áreas y, cuando se puede, revisar en campo. Al final comparas las alternativas y entregas una 
+recomendación con sus razones y sus pendientes. Pero no es una línea completamente recta. En la 
+validación puedes descubrir que te falta información y volver atrás. 
+Emilio: ¿En qué parte se detenía más? O sea, ¿qué era lo que más trabajo te costaba sacar adelante? 
+[Analista territorial]: Conseguir una respuesta clara sobre información que dependía de otra área. Preparar un archivo 
+puede llevar tiempo, pero muchas veces tú puedes avanzar. Si necesitas confirmar la disponibilidad de un 
+terreno o la capacidad de un servicio, dependes de otra persona. También costaba cuando te llegaba 
+información nueva después de haber hecho el análisis. Tenías que revisar si cambiaba la recomendación o 
+solamente algún detalle. Por eso ayuda mucho acordar un corte y saber qué versión se está usando. 
+Emilio: Y una vez que entregaban la recomendación, ¿ustedes decidían dónde se iba a construir? 
+[Analista territorial]: No. Esa parte es importante. Nosotros aportábamos el análisis territorial, pero la decisión tenía 
+otros componentes: presupuesto, viabilidad técnica, revisión de los terrenos y prioridades del área 
+responsable. Nuestra recomendación podía decir que una alternativa era mejor en ciertos aspectos y peor 
+en otros. No era una autorización de construcción ni una decisión final. Y a veces nos pedían volver a 
+revisar una opción porque aparecía una condición que no habíamos considerado. 
+Emilio: Sí, claro. Ahora, para mapear a las personas que participan, ¿a quiénes pondrías alrededor de ese 
+proceso? No tanto nombres, más bien los equipos o los papeles que tienen. 
+[Analista territorial]: Pondría al área que detecta o recibe la necesidad, al equipo que hace el análisis, a las áreas que 
+producen la información y a quienes revisan la viabilidad de las opciones. También a quienes toman la 
+decisión y a la población que va a usar el servicio. En un proyecto de escuela, el área educativa tiene 
+información que nosotros no tenemos, como capacidad o necesidades de atención. Quien revisa el terreno 
+tiene otra parte. Y las personas de la zona pueden explicar problemas de acceso que no aparecen en la 
+base. 
+Emilio: En clase también nos propusieron pensar en esos actores como figuras, para explicar mejor su 
+papel. Por ejemplo, alguien que tiene la autoridad, alguien que busca información y alguien que conecta a 
+los demás. Si lo vemos así, ¿cómo los acomodarías? 
+3 
+ 
+[Analista territorial]: La autoridad sería quien tiene la responsabilidad de decidir y puede comprometer recursos. El que 
+busca información sería el analista, pero también los equipos que salen a validar. Y el que conecta puede 
+ser el responsable del proyecto, que consigue que las áreas hablen y que las dudas no se queden atoradas. 
+Aunque una misma persona puede tener varios papeles. No sé si los pondría como personajes fijos, 
+porque depende del proyecto. Lo que sí preguntaría es quién puede resolver cada duda y quién tiene que 
+aprobar cada paso. 
+Emilio: Sí, eso nos sirve. ¿Y la ciudadanía en qué momento entraba? Porque dices que ellos podían saber 
+cosas del lugar que ustedes no veían. 
+[Analista territorial]: Dependía del proyecto. A veces la necesidad llegaba por una solicitud de la comunidad; en otros 
+casos había una revisión más técnica. Yo no te diría que siempre había una participación formal, porque 
+no era igual en todos. Pero sí creo que escuchar a quienes usan el territorio ayuda a validar. Te pueden 
+explicar por dónde se camina, qué acceso no funciona o qué servicio realmente usan. Eso no reemplaza 
+los datos, pero te ayuda a interpretarlos y a detectar qué te falta revisar. 
+Emilio: Va. Ahora, pensando en las necesidades de información, si tuvieras enfrente un mapa, una tabla y 
+una gráfica, ¿qué escogerías para trabajar ese caso de la escuela y por qué? 
+[Analista territorial]: Empezaría por el mapa para entender la relación entre los lugares. Dónde está la población, dónde 
+están los servicios y dónde quedan las opciones. Después necesitaría una tabla para comparar atributos y 
+revisar las fuentes. Una gráfica puede ayudar a presentar diferencias, pero no sería lo primero para 
+explorar el territorio. En realidad los combinaría. El mapa te deja ver una relación; la tabla te permite 
+comprobar qué significa y qué datos la sostienen. 
+Emilio: ¿Qué tendría que aparecer al seleccionar un lugar en el mapa para que no tuvieras que estar 
+buscando en varios archivos? 
+[Analista territorial]: Un identificador, el nombre o descripción, la fuente y la fecha de la información. Después los 
+atributos que sean relevantes para ese tipo de lugar. Para un servicio, por ejemplo, no basta con saber que 
+existe: te interesa saber qué ofrece y si hay información de su capacidad. Pero no pondría todo de golpe. 
+Preferiría una ficha breve y una opción para ver más detalle. Y si algo no está disponible, que se note. Un 
+espacio vacío puede ser un dato faltante, no necesariamente que el valor sea cero. 
+Emilio: Eso último me llamó la atención. ¿Cómo distingues que en una zona no hay un servicio de que 
+simplemente no tienes la información? 
+[Analista territorial]: Revisando qué cubre la base. Si el archivo solamente tiene ciertos tipos de instalaciones o una 
+parte del territorio, no puedes concluir que donde no hay puntos no existe nada. Necesitas conocer el 
+alcance del registro. Y también confirmar si una instalación sigue operando. Es una pregunta muy básica, 
+pero cambia la interpretación. Antes de decir que una zona está desatendida, hay que saber si el dato 
+realmente permite decir eso. 
+Emilio: Y de todo esto, ¿qué cambia cuando lo llevas a tu trabajo actual? ¿Qué cosas de esa experiencia 
+en gobierno todavía te sirven? 
+[Analista territorial]: Me sirve empezar por la pregunta y revisar la escala del análisis. También comparar fuentes y no 
+asumir que una dirección o un límite están bien sólo porque vienen en un archivo. Ahora cambian el 
+objetivo y algunas variables que se consideran. Hay información interna que no es pública y que tiene sus 
+propias restricciones. Pero sigue siendo importante entender cómo se mueve la población, qué 
+características tiene una zona y qué cambia con el tiempo. La herramienta por sí sola no te explica el 
+territorio. 
+4 
+ 
+Emilio: Sin entrar en información interna, ¿me podrías dar un ejemplo de una duda territorial que tengas 
+que resolver actualmente? 
+[Analista territorial]: Una duda puede ser si una zona que parece poco relevante al verla por población residente tiene 
+una dinámica distinta durante el día. Hay lugares donde trabaja o transita mucha gente, aunque viva poca. 
+Entonces necesitas distinguir entre residencia y actividad. No te puedo dar cifras ni proyectos específicos, 
+pero esa diferencia es un ejemplo de por qué un mismo territorio se puede analizar de varias formas. Si 
+usas una sola variable, la lectura puede quedar incompleta. 
+Emilio: Sí, entiendo. Entonces, cuando nosotros hablamos de homologar la información, ¿sería correcto 
+pensar en que todas las áreas tengan exactamente el mismo mapa? 
+[Analista territorial]: No necesariamente. Perdón, ¿te refieres a que todas usen el mismo límite de referencia o a que 
+todas tengan las mismas divisiones de trabajo? 
+Emilio: Más bien el mismo límite de referencia, pero justo sí quisiera entender esa diferencia. Porque 
+nosotros al principio lo pensábamos un poco como juntar todo y que coincidiera. 
+[Analista territorial]: Una referencia común puede ayudar mucho. Pero una división operativa de seguridad, una zona de 
+atención de un servicio y una división administrativa pueden responder a cosas diferentes. No todo lo que 
+no coincide es un error. Lo que yo buscaría es que puedas comparar esas divisiones sabiendo qué 
+representa cada una. Que tengan identificadores, fuentes y una explicación clara. Si las fuerzas a ser 
+iguales, puedes quitarles el sentido para el que fueron creadas. 
+Emilio: Va, eso sí cambia un poquito cómo lo estábamos pensando. Y si dos áreas sí están hablando del 
+mismo tipo de límite, pero tienen versiones distintas, ¿cómo se podría resolver? 
+[Analista territorial]: Ahí necesitas acordar cuál es la referencia que se va a usar, para qué propósito y quién es 
+responsable de mantenerla. El equipo que construye el visor puede mostrar las versiones o facilitar la 
+comparación, pero no siempre le corresponde decidir cuál sustituye a la otra. Esa decisión hay que 
+hablarla con las áreas responsables. Yo, desde fuera, no te podría decir qué dependencia tendría la última 
+palabra en su proyecto. Esa pregunta sí se la dejaría muy clara a [Directora ADIP] y a quienes producen las capas. 
+Emilio: Sí, claro. [Directora ADIP] nos comentó que para esta primera versión vamos a trabajar con dos capas de 
+Seguridad Ciudadana, sectores y cuadrantes, y que entre ellas no había problemas de que una estuviera 
+desfasada respecto a la otra. En ese caso, ¿qué revisarías antes de subirlas al visor? 
+[Analista territorial]: Primero entendería qué representa cada capa y qué significa cada campo. Revisaría que los 
+archivos estén completos, que se puedan abrir, que los identificadores sean los que les entregaron y que 
+ambas se muestren en la ubicación esperada. También revisaría cómo se relacionan los cuadrantes con los 
+sectores, sin inventar una relación si no viene explicada. Si ya les dijeron que son compatibles, no partiría 
+de que hay que arreglarlas. Documentaría lo que recibieron y comprobaría que el visor lo presenta 
+correctamente. 
+Emilio: Y de esa documentación, ¿qué cosas pondrías sí o sí? Porque [Directora ADIP] le dio bastante importancia a 
+los metadatos, sobre todo para saber cuándo se actualizó la información. 
+[Analista territorial]: La fuente, el responsable, qué contiene la capa, el territorio que cubre, la fecha de los datos y la 
+fecha de publicación o entrega. Si hay un sistema de coordenadas o una referencia técnica necesaria para 
+trabajarla, también. Y las restricciones de uso. No tienen que ser veinte páginas para que sirva. Pero sí que 
+una persona pueda contestar de dónde viene, de cuándo es y para qué la puede usar. Yo distinguiría la 
+fecha del dato de la fecha en que lo subieron: subirlo hoy no significa que represente la situación de hoy. 
+5 
+ 
+Emilio: Exacto. Y sobre las actualizaciones, ella nos aclaró que no necesariamente eran anuales, sino 
+cuando la Secretaría las cambiara. Para nosotros, durante estas semanas, serían los mismos archivos. 
+¿Cómo dejarías eso para que después otro equipo pueda continuar? 
+[Analista territorial]: Dejaría identificado el archivo que usaron, su versión o fecha y de quién lo recibieron. También un 
+procedimiento sencillo para incorporar una nueva versión: quién la entrega, quién la revisa y quién 
+autoriza sustituir la anterior. Si todavía no está acordado, lo pondría como pendiente. No prometería una 
+actualización automática si no existe una forma acordada de recibir el cambio. Y si se conserva una 
+versión anterior, que se pueda distinguir claramente de la vigente. 
+Emilio: Ahora, algo que también nos pidieron es que las personas puedan consultar y descargar las capas. 
+En tu experiencia, ¿con poder verlas sería suficiente o sí necesitarías descargarlas? 
+[Analista territorial]: Para una consulta rápida, verlas puede ser suficiente. Para hacer un análisis más específico, 
+probablemente necesitaría descargarlas y cruzarlas con otros datos. Eso depende de los permisos. Si 
+puedo descargar, me serviría recibir la capa con su documentación, no solamente una imagen del mapa. Y 
+que lo que descargo corresponda a la versión que estaba viendo. También sería útil saber si estoy 
+descargando todo o sólo una selección, porque eso después puede generar confusiones. 
+Emilio: ¿Y qué diferencia habría entre el uso que le darías tú y el que le daría alguien que solamente tiene 
+que tomar una decisión con ese análisis? 
+[Analista territorial]: Yo necesitaría explorar, revisar atributos y comparar. La persona que decide puede necesitar una 
+vista más sencilla, con la información relevante y la posibilidad de verificar la fuente. No significa que no 
+pueda usar las mismas herramientas, pero no necesariamente quiere abrir todas las columnas. El riesgo es 
+diseñar sólo para el especialista y que los demás no entiendan, o simplificar tanto que el analista no pueda 
+comprobar nada. Una consulta básica y un acceso al detalle pueden convivir. 
+Emilio: [Directora ADIP] también nos decía que quería que la herramienta se entendiera sin tener que explicarles a 
+todos cómo usarla. Si tú la abrieras por primera vez, ¿qué te ayudaría a orientarte? 
+[Analista territorial]: Que vea claramente qué capas hay, cuál está encendida y cómo consultar un elemento. Que los 
+nombres se entiendan y haya una leyenda. Si sectores y cuadrantes usan colores demasiado parecidos, me 
+puede costar distinguirlos. También que no tenga que adivinar si un botón descarga, cambia la vista o abre 
+la información. No espero que no exista ninguna ayuda, pero sí poder hacer una consulta sencilla sin 
+depender de alguien. Eso lo probaría con personas que no participaron en el diseño. 
+Emilio: Y del tema de los usuarios y permisos, ¿cómo lo pensarías? Porque ahorita sería primero una 
+herramienta de uso institucional. 
+[Analista territorial]: Separaría consultar, descargar y modificar. Que alguien pueda ver no quiere decir que pueda 
+actualizar la capa. Y los permisos de descarga dependerán de lo que autorice el responsable de la 
+información. Para una primera prueba pueden definir esos papeles y dejar claro cómo se aplicarían. Ya 
+para una implementación real habría que validarlo con el área técnica y con quienes administran los 
+accesos. No te diría que un esquema específico es suficiente sin conocer sus reglas. 
+Emilio: Sí, claro. Y si tú estuvieras probando nuestra primera versión, que sólo tendría esas dos capas, 
+¿qué tarea te pedirías hacer para ver si realmente sirve? 
+[Analista territorial]: Buscaría un lugar, activaría una capa y luego la otra, y trataría de identificar el sector y el 
+cuadrante que corresponden. Revisaría los atributos y la fuente. Después intentaría descargar la 
+información, si el usuario que estoy usando tiene permiso. Me fijaría en dónde me pierdo o qué tengo que 
+preguntar. No necesitaría que metieran datos de escuelas para probar eso. Mi experiencia en planeación 
+6 
+ 
+sirve para revisar la consulta, pero no me vuelve el usuario que conoce la operación de Seguridad 
+Ciudadana. Esa parte tendrían que probarla también con ellos. 
+Emilio: Perfecto. Y pensando más adelante, sin meterlo ahorita en el entregable, ¿qué podría aportar una 
+herramienta así a alguien que haga análisis como los que tú hacías? 
+[Analista territorial]: Podría reducir el tiempo de localizar una referencia y saber si es la versión que debe usar. También 
+facilitar que dos equipos hablen sobre el mismo archivo. Si después hay otras capas bien documentadas, 
+puede ayudarte a explorar relaciones entre servicios y población. Pero no sustituiría toda la revisión de 
+una ubicación. Tener las capas juntas no confirma la disponibilidad de un terreno ni resuelve por sí solo la 
+capacidad de una escuela. Aporta una base para trabajar; la decisión sigue necesitando otras 
+verificaciones. 
+Emilio: ¿Qué tendría que pasar dentro de las instituciones para que no se quede como una página que se 
+ve bien, pero después nadie mantiene? 
+[Analista territorial]: Que alguien tenga la responsabilidad de mantenerla y que las áreas sepan cómo reportar cambios. 
+También que esté claro quién valida el contenido y quién resuelve una duda. Si para actualizar una capa 
+tienes que volver a buscar a todos desde cero, se complica. Y que la herramienta tenga un uso concreto. 
+No te podría decir con qué frecuencia revisar cada capa, porque depende de cómo se produce. Pero sí 
+dejaría un responsable y un mecanismo para confirmar si sigue vigente. 
+Emilio: Y cuando hay un cambio de equipo o llega alguien nuevo, ¿qué información le debería quedar 
+para poder retomar el trabajo? 
+[Analista territorial]: Los archivos, pero también las decisiones que se tomaron. Qué fuente se eligió, por qué, qué se 
+revisó y qué quedó pendiente. Un ejemplo de cómo se hace una consulta o se incorpora una actualización 
+también ayuda. No hace falta escribir cada correo, pero sí conservar lo que explica el resultado. En 
+proyectos territoriales pasa que tienes el mapa final y nadie sabe cómo se llegó a él. Después, cuando 
+cambia un dato, no sabes qué parte debes rehacer. 
+Emilio: Ya casi para terminar, ¿qué cosa te haría desconfiar de un visor, aunque visualmente estuviera 
+muy bien? 
+[Analista territorial]: Que no pueda encontrar la fuente o la fecha. También que los nombres sean ambiguos o que al 
+descargar vea algo diferente de lo que estaba consultando. Y que presente como definitiva una 
+información que tiene limitaciones. Un mapa se ve muy convincente, aunque esté hecho con datos 
+incompletos. Por eso la claridad sobre el contenido me parece tan importante como la presentación. Si 
+encuentro un error, también quisiera saber a quién avisarlo. 
+Emilio: Y si nos pudieras dejar tres recomendaciones para empezar, ¿cuáles serían? 
+[Analista territorial]: Primero, definan bien la consulta que quieren que una persona pueda hacer con esas dos capas. 
+Segundo, conserven la fuente, los identificadores y la información de la versión que recibieron. Tercero, 
+prueben la herramienta con usuarios distintos y observen qué hacen sin explicarles cada paso. Y, bueno, 
+una cosa que atraviesa las tres: anoten lo que todavía no está resuelto. Es mejor dejar una pregunta clara 
+que fingir que ya existe un acuerdo entre todas las áreas. 
+Emilio: Va, muchísimas gracias. Para ver si entendí bien, me llevo que no basta con reunir archivos: hay 
+que saber qué representa cada uno, quién lo mantiene y cómo se usa. También que tener límites diferentes 
+no siempre significa que uno está mal, y que el mapa ayuda a decidir, pero hay cosas que todavía se tienen 
+que revisar con otras personas o en campo. ¿Sí lo estoy entendiendo bien? 
+7 
+ 
+[Analista territorial]: Sí, así es. Y yo añadiría que todo eso depende de la pregunta que quieres resolver. No necesitas 
+toda la información para empezar, pero sí saber qué puedes concluir con la que tienes y qué no. Si logran 
+que eso sea claro para quien consulta, ya es una aportación útil. 
+Emilio: Perfecto, [Analista territorial]. Pues muchas gracias por tu tiempo y por explicarnos con esos ejemplos. Nos 
+sirve mucho escuchar a alguien que ha trabajado con el territorio desde otro tipo de proyectos. Vamos a 
+ordenar lo que platicamos para revisar qué preguntas tenemos que llevar con [Directora ADIP] y qué podemos probar 
+en el prototipo. 
+[Analista territorial]: Claro, Emilio, con mucho gusto. Espero que les sirva y que les vaya bien con el proyecto. 
+8

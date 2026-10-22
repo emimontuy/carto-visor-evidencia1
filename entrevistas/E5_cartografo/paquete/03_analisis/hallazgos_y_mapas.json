@@ -1,0 +1,714 @@
+{
+  "entrevista": "E5",
+  "version": "1.0.0",
+  "hallazgos": [
+    {
+      "id": "E5-H01",
+      "titulo": "La pregunta define qué registro puede contarse",
+      "hallazgo": "En el caso de alumbrado, un folio identifica una solicitud y no necesariamente una falla física distinta. [Cartógrafo] conserva registros y distingue posibles repeticiones de relaciones confirmadas. También advierte que reportes abundantes pueden responder a población, acceso al canal o avisos repetidos.",
+      "implicacion": "Definir propósito, unidad del registro y título del resultado antes de agregar. Para futuras capas de solicitudes, conservar excepciones y no presentar conteos como necesidad o prioridad operativa sin información adicional.",
+      "limite": "El caso proviene del trabajo municipal relatado. No demuestra defectos en las dos capas SSC ni incorpora alumbrado al MVP.",
+      "segmentos": [
+        "E5-S02",
+        "E5-S03",
+        "E5-S04",
+        "E5-S05",
+        "E5-S06",
+        "E5-S12",
+        "E5-S13"
+      ],
+      "codigos": [
+        "E5-C01",
+        "E5-C02",
+        "E5-C21"
+      ]
+    },
+    {
+      "id": "E5-H02",
+      "titulo": "La asignación dudosa debe seguir visible",
+      "hallazgo": "El relato distingue ubicaciones aproximadas y pendientes y admite una parte sin zona asignada cuando falta evidencia. Para futuros cruces, [Cartógrafo] explica que el zoom no mejora el dato y que un borde puede producir ninguna o varias coincidencias según la regla espacial.",
+      "implicacion": "Documentar precisión, regla y excepciones si se incorpora localización o asignación. Mantener una categoría pendiente y canalizar casos de borde, sin asignarlos por cercanía para completar resultados.",
+      "limite": "La localización de direcciones y el cruce de puntos quedan fuera de la consulta inicial de sectores y cuadrantes. La entrevista no prueba errores de precisión en SSC.",
+      "segmentos": [
+        "E5-S07",
+        "E5-S08",
+        "E5-S18",
+        "E5-S30",
+        "E5-S31"
+      ],
+      "codigos": [
+        "E5-C03",
+        "E5-C05",
+        "E5-C10"
+      ]
+    },
+    {
+      "id": "E5-H03",
+      "titulo": "Corregir una copia no cierra una incidencia en la fuente",
+      "hallazgo": "[Cartógrafo] relata que una duda puede regresar con la siguiente entrega si la corrección queda sólo en una copia o correo. La lista de incidencias necesita responsable, respuesta y seguimiento de su incorporación al registro original. El usuario puede describir la duda sin diagnosticar su causa.",
+      "implicacion": "Acordar un canal sencillo y un registro de capa, versión, elemento, descripción, estado y responsable. Distinguir reporte recibido, revisión, respuesta y corrección confirmada por la fuente; no prometer un plazo que no se acordó.",
+      "limite": "La respuesta depende de capacidad y atribuciones del área. E5 no acredita un sistema de tickets ni confirma que una corrección institucional ya se haya efectuado.",
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S14",
+        "E5-S18",
+        "E5-S47",
+        "E5-S48",
+        "E5-S49"
+      ],
+      "codigos": [
+        "E5-C04",
+        "E5-C05",
+        "E5-C06",
+        "E5-C19"
+      ]
+    },
+    {
+      "id": "E5-H04",
+      "titulo": "Homologar requiere reconocer diferencias legítimas",
+      "hallazgo": "Una colonia, una zona operativa y un área de atención pueden tener fines distintos aunque compartan nombre. Para un trabajo común, [Cartógrafo] propone acordar referencia y versión sin convertir ese acuerdo en consenso de toda la ciudad. Cambiar la división puede alterar totales aunque los registros sean los mismos.",
+      "implicacion": "Explicar propósito de cada capa y conservar identificadores y significados. No modificar límites para que coincidan ni mezclar referencias en disputa. Para comparar versiones, documentar cambios y correspondencias válidas para la pregunta.",
+      "limite": "El desacuerdo entre áreas y el cambio de totales son ejemplos generales. La compatibilidad inicial de SSC fue comunicada por Emilio y no verificada en la entrevista.",
+      "segmentos": [
+        "E5-S20",
+        "E5-S21",
+        "E5-S22",
+        "E5-S23",
+        "E5-S24",
+        "E5-S39"
+      ],
+      "codigos": [
+        "E5-C05",
+        "E5-C07",
+        "E5-C09",
+        "E5-C12",
+        "E5-C21"
+      ]
+    },
+    {
+      "id": "E5-H05",
+      "titulo": "La recepción debe conservar el original y comprobar su significado",
+      "hallazgo": "[Cartógrafo] recomienda guardar el paquete original con procedencia y componentes, revisar claves y campos y mantener las transformaciones identificadas. Las reglas dependen del diccionario y la capa: un vacío difiere de cero, una superposición puede ser válida y una unión puede multiplicar filas.",
+      "implicacion": "Preparar un descriptor de entrega y una carga de prueba. Registrar excepciones y confirmar reglas con SSC. Distinguir verificación de una reparación; las transformaciones justificadas generan derivados vinculados al original.",
+      "limite": "Son comprobaciones propuestas. No se recibieron ni analizaron archivos cartográficos en E5 y no se afirma que existan duplicados, huecos o incompatibilidades.",
+      "segmentos": [
+        "E5-S24",
+        "E5-S25",
+        "E5-S26",
+        "E5-S27",
+        "E5-S28",
+        "E5-S29",
+        "E5-S32"
+      ],
+      "codigos": [
+        "E5-C08",
+        "E5-C09",
+        "E5-C10"
+      ]
+    },
+    {
+      "id": "E5-H06",
+      "titulo": "La vigencia necesita versión y procedimiento de mantenimiento",
+      "hallazgo": "La fecha del dato, la recepción y la publicación representan momentos distintos y pueden no estar disponibles. Una referencia antigua puede seguir vigente. Una nueva entrega debe revisarse, autorizarse y conservar la versión previa, porque cambios de clave, zona o significado pueden afectar análisis anteriores.",
+      "implicacion": "Mostrar fechas con significado y ausencias explícitas. Mantener identificador de versión, nota de cambio y responsable de confirmación. Comprobar consulta y descarga tras un reemplazo sin prometer actualización automática o comparabilidad universal.",
+      "limite": "La ficha señala actualización anual. El recuerdo que [Cartógrafo] atribuye a una explicación de [Directora ADIP] no es una verificación independiente ni sustituye confirmar el procedimiento con ADIP y SSC.",
+      "segmentos": [
+        "E5-S36",
+        "E5-S37",
+        "E5-S38",
+        "E5-S39",
+        "E5-S44",
+        "E5-S60"
+      ],
+      "codigos": [
+        "E5-C05",
+        "E5-C08",
+        "E5-C11",
+        "E5-C12"
+      ]
+    },
+    {
+      "id": "E5-H07",
+      "titulo": "La consulta y el archivo deben conservar la misma referencia",
+      "hallazgo": "La tarea determina si se empieza por tabla, mapa o detalle técnico. [Cartógrafo] pide reconocer capa, tipo, clave, nombre y fuente sin inventar atributos. Para reutilizar necesita un archivo y documentación que permitan identificarlo incluso fuera del visor.",
+      "implicacion": "Mantener selección y ficha vinculadas y ofrecer etiquetas comprensibles con acceso al detalle. Anunciar descarga de la capa completa en el MVP, conservar claves y versión y abrir el archivo en otra sesión para contrastarlo.",
+      "limite": "Una tabla extensa, gráfica o exportación filtrada no son requisitos iniciales confirmados. Formato y acciones permitidas deben acordarse con ADIP según la entrega real.",
+      "segmentos": [
+        "E5-S33",
+        "E5-S34",
+        "E5-S35",
+        "E5-S40",
+        "E5-S41",
+        "E5-S42",
+        "E5-S50",
+        "E5-S52",
+        "E5-S53"
+      ],
+      "codigos": [
+        "E5-C09",
+        "E5-C11",
+        "E5-C13",
+        "E5-C14",
+        "E5-C15",
+        "E5-C16"
+      ]
+    },
+    {
+      "id": "E5-H08",
+      "titulo": "Una referencia común debe respetar las copias que permiten repetir análisis",
+      "hallazgo": "[Cartógrafo] distingue copias con versión y propósito de archivos ambiguos llamados última. Plantea como posibilidad que las copias sin identificación dificulten acuerdos y generen nuevas copias. La plataforma puede ayudar si tiene responsables, contexto y una vía para resolver dudas.",
+      "implicacion": "Facilitar localizar la versión pertinente y conservar documentación en la descarga. Registrar decisiones y pendientes para evitar depender de una persona. Evaluar adopción con tareas, sin exigir borrar archivos históricos ni interpretar más avisos como peor calidad.",
+      "limite": "El bucle y la resistencia son hipótesis o expectativas condicionales. No hay medición de copias, adopción o deterioro de calidad en los usuarios del Carto-Visor.",
+      "segmentos": [
+        "E5-S17",
+        "E5-S43",
+        "E5-S44",
+        "E5-S45",
+        "E5-S46",
+        "E5-S47",
+        "E5-S59",
+        "E5-S60"
+      ],
+      "codigos": [
+        "E5-C06",
+        "E5-C17",
+        "E5-C18",
+        "E5-C19",
+        "E5-C20"
+      ]
+    },
+    {
+      "id": "E5-H09",
+      "titulo": "El beneficio se prueba con una tarea correcta y perfiles pertinentes",
+      "hallazgo": "La prueba propuesta consiste en encontrar un cuadrante, reconocer la fuente y verificar la descarga sin guía paso a paso. [Cartógrafo] separa comprensión y validación operativa y pide comparar tareas antes y después, considerando ayudas y corrección. La utilidad institucional no demuestra por sí sola un servicio ciudadano mejor.",
+      "implicacion": "Acordar ejemplos con responsables SSC y probar con usuarios ADIP, además de perfiles de comprensión. Registrar condiciones y ayudas, establecer una referencia de la tarea actual y reportar resultados sólo después de medirlos.",
+      "limite": "E5 no incluye pruebas ni una línea base observada. No hay porcentajes de ahorro, tiempos de respuesta o impactos ciudadanos acreditados. El perfil municipal complementa la validación del encargo.",
+      "segmentos": [
+        "E5-S50",
+        "E5-S51",
+        "E5-S52",
+        "E5-S54",
+        "E5-S55",
+        "E5-S56",
+        "E5-S57",
+        "E5-S59"
+      ],
+      "codigos": [
+        "E5-C00",
+        "E5-C01",
+        "E5-C16",
+        "E5-C19",
+        "E5-C20",
+        "E5-C21"
+      ]
+    }
+  ],
+  "actores": [
+    {
+      "actor": "Persona que captura solicitudes",
+      "papel": "Registra folios, ubicaciones y descripciones",
+      "necesidad": "Conocer qué significa cada campo y cómo corregir una observación",
+      "facultad": "Aporta conocimiento de la captura; no se le atribuye autorización de publicación",
+      "estado": "Actor municipal mencionado; conviene incluir su perspectiva",
+      "segmentos": [
+        "E5-S15",
+        "E5-S19"
+      ]
+    },
+    {
+      "actor": "Administración de la base y responsable de origen",
+      "papel": "Mantiene el registro y recibe incidencias",
+      "necesidad": "Observaciones identificables y evidencia para incorporar cambios",
+      "facultad": "Controla la incorporación según reglas y autorizaciones del área",
+      "estado": "Función del proceso relatado, sin persona ni procedimiento único identificado",
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S15",
+        "E5-S18",
+        "E5-S49"
+      ]
+    },
+    {
+      "actor": "Personal de campo",
+      "papel": "Revisa referencias y realiza recorridos",
+      "necesidad": "Ubicaciones útiles y confirmación de casos dudosos",
+      "facultad": "Aporta evidencia operativa; interés alto en referencias correctas sin asumir poder de publicación",
+      "estado": "Actor del caso de alumbrado, no usuario inicial confirmado del visor SSC",
+      "segmentos": [
+        "E5-S14",
+        "E5-S15",
+        "E5-S19"
+      ]
+    },
+    {
+      "actor": "[Cartógrafo] y equipo de análisis",
+      "papel": "Revisan bases, asignaciones y resultados",
+      "necesidad": "Propósito claro, referencia territorial, diccionario y contacto de confirmación",
+      "facultad": "Detectan dudas y proponen correcciones; no sustituyen al administrador de la fuente",
+      "estado": "[Cartógrafo] entrevistado; perspectiva cartográfica de una alcaldía no identificada",
+      "segmentos": [
+        "E5-S01",
+        "E5-S03",
+        "E5-S09",
+        "E5-S18",
+        "E5-S24"
+      ]
+    },
+    {
+      "actor": "Solicitante y responsable de decisión",
+      "papel": "Piden el resultado y pueden decidir recorridos o recursos",
+      "necesidad": "Análisis adecuado a la pregunta con limitaciones comprensibles",
+      "facultad": "El responsable puede autorizar entregas y tiempo; la decisión operativa requiere información adicional",
+      "estado": "Roles relatados; poder e interés dependen de la decisión concreta",
+      "segmentos": [
+        "E5-S03",
+        "E5-S12",
+        "E5-S15",
+        "E5-S16"
+      ]
+    },
+    {
+      "actor": "Persona que conecta áreas",
+      "papel": "Orienta contactos y aclara contexto",
+      "necesidad": "Contactos, decisiones y pendientes accesibles al equipo",
+      "facultad": "Facilita coordinación por conocimiento; puede ser distinta de la jefatura",
+      "estado": "Función mencionada; riesgo de depender de su memoria",
+      "segmentos": [
+        "E5-S14",
+        "E5-S17",
+        "E5-S19",
+        "E5-S49"
+      ]
+    },
+    {
+      "actor": "Ciudadanía",
+      "papel": "Reporta situaciones y recibe el servicio municipal",
+      "necesidad": "Atención del problema, que requiere recursos y decisiones además de un mapa",
+      "facultad": "Sus reportes aportan información; no acredita uso directo del prototipo institucional",
+      "estado": "Actor afectado y generador de reportes en el caso relatado",
+      "segmentos": [
+        "E5-S12",
+        "E5-S13",
+        "E5-S15",
+        "E5-S56"
+      ]
+    },
+    {
+      "actor": "ADIP y usuarios iniciales del reto",
+      "papel": "Definen consulta, aceptación, acceso y continuidad del prototipo",
+      "necesidad": "Tarea real con dos capas y entrega que pueda retomarse",
+      "facultad": "[Directora ADIP] y las personas que indique deben cerrar decisiones de alcance y validación",
+      "estado": "Actores del encargo, no entrevistados ni representados por [Cartógrafo] en E5",
+      "segmentos": [
+        "E5-S24",
+        "E5-S51",
+        "E5-S53",
+        "E5-S59",
+        "E5-S60"
+      ]
+    },
+    {
+      "actor": "SSC y responsable de las capas",
+      "papel": "Proveen y confirman el significado de sectores y cuadrantes",
+      "necesidad": "Versión, descripción, ejemplos y canal de dudas reconocibles",
+      "facultad": "Confirman divisiones y cambios según acuerdos institucionales",
+      "estado": "Función requerida por el reto; persona y procedimiento pendientes",
+      "segmentos": [
+        "E5-S24",
+        "E5-S27",
+        "E5-S37",
+        "E5-S38",
+        "E5-S51"
+      ]
+    },
+    {
+      "actor": "Tecnología y equipo que retoma",
+      "papel": "Apoyan accesos y continúan el consumo de archivos",
+      "necesidad": "Original, derivados, configuración, permisos y ejemplo verificable",
+      "facultad": "Implementan lo acordado; no deciden por sí solos la oficialidad territorial",
+      "estado": "Funciones de soporte y continuidad, por asignar en el reto",
+      "segmentos": [
+        "E5-S15",
+        "E5-S25",
+        "E5-S53",
+        "E5-S59",
+        "E5-S60"
+      ]
+    }
+  ],
+  "proceso": [
+    {
+      "paso": 1,
+      "actor": "Solicitante y analista",
+      "accion": "Aclarar propósito, decisión, periodo y unidad del registro",
+      "control": "Distinguir solicitudes de fallas y una descripción de una priorización",
+      "retorno": "Volver a definir datos y alcance si cambia la pregunta",
+      "segmentos": [
+        "E5-S02",
+        "E5-S03",
+        "E5-S04",
+        "E5-S11",
+        "E5-S12",
+        "E5-S13"
+      ]
+    },
+    {
+      "paso": 2,
+      "actor": "Fuente y analista",
+      "accion": "Conservar la entrega original e identificar campos y procedencia",
+      "control": "Paquete, documentación, versión, periodo y diccionario",
+      "retorno": "Preguntar por componentes o significados ausentes antes de convertir",
+      "segmentos": [
+        "E5-S06",
+        "E5-S11",
+        "E5-S25",
+        "E5-S26",
+        "E5-S27",
+        "E5-S36"
+      ]
+    },
+    {
+      "paso": 3,
+      "actor": "Analista",
+      "accion": "Revisar registros y ubicar casos del análisis municipal",
+      "control": "Repeticiones posibles, localización aproximada y pendientes visibles",
+      "retorno": "No borrar o asignar por cercanía sin evidencia suficiente",
+      "segmentos": [
+        "E5-S05",
+        "E5-S07",
+        "E5-S08",
+        "E5-S18"
+      ]
+    },
+    {
+      "paso": 4,
+      "actor": "Captura administración y campo",
+      "accion": "Aclarar incidencias y confirmar referencias",
+      "control": "Folio, duda, evidencia, respuesta y responsable",
+      "retorno": "Conservar estado pendiente si falta confirmación o capacidad de atención",
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S14",
+        "E5-S19",
+        "E5-S48",
+        "E5-S49"
+      ]
+    },
+    {
+      "paso": 5,
+      "actor": "Analista y responsables de la referencia",
+      "accion": "Acordar división, versión y reglas para el análisis",
+      "control": "Propósito de la unidad, claves, referencia espacial y excepciones",
+      "retorno": "Separar versiones en desacuerdo y documentar limitaciones",
+      "segmentos": [
+        "E5-S20",
+        "E5-S21",
+        "E5-S22",
+        "E5-S23",
+        "E5-S29",
+        "E5-S31",
+        "E5-S32"
+      ]
+    },
+    {
+      "paso": 6,
+      "actor": "Analista y usuario del resultado",
+      "accion": "Revisar la interpretación y preparar la entrega",
+      "control": "Título, conteo, selección, fuente, versión y parte pendiente",
+      "retorno": "Regresar a la pregunta si el mapa sugiere una decisión sin los datos necesarios",
+      "segmentos": [
+        "E5-S11",
+        "E5-S12",
+        "E5-S13",
+        "E5-S33",
+        "E5-S34",
+        "E5-S35"
+      ]
+    },
+    {
+      "paso": 7,
+      "actor": "Usuario autorizado y equipo de prueba",
+      "accion": "Consultar y abrir el archivo descargado",
+      "control": "Correspondencia de claves, ubicación, versión, alcance y documentación",
+      "retorno": "Corregir o explicar la diferencia entre lo anunciado y lo entregado",
+      "segmentos": [
+        "E5-S40",
+        "E5-S41",
+        "E5-S42",
+        "E5-S50",
+        "E5-S53"
+      ]
+    },
+    {
+      "paso": 8,
+      "actor": "Administración de la fuente y equipo que continúa",
+      "accion": "Devolver observaciones y registrar cambios autorizados",
+      "control": "Confirmación de incorporación, versión previa y decisiones recuperables",
+      "retorno": "Reabrir la duda si reaparece; no confundir respuesta con corrección aplicada",
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S38",
+        "E5-S39",
+        "E5-S49",
+        "E5-S60"
+      ]
+    }
+  ],
+  "empatia": [
+    {
+      "dimension": "Dice",
+      "contenido": "Necesita saber qué representa cada registro y qué referencia corresponde a la pregunta.",
+      "origen": "Criterios expresados por [Cartógrafo]",
+      "segmentos": [
+        "E5-S02",
+        "E5-S03",
+        "E5-S20",
+        "E5-S57"
+      ]
+    },
+    {
+      "dimension": "Hace",
+      "contenido": "Relata revisión de tablas, preservación de originales, confirmación de dudas y devolución de incidencias.",
+      "origen": "Práctica narrada y caso de alumbrado, sin observación directa",
+      "segmentos": [
+        "E5-S01",
+        "E5-S06",
+        "E5-S10",
+        "E5-S11",
+        "E5-S32"
+      ]
+    },
+    {
+      "dimension": "Piensa",
+      "contenido": "Prefiere conservar incertidumbre y reconocer cambios antes de interpretar un resultado como preciso o comparable.",
+      "origen": "Inferencia analítica respaldada por criterios expresados",
+      "segmentos": [
+        "E5-S08",
+        "E5-S18",
+        "E5-S21",
+        "E5-S30",
+        "E5-S39"
+      ]
+    },
+    {
+      "dimension": "Siente",
+      "contenido": "No declara una emoción individual precisa. Describe presión para completar totales y dificultades cuando la confirmación depende de otra persona.",
+      "origen": "Condiciones relatadas; se evita atribuir una emoción no expresada",
+      "segmentos": [
+        "E5-S08",
+        "E5-S14",
+        "E5-S17"
+      ]
+    },
+    {
+      "dimension": "Dificultades",
+      "contenido": "Unidades ambiguas, ubicaciones pendientes, cambios sin explicación y correcciones que no llegan a la fuente.",
+      "origen": "Caso y experiencias relatadas",
+      "segmentos": [
+        "E5-S04",
+        "E5-S05",
+        "E5-S07",
+        "E5-S09",
+        "E5-S10",
+        "E5-S14"
+      ]
+    },
+    {
+      "dimension": "Necesidades",
+      "contenido": "Referencia identificable, documentación útil, responsables, descarga con contexto y pruebas sobre resultados correctos.",
+      "origen": "Necesidades derivadas para validar con usuarios del reto",
+      "segmentos": [
+        "E5-S24",
+        "E5-S34",
+        "E5-S36",
+        "E5-S40",
+        "E5-S49",
+        "E5-S50",
+        "E5-S55",
+        "E5-S59",
+        "E5-S60"
+      ]
+    }
+  ],
+  "afinidad": [
+    {
+      "id": "E5-A01",
+      "tema": "Definir y comunicar lo que representa cada registro",
+      "codigos": [
+        "E5-C01",
+        "E5-C02",
+        "E5-C03",
+        "E5-C21"
+      ],
+      "hallazgos": [
+        "E5-H01",
+        "E5-H02"
+      ],
+      "segmentos": [
+        "E5-S02",
+        "E5-S03",
+        "E5-S04",
+        "E5-S05",
+        "E5-S06",
+        "E5-S07",
+        "E5-S08",
+        "E5-S12",
+        "E5-S13",
+        "E5-S18",
+        "E5-S30",
+        "E5-S31"
+      ]
+    },
+    {
+      "id": "E5-A02",
+      "tema": "Acordar referencia y conservar procedencia y versiones",
+      "codigos": [
+        "E5-C07",
+        "E5-C08",
+        "E5-C09",
+        "E5-C10",
+        "E5-C11",
+        "E5-C12"
+      ],
+      "hallazgos": [
+        "E5-H04",
+        "E5-H05",
+        "E5-H06"
+      ],
+      "segmentos": [
+        "E5-S20",
+        "E5-S21",
+        "E5-S22",
+        "E5-S23",
+        "E5-S24",
+        "E5-S25",
+        "E5-S26",
+        "E5-S27",
+        "E5-S28",
+        "E5-S29",
+        "E5-S32",
+        "E5-S36",
+        "E5-S37",
+        "E5-S38",
+        "E5-S39"
+      ]
+    },
+    {
+      "id": "E5-A03",
+      "tema": "Resolver dudas y distribuir responsabilidades",
+      "codigos": [
+        "E5-C04",
+        "E5-C05",
+        "E5-C06",
+        "E5-C15"
+      ],
+      "hallazgos": [
+        "E5-H03",
+        "E5-H08"
+      ],
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S14",
+        "E5-S15",
+        "E5-S16",
+        "E5-S17",
+        "E5-S19",
+        "E5-S47",
+        "E5-S48",
+        "E5-S49",
+        "E5-S53",
+        "E5-S60"
+      ]
+    },
+    {
+      "id": "E5-A04",
+      "tema": "Consultar y reutilizar la información con contexto",
+      "codigos": [
+        "E5-C11",
+        "E5-C13",
+        "E5-C14",
+        "E5-C15"
+      ],
+      "hallazgos": [
+        "E5-H07"
+      ],
+      "segmentos": [
+        "E5-S33",
+        "E5-S34",
+        "E5-S35",
+        "E5-S40",
+        "E5-S41",
+        "E5-S42",
+        "E5-S50",
+        "E5-S52",
+        "E5-S53"
+      ]
+    },
+    {
+      "id": "E5-A05",
+      "tema": "Comprobar adopción y utilidad sin adelantar beneficios",
+      "codigos": [
+        "E5-C00",
+        "E5-C16",
+        "E5-C17",
+        "E5-C18",
+        "E5-C19",
+        "E5-C20"
+      ],
+      "hallazgos": [
+        "E5-H08",
+        "E5-H09"
+      ],
+      "segmentos": [
+        "E5-S43",
+        "E5-S44",
+        "E5-S45",
+        "E5-S46",
+        "E5-S47",
+        "E5-S50",
+        "E5-S51",
+        "E5-S54",
+        "E5-S55",
+        "E5-S56",
+        "E5-S57",
+        "E5-S58",
+        "E5-S59"
+      ]
+    }
+  ],
+  "bucles": [
+    {
+      "id": "E5-L01",
+      "nombre": "Copias sin identificación y dificultad de acuerdo",
+      "tipo": "reforzador_hipotetico",
+      "relacion": "Dificultad para encontrar referencia confiable → creación de copias propias sin identificación → dificultad para acordar una referencia → dificultad para encontrar referencia confiable.",
+      "polaridad": "Relaciones propuestas positivas entre las variables descritas.",
+      "limite": "No incluye las copias históricas identificadas como un problema; requiere seguir casos y contrastar con otros equipos.",
+      "segmentos": [
+        "E5-S44",
+        "E5-S45",
+        "E5-S46"
+      ]
+    },
+    {
+      "id": "E5-L02",
+      "nombre": "Correcciones repetidas y documentación insuficiente",
+      "tipo": "reforzador_hipotetico",
+      "relacion": "Correcciones repetidas → tiempo disponible para documentar → documentación insuficiente → dudas recurrentes → correcciones repetidas.",
+      "polaridad": "Más correcciones reducen el tiempo disponible; más tiempo reduce documentación insuficiente. Más insuficiencia aumenta dudas y más dudas favorecen nuevas correcciones. El cierre es inferencia por contrastar.",
+      "limite": "La entrevista sugiere el mecanismo, pero no observa el ciclo completo ni mide tiempo de documentación.",
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S14",
+        "E5-S45",
+        "E5-S49"
+      ]
+    }
+  ]
+}

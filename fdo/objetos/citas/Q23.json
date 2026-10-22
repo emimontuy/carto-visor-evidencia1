@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:782697f2-130d-5393-b42a-ddbb03f1a824",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q23.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "8fa0487363c85cf970740191ed9bd3c354ca777f9a3196f34820cbc956c33890"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q23 · E5, p. 3",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q23",
+    "entrevista": "E5",
+    "pagina": 3,
+    "texto_literal": "Si está de vacaciones, te das cuenta de que el procedimiento era su memoria.",
+    "codigos": [
+      "T10"
+    ],
+    "fragmentos": [
+      "E5-S17"
+    ],
+    "transcripcion": "entrevistas/E5_cartografo/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E5-S17",
+      "ruta": "entrevistas/E5_cartografo/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

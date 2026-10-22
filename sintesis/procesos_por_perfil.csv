@@ -1,0 +1,28 @@
+perfil,proceso,paso,accion,es_punto_de_dolor,dolor,retorno,evidencia
+P1,ADIP: conseguir y compartir una capa,1,SSC genera polígonos y claves,,,,E1 p. 6; E1 p. 7
+P1,ADIP: conseguir y compartir una capa,2,ADIP pide la capa al dueño,sí,"por contacto, WhatsApp u oficio",,E1 p. 6; E1 p. 7
+P1,ADIP: conseguir y compartir una capa,3,Entrega en ZIP vía enlace,,,,E1 p. 6; E1 p. 7
+P1,ADIP: conseguir y compartir una capa,4,Técnico la sube,,,,E1 p. 6; E1 p. 7
+P1,ADIP: conseguir y compartir una capa,5,Usuarios consultan y descargan,,,"del paso 5 al 2: si cambia, volver a pedirla",E1 p. 6; E1 p. 7
+P2,Analista: de la pregunta a la recomendación,1,Aclarar necesidad,,,,E2 p. 3; E2 p. 2
+P2,Analista: de la pregunta a la recomendación,2,Inventariar y pedir datos,,,,E2 p. 3; E2 p. 2
+P2,Analista: de la pregunta a la recomendación,3,Preparar archivos,,,,E2 p. 3; E2 p. 2
+P2,Analista: de la pregunta a la recomendación,4,Seleccionar opciones,,,,E2 p. 3; E2 p. 2
+P2,Analista: de la pregunta a la recomendación,5,Validar con áreas y campo,sí,espera de otra área,del paso 5 al 2: falta información,E2 p. 3; E2 p. 2
+P2,Analista: de la pregunta a la recomendación,6,Recomendar con pendientes,,,,E2 p. 3; E2 p. 2
+P3,Usuaria: confirmar y compartir una sede,1,Entender qué lugar y para qué,,,,E3 p. 2; E3 p. 2
+P3,Usuaria: confirmar y compartir una sede,2,Revisar lo que ya tengo,,,,E3 p. 2; E3 p. 2
+P3,Usuaria: confirmar y compartir una sede,3,Buscar quién confirma,sí,confirmar tarda,del paso 3 al 1: sólo me dieron un nombre,E3 p. 2; E3 p. 2
+P3,Usuaria: confirmar y compartir una sede,4,Ubicar y ver acceso,,,,E3 p. 2; E3 p. 2
+P3,Usuaria: confirmar y compartir una sede,5,Compartir y guardar nota,,,,E3 p. 2; E3 p. 2
+P4,Desarrollador: incorporar una capa,1,Aclarar pregunta y usuario,,,,E4 p. 1; E4 p. 2
+P4,Desarrollador: incorporar una capa,2,Revisar archivo y ficha,,,,E4 p. 1; E4 p. 2
+P4,Desarrollador: incorporar una capa,3,Carga de prueba,,,,E4 p. 1; E4 p. 2
+P4,Desarrollador: incorporar una capa,4,Consulta con ejemplos confirmados,sí,esperar una definición,del paso 4 al 2: falta un campo o significado,E4 p. 1; E4 p. 2
+P4,Desarrollador: incorporar una capa,5,Prueba completa con usuario,,,,E4 p. 1; E4 p. 2
+P5,Cartógrafo: de la base recibida al resultado,1,Aclarar qué se cuenta,,,,E5 p. 2; E5 p. 2
+P5,Cartógrafo: de la base recibida al resultado,2,Guardar original y revisar,,,,E5 p. 2; E5 p. 2
+P5,Cartógrafo: de la base recibida al resultado,3,Ubicar y detectar dudas,,,,E5 p. 2; E5 p. 2
+P5,Cartógrafo: de la base recibida al resultado,4,Devolver dudas al área,sí,la corrección no llega a la fuente,del paso 4 al 3: aclaraciones,E5 p. 2; E5 p. 2
+P5,Cartógrafo: de la base recibida al resultado,5,Analizar con referencia acordada,,,,E5 p. 2; E5 p. 2
+P5,Cartógrafo: de la base recibida al resultado,6,Entregar con limitaciones,,,,E5 p. 2; E5 p. 2

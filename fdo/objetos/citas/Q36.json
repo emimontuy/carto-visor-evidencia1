@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:50ea8b47-4625-56f5-a994-e676cdfe6476",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q36.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "211f010c4d770215bf37c3f7e7a66d01e099adbc56f350b8cd075334ba0bd482"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q36 · E3, p. 4",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q36",
+    "entrevista": "E3",
+    "pagina": 4,
+    "texto_literal": "ya vayas directo con quien te ayuda y dejes de usar la página.",
+    "codigos": [
+      "T05"
+    ],
+    "fragmentos": [
+      "E3-S24"
+    ],
+    "transcripcion": "entrevistas/E3_usuaria_administrativa/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:e1472d19-a0d4-5615-845b-21ee745813a5"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E3-S24",
+      "ruta": "entrevistas/E3_usuaria_administrativa/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

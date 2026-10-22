@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "http://datacite.org/schema/kernel-4.5",
+  "identifiers": [
+    {
+      "identifier": "https://github.com/emimontuy/carto-visor-evidencia1",
+      "identifierType": "URL"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Gómez Montuy, Emilio",
+      "nameType": "Personal",
+      "givenName": "Emilio",
+      "familyName": "Gómez Montuy",
+      "affiliation": [
+        {
+          "name": "Tecnológico de Monterrey"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Carto-Visor · Evidencia 1: entrevistas, codificación y análisis de procesos, actores y necesidades de información territorial (CDMX)",
+      "lang": "es"
+    }
+  ],
+  "publisher": {
+    "name": "GitHub"
+  },
+  "publicationYear": "2026",
+  "types": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Entrevistas cualitativas codificadas"
+  },
+  "subjects": [
+    {
+      "subject": "design thinking"
+    },
+    {
+      "subject": "entrevistas semiestructuradas"
+    },
+    {
+      "subject": "codificación cualitativa"
+    },
+    {
+      "subject": "información territorial"
+    },
+    {
+      "subject": "cartografía"
+    },
+    {
+      "subject": "ADIP"
+    },
+    {
+      "subject": "Ciudad de México"
+    },
+    {
+      "subject": "innovación pública"
+    },
+    {
+      "subject": "FAIR"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Agencia Digital de Innovación Pública de la Ciudad de México",
+      "nameType": "Organizational",
+      "contributorType": "Sponsor"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2026-09-30/2026-10-15",
+      "dateType": "Collected",
+      "dateInformation": "Entrevistas"
+    },
+    {
+      "date": "2026-10-09/2026-10-15",
+      "dateType": "Created",
+      "dateInformation": "Codificación por entrevista"
+    },
+    {
+      "date": "2026-10-21",
+      "dateType": "Updated",
+      "dateInformation": "Anonimización, síntesis transversal y objetos FDO"
+    }
+  ],
+  "language": "es",
+  "version": "1.1.0",
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International (análisis)",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "CC-BY-4.0"
+    },
+    {
+      "rights": "MIT (código)",
+      "rightsIdentifier": "MIT"
+    },
+    {
+      "rights": "Transcripciones: uso académico restringido"
+    }
+  ],
+  "descriptions": [
+    {
+      "descriptionType": "Abstract",
+      "description": "Anexos de la Evidencia 1 del curso Diseño e implementación de innovaciones públicas (Gpo. 501, AD2026), reto Carto-Visor de la ADIP. Cinco entrevistas semiestructuradas anonimizadas (234 fragmentos) con personas que producen, consumen o construyen herramientas para la información cartográfica de la CDMX; transcripciones corregidas contra audio, libros de códigos, corpus codificados, síntesis transversal con 46 citas verificadas, perfiles, procesos, mapa de actores, visor ideal, y 8 necesidades y 11 historias de usuario publicadas como FAIR Digital Objects."
+    },
+    {
+      "descriptionType": "Methods",
+      "description": "Entrevistas semiestructuradas de design thinking; transcripción asistida por IA y corregida por el autor; codificación temática inductiva por fragmento con libro de códigos (inclusión, exclusión, ejemplo) asistida por LLM y revisada por el autor; síntesis transversal T01–T10; validación estructural automatizada de citas literales, identificadores y huellas SHA-256."
+    },
+    {
+      "descriptionType": "TechnicalInfo",
+      "description": "Formatos: CSV UTF-8, JSON con esquemas, Markdown, PDF, TXT, DOCX, PNG. Verificación: python scripts/verificar_entrega.py"
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/reporte/Evidencia1_Reporte_individual.pdf",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsSupplementTo",
+      "resourceTypeGeneral": "Report"
+    }
+  ],
+  "fundingReferences": []
+}

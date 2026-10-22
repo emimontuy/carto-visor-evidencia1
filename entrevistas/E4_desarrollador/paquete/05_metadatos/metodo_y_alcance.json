@@ -1,0 +1,26 @@
+{
+  "entrevista": "E4",
+  "fecha_preparacion": "2026-10-15",
+  "fecha_entrevista": "no_identificada_en_la_fuente",
+  "fuente_paginas": 8,
+  "fragmentos": 46,
+  "codigos": 20,
+  "hallazgos": 8,
+  "historias": 10,
+  "metodo": "Codificación temática inicial de una entrevista; análisis asistido por IA con revisión humana pendiente",
+  "unidades": "Fragmentos de una idea sustantiva; varias etiquetas por fragmento cuando corresponde",
+  "normalizacion": "Unicode NFC y espacios para comprobación literal; se conservan marcadores inaudibles y no se modifica el PDF fuente",
+  "exclusion": "Las preguntas de Emilio se conservan como contexto y no se atribuyen a [Desarrollador] como experiencias o acuerdos institucionales",
+  "clases": [
+    "Clase 09 Critical Geography y AI para Transcripción y Reporte de Entrevistas",
+    "Clase 11 Procesamiento de la Información Cualitativa y Mapa de Empatía con el Usuario",
+    "Clase 13 07 10 2026"
+  ],
+  "contraste": "Ficha ejecutiva ADIP; E4 aporta recomendaciones de desarrollo y no inspección de archivos ni validación del territorio",
+  "revisiones_pendientes": [
+    "Revisión humana de codificación",
+    "Acuerdos de consulta aceptación y permisos con ADIP y SSC",
+    "Pruebas de software contenido y usuarios",
+    "PID resoluble y registro de tipos y perfiles cuando se exija conformidad FDO formal"
+  ]
+}

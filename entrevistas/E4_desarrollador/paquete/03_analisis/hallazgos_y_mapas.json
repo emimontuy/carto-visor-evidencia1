@@ -1,0 +1,589 @@
+{
+  "entrevista": "E4",
+  "version": "1.0.0",
+  "hallazgos": [
+    {
+      "id": "E4-H01",
+      "titulo": "Una consulta acordada orienta el primer desarrollo",
+      "hallazgo": "[Desarrollador] comienza por el objetivo, la persona usuaria y el resultado esperado. Propone demostrar una consulta completa antes de ampliar menús o incorporar funciones tomadas de otros mapas.",
+      "implicacion": "Acordar un recorrido con una capa, un elemento reconocible, su fuente y su descarga; repetirlo con la segunda capa. La búsqueda por clave o nombre requiere confirmar qué campos se usarán.",
+      "limite": "Es una propuesta a partir del encargo explicado por Emilio. La entrevista no identifica por sí sola a los primeros usuarios efectivos de ADIP.",
+      "segmentos": [
+        "E4-S02",
+        "E4-S13",
+        "E4-S25",
+        "E4-S41",
+        "E4-S42",
+        "E4-S43",
+        "E4-S44"
+      ],
+      "codigos": [
+        "E4-C01",
+        "E4-C12",
+        "E4-C18"
+      ]
+    },
+    {
+      "id": "E4-H02",
+      "titulo": "Un resultado incorrecto exige separar sus posibles causas",
+      "hallazgo": "Su ejemplo general muestra una selección anterior en pantalla aunque el dato recibido corresponde a otro resultado. Plantea distinguir dato incorrecto, interpretación y fallo del programa antes de corregir.",
+      "implicacion": "Registrar objetivo, pasos, entorno, esperado y observado. Comparar archivo, respuesta y pantalla, y canalizar dudas del contenido al responsable; un caso no reproducido conserva estado pendiente.",
+      "limite": "El ejemplo no demuestra un fallo actual del Carto-Visor ni un error de coordenadas en SSC. No se accedió a sistemas internos del entrevistado.",
+      "segmentos": [
+        "E4-S03",
+        "E4-S04",
+        "E4-S05",
+        "E4-S06",
+        "E4-S07",
+        "E4-S10",
+        "E4-S17",
+        "E4-S37"
+      ],
+      "codigos": [
+        "E4-C02",
+        "E4-C03",
+        "E4-C05",
+        "E4-C10"
+      ]
+    },
+    {
+      "id": "E4-H03",
+      "titulo": "La identidad del elemento debe conservarse en cada salida",
+      "hallazgo": "[Desarrollador] recomienda respetar claves de origen y verificar que mapa, ficha y lista respondan a la misma consulta. Para la descarga pide anunciar el alcance y abrir el archivo para contrastar claves, nombres y versión.",
+      "implicacion": "Relacionar capa, versión, clave y consulta entre componentes. Al cambiar de selección, retirar o identificar información anterior. En el MVP, declarar descarga de la capa completa y comprobarla con ejemplos acordados.",
+      "limite": "No se comprueba que las claves actuales tengan ceros iniciales. El ejemplo sólo justifica probar su conservación cuando existan; exportar filtros no es un requisito confirmado.",
+      "segmentos": [
+        "E4-S08",
+        "E4-S22",
+        "E4-S27",
+        "E4-S28",
+        "E4-S34",
+        "E4-S35",
+        "E4-S44"
+      ],
+      "codigos": [
+        "E4-C04",
+        "E4-C10",
+        "E4-C14",
+        "E4-C17"
+      ]
+    },
+    {
+      "id": "E4-H04",
+      "titulo": "Una carga reciente no acredita vigencia del dato",
+      "hallazgo": "La fuente, versión y fechas deben acompañar a cada capa. [Desarrollador] distingue fecha de carga y fecha de la información y pide mostrar como pendiente una fecha que no fue entregada.",
+      "implicacion": "Usar etiquetas temporales con significado acordado y conservar la referencia de la entrega. Documentar el procedimiento de reemplazo y quién confirma una versión antes de prometer actualizaciones automáticas.",
+      "limite": "La ficha menciona actualización anual; la pregunta sobre cambios por entrega es hipotética. E4 no acredita otra periodicidad ni confirma que la actualización automática exista.",
+      "segmentos": [
+        "E4-S18",
+        "E4-S19",
+        "E4-S20",
+        "E4-S39",
+        "E4-S45"
+      ],
+      "codigos": [
+        "E4-C05",
+        "E4-C08",
+        "E4-C09",
+        "E4-C19"
+      ]
+    },
+    {
+      "id": "E4-H05",
+      "titulo": "La validación del dato y los permisos requieren responsables definidos",
+      "hallazgo": "El desarrollador puede comprobar campos y comportamiento, pero necesita al responsable de la fuente para confirmar el territorio. [Desarrollador] diferencia reportar una inconsistencia, editar datos y autorizar acciones de consulta o descarga.",
+      "implicacion": "Definir con ADIP y SSC quién entrega, confirma, autoriza y recibe dudas. Proteger las acciones donde se entrega la información y explicar la falta de sesión o permiso sin convertirla en un fallo de carga.",
+      "limite": "No se acordó una matriz institucional de roles ni una política de edición. El entrevistado no establece reglas de acceso en nombre de ADIP o Google.",
+      "segmentos": [
+        "E4-S09",
+        "E4-S10",
+        "E4-S21",
+        "E4-S31",
+        "E4-S32",
+        "E4-S33",
+        "E4-S43",
+        "E4-S46"
+      ],
+      "codigos": [
+        "E4-C00",
+        "E4-C03",
+        "E4-C05",
+        "E4-C09",
+        "E4-C16"
+      ]
+    },
+    {
+      "id": "E4-H06",
+      "titulo": "La consulta se valida por comprensión y condiciones de uso",
+      "hallazgo": "Propone observar una tarea sin indicar los botones y preguntar después qué entendió la persona. Incluye estados claros, leyenda que no dependa sólo del color, teclado y ampliación. La prueba debe usar los archivos y condiciones de los usuarios.",
+      "implicacion": "Separar navegación, reconocimiento del resultado, contenido, acceso y rendimiento en el registro. Comprobar que el usuario no declare terminada una tarea sobre otro elemento y que un fallo no parezca ausencia de resultados.",
+      "limite": "Son pruebas futuras. No hay tiempos medidos, resultados de usabilidad, certificación de accesibilidad ni base para fijar una promesa de rapidez.",
+      "segmentos": [
+        "E4-S23",
+        "E4-S24",
+        "E4-S28",
+        "E4-S29",
+        "E4-S30",
+        "E4-S32",
+        "E4-S36",
+        "E4-S37",
+        "E4-S38"
+      ],
+      "codigos": [
+        "E4-C10",
+        "E4-C11",
+        "E4-C14",
+        "E4-C15",
+        "E4-C18"
+      ]
+    },
+    {
+      "id": "E4-H07",
+      "titulo": "Las decisiones breves permiten retomar y corregir el trabajo",
+      "hallazgo": "En remoto, la falta de contexto puede prolongar aclaraciones. [Desarrollador] recomienda una referencia compartida de código y datos, registrar decisiones y pendientes y distinguir cambios para recuperar una versión que funcionaba.",
+      "implicacion": "Preparar una entrega con versiones de código y datos, notas de cambio, preguntas abiertas y consultas esenciales. Probar una reversión antes de transferir el prototipo a otra persona.",
+      "limite": "No se midieron esperas o retrabajo del equipo. La continuidad propuesta no implica que exista un repositorio público ni un mecanismo institucional de mantenimiento.",
+      "segmentos": [
+        "E4-S11",
+        "E4-S12",
+        "E4-S14",
+        "E4-S39",
+        "E4-S40",
+        "E4-S42",
+        "E4-S45"
+      ],
+      "codigos": [
+        "E4-C02",
+        "E4-C06",
+        "E4-C08",
+        "E4-C19"
+      ]
+    },
+    {
+      "id": "E4-H08",
+      "titulo": "La ampliación exige revisar una necesidad y su nueva fuente",
+      "hallazgo": "[Desarrollador] acepta como premisa comunicada que las dos capas iniciales son compatibles y propone comprobar su consumo sin inventar una incompatibilidad. Para otras capas pide definir campos, referencia espacial y responsables. Las direcciones añaden incertidumbre y decisiones propias.",
+      "implicacion": "Documentar un contrato de incorporación y conservar el original de cualquier transformación justificada. Mantener geocodificación y nuevas capas fuera del recorrido inicial hasta validar su propósito y condiciones.",
+      "limite": "No inspeccionó geometrías ni archivos; su consejo no acredita calidad o compatibilidad técnica. Un resultado espacial tampoco confirma qué autoridad debe atender un asunto.",
+      "segmentos": [
+        "E4-S15",
+        "E4-S16",
+        "E4-S17",
+        "E4-S25",
+        "E4-S26",
+        "E4-S42",
+        "E4-S43"
+      ],
+      "codigos": [
+        "E4-C03",
+        "E4-C07",
+        "E4-C12",
+        "E4-C13"
+      ]
+    }
+  ],
+  "actores": [
+    {
+      "actor": "[Desarrollador] y equipo de desarrollo",
+      "papel": "Convierten una necesidad en comportamiento comprobable",
+      "necesidad": "Consulta esperada, archivo identificado y contexto de incidencias",
+      "facultad": "Revisar software y señalar inconsistencias; no decidir límites oficiales",
+      "estado": "[Desarrollador] entrevistado; experiencia general, sin representación institucional",
+      "segmentos": [
+        "E4-S01",
+        "E4-S02",
+        "E4-S10",
+        "E4-S46"
+      ]
+    },
+    {
+      "actor": "Responsable del uso y validación ADIP",
+      "papel": "Define tarea, usuarios iniciales y aceptación",
+      "necesidad": "Recorrido demostrable, alcance y pendientes visibles",
+      "facultad": "[Directora ADIP] y las personas que indique deben confirmar las decisiones del reto",
+      "estado": "Contraparte del encargo; no entrevistada en E4",
+      "segmentos": [
+        "E4-S09",
+        "E4-S25",
+        "E4-S31",
+        "E4-S43"
+      ]
+    },
+    {
+      "actor": "Responsable de la fuente SSC",
+      "papel": "Entrega y conoce el significado de la información territorial",
+      "necesidad": "Identificar entrega, fechas y ejemplos por confirmar",
+      "facultad": "Confirma contenido y cambios según los acuerdos institucionales",
+      "estado": "Función requerida; persona concreta pendiente",
+      "segmentos": [
+        "E4-S07",
+        "E4-S09",
+        "E4-S10",
+        "E4-S19",
+        "E4-S20",
+        "E4-S35"
+      ]
+    },
+    {
+      "actor": "Persona que consulta",
+      "papel": "Busca o selecciona un elemento y reconoce la respuesta",
+      "necesidad": "Claves, nombres, fuente y estados comprensibles",
+      "facultad": "Consulta y puede reportar dudas según el permiso acordado",
+      "estado": "Perfil propuesto; usuarios iniciales por confirmar con ADIP",
+      "segmentos": [
+        "E4-S22",
+        "E4-S23",
+        "E4-S36",
+        "E4-S38",
+        "E4-S43"
+      ]
+    },
+    {
+      "actor": "Persona que reutiliza la capa",
+      "papel": "Descarga el archivo para trabajar en otra herramienta",
+      "necesidad": "Contenido, versión, alcance y claves conservadas",
+      "facultad": "Descarga sólo cuando la acción esté autorizada",
+      "estado": "Función posible, distinta de consulta o administración",
+      "segmentos": [
+        "E4-S22",
+        "E4-S31",
+        "E4-S34",
+        "E4-S35"
+      ]
+    },
+    {
+      "actor": "Equipo técnico y administración de accesos",
+      "papel": "Apoya acceso al entorno y protección de archivos",
+      "necesidad": "Acciones y perfiles confirmados, condiciones del prototipo",
+      "facultad": "Implementa permisos acordados; la asignación real requiere ADIP",
+      "estado": "Función del reto, sin roles concretos aprobados en esta entrevista",
+      "segmentos": [
+        "E4-S31",
+        "E4-S32",
+        "E4-S33",
+        "E4-S43"
+      ]
+    },
+    {
+      "actor": "Personas de diseño pruebas y continuidad",
+      "papel": "Observan tareas, registran cambios y retoman una entrega",
+      "necesidad": "Guion repetible y versiones identificadas de código y datos",
+      "facultad": "Documentan dificultades; no sustituyen la confirmación sectorial",
+      "estado": "Funciones sugeridas, pueden compartir integrantes del equipo",
+      "segmentos": [
+        "E4-S09",
+        "E4-S30",
+        "E4-S36",
+        "E4-S37",
+        "E4-S38",
+        "E4-S39",
+        "E4-S40",
+        "E4-S45"
+      ]
+    }
+  ],
+  "proceso": [
+    {
+      "paso": 1,
+      "actor": "ADIP y desarrollo",
+      "accion": "Acordar quién consulta, qué busca y qué resultado espera",
+      "control": "Tarea, campos de consulta y criterio de aceptación escritos",
+      "retorno": "Volver a la definición si la función no responde a una necesidad",
+      "segmentos": [
+        "E4-S02",
+        "E4-S13",
+        "E4-S25",
+        "E4-S43"
+      ]
+    },
+    {
+      "paso": 2,
+      "actor": "Fuente SSC y desarrollo",
+      "accion": "Identificar el archivo recibido y su documentación",
+      "control": "Clave, nombre, versión, fechas y referencia espacial cuando esté disponible",
+      "retorno": "Canalizar campos o significados ausentes al responsable",
+      "segmentos": [
+        "E4-S08",
+        "E4-S13",
+        "E4-S14",
+        "E4-S16",
+        "E4-S18",
+        "E4-S19"
+      ]
+    },
+    {
+      "paso": 3,
+      "actor": "Desarrollo",
+      "accion": "Hacer una carga de prueba sin alterar la fuente",
+      "control": "Conservar campos e identificadores y reconocer cada capa",
+      "retorno": "Diagnosticar antes de transformar y conservar original si una transformación se justifica",
+      "segmentos": [
+        "E4-S15",
+        "E4-S16",
+        "E4-S17"
+      ]
+    },
+    {
+      "paso": 4,
+      "actor": "Desarrollo y responsable de contenido",
+      "accion": "Construir selección mapa y ficha con ejemplos confirmables",
+      "control": "Misma clave, capa y versión en los componentes; estados claros",
+      "retorno": "Separar incidencia de software de duda sobre el dato",
+      "segmentos": [
+        "E4-S07",
+        "E4-S10",
+        "E4-S13",
+        "E4-S27",
+        "E4-S28"
+      ]
+    },
+    {
+      "paso": 5,
+      "actor": "Desarrollo y persona autorizada",
+      "accion": "Comprobar permiso y descargar la capa anunciada",
+      "control": "Abrir el archivo y contrastar claves, nombres, alcance y versión",
+      "retorno": "Corregir si la descarga no corresponde o explicar la restricción",
+      "segmentos": [
+        "E4-S31",
+        "E4-S32",
+        "E4-S34",
+        "E4-S35"
+      ]
+    },
+    {
+      "paso": 6,
+      "actor": "Usuario y equipo de pruebas",
+      "accion": "Intentar una tarea sin guía y revisar su interpretación",
+      "control": "Resultado reconocido; entorno, pasos, ayudas y dificultades registrados",
+      "retorno": "Reproducir el problema y ensayar una modificación relacionada con la causa",
+      "segmentos": [
+        "E4-S05",
+        "E4-S06",
+        "E4-S30",
+        "E4-S36",
+        "E4-S37",
+        "E4-S38"
+      ]
+    },
+    {
+      "paso": 7,
+      "actor": "Desarrollo ADIP y fuente",
+      "accion": "Registrar cambios y repetir consultas esenciales",
+      "control": "Versión de código y datos identificada; revisión técnica y de contenido diferenciadas",
+      "retorno": "Recuperar una versión previa si se rompe un comportamiento acordado",
+      "segmentos": [
+        "E4-S20",
+        "E4-S39",
+        "E4-S40",
+        "E4-S44",
+        "E4-S46"
+      ]
+    },
+    {
+      "paso": 8,
+      "actor": "Equipo que entrega y quien retoma",
+      "accion": "Transferir la explicación del recorrido y de sus pendientes",
+      "control": "Decisiones, versión, fuente, responsables y límites del prototipo",
+      "retorno": "Escalar sólo tras acordar la siguiente consulta y su fuente",
+      "segmentos": [
+        "E4-S11",
+        "E4-S41",
+        "E4-S42",
+        "E4-S43",
+        "E4-S45"
+      ]
+    }
+  ],
+  "empatia": [
+    {
+      "dimension": "Dice",
+      "contenido": "Necesita saber qué hizo la persona, qué esperaba y qué ocurrió para empezar a diagnosticar.",
+      "origen": "Criterio expresado por [Desarrollador]",
+      "segmentos": [
+        "E4-S02",
+        "E4-S06",
+        "E4-S07"
+      ]
+    },
+    {
+      "dimension": "Hace",
+      "contenido": "Relata desarrollo y revisión de software; intenta registrar qué entendió y qué falta cuando trabaja remoto.",
+      "origen": "Práctica narrada, sin observar sistemas internos",
+      "segmentos": [
+        "E4-S01",
+        "E4-S02",
+        "E4-S11"
+      ]
+    },
+    {
+      "dimension": "Piensa",
+      "contenido": "Da prioridad a una consulta que se pueda comprobar y a distinguir sus causas antes de corregir.",
+      "origen": "Inferencia analítica respaldada por recomendaciones",
+      "segmentos": [
+        "E4-S03",
+        "E4-S07",
+        "E4-S17",
+        "E4-S41",
+        "E4-S44"
+      ]
+    },
+    {
+      "dimension": "Siente",
+      "contenido": "No declara una emoción concreta. Describe esperas y confusión cuando falta contexto o hay versiones ambiguas.",
+      "origen": "Límite de la evidencia; no se atribuye una emoción por inferencia",
+      "segmentos": [
+        "E4-S11",
+        "E4-S12",
+        "E4-S14",
+        "E4-S39"
+      ]
+    },
+    {
+      "dimension": "Dificultades",
+      "contenido": "Reportes vagos, interpretaciones pendientes, fallos no reproducibles y cambios simultáneos en código y datos.",
+      "origen": "Ejemplos generales y dificultades relatadas",
+      "segmentos": [
+        "E4-S05",
+        "E4-S06",
+        "E4-S12",
+        "E4-S14",
+        "E4-S40"
+      ]
+    },
+    {
+      "dimension": "Necesidades",
+      "contenido": "Consulta acordada, fuente identificable, persona que confirme contenido y registro breve para repetir pruebas y retomar cambios.",
+      "origen": "Necesidades derivadas para revisar con el equipo",
+      "segmentos": [
+        "E4-S13",
+        "E4-S18",
+        "E4-S30",
+        "E4-S39",
+        "E4-S43",
+        "E4-S45"
+      ]
+    }
+  ],
+  "afinidad": [
+    {
+      "id": "E4-A01",
+      "tema": "Definir y diagnosticar una consulta",
+      "codigos": [
+        "E4-C00",
+        "E4-C01",
+        "E4-C02",
+        "E4-C03",
+        "E4-C05"
+      ],
+      "hallazgos": [
+        "E4-H01",
+        "E4-H02",
+        "E4-H05"
+      ],
+      "segmentos": [
+        "E4-S01",
+        "E4-S02",
+        "E4-S03",
+        "E4-S04",
+        "E4-S05",
+        "E4-S06",
+        "E4-S07",
+        "E4-S09",
+        "E4-S10",
+        "E4-S13",
+        "E4-S43",
+        "E4-S46"
+      ]
+    },
+    {
+      "id": "E4-A02",
+      "tema": "Conservar identidad fuente y versión",
+      "codigos": [
+        "E4-C04",
+        "E4-C07",
+        "E4-C08",
+        "E4-C09",
+        "E4-C10",
+        "E4-C17"
+      ],
+      "hallazgos": [
+        "E4-H03",
+        "E4-H04",
+        "E4-H08"
+      ],
+      "segmentos": [
+        "E4-S08",
+        "E4-S15",
+        "E4-S16",
+        "E4-S17",
+        "E4-S18",
+        "E4-S19",
+        "E4-S20",
+        "E4-S21",
+        "E4-S22",
+        "E4-S27",
+        "E4-S34",
+        "E4-S35"
+      ]
+    },
+    {
+      "id": "E4-A03",
+      "tema": "Comprender y probar con acceso autorizado",
+      "codigos": [
+        "E4-C10",
+        "E4-C11",
+        "E4-C14",
+        "E4-C15",
+        "E4-C16",
+        "E4-C18"
+      ],
+      "hallazgos": [
+        "E4-H05",
+        "E4-H06"
+      ],
+      "segmentos": [
+        "E4-S23",
+        "E4-S24",
+        "E4-S28",
+        "E4-S29",
+        "E4-S30",
+        "E4-S31",
+        "E4-S32",
+        "E4-S33",
+        "E4-S36",
+        "E4-S37",
+        "E4-S38"
+      ]
+    },
+    {
+      "id": "E4-A04",
+      "tema": "Entregar una solución que pueda continuarse",
+      "codigos": [
+        "E4-C06",
+        "E4-C09",
+        "E4-C12",
+        "E4-C13",
+        "E4-C19"
+      ],
+      "hallazgos": [
+        "E4-H01",
+        "E4-H07",
+        "E4-H08"
+      ],
+      "segmentos": [
+        "E4-S11",
+        "E4-S12",
+        "E4-S14",
+        "E4-S20",
+        "E4-S25",
+        "E4-S26",
+        "E4-S39",
+        "E4-S40",
+        "E4-S41",
+        "E4-S42",
+        "E4-S44",
+        "E4-S45"
+      ]
+    }
+  ]
+}

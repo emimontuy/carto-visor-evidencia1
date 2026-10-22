@@ -1,0 +1,80 @@
+{
+  "descripcion": "Perfiles (personas) construidos a partir de entrevistas reales anonimizadas.",
+  "perfiles": [
+    {
+      "id": "P1",
+      "entrevista": "E1",
+      "fecha": "2026-09-30",
+      "rol": "La coordinadora del encargo",
+      "quien": "Directora de área en la ADIP (sesión grupal con el enlace institucional y un participante de la agencia)",
+      "tipo": "Coordina y consume",
+      "color": "#3366A8",
+      "hace": "Define el alcance del Carto-Visor, pide las capas a la SSC y decide quién puede consultarlas.",
+      "frena": "No controla cuándo cambia una capa; hoy las pide por contacto directo, WhatsApp u oficio.",
+      "necesita": "Una biblioteca que cualquiera con acceso entienda sin capacitación, con metadatos y roles.",
+      "cita": "Q01",
+      "cita_texto": "Yo lo que únicamente quiero es tener como una biblioteca que pudieran consultarla en cualquier momento cualquier persona",
+      "cita_pagina": 6
+    },
+    {
+      "id": "P2",
+      "entrevista": "E2",
+      "fecha": "2026-10-02",
+      "rol": "El analista territorial",
+      "quien": "Planeación territorial en una empresa de telecomunicaciones; antes, análisis de ubicación de escuelas en gobierno",
+      "tipo": "Consume para decidir",
+      "color": "#2A9D8F",
+      "hace": "Cruza capas para recomendar dónde ubicar un servicio y justifica cada conclusión.",
+      "frena": "No sabe quién tiene la versión correcta; las aclaraciones quedan en correos.",
+      "necesita": "Ficha breve con fuente, fecha y alcance, y descarga de la misma versión con su documentación.",
+      "cita": "Q06",
+      "cita_texto": "el problema no era que no existiera el dato, sino que no sabíamos quién tenía la versión que debíamos usar.",
+      "cita_pagina": 2
+    },
+    {
+      "id": "P3",
+      "entrevista": "E3",
+      "fecha": "2026-10-07",
+      "rol": "La usuaria administrativa",
+      "quien": "Secretaria en una institución federal; usa ubicaciones para reuniones y trámites",
+      "tipo": "Consume sin ser especialista",
+      "color": "#E76F51",
+      "hace": "Busca una sede, la confirma con alguien y comparte la dirección.",
+      "frena": "Confirmar tarda más que ubicar; los términos técnicos y los nombres parecidos la confunden.",
+      "necesita": "Un buscador, palabras claras ('fuente', 'fecha de la información') y saber a quién preguntar.",
+      "cita": "Q11",
+      "cita_texto": "Poner una dirección en el mapa es rápido. Lo que tarda es que la persona que sabe te responda",
+      "cita_pagina": 2
+    },
+    {
+      "id": "P4",
+      "entrevista": "E4",
+      "fecha": "2026-10-10",
+      "rol": "El desarrollador",
+      "quien": "Programador remoto en un área relacionada con plataformas de mapas digitales",
+      "tipo": "Construye la herramienta",
+      "color": "#8E6CBF",
+      "hace": "Convierte una necesidad en un comportamiento que se puede probar.",
+      "frena": "Las definiciones ambiguas y esperar que alguien confirme qué significa un dato.",
+      "necesita": "Un contrato de datos explícito, ejemplos confirmados por el área y reportes reproducibles.",
+      "cita": "Q16",
+      "cita_texto": "Programar es una parte; entender bien lo que te están pidiendo te ocupa bastante tiempo.",
+      "cita_pagina": 1
+    },
+    {
+      "id": "P5",
+      "entrevista": "E5",
+      "fecha": "2026-10-15",
+      "rol": "El cartógrafo de alcaldía",
+      "quien": "Cartógrafo y analista SIG en el área técnica de planeación de una alcaldía",
+      "tipo": "Produce y actualiza el dato",
+      "color": "#B07D12",
+      "hace": "Recibe bases de otras áreas, ubica registros, corrige y devuelve dudas a la fuente.",
+      "frena": "Su corrección local no llega al registro de origen y vuelve a aparecer el mes siguiente.",
+      "necesita": "Conservar el original, versiones identificables y un canal de incidencias con estado.",
+      "cita": "Q21",
+      "cita_texto": "ahí entiendes por qué no basta con arreglar tu copia.",
+      "cita_pagina": 2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:fbdc54a0-6bce-5303-b504-95f6aac16868",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q12.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "42396ebd74b49366a75aa7eb31676d8ebdbe468064df3297762a07501c585866"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q12 · E3, p. 2",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q12",
+    "entrevista": "E3",
+    "pagina": 2,
+    "texto_literal": "El problema no era que yo hubiera escrito mal la calle, sino que estaba usando una referencia de otro momento.",
+    "codigos": [
+      "T02"
+    ],
+    "fragmentos": [
+      "E3-S06"
+    ],
+    "transcripcion": "entrevistas/E3_usuaria_administrativa/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:e1472d19-a0d4-5615-845b-21ee745813a5"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E3-S06",
+      "ruta": "entrevistas/E3_usuaria_administrativa/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

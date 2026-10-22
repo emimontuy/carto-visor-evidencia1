@@ -1,0 +1,26 @@
+{
+  "entrevista": "E3",
+  "fecha_preparacion": "2026-10-14",
+  "fecha_entrevista": "no_identificada_en_la_fuente",
+  "fuente_paginas": 7,
+  "fragmentos": 38,
+  "codigos": 17,
+  "hallazgos": 7,
+  "historias": 9,
+  "metodo": "Codificación temática inicial de una entrevista; análisis asistido por IA con revisión humana pendiente",
+  "unidades": "Fragmentos de una idea sustantiva; varias etiquetas por fragmento cuando corresponde",
+  "normalizacion": "Unicode NFC y espacios para comprobación literal; no se modifica el PDF fuente",
+  "exclusion": "Preguntas de Emilio no se convierten en experiencias o acuerdos declarados por [Usuaria administrativa]",
+  "clases": [
+    "Clase 09 Critical Geography y AI para Transcripción y Reporte de Entrevistas",
+    "Clase 11 Procesamiento de la Información Cualitativa y Mapa de Empatía con el Usuario",
+    "Clase 13 07 10 2026"
+  ],
+  "contraste": "Ficha ejecutiva ADIP y reporte E1; E3 aporta criterios de comprensión y no constituye validación técnica de las capas SSC",
+  "revisiones_pendientes": [
+    "Revisión humana de codificación",
+    "Acuerdos de responsables y permisos con ADIP y SSC",
+    "Pruebas de usuario",
+    "PID resoluble y registro de tipos y perfiles cuando se exija conformidad FDO formal"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:0f8f6bdf-dba8-52e7-a66c-43f96ecf7eb3",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q19.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "0731a54829931dd51997a8abaf5e641781a92383f74565b9ee03b151797d95a1"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q19 · E4, p. 8",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q19",
+    "entrevista": "E4",
+    "pagina": 8,
+    "texto_literal": "Meter funciones sin una pregunta detrás.",
+    "codigos": [
+      "T09"
+    ],
+    "fragmentos": [
+      "E4-S42"
+    ],
+    "transcripcion": "entrevistas/E4_desarrollador/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:9ed9b4ce-01aa-52b2-a64a-82201d378d06"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E4-S42",
+      "ruta": "entrevistas/E4_desarrollador/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:2ff56237-dfed-5086-aedc-493ac0732936",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q07.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "9ceff072f53bd0e2eef2748cd3964dad8e9112988001ad3999b08d989b4bad39"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q07 · E2, p. 2",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q07",
+    "entrevista": "E2",
+    "pagina": 2,
+    "texto_literal": "A veces parte de la explicación se quedaba en un correo.",
+    "codigos": [
+      "T10"
+    ],
+    "fragmentos": [
+      "E2-S10"
+    ],
+    "transcripcion": "entrevistas/E2_analista_territorial/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:f010fc57-562a-5c24-890b-956553a7e329"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E2-S10",
+      "ruta": "entrevistas/E2_analista_territorial/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

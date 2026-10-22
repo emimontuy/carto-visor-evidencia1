@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:6f8a78f9-008d-566d-9f53-5f5a74064352",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q03.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "2f03f232a6e0c6853ca19e8822d9276f827095ed5ecf59f695e18fb65f316e42"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q03 · E1, p. 6",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q03",
+    "entrevista": "E1",
+    "pagina": 6,
+    "texto_literal": "yo no se las puedo dar. Yo tendría que solicitarla a quien hace, al dueño de la información",
+    "codigos": [
+      "T03"
+    ],
+    "fragmentos": [
+      "E1-S14"
+    ],
+    "transcripcion": "entrevistas/E1_ADIP/paquete/01_fuente/e1_adip_transcripcion_extraida.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E1-S14",
+      "ruta": "entrevistas/E1_ADIP/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

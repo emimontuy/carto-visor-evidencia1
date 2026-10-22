@@ -1,0 +1,10 @@
+﻿id,modulo,construir,comprobar,historias
+E2-R01,Mapa y detalle,"Controles de capas, leyenda, selección de un elemento y acceso a ficha y atributos.","Completar navegación, alternancia y apertura de detalle; registrar confusiones y ayudas.",E2-US01 | E2-US05
+E2-R02,Ficha de metadatos,"Fuente, versión, finalidad, fechas diferenciadas, cobertura, limitaciones y restricciones.",Leer procedencia y alcance; un dato ausente no aparece como cero ni como fecha del visor.,E2-US01 | E2-US02 | E2-US03 | E2-US05
+E2-R03,Descarga documentada,Archivo de la versión consultada con su explicación y alcance visible de capa completa.,Identidad de versión y archivo coincide; documentación disponible y alcance explícito.,E2-US04
+E2-R04,Autorización por acción,Control de consulta y descarga; mantenimiento separado de la interfaz de consulta.,"Perfiles de prueba sólo realizan acciones permitidas, también por solicitudes directas.",E2-US04 | E2-US06
+E2-R05,Revisión de entrada,Registro del original e informe de validación y de transformaciones necesarias.,Una entrega con fallo bloqueante no se publica; el original sigue íntegro.,E2-US07
+E2-R06,Significado de la referencia,Descripción de divisiones y relación entre capas sólo si el productor la confirma.,No se igualan geometrías ni se presenta una correspondencia no documentada.,E2-US02 | E2-US07
+E2-R07,Versiones y decisiones,"Registro del corte, decisión de publicación y procedimiento de sustitución.","Una persona nueva identifica versión, razón de uso y responsabilidades acordadas o pendientes.",E2-US03 | E2-US08
+E2-R08,Pruebas y entrega,"Guion de consulta general, revisión sectorial y transferencia documental.",Se guardan resultados reales de pruebas; cualquier dificultad genera una decisión o pendiente.,E2-US01 | E2-US08
+E2-R09,Ampliación condicionada,Especificación futura de otras capas y de la pregunta que permitirían analizar.,"No incorpora población o servicios a esta entrega; exige validación de datos, roles y límites.",E2-US09

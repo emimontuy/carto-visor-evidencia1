@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:110bacbe-9cae-5e81-acb3-112698b3181a",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q01.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "45907633e3f25ba0d21176cd2b8dfbebc840902e9ab2377a98518cd17352345c"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q01 · E1, p. 6",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q01",
+    "entrevista": "E1",
+    "pagina": 6,
+    "texto_literal": "Yo lo que únicamente quiero es tener como una biblioteca que pudieran consultarla en cualquier momento cualquier persona",
+    "codigos": [
+      "T09"
+    ],
+    "fragmentos": [
+      "E1-S11"
+    ],
+    "transcripcion": "entrevistas/E1_ADIP/paquete/01_fuente/e1_adip_transcripcion_extraida.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E1-S11",
+      "ruta": "entrevistas/E1_ADIP/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

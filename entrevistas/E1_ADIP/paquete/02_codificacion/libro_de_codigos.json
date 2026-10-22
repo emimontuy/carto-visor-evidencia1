@@ -1,0 +1,173 @@
+[
+  {
+    "id": "C00",
+    "nombre": "Contexto institucional",
+    "definicion": "Identifica participantes, funciones o productos existentes sin convertirlos en requisitos del nuevo visor.",
+    "incluir": "Presentación de responsables y trabajo actual.",
+    "excluir": "Requisitos explícitos del Carto-Visor.",
+    "ejemplo_segmento": "E1-S02",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C01",
+    "nombre": "Referencias cartográficas diferentes",
+    "definicion": "Describe uso de bases territoriales distintas y diferencias en resultados de cruces.",
+    "incluir": "Capas múltiples y consecuencias narradas de comparabilidad.",
+    "excluir": "Errores geométricos no observados o calidad supuesta.",
+    "ejemplo_segmento": "E1-S06",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C02",
+    "nombre": "Biblioteca cartográfica común",
+    "definicion": "Propone un punto compartido de consulta para usar referencias identificables.",
+    "incluir": "Homologar fuentes de consulta y consumir una biblioteca.",
+    "excluir": "Obligación de transformar geometrías sin evidencia.",
+    "ejemplo_segmento": "E1-S07",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C03",
+    "nombre": "Demanda por comprobar",
+    "definicion": "Registra desconocimiento de usuarios, solicitudes previas o procesos de otras dependencias.",
+    "incluir": "Negativas, límites de conocimiento y uso aún incierto.",
+    "excluir": "Afirmar que nadie necesita mapas o que la demanda está validada.",
+    "ejemplo_segmento": "E1-S10",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C04",
+    "nombre": "Acceso institucional por permisos",
+    "definicion": "Restringe consulta a personas autorizadas y plantea credenciales o roles.",
+    "incluir": "Acceso interno y ejemplos de permisos.",
+    "excluir": "VPN de Fiscalía o definir un SSO no acordado.",
+    "ejemplo_segmento": "E1-S20",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C05",
+    "nombre": "Consultar y descargar",
+    "definicion": "Describe visualización, controles de capas y obtención de archivos.",
+    "incluir": "Mapa, encendido, apagado y descarga.",
+    "excluir": "Edición de polígonos por usuarios de consulta.",
+    "ejemplo_segmento": "E1-S44",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C06",
+    "nombre": "Usuarios sin edición",
+    "definicion": "Prohíbe modificar la información a quienes consultan y descargan.",
+    "incluir": "Restricción expresa de edición.",
+    "excluir": "Impedir toda carga por el técnico responsable.",
+    "ejemplo_segmento": "E1-S21",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C07",
+    "nombre": "Autoridad del productor",
+    "definicion": "Vincula origen, claves y cambios de las capas con SSC y su entrega mediante enlaces.",
+    "incluir": "Fuente oficial, dependencia para actualizar y transferencia.",
+    "excluir": "Atribuir producción cartográfica a ADIP o al equipo estudiantil.",
+    "ejemplo_segmento": "E1-S14",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C08",
+    "nombre": "Claves y nombres oficiales",
+    "definicion": "Exige conservar identidad institucional de cada polígono.",
+    "incluir": "Identificadores únicos declarados y prohibición de renombrar.",
+    "excluir": "Diseñar un identificador nuevo que reemplace el oficial.",
+    "ejemplo_segmento": "E1-S25",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C09",
+    "nombre": "Alcance inicial de dos capas",
+    "definicion": "Delimita el trabajo a sectores y cuadrantes durante la entrega inicial.",
+    "incluir": "Capas y entrega fija; exclusión de datos sensibles.",
+    "excluir": "Funciones de los otros tableros o capas futuras.",
+    "ejemplo_segmento": "E1-S27",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C10",
+    "nombre": "Calidad declarada por verificar",
+    "definicion": "Registra afirmaciones de compatibilidad y ausencia de datos personales sin tratarlas como auditoría.",
+    "incluir": "Capas compatibles según [Directora ADIP] y límites de verificación.",
+    "excluir": "Afirmar duplicados, desfases o resultados de pruebas no realizadas.",
+    "ejemplo_segmento": "E1-S28",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C11",
+    "nombre": "Actualización sin frecuencia fija",
+    "definicion": "Distingue cambios del productor, vigencia y ausencia de actualizaciones durante el proyecto.",
+    "incluir": "Periodicidad variable y entrega inicial congelada.",
+    "excluir": "Actualización diaria del tablero de Fiscalía.",
+    "ejemplo_segmento": "E1-S29",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C12",
+    "nombre": "Metadatos visibles",
+    "definicion": "Expresa necesidad de informar procedencia, vigencia y contexto de las capas.",
+    "incluir": "Fecha de actualización y datos descriptivos.",
+    "excluir": "Fechas inferidas del nombre del archivo o registro sin contenido.",
+    "ejemplo_segmento": "E1-S41",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C13",
+    "nombre": "Uso sin explicación externa",
+    "definicion": "Plantea encontrar herramientas y completar tareas con facilidad.",
+    "incluir": "Uso autónomo y claridad de la interfaz.",
+    "excluir": "Afirmar pruebas exitosas o perfilar habilidades no observadas.",
+    "ejemplo_segmento": "E1-S35",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C14",
+    "nombre": "Arquitectura antes del prototipo",
+    "definicion": "Prioriza diseñar experiencia, capas, metadatos y flujo de datos antes de desarrollar.",
+    "incluir": "Orden de entregables y prioridad del punto uno.",
+    "excluir": "Calendario definitivo o promesa de implementación cumplida.",
+    "ejemplo_segmento": "E1-S45",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C15",
+    "nombre": "Documentación para continuidad",
+    "definicion": "Pide conservar avances y decisiones para nuevas fases o equipos.",
+    "incluir": "Documentación de entregas y transferencia de conocimiento.",
+    "excluir": "Afirmar que ya existe un repositorio completo.",
+    "ejemplo_segmento": "E1-S37",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C16",
+    "nombre": "Operación local y costos sostenibles",
+    "definicion": "Delimita infraestructura inicial y evita dependencia de pagos recurrentes.",
+    "incluir": "Trabajo local, servidores disponibles y no depender de VPN inicial.",
+    "excluir": "Garantizar costo total cero o despliegue institucional ya probado.",
+    "ejemplo_segmento": "E1-S39",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C17",
+    "nombre": "Ampliaciones condicionadas",
+    "definicion": "Sitúa nuevos temas, datos sensibles, roles finos y apertura en etapas posteriores.",
+    "incluir": "Opciones futuras sujetas a tiempo, autorizaciones y análisis.",
+    "excluir": "Agregar automáticamente esas opciones al alcance obligatorio.",
+    "ejemplo_segmento": "E1-S33",
+    "revision_humana": "pendiente"
+  },
+  {
+    "id": "C18",
+    "nombre": "Intermediación y avisos de cambio",
+    "definicion": "Describe entrega, aclaraciones y posible comunicación de actualizaciones.",
+    "incluir": "[Enlace ADIP] como enlace, ZIP, WhatsApp y oficio en la experiencia de [Directora ADIP].",
+    "excluir": "Generalizar canales a toda CDMX o afirmar notificaciones automáticas actuales.",
+    "ejemplo_segmento": "E1-S46",
+    "revision_humana": "pendiente"
+  }
+]

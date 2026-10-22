@@ -1,0 +1,42 @@
+{
+  "pid": "urn:uuid:19bd3743-e92c-5664-bf4b-d3e09851dcfa",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q41.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "83f06d81c7a4098a3ccb1300002d885d25f219d182fd80d24ec99e97e90bd4af"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q41 · E5, p. 4",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q41",
+    "entrevista": "E5",
+    "pagina": 4,
+    "texto_literal": "Que una ubicación se vea rara es una señal para revisar, no una autorización para inventarla.",
+    "codigos": [
+      "T03"
+    ],
+    "fragmentos": [],
+    "transcripcion": "entrevistas/E5_cartografo/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

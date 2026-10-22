@@ -1,0 +1,42 @@
+{
+  "pid": "urn:uuid:1aa0cb3d-49f4-520d-ac6c-12f964ad4731",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q29.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "5c533b3391807af53cf0ccf99e5c049781344058a0fd52da5f995de04d5be7b5"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q29 · E1, p. 8",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q29",
+    "entrevista": "E1",
+    "pagina": 8,
+    "texto_literal": "pues no tiene actualizado desde el 2020",
+    "codigos": [
+      "T02"
+    ],
+    "fragmentos": [],
+    "transcripcion": "entrevistas/E1_ADIP/paquete/01_fuente/e1_adip_transcripcion_extraida.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pid": "urn:uuid:4c98d1a1-2a46-527b-a393-3d85e4f8684d",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q37.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "fc821426be8104eaf3a1711e8402cecb6b5de489f9e51333be78df03ddac045e"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q37 · E4, p. 2",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q37",
+    "entrevista": "E4",
+    "pagina": 2,
+    "texto_literal": "Un mensaje de “no sirve el mapa” me deja demasiadas cosas por adivinar.",
+    "codigos": [
+      "T04"
+    ],
+    "fragmentos": [],
+    "transcripcion": "entrevistas/E4_desarrollador/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:9ed9b4ce-01aa-52b2-a64a-82201d378d06"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

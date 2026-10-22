@@ -1,0 +1,93 @@
+[
+  {
+    "tipo": "CapaCatalogo",
+    "finalidad": "Identificar cada capa disponible sin depender de su nombre de archivo.",
+    "campos": "id_capa string; titulo string; descripcion string; productor string; alcance_territorial string; version_activa string o null; estado enum recibido/revision/disponible/no_recibido",
+    "regla": "Al inicio solo sectores y cuadrantes de SSC. El catálogo apunta a una versión, no reemplaza el identificador de cada polígono.",
+    "evidencia": [
+      "E1-S07",
+      "E1-S25",
+      "E1-S27"
+    ]
+  },
+  {
+    "tipo": "VersionCapa",
+    "finalidad": "Vincular archivo, procedencia, vigencia y representación para mapa.",
+    "campos": "id_version string; id_capa string; archivo_original string; sha256 string; formato_original string; crs_original string o null; fecha_productor date o null; fecha_recepcion date; fecha_publicacion date o null; representacion_mapa string o null; transformaciones array; limitaciones string",
+    "regla": "Fecha del productor y fecha del visor son diferentes. Conservar original; toda representación derivada apunta a él. No asumir que el archivo será SHP o GeoJSON.",
+    "evidencia": [
+      "E1-S13",
+      "E1-S29",
+      "E1-S30",
+      "E1-S41",
+      "E1-S46"
+    ]
+  },
+  {
+    "tipo": "EntidadCartografica",
+    "finalidad": "Conservar la identidad oficial de cada sector o cuadrante.",
+    "campos": "id_capa string; id_version string; clave_oficial string; nombre_oficial string; geometria Polygon o MultiPolygon; atributos_originales object",
+    "regla": "Los nombres reales de columnas se confirman al recibir la entrega. Las claves se preservan como texto para no perder ceros. No inventar relación cuadrante-sector si no viene documentada.",
+    "evidencia": [
+      "E1-S23",
+      "E1-S25"
+    ]
+  },
+  {
+    "tipo": "PermisoAcceso",
+    "finalidad": "Separar consulta de mantenimiento y reservar el acceso a personas autorizadas.",
+    "campos": "id_principal string; ambito_dependencia string o null; acciones array leer/descargar/mantener; recursos array; estado activo/revocado; mecanismo_identidad string pendiente de definir",
+    "regla": "La persona de consulta tiene leer y descargar, no mantener. Autenticación institucional, altas y granularidad de roles se validan antes de un despliegue.",
+    "evidencia": [
+      "E1-S17",
+      "E1-S20",
+      "E1-S21",
+      "E1-S42"
+    ]
+  },
+  {
+    "tipo": "InformeValidacion",
+    "finalidad": "Registrar qué se revisó y por qué una versión está disponible o detenida.",
+    "campos": "id_informe string; id_version string; fecha datetime; comprobaciones array; incidencias array; resultado apto/revision/rechazado; revisor string o null",
+    "regla": "Comprobar integridad, esquema, claves, geometrías, CRS y campos sensibles. Reportar fallas, no corregir silenciosamente. La compatibilidad declarada por [Directora ADIP] no sustituye esta prueba.",
+    "evidencia": [
+      "E1-S23",
+      "E1-S26",
+      "E1-S28"
+    ]
+  },
+  {
+    "tipo": "DecisionArquitectura",
+    "finalidad": "Conservar acuerdos y pendientes para otro equipo o fase.",
+    "campos": "id_decision string; tema string; alternativa_elegida string o null; razon string; segmentos array; estatus propuesta/acordada/pendiente; responsable_por_confirmar string o null; version string",
+    "regla": "Distinguir decisión de este análisis de un acuerdo aprobado por ADIP. Mantener documentación de ejecución y alcance junto a la entrega.",
+    "evidencia": [
+      "E1-S37",
+      "E1-S39",
+      "E1-S40",
+      "E1-S45"
+    ]
+  },
+  {
+    "tipo": "ResultadoPruebaUsuario",
+    "finalidad": "Comprobar tareas del perfil provisional sin inventar resultados.",
+    "campos": "id_prueba string; perfil string; tarea string; finalizada boolean o null; tiempo_segundos number o null; errores array; ayudas_solicitadas number o null; observaciones string; fecha date o null",
+    "regla": "No hay resultados todavía. Umbrales de éxito se acuerdan antes de la prueba y se documentan también los casos que fallan.",
+    "evidencia": [
+      "E1-S10",
+      "E1-S35",
+      "E1-S43"
+    ]
+  },
+  {
+    "tipo": "AvisoCambio",
+    "finalidad": "Documentar una posible solicitud de nueva versión en una fase posterior.",
+    "campos": "id_aviso string; id_capa string; productor string; fecha_version_declarada date o null; canal string; estado recibido/solicitado/validado/publicado/rechazado; id_version_resultante string o null",
+    "regla": "Un aviso no actualiza ni autoriza por sí solo. El proceso completo y sus responsables están pendientes de validación; no es función obligatoria del MVP.",
+    "evidencia": [
+      "E1-S14",
+      "E1-S22",
+      "E1-S29"
+    ]
+  }
+]

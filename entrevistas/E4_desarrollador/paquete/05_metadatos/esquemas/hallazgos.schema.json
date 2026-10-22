@@ -1,0 +1,214 @@
+{
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "hallazgos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "titulo": {
+            "type": "string"
+          },
+          "hallazgo": {
+            "type": "string"
+          },
+          "implicacion": {
+            "type": "string"
+          },
+          "limite": {
+            "type": "string"
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "codigos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "titulo",
+          "hallazgo",
+          "implicacion",
+          "limite",
+          "segmentos",
+          "codigos"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "actores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "actor": {
+            "type": "string"
+          },
+          "papel": {
+            "type": "string"
+          },
+          "necesidad": {
+            "type": "string"
+          },
+          "facultad": {
+            "type": "string"
+          },
+          "estado": {
+            "type": "string"
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "actor",
+          "papel",
+          "necesidad",
+          "facultad",
+          "estado",
+          "segmentos"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "proceso": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paso": {
+            "type": "integer"
+          },
+          "actor": {
+            "type": "string"
+          },
+          "accion": {
+            "type": "string"
+          },
+          "control": {
+            "type": "string"
+          },
+          "retorno": {
+            "type": "string"
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "paso",
+          "actor",
+          "accion",
+          "control",
+          "retorno",
+          "segmentos"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "empatia": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dimension": {
+            "type": "string"
+          },
+          "contenido": {
+            "type": "string"
+          },
+          "origen": {
+            "type": "string"
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "dimension",
+          "contenido",
+          "origen",
+          "segmentos"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "afinidad": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "tema": {
+            "type": "string"
+          },
+          "codigos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "hallazgos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "tema",
+          "codigos",
+          "hallazgos",
+          "segmentos"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entrevista",
+    "version",
+    "hallazgos",
+    "actores",
+    "proceso",
+    "empatia",
+    "afinidad"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HallazgosCualitativos E4 1.0.0"
+}

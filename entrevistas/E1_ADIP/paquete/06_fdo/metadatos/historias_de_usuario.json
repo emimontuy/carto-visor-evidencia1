@@ -1,0 +1,42 @@
+{
+  "object_key": "historias_de_usuario",
+  "identificador_interno": "urn:uuid:d74948bb-a902-58bf-84cd-292803abcd31",
+  "identificador_persistente_resoluble": null,
+  "pid_status": "pendiente_de_registro",
+  "titulo": "Historias de usuario de E1",
+  "tipo_semantico_local": "HistoriasUsuarioTrazables",
+  "tipo_registrado_pid": null,
+  "perfil_fdo_registrado_pid": null,
+  "version": "1.0.0",
+  "fecha_preparacion": "2026-10-09",
+  "fecha_sesion": null,
+  "idioma": "es",
+  "autor_del_trabajo": "Emilio Gómez Montuy",
+  "procedencia": "Entrevista E1 realizada con participantes de ADIP, aportada por el usuario",
+  "metodo": "Codificación temática inicial por fases con asistencia de IA",
+  "agente_procesamiento": "Codex",
+  "revision_humana": "pendiente",
+  "formato": "application/json",
+  "archivo": "04_desarrollo/historias_de_usuario.json",
+  "esquema_local": "06_fdo/tipos/historias_de_usuario.schema.json",
+  "sha256": "ece80540c3e726c544d9216519d74f93afad26dea3d0ffc2d0f225386dacd456",
+  "bytes": 11285,
+  "derivados_de": [
+    {
+      "identificador_interno": "urn:uuid:50a661b3-919c-558e-9ae6-db9444d2307f",
+      "relacion": "isDerivedFrom",
+      "pid_resoluble": null
+    },
+    {
+      "identificador_interno": "urn:uuid:0274aafe-95dd-5781-a567-195a4f9a7394",
+      "relacion": "isDerivedFrom",
+      "pid_resoluble": null
+    }
+  ],
+  "derechos": "Uso académico del equipo; condiciones de publicación y reutilización por confirmar",
+  "licencia": null,
+  "acceso": "restringido_al_equipo_y_revision_academica",
+  "politica_identificador": "Conservar este identificador interno para el mismo objeto; usar versiones nuevas sin reutilizarlo para otro objeto. Añadir un PID resoluble si se registra.",
+  "estado_fdo": "Paquete de preparación local; sin registro ni certificación de conformidad FDO",
+  "estado_publicacion": "no_publicado"
+}

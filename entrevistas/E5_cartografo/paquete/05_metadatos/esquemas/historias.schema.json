@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "historias": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "titulo": {
+            "type": "string"
+          },
+          "tipo": {
+            "type": "string"
+          },
+          "prioridad": {
+            "type": "string"
+          },
+          "historia": {
+            "type": "string"
+          },
+          "criterio_resumido": {
+            "type": "string"
+          },
+          "criterios": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "hallazgos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "requisitos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "titulo",
+          "tipo",
+          "prioridad",
+          "historia",
+          "criterio_resumido",
+          "criterios",
+          "segmentos",
+          "hallazgos",
+          "requisitos"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entrevista",
+    "version",
+    "historias"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HistoriasUsuarioTrazables E5 1.0.0"
+}

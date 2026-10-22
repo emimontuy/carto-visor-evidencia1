@@ -1,0 +1,452 @@
+ 
+Entrevista [Cartógrafo] 
+Entrevistador: Emilio Gómez Montuy. Perfil: cartógrafo y analista de sistemas de información geográfica 
+en el área técnica de planeación de una alcaldía de la Ciudad de México. 
+Emilio: Hola, [Cartógrafo], ¿cómo estás? Pues primero que nada, muchas gracias por darte el tiempo. Estamos 
+trabajando en un proyecto de la universidad con la ADIP que se llama Carto-Visor. La idea es facilitar la 
+consulta de información territorial de la Ciudad de México. Antes de desarrollar más cosas queremos 
+entender cómo trabajan las personas que producen o usan esos mapas. ¿Nos podrías contar un poquito a qué 
+te dedicas? 
+[Cartógrafo]: Hola, Emilio. Sí, con gusto. Soy geógrafo y trabajo como cartógrafo y analista de sistemas de 
+información geográfica en un área técnica de planeación de una alcaldía. Me toca recibir información de 
+otras áreas, ubicar registros, revisar las bases y preparar mapas para distintos análisis. También contesto 
+dudas sobre archivos que ya entregamos. Hay días en que hago más revisión de tablas que mapas, aunque 
+normalmente se piense al revés. 
+Emilio: Cuando dices sistemas de información geográfica, ¿qué sería en palabras sencillas? Porque nosotros 
+ya hemos escuchado el término, pero quiero asegurarme de entenderlo bien. 
+[Cartógrafo]: Son herramientas para trabajar con información que tiene una ubicación. Puedes tener una tabla de 
+solicitudes y relacionarla con los lugares donde ocurrieron. Después consultas, comparas o haces un mapa. 
+Pero necesitas revisar qué representa cada registro. Un punto puede ser una oficina, una solicitud o una visita 
+realizada. Aunque se dibujen igual, no significan lo mismo y no los puedes contar como si fueran la misma 
+cosa. 
+Emilio: Va. Y en un día normal, ¿qué te llega y qué esperan que entregues tú? O sea, ¿te mandan una base y 
+te dicen que hagas el mapa, o te toca preguntar más cosas? 
+[Cartógrafo]: Me puede llegar una tabla y la petición de hacer un mapa por colonia. Primero pregunto qué quieren 
+conocer y para qué reunión o decisión lo necesitan. A veces buscan ver dónde hay solicitudes y otras quieren 
+comparar el trabajo realizado por distintas zonas. Eso cambia qué datos necesitamos. También hay 
+solicitudes muy concretas, como ubicar un equipamiento. No siempre termina en un visor; muchas veces 
+entrego un mapa y una tabla con observaciones. 
+Emilio: ¿Me podrías contar un caso para ir viendo todo eso con algo más concreto? Puede ser sin nombres 
+de personas ni ubicaciones exactas. 
+[Cartógrafo]: Sí. Te cuento una revisión de solicitudes de mantenimiento de alumbrado. Nos pasaron un archivo 
+con folios, direcciones y una columna de colonia. Querían un resumen territorial para preparar recorridos. Al 
+principio parecía que era ubicar las direcciones y contar por zona. Pero había solicitudes repetidas, 
+referencias incompletas y registros de distintos periodos. También algunas filas describían una luminaria y 
+otras un tramo de calle. Antes de contar teníamos que separar esas cosas. 
+Emilio: ¿Cómo te diste cuenta? Porque desde fuera uno pensaría que si cada fila tiene un folio, entonces 
+cada fila es un problema diferente. 
+[Cartógrafo]: Porque al revisar direcciones aparecieron varios folios muy cerca y con descripciones parecidas. 
+Pregunté al área operativa y nos explicaron que una misma situación podía generar más de una solicitud. 
+Pero tampoco podíamos borrar todas las que estuvieran cerca: una calle puede tener varias luminarias 
+distintas. Tuvimos que revisar los casos dudosos con quien conocía el registro. El folio identificaba la 
+solicitud, no necesariamente una falla física diferente. 
+1 
+ 
+Emilio: Entonces, ¿qué hicieron con esas solicitudes? ¿Las juntaron o las dejaron separadas? 
+[Cartógrafo]: Conservamos los registros originales. Para el análisis marcamos posibles repeticiones y los casos 
+que el área confirmó como relacionados. En el resumen distinguimos solicitudes recibidas de puntos que 
+podían requerir revisión. No recuerdo el número exacto y prefiero no darte una cifra. Lo que sí cambió fue la 
+explicación del resultado: ya no era correcto decir que cada punto del mapa equivalía a una luminaria 
+descompuesta. 
+Emilio: ¿Y en las direcciones qué problemas encontraron? ¿Venían mal escritas o era más complicado que 
+eso? 
+[Cartógrafo]: Había de todo. Algunas tenían una abreviatura que podíamos reconocer y otras decían algo como 
+frente al mercado, sin número. En ciertos casos la calle existía en más de una zona. Una dirección bien 
+escrita tampoco garantiza que el punto automático quede donde ocurrió la solicitud. Por eso dejamos una 
+categoría para ubicaciones aproximadas y otra para las pendientes. Si completábamos todos los puntos a 
+fuerza, el mapa se veía terminado, pero escondía la duda. 
+Emilio: ¿Qué haces con una ubicación aproximada cuando necesitas contar por colonia? Me imagino que ahí 
+un pequeño error puede cambiar el resultado. 
+[Cartógrafo]: Exacto. Si está lejos de cualquier límite y tenemos referencias suficientes, podemos tener más 
+confianza, aunque sigue siendo aproximada. Cerca de un límite la revisamos con más cuidado. Si no hay 
+evidencia para asignarla, la dejamos pendiente y lo explicamos en el resumen. Eso a veces incomoda porque 
+quieren que todo sume por zona. Pero prefiero mostrar una parte sin asignar que repartirla como si 
+supiéramos exactamente dónde está. 
+Emilio: ¿Quién te ayuda a confirmar eso? ¿Tú puedes decidir por la imagen del mapa o necesitas a otra 
+persona? 
+[Cartógrafo]: Puedo detectar que algo necesita revisión, pero la confirmación puede venir del área que recibió la 
+solicitud o del personal que hizo el recorrido. Ellos pueden tener una referencia más precisa. Si sólo tengo 
+una imagen de la calle, no siempre puedo resolverlo. Además, una cosa es corregir la ubicación para el 
+análisis y otra modificar el registro del área responsable. Esa corrección tiene que quedar comunicada; si no, 
+la siguiente entrega trae la misma duda. 
+Emilio: Eso me interesa. ¿Te ha pasado que corriges algo y después vuelve a aparecer porque el archivo 
+original nunca cambió? 
+[Cartógrafo]: Sí, y ahí entiendes por qué no basta con arreglar tu copia. Puedes dedicar tiempo a confirmar una 
+dirección, entregar el mapa y recibir el mes siguiente el mismo registro anterior. Si la observación quedó sólo 
+en un correo, alguien más no la ve. Lo que intentamos es devolver una lista de incidencias con el folio, lo que 
+encontramos y la respuesta. Aun así depende de que el área pueda incorporarlo a su registro. 
+Emilio: Para el ejercicio del proceso que vimos en clase, si ordenaras ese caso desde que llega la solicitud 
+hasta que entregas el resultado, ¿cómo lo pondrías? 
+[Cartógrafo]: Primero aclarar qué se va a contar y para qué. Luego guardar la entrega tal como llegó y revisar las 
+columnas, el periodo y las ubicaciones. Después hacemos una primera ubicación y detectamos dudas. Las 
+regresamos al área, recibimos aclaraciones y preparamos el análisis con la referencia territorial acordada. Al 
+final revisamos el resultado con quien lo va a usar y entregamos también las limitaciones. Entre esos pasos 
+hay varios regresos, sobre todo cuando cambia la pregunta. 
+2 
+ 
+Emilio: ¿En qué momento cambia la pregunta? ¿Te podrían pedir algo distinto cuando tú ya llevas bastante 
+avanzado? 
+[Cartógrafo]: Sí. Empiezas contando solicitudes y, al ver el mapa, alguien pregunta dónde conviene mandar 
+primero a una cuadrilla. Es una pregunta relacionada, pero requiere más información: qué se atendió, qué 
+sigue pendiente, cómo se organizan los recorridos y qué recursos hay. Un lugar con muchas solicitudes no 
+tiene automáticamente mayor necesidad, porque puede haber más facilidad para reportar. Yo puedo ayudar a 
+mostrar la distribución; la prioridad operativa necesita otra revisión. 
+Emilio: Claro. Entonces tampoco sería correcto que nosotros viéramos muchos puntos en una zona y 
+dijéramos que ahí está peor el servicio. 
+[Cartógrafo]: Yo primero preguntaría qué puntos son y cómo llegaron a la base. Puede haber más reportes porque 
+vive más gente, porque conocen el canal o porque una misma situación se reportó varias veces. Para 
+comparar el servicio necesitarías información adicional. Es muy fácil que el título del mapa prometa más que 
+los datos. Por eso reviso bastante cómo se nombra el resultado, aunque parezca un detalle de presentación. 
+Emilio: ¿Y qué parte del proceso te quita más tiempo? ¿Ubicar, limpiar la tabla o esperar las respuestas de 
+otras áreas? 
+[Cartógrafo]: Varía. Cuando la base viene bien documentada podemos avanzar rápido. En ese caso costó aclarar 
+qué representaban ciertas filas y resolver las direcciones ambiguas. La espera no siempre era falta de interés: 
+el compañero que podía responder también estaba atendiendo recorridos. No te daría un porcentaje sin 
+medirlo. Sí te diría que una duda pequeña puede detener una parte importante del análisis si nadie sabe quién 
+la tiene que resolver. 
+Emilio: Ahora vamos con los actores. Si pusieras a todas las personas que participan alrededor de ese 
+proceso, ¿a quiénes incluirías? 
+[Cartógrafo]: A quien registra la solicitud, al área que administra la base, a quienes hacen el trabajo de campo, al 
+equipo que analiza y a la persona que pide el resultado. También al responsable que puede autorizar cambios 
+en el registro y a quien decide los recorridos. La ciudadanía aparece como quien reporta y usa el servicio. 
+Tecnología puede intervenir si hay problemas para compartir o consultar archivos. No todos participan en 
+cada paso, pero cada uno conoce una parte. 
+Emilio: ¿Quién dirías que tiene más poder y quién está más interesado en que la información funcione bien? 
+Lo estamos intentando ubicar para nuestro mapa de stakeholders. 
+[Cartógrafo]: El responsable del área puede autorizar entregas y destinar tiempo del equipo. Quien administra la 
+base controla cómo entra un cambio al registro. El personal de campo suele tener mucho interés porque una 
+mala ubicación le complica el recorrido, aunque no decida cómo se publica la información. Y el analista 
+conoce las dificultades para compararla. Yo no pondría poder e interés como algo fijo: depende de si 
+hablamos de corregir un dato, compartirlo o decidir una intervención. 
+Emilio: En clase también vimos el papel de quien conecta a los demás. En tu experiencia, ¿esa persona sería 
+el jefe o podría ser alguien más? 
+[Cartógrafo]: Puede ser alguien más. A veces es una persona que conoce tanto el registro como la operación y 
+sabe a quién preguntarle. Esa persona ayuda muchísimo, pero también se vuelve un punto del que todos 
+dependen. Si está de vacaciones, te das cuenta de que el procedimiento era su memoria. Por eso conviene que 
+el contacto y las decisiones queden documentados, aunque siga habiendo alguien que coordine. No todo tiene 
+que pasar por una sola persona. 
+3 
+ 
+Emilio: ¿Y si tú detectas un error claro, por ejemplo una dirección fuera de la alcaldía, no la puedes mover 
+directamente y ya? 
+[Cartógrafo]: Primero tendría que entender por qué está fuera. Podría ser un error, un registro que no corresponde 
+a ese archivo o una solicitud que se canalizó a otra área. Mover el punto para que quede dentro sólo 
+escondería el problema. Yo puedo proponer una corrección cuando tengo evidencia y dejarla en la copia de 
+trabajo. Para cambiar la fuente necesito que participe quien la administra. Que una ubicación se vea rara es 
+una señal para revisar, no una autorización para inventarla. 
+Emilio: Sí, entiendo. ¿Hay alguien a quien normalmente se consulte poco y que tú sí incluirías desde el 
+principio? 
+[Cartógrafo]: A quien captura y a quien usa la información en campo. La persona que captura puede explicar por 
+qué una columna queda vacía o por qué se usa cierto nombre. El equipo de campo puede detectar que un 
+acceso o una referencia no corresponde. A veces uno se queda hablando con quien pide el mapa y se pierde 
+eso. También buscaría a alguien que haya dejado de usar una herramienta, porque puede decirte qué le falló 
+de una manera muy concreta. 
+Emilio: Justo con las otras perspectivas nos salió que dos personas pueden hablar de la misma colonia y estar 
+usando mapas diferentes. ¿Cómo lo ves desde tu trabajo? 
+[Cartógrafo]: Primero distinguiría si realmente hablan de la misma división. Una colonia, una zona operativa y un 
+área de atención pueden tener propósitos distintos. Incluso si comparten nombre, no asumiría que sus límites 
+deben coincidir. Si sí son versiones de una misma referencia, hay que identificar quién las produjo y de 
+cuándo son. Lo que complica el trabajo es tener dos archivos que se llaman igual y ninguna explicación de 
+por qué cambiaron. 
+Emilio: ¿Me podrías poner un ejemplo de cómo eso cambia un resultado? Para poder explicarlo sin 
+quedarnos sólo con que los archivos no coinciden. 
+[Cartógrafo]: Imagina una solicitud cerca de un borde. Con una versión queda en la zona A y con otra en la zona 
+B. Si cada equipo hace su tabla con una referencia diferente, los totales por zona pueden cambiar aunque 
+partan de las mismas solicitudes. También puede pasar que una división nueva separe lo que antes era una 
+sola zona. Ahí necesitas conocer el cambio antes de interpretar que una zona mejoró o empeoró entre 
+periodos. 
+Emilio: Entonces, si queremos homologar, ¿sería escoger una y pedir que todos la usen? 
+[Cartógrafo]: Para un análisis compartido puede servir acordar una referencia y una versión. Pero antes hay que 
+saber para qué se necesita y quién tiene atribuciones para definirla. Yo no quitaría una división operativa sólo 
+porque no coincide con otra administrativa. Homologar puede consistir en conservar claves, documentar 
+significados y hacer comparables ciertos datos. Hay diferencias que se pueden resolver técnicamente y otras 
+que necesitan un acuerdo entre instituciones. 
+Emilio: ¿Qué pasa si hay dos áreas que dicen que su versión es la correcta? ¿Cómo trabajarías mientras se 
+ponen de acuerdo? 
+[Cartógrafo]: Registraría qué versión sostiene cada una y para qué la usa. Si el análisis requiere avanzar, buscaría 
+un acuerdo explícito para ese trabajo y señalaría la limitación. No lo presentaría como un acuerdo general de 
+toda la ciudad. También podría mostrar las dos referencias por separado si eso ayuda a entender la diferencia. 
+A veces el desacuerdo no se resuelve en el tiempo del proyecto, y el resultado tiene que reconocerlo sin 
+mezclar las versiones. 
+4 
+ 
+Emilio: Para nuestra primera versión, [Directora ADIP] nos explicó que vamos a trabajar con sectores y cuadrantes de 
+Seguridad Ciudadana y que esas dos capas ya son compatibles. ¿En qué te concentrarías si recibieras esos 
+archivos? 
+[Cartógrafo]: Me concentraría en recibirlos bien, entender los campos y comprobar que se muestran sin alterar su 
+contenido. Revisaría que los identificadores se conserven y que lo que se consulta corresponda al archivo 
+entregado. No partiría de que hay que corregir sus límites. También pediría la descripción de las capas y la 
+referencia de su versión. Mi experiencia en una alcaldía no me hace responsable de confirmar las divisiones 
+operativas de Seguridad Ciudadana. 
+Emilio: ¿Qué significa recibirlos bien? Porque para nosotros podría ser que nos manden un archivo y que sí 
+abra en la computadora. 
+[Cartógrafo]: Que abra es un primer paso. Guardaría el paquete original y anotaría quién lo entregó y cuándo. 
+Revisaría qué archivos incluye y si viene documentación. Si es un shapefile, no me quedaría únicamente con 
+el archivo de geometría; necesita sus componentes asociados para trabajar correctamente. Después haría una 
+revisión de campos, claves y sistema de referencia. Si algo falta, lo preguntaría antes de convertirlo varias 
+veces y perder la pista de lo recibido. 
+Emilio: ¿Y por qué insistes tanto en guardar el original? Si al final vamos a usar una copia para el visor, ¿qué 
+utilidad tendría? 
+[Cartógrafo]: Te permite distinguir lo que te entregaron de lo que ustedes transformaron. Si después aparece un 
+nombre diferente o falta un elemento, puedes revisar en qué paso ocurrió. También sirve para repetir el 
+proceso con las mismas condiciones. Una copia para visualizar puede tener otra estructura sin sustituir la 
+fuente. Lo importante es poder explicar la relación entre ambas y no terminar con cinco archivos llamados 
+final sin saber cuál salió de cuál. 
+Emilio: Sobre las claves, [Desarrollador] nos decía que hasta quitar ceros al principio puede causar problemas. 
+¿Desde la parte cartográfica también es algo que te preocupe? 
+[Cartógrafo]: Sí. Si una clave se importa como número, podrías perder ceros que forman parte de su 
+representación. Y si luego la relacionas con una tabla que la conserva como texto, la unión puede fallar. Yo 
+revisaría cómo está definida y la mantendría conforme al diccionario de datos. Tampoco usaría el número de 
+fila como identificador oficial. Puede cambiar al ordenar el archivo y entonces parecería que el elemento 
+cambió cuando sólo cambió la tabla. 
+Emilio: ¿Qué otras cosas revisarías en esa tabla? Algo que nosotros podamos entender sin ser especialistas. 
+[Cartógrafo]: Que la clave esperada esté presente, que los nombres se lean bien y que sepamos qué significa cada 
+columna. Si un identificador debe ser único, revisaría las repeticiones y preguntaría por las excepciones. 
+También distinguiría un dato vacío de un cero. Y comprobaría una muestra de las relaciones entre capas con 
+quien las conoce. No aplicaría reglas de limpieza a ciegas: una fila repetida puede tener una explicación que 
+necesitas conocer antes de eliminarla. 
+Emilio: Cuando hablan de geometrías, ¿qué errores se podrían revisar sin que eso signifique cambiar el mapa 
+oficial? 
+[Cartógrafo]: Puedes comprobar si los elementos se abren y si el programa identifica geometrías que necesitan 
+revisión. También mirar si aparecen huecos o superposiciones inesperadas. Pero esas últimas cosas dependen 
+de qué representa la capa: hay conjuntos donde una superposición es válida. Si detecto algo, lo registro y 
+consulto con el productor. Una reparación automática puede modificar una geometría. No la haría sobre el 
+original ni la daría por autorizada solamente porque el programa la ofrece. 
+5 
+ 
+Emilio: Y de las proyecciones, que es algo que nos han mencionado, ¿cómo nos lo explicarías? ¿Sería nada 
+más que dos mapas se ven movidos uno respecto al otro? 
+[Cartógrafo]: Puede manifestarse así, aunque hay otras causas. El sistema de referencia explica cómo interpretar 
+las coordenadas. Antes de juntar archivos tienes que saber cuál usa cada uno. Si hace falta transformarlos, 
+necesitas hacerlo desde la referencia correcta y documentarlo. Cambiar una etiqueta para que parezcan 
+iguales no es lo mismo que transformar las coordenadas. En sus dos capas no asumiría un problema que 
+[Directora ADIP] ya les dijo que no tienen; primero comprobaría la carga. 
+Emilio: ¿Y acercar mucho el mapa significa que ya podemos saber con precisión de qué lado de una línea 
+está una dirección? 
+[Cartógrafo]: No necesariamente. Puedes acercarte muchísimo a una línea que se dibujó para trabajar a otra 
+escala. El zoom amplía la imagen, pero no mejora el dato. También cuenta qué tan precisa es la ubicación 
+que estás comparando. Si el punto es aproximado y queda junto al límite, no tienes una respuesta segura por 
+verlo más grande. Ahí hace falta una revisión, y a veces el resultado correcto es dejar la asignación 
+pendiente. 
+Emilio: Si un punto cae exactamente sobre el límite de dos zonas, ¿el programa no tendría que decirnos 
+automáticamente a cuál pertenece? 
+[Cartógrafo]: El programa puede aplicar una regla, pero ustedes tienen que saber cuál es y si corresponde al uso 
+que acordaron. Según la operación espacial, podrías obtener ninguna coincidencia o más de una. No lo 
+resolvería asignándolo al polígono más cercano sin consultar. Haría visibles esos casos y pediría un criterio al 
+responsable. Y, para su prototipo, tampoco prometería resolver direcciones si todavía no forma parte de la 
+consulta que van a probar. 
+Emilio: ¿Te ha pasado que se vea todo bien en el mapa, pero al relacionar la tabla con los polígonos los 
+números salgan mal? 
+[Cartógrafo]: Sí. Puedes relacionar por un nombre que se repite o por una clave que no quedó igual en las dos 
+tablas. También una unión puede multiplicar registros si hay varias coincidencias donde esperabas una. Por 
+eso reviso cuántas filas entran, cuántas salen y qué quedó sin relacionar. Ver un mapa coloreado no 
+demuestra que la unión esté bien. Me gusta revisar casos conocidos y conservar una lista de las excepciones. 
+Emilio: Ahora vamos con las necesidades de información. Si pudieras escoger entre un mapa, una tabla y 
+una gráfica, ¿qué necesitarías ver primero para trabajar? 
+[Cartógrafo]: Depende de la pregunta. Si estoy revisando una entrega nueva, empezaría por la tabla y la 
+descripción para entender qué contiene. Luego abriría el mapa para revisar su distribución. Una gráfica puede 
+ayudar a resumir, pero no la necesito para todo. Si estoy contestando dónde queda un cuadrante, el mapa será 
+más directo. Me serviría poder pasar de un elemento a sus atributos sin perder la selección ni confundir otra 
+capa. 
+Emilio: ¿Qué tendría que aparecer cuando seleccionas un sector o un cuadrante en el Carto-Visor? 
+[Cartógrafo]: El tipo de elemento, su nombre y su identificador, primero. Después una forma clara de consultar la 
+fuente, la versión y la descripción. Si existe una relación validada con otro nivel, se puede mostrar. No 
+inventaría atributos para que la ficha se vea más completa. También tendría que ser evidente qué capa estoy 
+seleccionando. Si están encendidas dos divisiones y la ficha no lo dice, puedo interpretar el resultado 
+equivocado sin darme cuenta. 
+6 
+ 
+Emilio: [Usuaria administrativa] nos comentaba que palabras como metadatos no le dicen mucho. Tú sí trabajarías con eso, 
+pero ¿cómo lo mostrarías para que también le sirva a alguien que no es especialista? 
+[Cartógrafo]: Pondría a la vista nombres como fuente y fecha de la información, y dejaría un acceso al detalle 
+técnico. El especialista puede necesitar el sistema de referencia o la explicación de campos. Una persona que 
+sólo consulta necesita entender qué está viendo y para qué sirve. Podemos mantener ambas cosas. Incluso 
+entre especialistas ayuda que los nombres sean claros, porque conocer cartografía no significa conocer cómo 
+otra institución organizó sus archivos. 
+Emilio: ¿Qué fechas pondrías? Porque varias veces ha salido que la fecha de carga no es lo mismo que la 
+fecha de actualización. 
+[Cartógrafo]: Separaría la fecha de los datos o de la versión, cuando el productor la proporcione, de la recepción y 
+de la publicación en el visor. No siempre existirán todas. Si no tenemos una, hay que decirlo en lugar de 
+completar con la fecha del día. También dejaría el identificador de versión que venga de origen. Para 
+reproducir un análisis, saber qué archivo se usó puede ser tan necesario como saber cuándo se descargó. 
+Emilio: ¿Cómo podríamos saber si una capa sigue vigente? ¿Que tenga una fecha antigua ya significa que 
+está mal? 
+[Cartógrafo]: No. Un límite puede no haber cambiado durante años. Una fecha reciente tampoco confirma por sí 
+sola que todo haya sido validado. Necesitas conocer cómo se mantiene esa información y quién puede 
+confirmar su estado. [Directora ADIP] les explicó que las capas cambian cuando la institución responsable las modifica. 
+Entonces yo preguntaría cómo se enterarían de una versión nueva, sin prometer que ustedes van a producir 
+esa actualización cada cierto número de meses. 
+Emilio: Si llegara una actualización, ¿qué tendría que pasar antes de reemplazar la capa anterior? 
+[Cartógrafo]: Confirmar de dónde viene, revisar qué cambió y hacer las comprobaciones necesarias. Después 
+probaría que la consulta y la descarga siguen funcionando con esa versión. Si está autorizada para sustituir a 
+la anterior, registraría el cambio y conservaría la versión previa de manera identificable. No necesitas mostrar 
+todas al usuario desde el inicio, pero sí poder recuperar qué se utilizó. También avisaría si el cambio puede 
+afectar análisis que ya se hicieron. 
+Emilio: ¿Qué sería un cambio que sí afecte un análisis anterior? ¿Sólo que se mueva una línea? 
+[Cartógrafo]: También que cambie una clave, se divida una zona o se ajuste el significado de un campo. Si 
+comparas dos periodos sin revisar eso, puedes atribuir la diferencia a lo que estudias cuando una parte viene 
+de la referencia territorial. A veces se puede construir una correspondencia entre versiones, pero no siempre 
+es una relación de uno a uno. Habría que documentarla y decidir qué comparaciones son válidas para esa 
+pregunta. 
+Emilio: Para ti, ¿poder consultar la capa sería suficiente o sí necesitarías descargarla? 
+[Cartógrafo]: Para una duda rápida me basta consultar. Para cruzarla con una base de trabajo, sí necesito descargar 
+un archivo utilizable y su documentación. Quisiera saber si me llevo la capa completa o una selección. 
+También que conserve las claves y que pueda identificar la versión. No escogería el formato sólo por 
+costumbre; hay que ver qué reciben, qué permiten compartir y con qué programas trabajan las personas. Una 
+imagen del mapa no sustituye esos datos. 
+Emilio: ¿Qué revisarías después de descargar? Porque a veces pensamos que si el archivo bajó, entonces ya 
+quedó esa parte. 
+[Cartógrafo]: Lo abriría en otra sesión y comprobaría algunos elementos contra lo que consulté. Revisaría 
+campos, identificadores y ubicación. Si hay un filtro, confirmaría qué decía que iba a descargar. Y miraría si 
+7 
+ 
+la documentación permite reconocer la fuente sin volver al visor. El archivo puede terminar reenviado a otra 
+persona; si pierde su contexto, después nadie sabe de qué versión salió. Eso es parte de la entrega, no sólo 
+que el botón responda. 
+Emilio: Desde fuera podría parecer que tener todo en una página ya resuelve que cada quien use algo 
+distinto. ¿Tú crees que con eso alcanzaría? 
+[Cartógrafo]: Ayuda a encontrar una referencia, pero el equipo también necesita confiar en que corresponde a su 
+tarea. Si la capa es difícil de descargar o no tiene explicación, puede seguir usando su copia conocida. Y si la 
+nueva versión exige rehacer trabajo sin saber qué cambió, habrá resistencia. Yo preguntaría por qué 
+conservan sus archivos antes de asumir que es desorden. A veces son copias necesarias para repetir un 
+resultado de un periodo anterior. 
+Emilio: ¿Y cómo distinguirías una copia necesaria de una que termina generando confusión? 
+[Cartógrafo]: La copia necesaria tiene una versión y un propósito reconocibles. Puedes saber con cuál se hizo un 
+reporte y por qué se conserva. La confusión aparece cuando se llama última y nadie sabe qué contiene o 
+cuándo debe usarse. No eliminaría todas las copias para obligar a entrar al visor. Buscaría que la descarga 
+lleve su información y que sea sencillo localizar la referencia que corresponde al nuevo trabajo. 
+Emilio: Ayer vimos causal loop diagrams. Te lo pregunto muy en sencillo: ¿ves alguna situación que se 
+repita y haga que este problema se vaya haciendo más grande? 
+[Cartógrafo]: Una posibilidad es que, cuando cuesta encontrar una capa confiable, cada equipo prepare su propia 
+copia. Si esas copias cambian y dejan de identificarse, cuesta más ponerse de acuerdo en el siguiente análisis 
+y vuelven a crear otras. También, cuando corregimos lo mismo varias veces, queda menos tiempo para 
+documentar. Pero te lo digo como una explicación posible de trabajo. Para dibujar esas flechas como algo 
+comprobado necesitarían observarlo y preguntar a otros equipos. 
+Emilio: ¿Y dónde podríamos intervenir para cortar ese ciclo? ¿Sería poner un lugar común donde estén los 
+archivos? 
+[Cartógrafo]: Ese lugar sería útil si tiene responsables, versiones claras y un modo de resolver dudas. Si sólo 
+subes archivos, puedes trasladar la confusión a otra carpeta. Yo probaría con una tarea concreta: encontrar la 
+capa que corresponde, reconocer su versión y usarla. Después vería si disminuyen las preguntas repetidas. 
+También podría haber un efecto contrario al principio: al hacer visibles las dudas, aumentan los reportes de 
+errores aunque la calidad no haya empeorado. 
+Emilio: Eso está bueno. Entonces contar más reportes no significa automáticamente que esté funcionando 
+peor. ¿Qué nos ayudaría a entenderlo? 
+[Cartógrafo]: Distinguir reportes nuevos de problemas que ya existían, ver cuáles se confirmaron y cuánto tardan 
+en atenderse. Un mismo error puede generar varios avisos. También revisaría si hay alguien respondiendo y 
+si las correcciones llegan a la fuente. Si abres un canal y nadie tiene tiempo de atenderlo, la gente puede dejar 
+de reportar. Un número aislado no explica todo; necesitas seguir algunos casos desde que se detectan hasta 
+que se resuelven. 
+Emilio: ¿Cómo tendría que ser ese reporte para que sí te sirva? Algo que pudiera hacer una persona que no 
+conoce términos técnicos. 
+[Cartógrafo]: Que pueda decir qué estaba buscando, qué elemento vio y por qué le genera duda. Si conoce la 
+clave, ayuda mucho. También la capa y la versión. Una captura puede orientar, pero no debería ser el único 
+dato. Después alguien tendría que revisar si es un error del contenido, de la pantalla o una interpretación. No 
+le pediría al usuario que hiciera ese diagnóstico. Lo importante es darle una respuesta que pueda entender y 
+retomar. 
+8 
+ 
+Emilio: ¿Y qué puede frenar que ese reporte se resuelva, aunque todos estén de acuerdo en que hay un 
+problema? 
+[Cartógrafo]: Que falte una confirmación, que el responsable de la fuente tenga otras prioridades o que el cambio 
+deba pasar por una revisión adicional. También puede faltar una referencia para ubicar lo que se reportó. La 
+respuesta no siempre es inmediata. Por eso conviene que quede el estado de la duda y quién la está revisando. 
+Si cada semana alguien vuelve a preguntar desde cero, se pierde tiempo sin que avance la corrección. 
+Emilio: Ya pensando en el primer prototipo, ¿cómo lo probarías tú? No sólo si te gusta cómo se ve, sino si 
+realmente lo puedes usar. 
+[Cartógrafo]: Me daría una tarea que pueda verificar: encontrar un cuadrante por su clave, identificar su fuente y 
+descargar la capa correspondiente si tengo permiso. Haría la consulta sin que el equipo me vaya indicando 
+cada clic. Después abriría el archivo y compararía el resultado. También probaría con una clave que no exista 
+para ver qué explica la pantalla. Y anotaría dónde dudé, porque terminar con ayuda no es lo mismo que 
+resolverlo solo. 
+Emilio: ¿Y para alguien que no trabaja con cartografía usarías la misma prueba? 
+[Cartógrafo]: Usaría una tarea relacionada con su perfil y revisaría qué entiende del resultado. Podría identificar 
+qué división está encendida y explicar qué significa el dato que aparece. Pero no le pediría validar límites si 
+no los conoce. Para la parte operativa sí necesitan a una persona que trabaje con sectores y cuadrantes. Entre 
+esas pruebas pueden encontrar problemas distintos. Mi opinión técnica no sustituye observar a quienes 
+usarían la herramienta en su trabajo. 
+Emilio: ¿Qué tendríamos que observar de las condiciones de trabajo? ¿La computadora, el internet, el tiempo 
+que tienen para consultar? 
+[Cartógrafo]: Sí, y cómo les llega la pregunta. Puede que tengan dos minutos para confirmar una clave y no para 
+explorar todas las capas. También que usen una pantalla pequeña o que amplíen mucho el texto. Yo revisaría 
+que los nombres se lean y que la información importante no dependa sólo de un color. Para trabajo en campo 
+habría otras condiciones, pero no asumiría que su primer prototipo debe resolverlas si el uso inicial será 
+desde una oficina. 
+Emilio: De seguridad y permisos, ¿qué necesitarías tener claro antes de usar una biblioteca como ésta? 
+[Cartógrafo]: Si mi cuenta puede consultar y descargar, y quién autoriza cambios. Publicar una capa nueva debe 
+ser una tarea distinta de verla. También preguntaría qué contiene cada archivo y qué se permite compartir. En 
+su caso no mezclaría los polígonos iniciales con otros registros que no les hayan autorizado. Y la 
+configuración técnica tendría que revisarla el equipo responsable. Yo puedo describir qué acciones necesito, 
+pero no confirmar por mi cuenta las reglas de acceso de la ADIP. 
+Emilio: ¿Qué haría que tú dejaras de usar el visor y regresaras a pedir el archivo por mensaje? 
+[Cartógrafo]: No encontrar la capa que necesito, no poder reconocer su versión o descargar algo distinto a lo que 
+esperaba. También que una falla me deje sin alternativa cuando tengo una entrega. Si el mensaje explica qué 
+pasó y a quién preguntar, puedo resolverlo mejor. Pero si sólo me quedo esperando una pantalla vacía, voy a 
+buscar el archivo que ya conozco. Después cuesta regresar, aunque la falla se haya arreglado, porque uno 
+sigue con el trabajo. 
+Emilio: ¿Cómo podríamos saber si de verdad ahorra tiempo? Porque decir que facilita las cosas suena bien, 
+pero también tenemos que justificarlo. 
+[Cartógrafo]: Primero conocería cómo hacen hoy una consulta específica. Podrían observar cuánto tardan en 
+encontrar y confirmar una capa, y dónde necesitan pedir ayuda. Después probar una tarea comparable en el 
+9 
+ 
+prototipo, con personas y condiciones que describan. No prometería un porcentaje antes de medirlo. También 
+revisaría si el resultado es correcto. Encontrar rápido una versión equivocada no sería una mejora, aunque el 
+cronómetro diga que terminaron antes. 
+Emilio: ¿Y el beneficio para la ciudadanía dónde lo verías? Porque ahorita el proyecto es de uso institucional 
+y no de consulta pública. 
+[Cartógrafo]: El beneficio inmediato que probarían sería para quien trabaja con la información. Podría apoyar una 
+coordinación más clara o análisis que se puedan repetir. De ahí a decir que mejoró un servicio hay varios 
+pasos. En el caso de alumbrado, un mapa mejor puede apoyar un recorrido, pero también hacen falta 
+personal, materiales y decisiones. Yo explicaría esa relación sin afirmar que un visor por sí solo resuelve el 
+problema que vive la gente. 
+Emilio: Para un árbol de problemas, entonces, ¿cómo plantearías el problema central desde tu experiencia? 
+¿Sería que no existe una plataforma? 
+[Cartógrafo]: Yo lo formularía desde la tarea que se dificulta: equipos que necesitan comparar información 
+territorial no siempre pueden identificar y usar una referencia común adecuada. La falta de una plataforma 
+puede ser una parte. También influyen la documentación, los acuerdos y las versiones. Aguas con meter en el 
+problema la solución que ya quieren construir. Mi experiencia puede orientar la pregunta, pero todavía tienen 
+que comprobar cómo aparece en los usuarios de la ADIP. 
+Emilio: ¿Qué pondrías abajo, como posibles causas, y arriba, como consecuencias? Para ver si lo estamos 
+ordenando bien. 
+[Cartógrafo]: Abajo exploraría entregas sin explicación, versiones difíciles de distinguir y responsabilidades poco 
+claras para confirmar cambios. Arriba pondría diferencias entre resultados, revisiones repetidas y demoras 
+para compartir un análisis. No diría que todo proviene de una sola causa. Por ejemplo, una demora también 
+puede venir de que faltan datos de la solicitud. Lo útil del árbol sería ordenar esas preguntas y luego buscar 
+ejemplos que apoyen o cuestionen cada relación. 
+Emilio: ¿Hay algo que nosotros estemos dando por hecho y que deberíamos preguntar antes de seguir? 
+[Cartógrafo]: Quién necesita realmente estas dos capas y para qué consulta. Que una dependencia pueda tener 
+acceso no demuestra que las vaya a usar. También preguntaría quién dará seguimiento cuando termine el 
+semestre y qué entiende [Directora ADIP] por una entrega satisfactoria. Ustedes ya tienen un alcance inicial; eso ayuda. 
+Yo aprovecharía esa claridad para probar algo pequeño y dejar documentadas las preguntas sobre 
+crecimiento, sin convertirlas en requisitos que nadie les pidió. 
+Emilio: Si después queremos entrevistar a otra persona, ¿qué perfil buscarías para complementar lo que nos 
+estás contando? 
+[Cartógrafo]: A quien produce o mantiene las capas de Seguridad Ciudadana y a alguien que las use en un análisis 
+cotidiano. El primero puede explicar claves, versiones y cambios. El segundo puede mostrar una tarea real y 
+los puntos donde necesita verificar algo. También sería útil hablar con quien recibiría la administración de la 
+herramienta. Yo les he contado una perspectiva de trabajo cartográfico en una alcaldía; esos perfiles pueden 
+confirmar cosas que yo no conozco. 
+Emilio: Ya para cerrar, ¿qué te gustaría que quedara en la documentación para que otra persona pudiera 
+continuar con el proyecto? 
+[Cartógrafo]: Qué archivos recibieron, cómo están identificados y qué transformaciones hicieron para mostrarlos. 
+También las decisiones de consulta, los permisos acordados y las dudas abiertas con su responsable. Pondría 
+un ejemplo de carga y una consulta que se haya verificado. No hace falta transcribir todos los mensajes, pero 
+10 
+ 
+sí conservar lo que explica el resultado. Si alguien nuevo puede repetir ese recorrido y entender sus límites, 
+tiene una base para continuar sin reconstruir todo. 
+Emilio: Perfecto. Para ver si entendí, lo que más te importa es saber qué representa cada dato, conservar la 
+referencia de lo que recibimos y no corregir diferencias sin entenderlas. También que la información pueda 
+consultarse y descargarse con su contexto, y que quede claro quién confirma los cambios. ¿Sí lo estoy 
+entendiendo bien o me faltó algo? 
+[Cartógrafo]: Sí, va por ahí. Añadiría escuchar a quien usa el resultado y a quien produce el registro. A veces el 
+problema aparece antes de que la información llegue al cartógrafo. Y tampoco necesitan resolver todo para 
+demostrar algo útil: pueden comprobar una consulta, mostrar de dónde viene y explicar qué sigue pendiente. 
+Eso da más confianza que tener muchas capas sin saber cómo se mantendrán. 
+Emilio: Va, [Cartógrafo], muchísimas gracias por tu tiempo. Nos sirve mucho esta parte porque queremos 
+entender lo que pasa entre que alguien genera un archivo y otra persona lo utiliza para trabajar. Vamos a 
+ordenar lo que platicamos para nuestro mapa de actores, el proceso y las necesidades de información, y llevar 
+las preguntas específicas de las capas con [Directora ADIP] y el equipo responsable. 
+[Cartógrafo]: Claro, Emilio, con gusto. Ojalá les sirva para hacer preguntas más precisas y para probar la 
+herramienta con un caso que puedan revisar completo. Mucho éxito con el proyecto. 
+11

@@ -1,0 +1,9 @@
+﻿id,modulo,construir,comprobar,historias
+E3-R01,Propósito y lenguaje,"Descripción del contenido, cobertura y nombres comprensibles de acciones y divisiones.",La persona explica qué incluye el visor y distingue sectores o cuadrantes de colonias y oficinas.,E3-US01 | E3-US02
+E3-R02,Mapa y leyenda,"Activación de capas, estado visible, leyenda y selección de un elemento.",Alternar las dos capas y reconocer el elemento sin ayuda sobre cada botón.,E3-US02
+E3-R03,Ficha comprensible,"Identificación, fuente, fechas diferenciadas, versión, límites y responsable o pendiente.",Entender la ficha y señalar lo que falta confirmar; la fecha de publicación no sustituye la del dato.,E3-US03 | E3-US04
+E3-R04,Descarga explicada,"Archivo de la capa con formato, alcance y documentación correspondientes a la versión consultada.",La persona distingue consultar de descargar; el archivo y los metadatos conservan la misma versión.,E3-US05
+E3-R05,Acciones y acceso,"Permisos por operación y mensajes claros para consulta, descarga y acciones no permitidas.",Consulta sin edición; falta de permiso comunicada y protegida también por solicitud directa.,E3-US05 | E3-US06
+E3-R06,Prueba de comprensión,"Guion de tareas, observación sin dirección y revisión posterior del significado de acciones.","Registro de dificultades de navegación, contenido y acceso; revisión técnica y sectorial independiente.",E3-US01 | E3-US02 | E3-US07
+E3-R07,Responsables y continuidad,"Bitácora de versión y notas de cambio con responsables de validación, autorización y dudas.",Una persona nueva identifica qué se recibió y qué cambió; ninguna fuente ajena se modifica sin revisión.,E3-US04 | E3-US08
+E3-R08,Búsqueda futura de ubicaciones,"Especificación condicionada de directorio, búsqueda y comunicación contextual.","Se mantiene fuera de la primera entrega; requiere datos, responsables, finalidad y permisos acordados.",E3-US09

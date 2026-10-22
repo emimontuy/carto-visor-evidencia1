@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Blueprint de desarrollo con contratos y requisitos",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "estado",
+    "objetivo",
+    "alcance_inicial",
+    "fuera_del_alcance_inicial",
+    "recorrido",
+    "contratos_servicios",
+    "requisitos",
+    "tipos_datos",
+    "decisiones",
+    "secuencia_construccion",
+    "preguntas_pendientes",
+    "notas"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "objetivo": {
+      "type": "string"
+    },
+    "alcance_inicial": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fuera_del_alcance_inicial": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recorrido": {
+      "type": "string"
+    },
+    "contratos_servicios": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "requisitos": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "tipos_datos": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "decisiones": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "secuencia_construccion": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "preguntas_pendientes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "notas": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,50 @@
+{
+  "pid": "urn:uuid:b8ccb694-f081-57f3-879d-6d8bd2266452",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q06.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "e0165977a161aad4c546fef4bf74369990ca500a12178caaf62acc6bcaba83af"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q06 · E2, p. 2",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q06",
+    "entrevista": "E2",
+    "pagina": 2,
+    "texto_literal": "el problema no era que no existiera el dato, sino que no sabíamos quién tenía la versión que debíamos usar.",
+    "codigos": [
+      "T02",
+      "T03"
+    ],
+    "fragmentos": [
+      "E2-S06"
+    ],
+    "transcripcion": "entrevistas/E2_analista_territorial/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:f010fc57-562a-5c24-890b-956553a7e329"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E2-S06",
+      "ruta": "entrevistas/E2_analista_territorial/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

@@ -1,0 +1,6 @@
+id,hallazgo,citas,codigos,implicacion_para_el_visor
+H1,Homologar no es hacer que todos los mapas coincidan,Q02 | Q09 | Q40,T01 | T03,"El visor debe identificar cada referencia (qué es, quién la produce, para qué sirve) en lugar de forzar una capa única."
+H2,"El cuello de botella es confirmar, no ubicar",Q11 | Q32 | Q05,T04,Cada ficha necesita decir a quién preguntar y la duda debe tener un canal con estado.
+H3,La explicación no viaja con el archivo,Q07 | Q08 | Q42,T02 | T07 | T10,"Descargar debe entregar la capa, su ficha y su versión juntas."
+H4,Las palabras y las fechas pueden engañar,Q13 | Q14 | Q10 | Q24,T02 | T05,"Lenguaje llano, fechas con nombre y límites visibles valen más que más funciones."
+H5,Corregir mi copia no corrige la fuente,Q21 | Q41 | Q17,T03 | T04 | T06,Consulta y descarga sin edición; las dudas se devuelven a la SSC con un registro.

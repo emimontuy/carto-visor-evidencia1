@@ -1,0 +1,5 @@
+﻿id,tema,codigos,hallazgos,segmentos
+E3-A01,Reconocer la referencia adecuada y confirmar su vigencia,E3-C01 | E3-C02 | E3-C03 | E3-C04 | E3-C05 | E3-C15,E3-H01 | E3-H02,E3-S04 | E3-S05 | E3-S06 | E3-S08 | E3-S09 | E3-S10 | E3-S13 | E3-S14 | E3-S19 | E3-S33
+E3-A02,Comprender la consulta y conservar sus límites,E3-C06 | E3-C07 | E3-C08 | E3-C11,E3-H03 | E3-H04 | E3-H06,E3-S20 | E3-S21 | E3-S22 | E3-S23 | E3-S25 | E3-S26 | E3-S27 | E3-S28 | E3-S29 | E3-S37 | E3-S38
+E3-A03,Comunicar el resultado con permisos,E3-C09 | E3-C10 | E3-C14 | E3-C16,E3-H05,E3-S11 | E3-S16 | E3-S17 | E3-S30 | E3-S31 | E3-S32
+E3-A04,Mantener una referencia que responda a una tarea,E3-C00 | E3-C02 | E3-C05 | E3-C12 | E3-C13 | E3-C16,E3-H07,E3-S03 | E3-S07 | E3-S14 | E3-S24 | E3-S34 | E3-S35 | E3-S36

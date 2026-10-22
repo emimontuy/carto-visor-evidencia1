@@ -1,0 +1,81 @@
+{
+  "pid": "urn:uuid:c6e1caa8-9288-56c3-b436-9e26e61e3181",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/HistoriaDeUsuario.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/historias/HU-06.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "a7e5694bfeaae09cb5c72df8da3fcb4e0b91da3a14a8516082b57be80a8c12f0"
+    }
+  },
+  "metadatos": {
+    "titulo": "Reportar una duda y seguir su estado",
+    "descripcion": "Como persona que encuentra algo raro en una capa, quiero reportar el elemento, la versión y qué esperaba, y ver el estado de mi reporte, para que la corrección llegue a la fuente y no se repita.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "HU-06",
+    "prioridad": "P1",
+    "titulo": "Reportar una duda y seguir su estado",
+    "como": "persona que encuentra algo raro en una capa",
+    "quiero": "reportar el elemento, la versión y qué esperaba, y ver el estado de mi reporte",
+    "para": "que la corrección llegue a la fuente y no se repita",
+    "texto": "Como persona que encuentra algo raro en una capa, quiero reportar el elemento, la versión y qué esperaba, y ver el estado de mi reporte, para que la corrección llegue a la fuente y no se repita.",
+    "criterios_de_aceptacion": [
+      "El reporte guarda capa, clave, versión y descripción.",
+      "Tiene responsable y estado (recibido, en revisión, respondido, incorporado).",
+      "Se distingue 'respondido' de 'incorporado en la fuente'."
+    ],
+    "elementos_del_visor_ideal": [
+      "V5"
+    ],
+    "historias_de_origen": [
+      "E3-US04",
+      "E4-US07",
+      "E5-US05"
+    ]
+  },
+  "relaciones": [
+    {
+      "tipo": "satisface",
+      "objetivo": "urn:uuid:e82af71c-0d2b-5557-bf0a-ad6cae01f41e"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:d498b600-e076-5e38-a013-b79c90ddb03a"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:4c98d1a1-2a46-527b-a393-3d85e4f8684d"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E3-US04",
+      "ruta": "entrevistas/E3_usuaria_administrativa/paquete/04_desarrollo/historias_de_usuario.json"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E4-US07",
+      "ruta": "entrevistas/E4_desarrollador/paquete/04_desarrollo/historias_de_usuario.json"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E5-US05",
+      "ruta": "entrevistas/E5_cartografo/paquete/04_desarrollo/historias_de_usuario.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "consolidación de 48 historias por entrevista en 11 historias transversales",
+    "fecha": "2026-10-21"
+  }
+}

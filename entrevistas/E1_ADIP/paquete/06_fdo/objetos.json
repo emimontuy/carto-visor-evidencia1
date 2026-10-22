@@ -1,0 +1,90 @@
+[
+  {
+    "clave": "fuente",
+    "id_interno": "urn:uuid:336a3950-0e90-51b9-81f9-4747deaa0272",
+    "titulo": "Transcripción original de la sesión de ADIP",
+    "tipo": "TranscripcionEntrevistaPDF",
+    "archivo": "01_fuente/E1_transcripcion_anonimizada.pdf",
+    "metadatos": "06_fdo/metadatos/fuente.json",
+    "esquema": null,
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "transcripcion_extraida",
+    "id_interno": "urn:uuid:9299eaa3-88d9-5c8a-a04c-683f37aed2f7",
+    "titulo": "Texto extraído por páginas",
+    "tipo": "TranscripcionEntrevistaTexto",
+    "archivo": "01_fuente/e1_adip_transcripcion_extraida.txt",
+    "metadatos": "06_fdo/metadatos/transcripcion_extraida.json",
+    "esquema": null,
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "libro_de_codigos",
+    "id_interno": "urn:uuid:487a8da3-8913-5619-a78f-f61adc6522fb",
+    "titulo": "Libro de códigos de E1",
+    "tipo": "LibroCodigosCualitativo",
+    "archivo": "02_codificacion/libro_de_codigos.json",
+    "metadatos": "06_fdo/metadatos/libro_de_codigos.json",
+    "esquema": "06_fdo/tipos/libro_de_codigos.schema.json",
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "corpus_codificado",
+    "id_interno": "urn:uuid:0274aafe-95dd-5781-a567-195a4f9a7394",
+    "titulo": "Corpus codificado de E1",
+    "tipo": "CorpusCualitativoCodificado",
+    "archivo": "02_codificacion/corpus_codificado.json",
+    "metadatos": "06_fdo/metadatos/corpus_codificado.json",
+    "esquema": "06_fdo/tipos/corpus_codificado.schema.json",
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "hallazgos",
+    "id_interno": "urn:uuid:50a661b3-919c-558e-9ae6-db9444d2307f",
+    "titulo": "Hallazgos derivados de E1",
+    "tipo": "HallazgosCualitativos",
+    "archivo": "03_analisis/hallazgos.json",
+    "metadatos": "06_fdo/metadatos/hallazgos.json",
+    "esquema": "06_fdo/tipos/hallazgos.schema.json",
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "historias_de_usuario",
+    "id_interno": "urn:uuid:d74948bb-a902-58bf-84cd-292803abcd31",
+    "titulo": "Historias de usuario de E1",
+    "tipo": "HistoriasUsuarioTrazables",
+    "archivo": "04_desarrollo/historias_de_usuario.json",
+    "metadatos": "06_fdo/metadatos/historias_de_usuario.json",
+    "esquema": "06_fdo/tipos/historias_de_usuario.schema.json",
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "blueprint",
+    "id_interno": "urn:uuid:1c4dc6a6-9957-54a4-87da-afc534ca8177",
+    "titulo": "Blueprint derivado de E1",
+    "tipo": "BlueprintDesarrollo",
+    "archivo": "04_desarrollo/blueprint.json",
+    "metadatos": "06_fdo/metadatos/blueprint.json",
+    "esquema": "06_fdo/tipos/blueprint.schema.json",
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  },
+  {
+    "clave": "contratos_de_datos",
+    "id_interno": "urn:uuid:0e76666a-d354-5e0a-a95d-e6576ce782df",
+    "titulo": "Contratos de datos del prototipo",
+    "tipo": "ContratosDatosPrototipo",
+    "archivo": "04_desarrollo/contratos_de_datos.json",
+    "metadatos": "06_fdo/metadatos/contratos_de_datos.json",
+    "esquema": "06_fdo/tipos/contratos_de_datos.schema.json",
+    "pid_resoluble": null,
+    "estado": "pendiente_de_registro"
+  }
+]

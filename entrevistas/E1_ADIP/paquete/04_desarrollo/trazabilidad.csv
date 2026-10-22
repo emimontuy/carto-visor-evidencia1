@@ -1,0 +1,16 @@
+﻿historia,requisitos,hallazgos,segmentos,codigos,estatus
+E1-US01,E1-R01,E1-H01 | E1-H04,E1-S06 | E1-S07 | E1-S25 | E1-S27 | E1-S41,C01 | C02 | C07 | C08 | C09 | C11 | C12 | C17,derivada_para_validar
+E1-US01,E1-R04,E1-H01 | E1-H04,E1-S06 | E1-S07 | E1-S25 | E1-S27 | E1-S41,C01 | C02 | C07 | C08 | C09 | C11 | C12 | C17,derivada_para_validar
+E1-US01,E1-R06,E1-H01 | E1-H04,E1-S06 | E1-S07 | E1-S25 | E1-S27 | E1-S41,C01 | C02 | C07 | C08 | C09 | C11 | C12 | C17,derivada_para_validar
+E1-US02,E1-R02,E1-H03,E1-S18 | E1-S35 | E1-S43 | E1-S44,C05 | C13 | C14,derivada_para_validar
+E1-US03,E1-R03,E1-H01 | E1-H03 | E1-H04,E1-S18 | E1-S21 | E1-S25 | E1-S41,C05 | C06 | C07 | C08 | C11 | C12,derivada_para_validar
+E1-US03,E1-R05,E1-H01 | E1-H03 | E1-H04,E1-S18 | E1-S21 | E1-S25 | E1-S41,C05 | C06 | C07 | C08 | C11 | C12,derivada_para_validar
+E1-US03,E1-R06,E1-H01 | E1-H03 | E1-H04,E1-S18 | E1-S21 | E1-S25 | E1-S41,C05 | C06 | C07 | C08 | C11 | C12,derivada_para_validar
+E1-US04,E1-R04,E1-H04,E1-S13 | E1-S29 | E1-S30 | E1-S41,C07 | C09 | C11 | C12,derivada_para_validar
+E1-US05,E1-R05,E1-H03,E1-S17 | E1-S19 | E1-S20 | E1-S21 | E1-S42,C04 | C05 | C06 | C17,derivada_para_validar
+E1-US06,E1-R06,E1-H01 | E1-H04 | E1-H05,E1-S14 | E1-S23 | E1-S25 | E1-S26 | E1-S28 | E1-S46,C07 | C08 | C09 | C10 | C18,derivada_para_validar
+E1-US06,E1-R07,E1-H01 | E1-H04 | E1-H05,E1-S14 | E1-S23 | E1-S25 | E1-S26 | E1-S28 | E1-S46,C07 | C08 | C09 | C10 | C18,derivada_para_validar
+E1-US07,E1-R08,E1-H02 | E1-H06,E1-S10 | E1-S34 | E1-S37 | E1-S44 | E1-S45,C03 | C05 | C09 | C14 | C15 | C17,soporte_del_desarrollo
+E1-US07,E1-R09,E1-H02 | E1-H06,E1-S10 | E1-S34 | E1-S37 | E1-S44 | E1-S45,C03 | C05 | C09 | C14 | C15 | C17,soporte_del_desarrollo
+E1-US08,E1-R08,E1-H07,E1-S38 | E1-S39 | E1-S40 | E1-S47,C16,soporte_del_desarrollo
+E1-US09,E1-R09,E1-H04 | E1-H06,E1-S14 | E1-S22 | E1-S29 | E1-S34,C07 | C09 | C11 | C17 | C18,ampliacion_condicional

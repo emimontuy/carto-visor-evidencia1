@@ -1,0 +1,669 @@
+WhatsApp Audio 2026-09-30 at 4.36.31 PM
+¿Qué temas han visto? ¿En qué han profundizado? Igual para darle un poco de noción a [Directora ADIP]
+ahorita que se conecte con nosotros. [Enlace ADIP], no, mil gracias. Hemos tenido dos focos, ¿no?
+Porque, bueno, no sé si en algún momento los profesores te han comentado, tenemos diferentes
+profesoras en la materia, entonces hemos profundizado con dos profesores.
+
+Uno muy enfocado a la problematización, es decir, tratar de definir bien el problema, entenderlo,
+incluso hasta darnos, dar un paso más atrás, ¿no? De un punto de vista de problema público,
+¿no? Y tratar de entender qué implica, qué conlleva, cuáles pueden ser algunas limitantes,
+algunos retos. Eso de manera un poquito más general, con uno de los profes, y con el otro
+tratamos de aterrizar, ¿no? Bajar un poco la capa y ir un poco a un enfoque más pragmático,
+más específico, ya sobre el tema de los datos, que ese profe fue [Profesor], ¿no? El jueves de la
+semana pasada, luego de que tú nos presentaste. Entonces, esencialmente ahí lo que hizo
+[Profesor], con la experiencia que tiene en proyectos bastante similares, fue un poco explicarnos
+qué mecanismos, qué métodos, un poco de incorporación de algunos métodos de inteligencia
+artificial para el tratamiento de datos, homologación, análisis de datos, que probablemente, de
+repente no todos, pero algunos nos van a servir justamente para este reto que estamos
+teniendo, ¿no? Específicamente con él, que creo que nos va a ayudar mucho, él ha tenido
+algunas experiencias similares, pero en Colombia, ¿no? Él es colombiano y ha trabajado con
+temas de homologaciones en el sector público, particularmente para el tema de salud, pero
+bueno, hay muchas similitudes, ¿no? Entonces, en resumen del comentario de lo que hemos
+visto, dos grandes enfoques, uno más teórico, más general, más amplio, tratar de entender el
+problema, problematizarlo, construir esas definiciones que luego, una vez que vayamos
+avanzando, siempre ese marco teórico es muy útil, ¿no? Porque te permite hacer zoom y salir,
+¿no? Entrar y salir.
+
+Y en segundo lugar, con [Profesor], un enfoque un poquito más pragmático y hablando de temas
+de algunas limitantes en tema de pipeline de datos, consumo de datos, cómo va a ser ese
+usuario que va a utilizar esa información, de qué forma, qué restricciones, algún tema de
+privacidad y demás, ¿no? Entonces, esos son los dos grandes temas que hemos visto. Está
+perfecto, está perfecto. Pues muy bien.
+
+A ver, siguiendo un poco a [persona del equipo], que está trabajando. Sí, diga. Perdón que te interrumpa.
+
+¿Habrá posibilidad de que nos des chance de transcribir la reunión? Sí, claro. Es que me parece
+que creo que nos tienes que dar chance o no sé si como que lo tenemos limitado. Debe ser por
+mi cuenta de gobierno.
+
+Si quieres, manda la solicitud y a ver si me aparece. Es que me aparece, o sea, me dice como
+se ha limitado el acceso a la administración debido a las restricciones de la reunión. Debe ser el,
+ese como es correo de gobierno.
+Si quieres, vuelve a intentar. O si tienes un asistente de IA y lo subes, igual por ahí se puede.
+Ok, sí, sí, sí.
+
+Por casualidad, ¿sabes si puedes grabar la reunión desde tu compu? ¿No la puedes pasar?
+¿Posible? Sí. Muchísimas gracias. Grabación, sí.
+
+Ya debe estar llegando [Directora ADIP] con nosotros. Ahí está, ya. Sí, sí, sí.
+
+¿De ustedes esperamos a alguien más o empezamos con ustedes? Nosotros dos. [Enlace ADIP], somos
+los encargados. Tampoco queríamos llenar mucho la sala.
+
+Entonces, al final estamos también, o sea, esto es un trabajo de todo el equipo, pero nosotros
+recolectamos toda la información y bueno, somos los encargados de llevarla. Muy, muy bien.
+Muy, muy bien.
+
+Pues, ¿qué tal, [Directora ADIP]? ¿Cómo estás? ¿Nos escuchas ahí? Hola, hola, [Enlace ADIP]. Buena tarde.
+Perdón, perdonen la tardanza.
+
+No, no, claro. [Directora ADIP], mil gracias por tu tiempo. Gracias por acompañarnos para esta sesión.
+
+Si quieres, aprovecho para presentarte. Como bien les decía, chicos, [Directora ADIP] es la directora
+responsable del proyecto de Cartovisor. Ya la ven conociendo a ella, quizá algún miembro de su
+equipo.
+
+Y bueno, si ustedes gustan, presentarse Emilio y [Integrante TEC 1] para que [Directora ADIP] los vaya conociendo.
+Sí, sí, sí. Hola, [Directora ADIP], ¿cómo estás? Buen día.
+
+Pues bueno, nosotros somos, como bien dijo [Enlace ADIP], parte del bloqueo integrador de parte del
+TEC para trabajar el reto de Cartovisión. Nosotros vamos a estar trabajando en esto
+básicamente durante las siguientes 10 semanas. En la reunión nada más estamos [Integrante TEC 1] y yo,
+que yo soy el project manager.
+
+[Integrante TEC 1] es el end-to-end, el scientist. Y hay otras cuatro personas más que no pudieron estar con
+nosotros, pero es básicamente [Integrante TEC 2], que es el back. [Integrante TEC 3], que es el front.
+
+[Integrante TEC 4], que sería el data analyst. Y [Integrante TEC 5], que es el policy specialist, básicamente. Y pues
+bueno, esos seríamos nosotros básicamente.
+
+Nosotros, el objetivo de esta reunión no es tanto, más bien que nos repites el reto. Básicamente
+venimos como a preguntar ciertas cosas muy específicas para entender un poquito más lo que
+es la parte de la ficha. Porque puede ser un poquito de temas en la parte de los usuarios, los
+datos, la actualización, seguridad, etc.
+
+Y pues bueno, queremos hacer como que la reunión también lo más rápida posible. Sabemos
+que eres una persona OPA, entonces como que queremos hacerlo lo más dinámico posible. Y
+pues bueno, básicamente como que queremos ver eso.
+
+Y también queremos preguntarte si te parece bien que grabemos la sesión. No sé si nos darías
+chance de eso. Sería de ayuda para, por si tenemos alguna boda, también poder ver la sesión
+un poquito.
+
+Claro, claro. Yo sí, tema. A pronto, como tú lo digas.
+
+Perfecto, sí. Si quieren la voy poniendo a iniciar grabación. Y para empezar esta etapa, igual
+[Directora ADIP], dejar un espacio por si también quieres presentarte.
+
+Contarle un poco a los chicos de ti, de la dirección, de la agencia, lo que tú creas conveniente.
+Igual para ir empezando las introducciones. Ok.
+
+Bueno, pues mi nombre es [Directora ADIP]. De formación soy geógrafa de la UNAM.
+Tengo aquí a cargo la dirección de monitoreo electrónico y procesamiento estadístico.
+
+Mi equipo es, principalmente la formación de mi equipo son matemáticos, especialistas en base
+de datos, tableros. Nosotros estamos a cargo de, principalmente de la incidencia delictiva. Tanto
+presentaciones, tablero, información que la jefa necesite, así como más en corto.
+
+Pues principalmente es el análisis de incidencia delictiva. Actualmente mis compañeros trabajan,
+mi equipo trabaja en un tablero de incidencia delictiva. Con chatbot incluido.
+
+Con chatbot de análisis de exordios. Que los exordios es como el resumen de la carpeta de
+investigación de los delitos. Estamos analizando principalmente delitos de alto impacto.
+
+Algunos de bajo impacto, que pues los de bajo impacto son como no menos importantes. Pero
+siempre OAS ha estado intentando tener como mayor observación en delitos de alto impacto.
+Son los que afectan principalmente a la ciudadanía.
+
+Homicidios, robo transeúnte, cosas así. Sin embargo, no dejamos de lado los demás. Ellos
+sacaron la seguridad de ese tablero.
+
+Son responsables también de la actualización del tablero. Como les comentaba, el tablero de
+seguridad que ya está en funcionamiento. Sin embargo, tiene todavía algunos detalles de
+usuarios.
+
+No hemos podido migrar todos los usuarios. También incluye un chatbot. Que el chatbot analiza
+exordios de las carpetas.
+
+Tiene información desde 2018. Estamos pensando en meter ya información nacional. Ese tipo de
+detalles, o sea, lo que ahorita les comento de información nacional.
+Pues es por lo que nos ha ido frenando un poco ese tipo de detalles. Para ya poder sacar otro
+tablero que actualmente está. Y meter este, y tener ya este.
+
+Sí, como les comentaba, entonces, información también nacional. Es un chatbot pues completo.
+Trabaja con Cloud, creo.
+
+Sí, sí. Y pues analiza exordios, genera gráficas, genera resúmenes. Tiene una temporalidad
+muchísimo más amplia.
+
+Desde 2018 a la fecha. Y se actualiza diariamente. Tiene también el tablero un mapa interactivo.
+
+El mapa interactivo tiene cargados todos los delitos. También alto y bajo impacto. Y también
+pues podemos hacerle como filtros de temporalidad.
+
+Principalmente tenemos eso. Es lo que consume como la mayor parte del día. Y de la noche.
+
+En muchas ocasiones. De la noche, ¿por qué lo comento? Porque pues estas bases se
+actualizan en la madrugada. Entonces, mis compañeros son los encargados principalmente de
+estar al pendiente de esas actualizaciones.
+
+Y de subsanar cualquier error que pudiera suceder. Para que la jefa a las seis y media de la
+mañana pueda tener las presentaciones de seguridad de un día anterior. Y el tablero totalmente
+actualizado.
+
+Además, estamos haciendo ya algunos análisis estadísticos. Tazados también. ¿Y qué más
+estamos haciendo? Bueno, independientemente de eso.
+
+Como les decía, esto es lo que consume como la mayor parte del día. Sin embargo, pues el
+equipo tiene diferentes proyectos. Tienen por ahí un proyecto de... Un tablero de lluvias.
+
+Donde puedes ver el nivel de inundación de un día anterior. Las casas... Número de casas
+afectadas. Las zonas.
+
+También tiene un mapa interactivo. También tienen eso. También traen... Bueno, principalmente.
+
+No nos vamos a meter como en otros proyectos. Porque ahorita prácticamente vamos a trabajar
+con muy poquitas capas de seguridad. Yo le comentaba a [Enlace ADIP] que me gustaría que
+empezáramos a lo mejor con algunas capas muy sencillas.
+
+Y si nos da el tiempo necesario, pues podríamos ir subiendo un poco de capas más pesadas.
+Más pesadas porque además las bases de incidencia electiva son miles y miles de registros.
+Que se actualizan diarios.
+
+Y que para poder ingresarlos a este portal que queremos hacer. Pues también necesito generar
+una ficha responsiva y bla, bla, bla. Por el tema delicado, ¿no? Entonces no podemos o no
+puedo compartirlo tan fácilmente, ¿no? Pero si nos da la vida, con mucho gusto lo haremos.
+
+Sí, adelante. Mil gracias, [Directora ADIP]. De verdad, te agradecemos un montón.
+
+También gracias, [Enlace ADIP], por facilitar la presentación. Nos ayuda un montón también entender lo
+que tú comentabas en un inicio. Sobre un poco la conformación de tu equipo de trabajo.
+
+Que mencionaba [Enlace ADIP], que a pesar que están en la agencia, no necesariamente están en el
+mismo equipo. Entonces, te agradecemos mucho eso. [Directora ADIP], justamente retomando lo que
+mencionabas.
+
+Sobre que ya hay un producto funcional andando, ¿no? Ya se ha trabajado sobre esto. Quería, o
+la primera pregunta que nos ayudaría un montón poder dilucidar es. ¿De dónde un poco nace el
+reto, no? Esencialmente queríamos saber si ya había algunos intentos para homologar esta
+información.
+
+Obviamente ya hay un tratamiento cartográfico ya andando por justamente lo que nos comentas.
+Pero nada, esencialmente queríamos saber de dónde nace. Cuál fue un poco esa incidencia
+que, por llamarlo así, detona o nos hace llegar acá con este problema.
+
+De tal modo que nosotros podamos tener eso como idea central. Y siempre que lo podamos
+alinear en lo que te vayamos a ir mostrando y entregando. Sí, claro.
+
+Mira, la idea o la necesidad surgió de… Cada secretaría aquí, en Ciudad de México, en el
+gobierno de la Ciudad de México, habrá 30 secretarías diferentes. Turismo, seguridad, bienestar,
+mujeres. Cada una o la mayoría ahorita está utilizando o está intentando georreferenciar o
+utilizar mapas para diferentes situaciones.
+
+Para a lo mejor los eventos, tener en un mapa punteado los eventos que tienen en el mes de
+julio. Otro color los del mes de agosto. A lo mejor otra secretaría quiere en el mapa o tiene su
+tabla, su base de datos.
+
+Y a lo mejor quiere hacerle un proce para corroborar colonias o corroborar códigos postales. Y el
+tema aquí es que la Secretaría de Seguridad, Fiscalía, la Secretaría de Cultura y la ADIB, que
+somos nosotros, utilizamos una capa diferente de colonias. Porque la capa de colonias la tiene
+INEGI, la tiene SEDATU, la tiene X personas.
+
+Hay muchas capas. Entonces todo el mundo utiliza capas diferentes. Y al hacer esos cruces
+pues nos salen a todos resultados diferentes.
+
+Entonces el plan es homologar toda esta información para que existiera como una especie de
+datos abiertos. ¿Han revisado datos abiertos? Existieran datos abiertos de cartografía y todos
+tuvieran, bueno, vamos a empezar de adentro hacia afuera, tuviéramos como todos esa liga y
+pudiéramos consumir de ella. Mil gracias, [Directora ADIP].
+Muchas gracias, [Directora ADIP]. Ahora a mí me gustaría preguntarte un poquito más sobre la parte de los
+usuarios, también un poquito de las clases de uso. Primero me gustaría que nos dijeras más o
+menos quién va a estar abriendo este visor como que el día al día, pero no como
+especificándonos la parte de las dependencias, sino más bien sería la parte de los analistas de
+tu equipo, sería el personal interno, serían otras áreas, sería la dirección, más o menos quién
+tendría este tipo de interacción.
+
+Cualquier persona. O sea, el tema es que lo pueda utilizar cualquier persona. Ok, ok, muchas
+gracias.
+
+También la última vez que alguien te pidió este tipo de información, ¿quién fue para ser
+precisos? ¿Cómo es que la quería, cómo es que se la entregaste y cuánto más o menos te tomó
+en entregársela? ¿Cómo, cómo, cómo, cómo? A ver, otra vez. Ajá, es este tipo de
+información que estamos solicitando de todo esto del contexto. Es común que se te pida quién
+fue el que te la pidió, para qué la quería y más o menos cuánto tiempo tomó en entregársela.
+
+¿Pero cuál información? ¿Las capas o de qué información hablamos? Ajá, o sea, en general,
+este tipo de información sobre la entrevista que le estamos proporcionando. Básicamente, la
+parte de los usuarios y los casos de uso. Por ejemplo, ahora que le estamos preguntando sobre
+los perfiles y conceptos de Google, quiénes son las dependencias, o sea, quiénes son las
+personas que están utilizando este tipo de plataforma.
+
+¿La última vez que tuviste un encuentro así como cercano a este tipo de entrevistas? ¿Cuándo
+fue? ¿Cómo funcionó toda esa parte? Cuando te decía que podía utilizarlo cualquier persona, o
+sea, justamente va por eso. Yo no sé el trabajo de las demás dependencias, no conozco incluso
+la actualización de las demás dependencias y si van a utilizar la cartografía o no. Yo lo que
+únicamente quiero es tener como una biblioteca que pudieran consultarla en cualquier momento
+cualquier persona, cualquier persona que tuviera el INC, porque todavía no va a ser público, y
+¿en qué momento? En el momento que sea.
+
+No, nadie me lo ha solicitado. De hecho, a mí si me solicitaran, yo les voy a compartir dos capas
+a través de [Enlace ADIP]. Esas dos capas, la fuente es Secretaría de Seguridad Ciudadana, pero si me
+pidieran la actualización de esas dos capas, yo no se las puedo dar.
+
+Yo tendría que solicitarla a quien hace, al dueño de la información, en este caso la Secretaría, y
+proporcionárselas al técnico para que suba la actualización. ¿Cierto? Bueno, para volver al
+contexto de lo que decía Emilio, por lo que yo entiendo es entender un poco, además del origen
+del proyecto de Cartovisor, para que ellos vayan entendiendo un poco el contexto, por lo que
+entiendo la pregunta es también, ¿a raíz de qué actor o de qué necesidad surgió el diseño de
+este proyecto de Cartovisor? Entendiendo, por ejemplo, que algunos datos son de la Secretaría
+de Seguridad Pública, quizá incluso nuestro titular tiene alguna solicitud particular para este
+proyecto, como para entender de dónde viene el mandato o la instrucción, como para entender
+de dónde surge la necesidad de que exista Cartovisor y qué es lo que se debe de ir integrando
+para que el producto entregable esté completo. O sea, para que ellos tengan, digamos, en una
+línea de tiempo, puedan tener una trazabilidad de dónde se origina y qué debe de tener en
+distintas etapas, para que lo que ellos trabajen pueda estar completo y pueda cumplir lo que tú
+esperas, [Directora ADIP], como directora de área, lo que espera incluso [Titular ADIP] o lo que incluso espere
+otra área involucrada que pudiera ser la Secretaría de Seguridad Ciudadana o quienes tú nos
+indiques.
+
+Sí, pues mira, que alguien tenga la necesidad, actualmente no, nadie. Yo o el titular y yo lo
+platicamos porque es un proyecto totalmente nuevo, a nadie se le ha ocurrido, nadie lo ha
+proporcionado y es como dejar de hacer lo que todos quieran o consuman lo que quieran,
+actualizado o no, y homologar la información que sale de la Ciudad de México. Nada más.
+
+Muchas gracias, [Directora ADIP]. Y por ejemplo, antes, sé que esta parte es nueva, pero más o menos,
+¿con qué asociarías este tipo de necesidad, por así decirlo? Por ejemplo, antes, para hacer algo
+similar a lo que gustaría hacer, ¿qué herramienta dirías que se podría usar? Como Excel,
+correos, capturas de pantallas, más o menos, ¿qué estamos intentando sintetizar en la parte de
+este proyecto? ¿Para los entregables? No, o sea, en general, básicamente, ¿qué estamos
+buscando solucionar en la parte de Cartovisor? O sea, antes se estaba usando esto como para
+hacer más sencillo el uso de esta herramienta, de esta herramienta, ¿cómo funcionaría? La
+verdad es que no sé, o sea, no sé cómo las demás personas solicitan su información. Yo tengo
+algunos contactos con algunas secretarías y me lo proporcionan como de manera en corto, por
+WhatsApp, algunos se tienen que hacer por oficio, pero desconozco cómo lo hagan las demás
+personas.
+
+[Participante ADIP] tiene levantada la mano. Sí, gracias. ¿Qué tal? Buenas tardes a todos.
+
+Comentarles, compartirles un poquito de lo que yo he visto en pláticas, igual con el celular y
+algunas otras herramientas. Por un lado, bueno, igual se las comparto, creo que sería muy
+bueno para todos. Hay una herramienta que tiene Corea del Sur en la que justamente se entran
+diferentes capas de información en el mapa.
+
+Pero bueno, más allá de eso, creo que lo que se ha topado, [Titular ADIP], es ir viendo que de
+manera transversal hay dependencias que tienen datos, que se pueden ver en un mapa. [Directora ADIP]
+es como el primer frente aquí al tener información de incidencia delictiva. Pues ahí hay mucha,
+es muy importante la ubicación geográfica de las cosas.
+
+Y seguramente eso ha ido sucediendo de hoy. El agua y movilidad y que todos tienen su
+información geográfica. Y por otro lado está Google Maps, que también ahí el compartir capas
+de información relacionadas con el mapa es muy fácil.
+
+Por ejemplo, en algún momento hace ya como el año pasado, yo creo, teníamos nosotros en
+investigación e innovación, a manera de broma, era un mapa de los mejores restaurantes del
+centro. Y fue muy fácil armarlo, muy práctico. De las ubicaciones, lo compartes, lo compartes y
+todo el mundo dentro de su misma aplicación, o sea, Google Maps, puede ver la misma
+información geográfica que tú.
+
+Yo creo que va como por allá conjuntando un poco la necesidad que ha estado detectando
+[Titular ADIP], como el saber que existen formas muy prácticas de compartir capas de información.
+Pero sí, si bien muy prácticas y muy desierto con sus muy bien asignados permisos para que no
+sean accesibles por cualquiera, que solo sean accesibles por las dependencias que así lo
+requieran, etc. [Participante ADIP], una pregunta.
+
+¿Tienes el nombre de la plataforma? Esta de referencia de Corea del Sur. Ah, este, no tengo el
+nombre, pero ahorita, sí, sigan en la llamada y en este inter ahorita le encuentro. Obvio, obvio,
+sí, sí.
+
+De todas maneras ya con la descripción ya uno ahí va viendo, va orgando un poquito. Dale,
+Emilio. Gracias, [Participante ADIP].
+
+Sí, una rápida, sencilla, que es básicamente, ¿cuál es el principal uso de esta parte? ¿Es que se
+consulte directamente en la pantalla o se descarga la capa para después trabajarlo en otro
+sistema? Y si es que se descarga, ¿quién puede descargarla y en qué formato podría
+descargarla? De preferencia a ambos. ¿Quién? Pues también las personas que lo consulten.
+Todos.
+
+O sea, en este momento que va a ser como parcialmente interno, por así decirlo, parcialmente
+interno me refiero a que cualquier secretaría o cualquier persona de cualquier secretaría que
+tenga el link pueda consultarlo y pueda descargarlo, pero no va a ser, o sea, no es como que
+puedas buscar la liga en Google o te la encuentres por ahí y cualquier persona puede entrar,
+¿no? O sea, ahí, y creo que eso va con el tema que decía [Participante ADIP], o sea, con sus credenciales
+como bien definidas. No sé, a lo mejor a mí se me ocurre que sea un usuario para la Secretaría
+de Cultura, uno para Salud y con sus credenciales como bien definidas que puedan consultar.
+Obviamente nadie editar, pero descargar y a lo mejor por ahí que tengas algo que te mande un
+correo electrónico, ¿no? Así como que, como para que ellos pudieran decir, oye, esta capa la
+actualizamos el mes pasado.
+
+Y bueno, ya como generar ese contacto, que estemos también de este lado al pendiente de, ay,
+pues, Cultura me avisó que esta capa la actualizaron, ¿no? Hay que pedirla o que no la pasen o
+mandamos el oficio, como sea, y hay para actualizar. Perfecto. Muchísimas gracias.
+
+Justamente para que no suceda lo que ahorita tiene el portal de datos abiertos, que aunque está
+en línea, pues no tiene actualizado desde el 2020. Sí, sí, sí. Perfecto, claro que sí.
+
+Muchas gracias. Una pregunta, [Directora ADIP], y retomando lo que venías comentando, me parece que
+era una de las respuestas anteriores de los datos, ¿no? Tú hacías el énfasis, y de hecho en la
+carta que nos pasaron, que nos compartió [Enlace ADIP], se hace el énfasis en la homologación. Y de
+hecho se mencionan las dos capas, ¿no? La de los 72 polígonos, la de los 1022 polígonos.
+
+Un poquito nos pudieras comentar ese material que nosotros vamos a estar recibiendo, ¿no?
+Que en este caso son provistos por la Secretaría de Seguridad Ciudadana en un inicio. O sea,
+¿qué conlleva esa base? ¿De qué datos estamos hablando? ¿Qué atributos trae cada capa? No
+sé si hay algún identificador único. Evidentemente esto también lo podremos ir resolviendo
+nosotros cuando tengamos la información.
+
+Pero un poquito, no sé si me puedes hablar de esa desagregación en el dato, de modo de
+también ya ir pudiendo construir toda la figura, ¿no? Sí, claro. Sí tienen un identificador único.
+Son polígonos generados por la Secretaría, por el área de estadística, que son como cercos.
+
+El territorio de Ciudad de México lo dividieron en 72 sectores, que tiene cada uno a cargo, a lo
+mejor, algún mando policíaco. Y ese mando, para su responsabilidad o facilidad o para su
+custodia del territorio que le corresponde, hizo una división, que son los cuadrantes, para tener
+como polígonos más pequeños. O sea, a lo mejor, 50 cuadrantes es un sector.
+
+Varian también de acuerdo a la morfología de la propia Ciudad de México. Esa información que
+tienen, o sea, tanto el nombre como la clave o el identificador, es información que ya viene
+propia de la Secretaría. Entonces, no podemos moverla, porque sería como cambiarle el nombre
+y es, a lo mejor, algo que a nosotros nos puede ser muy útil, pero ellos no van a identificar.
+
+Entonces, sí, creo, no sé si [Enlace ADIP] a lo mejor pudiera mandarles el metadato o una capturita, no
+sé si lo puedan ver, o yo les mando la capturita de qué es lo que contiene, para que la vean.
+Pero, pues bueno, es en sí, nada más. No trae como información de datos personales o algo así,
+no lo tiene.
+
+Perfecto. Mil gracias. Y gracias a [Enlace ADIP], quizás también, si es posible, te fastidiamos un poco
+con respecto a eso.
+
+[Directora ADIP], justamente con lo que me decías, creo que hay una pregunta muy relevante y todo lo que
+nos puedas comentar de ahí nos va a ayudar un montón. ¿Tienes idea, conocimiento de
+problemas de calidad en las capas? Es decir, probablemente nos vayamos a estar enfrentando
+eso, pero suele pasar que en este proceso de homologación cartográfico pueden haber
+geometrías inválidas, quizás duplicados, alguna inconsistencia en nombres. Entonces, no sé si lo
+tengas ahí como que a la mano que nos puedas decir o cuáles serían como esos dos, tres, esas
+tres inconsistencias, problemas que tú dirías que ya una vez que nos adentremos en los datos,
+te gustaría que, aunque sea en una primera versión, quede lo más resuelta posible.
+
+Para este entregable de estas semanas, únicamente vamos a trabajar con la capa de cuadrantes
+y la capa de sectores por el tema de la sensibilidad de las bases de datos de fiscalía, solamente
+con estas dos capas. Y estas dos capas no tienen ningún problema de, o sea, que tengan
+proyecciones diferentes o que esté una desfasada y la otra por allá. Estas capas cuadran
+perfectamente, no vas a tener problemas.
+
+Buenísimo. Mil gracias. Una última de este punto.
+
+Mencionabas en un inicio, [Directora ADIP], que compartían una misma estructura y una misma lógica, me
+parecía que era con Agricultura, Secretaría de Seguridad Ciudadana y demás. Y también habían
+otras secretarías que, bueno, utilizan otra lógica, otra estructura. Entonces, utilizamos como
+fuente de la verdad, es decir, como lógica, como objetivo, pues esta que me estás comentando,
+la que comparten con Seguridad Ciudadana, Agricultura y la DIP, ¿verdad? Sí, sí, sí.
+
+Perfecto. Mil gracias. Emilio, cuando quieras.
+
+Este sí, claro, nada más en la parte de la ficha nos nombra, nos dice una parte sobre la
+actualización anual. ¿Esta parte se refiere a un corte fijo en cierto mes o cuando la Secretaría de
+Seguridad Ciudadana lo decide, lo decida? Eso puede ser muy variable, o sea, puede ser que a
+lo mejor la secretaría se puede echar dos años sin actualizar, o el resto de la administración sin
+actualizar, o como puede hacerlo al siguiente mes. Entonces, en este caso, pues vamos a
+dejarla como muy de lado porque a ustedes no les va a tocar actualización, o sea, prácticamente
+como son en 10 semanas.
+
+Entonces, pues no, vamos a trabajar con esta desde las que ya tiene [Enlace ADIP] de principio a fin.
+No, ahí sí no vamos a tener actualización. Un segundito, perdón, sí, [Directora ADIP], en algún momento
+habías mencionado que había una actualización en la madrugada, es decir, una actualización
+diaria.
+
+Esas, ¿de qué son y cómo contrastan con estas de Seguridad Ciudadana que se actualizan un
+poco cuando ellos digan? Sí, son temas diferentes. Esta que te comento es la base de datos de
+fiscalía. Esta contiene las carpetas que se inician un día antes.
+
+Por eso se actualiza en la madrugada, porque todas las que se están abriendo ahorita a las dos
+de la mañana entran al web service para actualizarse. Esa es la que les comento que si nos da
+la vida en otro proyecto, en una fase dos, a lo mejor pudiéramos trabajar con ellas porque nos
+genera otro tipo de estructura, otro tipo de dinámica. Tengo que yo pedir la autorización a uno de
+ustedes o al equipo que lo conforme a ustedes porque son datos sensibles, son datos de la
+fiscalía, hay datos personales y no puedo estar compartiendo esa información así como tan libre
+albedrío.
+
+Entonces sí se tiene que llenar una responsiva, varias cosas. Tengo que yo tener la VPN, la
+clave de sus computadoras que son las que van a acceder justamente para evitar algún tipo de
+problema a la entrada a nuestro web service. Entonces eso no va a suceder en estas 10
+semanas.
+Posiblemente en una segunda etapa podríamos hacerlo. Perfecto. Mil gracias, [Directora ADIP].
+
+Eso muy claro y gracias por esos conceptos acá. Nos sirve un montón. En algún momento y
+retomando lo que decías en un inicio sobre qué estaba trabajando la agencia y en particular tu
+equipo, tú mencionabas justamente con temas de seguridad que están trabajando con temas de
+seguridad, específicamente con temas de delitos de alta incidencia.
+
+Ahora, no obstante, la idea es que cualquier usuario en este caso con sus credenciales del
+sector público de las secretarías pueda acceder. Entonces supongo que en un inicio los
+principales parámetros, visualizaciones, características del MVP que nosotros le presentamos
+debe cubrir justamente lo más valioso para en este caso tu equipo inicialmente de temas de
+seguridad, temas de incidencia delictiva. Número uno, preguntarte si esto es correcto.
+
+Y número dos, en dado caso, porque también lo mencionabas, de que podamos escalar esto, tú
+planteabas como dos grandes perspectivas. Una, escalarlo a nivel nacional. Otra, incorporar
+otras características e información que le sean útiles a otras secretarías.
+
+Y ahí el abanico se abre bastante porque hay un montón de información que puede ser útil en un
+mapa de acuerdo a la secretaría y las necesidades que tenga. Quería preguntarte entonces,
+número uno, si este conjunto de parámetros, herramientas en el cartovisor, la capa fundamental
+serían de temas de seguridad. Y en un segundo lugar, luego de aclarar eso, ¿cuál debería ser la
+ruta que deberíamos tomar? Es decir, ¿escalarlo a algo más a nivel nacional o preferirías poder
+ampliar un poco más el abanico a información que le sea relevante a otra secretaría que no sea
+de seguridad? Dejarlo a nivel Ciudad de México para otras secretarías.
+
+O sea, la opción dos nacional podría ser, pero a lo mejor en una tercera etapa, porque
+tendríamos que revisar y hacer un análisis de qué sí y qué no nos nos conviene o quisiéramos
+como analizar a nivel Ciudad de México con nacional, porque sería un comparativo. Entonces
+esa sería en otra etapa, pero sí me quedaría con a lo mejor ir involucrando otros temas de
+diferentes secretarías importantes también o que sean a lo mejor relevantes, aunque sea para
+esa secretaría. No sé, la verdad, ahorita qué temas.
+
+Incluso yo pensaría que no nos involucráramos mucho en eso. O sea, que a lo mejor únicamente
+tuviéramos como visión sin dejarlo cerrado, pero únicamente como trabajo. Y si nos da la vida en
+estas semanas, que creo que ya son ocho, lo platicaba con [Enlace ADIP], creo que ocho este, pues
+podríamos ir alimentando, ir viendo ya internamente que podremos seguir alimentando y hasta
+dónde llegar de acuerdo al al al límite de tiempo.
+
+Mil gracias, perfecto. Sí, sí, sí, de acuerdo contigo y con el plan Emilio. Ah, perdón.
+
+Bueno, [Enlace ADIP] tenía una duda. Está muy bien, está muy bien. Creo que esto es una referencia
+importante para la expectativa del proyecto.
+Si lo entendí bien, [Directora ADIP], es entonces quizá poner un foco importante inicial en el esqueleto,
+digamos, en el entregable que va a consumir esta información. Y si el tiempo lo permite ir,
+enfocarse obviamente en estos datos que bien has definido sin considerar bases adicionales.
+No, realmente es poner el enfoque en el cascarón, en la estructura de la misma herramienta y
+sobre esto, pues irla validando contigo y con las áreas usuarias, ¿verdad? Si estoy correcto.
+
+Sí, así es, así es. A mí lo que me interesaba mucho es como esto que le llaman de el estatus del
+usuario o algo así. O sea, qué tan fácil es sin que le tengas que mandar explicación y nada.
+
+O sea, únicamente la visualización y qué tan fácil es encontrar las herramientas dentro de esa.
+Ah, página, no sé ustedes que tengan idea. Yo les doy libre albedrío.
+
+Nada más si lo que les voy a encargar es que este, o sea, a lo mejor, no sé, también el libre
+albedrío viene a los entregables. No sé si quieran ver avances por semana o por dos semanas
+como ustedes lo decidan. Dudas, en cualquier momento me pueden escribir o escribirle por parte
+de [Enlace ADIP], que sea nuestro intermediario.
+
+No tengo tema. Pero los entregables, si fuera por semana, me gustaría que fuera como, no sé,
+algunas capturas de pantalla o tengamos una reunión así como para ver qué va de esa semana.
+Pero que eso sí, vamos a hacer un drag donde me vayan subiendo su documentación.
+
+Para que tengamos como todo, todo, todo un tipo taiga. Este de qué sucedió esta semana y es
+la documentación de lo que se entregó esa semana, no? Para que después, pues vaya para que
+cuando tengamos a lo mejor un etapa dos o una etapa tres, pues lo agarramos ahí de la
+documentación. Digo, a lo mejor yo esperaría que esté todo el equipo, pero si hay dentro del
+equipo la etapa dos otras personas que no están ahorita en esta etapa, pues con la
+documentación puedan empaparse y agarrar el hilo de lo que vaya del proyecto.
+
+Perfecto. Totalmente de acuerdo, [Directora ADIP]. De hecho, con [Enlace ADIP] habíamos planteado una lógica
+justamente de como de checking, no? Es decir, de avances, de aclarar dudas, mostrar lo que se
+lleva y también poder tener plazos cortos de entrega de tal forma de si es necesario ajustar algo,
+pues poder alinearlo y cualquier cambio relevante no dejar que crezca.
+
+No? Entonces de acuerdo contigo y perfecto con el drive. Sin ningún problema. Vale, sí, sí, sí.
+
+Emilio, cuando quieras. Ya estamos cerrando, [Directora ADIP]. Perdón, sé que son varias preguntas, pero.
+
+Este, pues ahorita que mencionabas un poquito la parte de lo del libre albedrillo y que como que
+se nos da cierta libertad, me gustaría preguntarte un poco sobre la infraestructura. O sea, la VIP
+si tiene una infraestructura para para este tipo de proyectos a un geo server, no sé, nubes,
+servidores, licencias. Sí, sí, te gustaría también que reutilizamos cierto tipo de herramientas y de
+la misma forma hay herramientas que nos prohíbes usar o no sé, alguna nube extrajera o algo
+así.
+O pues sí, básicamente sería sería esa parte. No, nada. Pueden es libre albedrío también.
+
+Pueden utilizar lo que ustedes quieran. Si tenemos servidor, incluso la dirección tiene dos. Más o
+menos por ahí con la memoria.
+
+Me gustaría que lo estuvieran trabajando en local. O ya que tengamos como todos, o sea, ya
+que tengamos el producto final, ahora sí quizá hacer la prueba para levantarlo en el servidor.
+Pero por lo mientras, en eso y de qué quieren utilizar colores, aplicaciones y lo que ustedes
+tengan.
+
+OK, perfecto. Muchas gracias. Hay un tema nada más de ese que a lo mejor sí debería de
+comentarles.
+
+Eh? La administración está mucho en utilizar cosas gratuitas por el tema del gasto y por el tema
+de que se generaría un gasto mensual. Entonces utilizamos mucho cosas gratuitas justamente
+para no tener ese tema de que oye, sabes qué? No corre el chatbot porque es gratis. Ok, ok, ok.
+
+Ajá. Entonces hay que intentar hacerlo. En algunas ocasiones no se puede.
+
+Nosotros varias apis de Google no podemos hacer las gratuitas. Bueno, no podemos utilizar o su
+o cambiarlas por algunas gratuitas. Hay algunos temas que no se puede, pero si el presupuesto
+lo tenemos un poquito apretado en eso.
+
+Entonces intentemos. No, no. Por favor.
+
+Claro que sí. Claro que sí. Muchas gracias, [Integrante TEC 1].
+
+Y sobre todo que no vaya por ahí a no sé que se vayan a basar en alguna herramienta que
+tenga algún costo mensual y que de repente. Ah, y es que pues para que siga funcionando hay
+que seguir pagando. Ok, ok, ok, ok.
+
+Sí, sí, sí. Perfecto. Muchas gracias.
+
+[Integrante TEC 1], algo tú. Sí, ya, ya, ya también cerrando un poco y para llevarnos esa idea. Creo que en
+algún momento lo veo.
+
+[Directora ADIP] lo mencionaba al inicio y también [Participante ADIP], por favor, [Enlace ADIP], lo que quieran agregar. De
+verdad nos sirve un montón. Pues no sé, en dos o tres ideas centrales.
+
+Cuando vayamos armando el prototipo y si pensamos de acá al sería la semana del primero de
+diciembre. Esas ocho semanas que suenan a mucho, pero pasa rápido. ¿Cuál es ese prototipo
+que está bien? No es MVP.
+
+¿Qué te gustaría? ¿Qué características? ¿Qué tres ideas que no puedes fallar? Ya voy
+recolectando, pero si las podemos pasar limpio nos ayuda un montón para que también de cara
+al equipo que tenemos, podamos tener muy bien esa visión marcada y a lo que ustedes
+necesitan. Entonces con esa visión bien marcada y con los check-ins que podamos ir haciendo,
+poder asegurar que el producto al final le sea súper útil. Al final, como decía [Participante ADIP], no sirve de
+nada una plataforma o un desarrollo que tengamos que ir pagando y que al final no sea
+sustentable.
+
+En resumen, en resumidas cuentas, ¿cómo se vería ese prototipo? ¿Qué cosas obligatoriamente
+tienen que estar de tal modo de tener clara esa visión del producto? Pues mira, obligatorio a lo
+mejor el metadato. O sea, para que se sepan las personas cuándo fue la actualización y cosas
+de esas, los metadatos. Darle como un espacio o dejarle ahí pendiente como el nivel de usuario
+o el role del usuario, porque a lo mejor muchos podrán tener un rol completo y algunos no.
+
+Pues el tema de la seguridad y la vista, o sea, que sea fácil. No quiero que mandemos la liga y
+tengan que buscarnos para explicarnos cómo funciona o para que nosotros tengamos que
+explicarles cómo funciona. O sea, una visualización fácil, un manejo del usuario fácil.
+
+Y lo demás, pues, al libre albedrío. Perfecto. Gracias, ahí creo que [Enlace ADIP].
+
+¿Me escuchan verdad? Sí, sí, sí. Adelante [Enlace ADIP], gracias. Mira [Directora ADIP], justo estoy proyectando
+en mi pantalla un documento que fuimos estructurando basado en esta expectativa que tienen
+como equipo.
+
+Lo proyecto para que las partes, digamos, puedan estar claras e incluso hacer preguntas si hay
+algo que quieran profundizar, ¿no? Pero aquí, [Directora ADIP], por ejemplo, en el documento de
+entregables identificamos cuatro entregables muy concretos. Quizá tú nos puedas decir para
+este momento, me gustaría que se enfoquen en esto, ¿no? Y sobre eso ir desagregando. Pero
+miren, por ejemplo, para los entregables que hablamos con [Directora ADIP], el primero tiene que ver con
+una propuesta de arquitectura funcional, definición de la experiencia, organización de las capas,
+los metadatos que mencionaba [Directora ADIP], actualización y flujo básico de datos, digamos como
+propuesta de arquitectura.
+
+Segundo es el prototipo del visor, un mapa interactivo con las capas disponibles y funciones de
+encendido, apagado y de descarga. Como tercer entregable, una metodología de homologación,
+¿no?, que hizo énfasis a [Directora ADIP] muy bien sobre el tema de criterios y pasos mínimos para
+estandarizar bases externas antes de incorporarlas a la plataforma. Y el cuarto son
+recomendaciones de la siguiente fase, brechas, dependencias, actores y condiciones para
+escalar hacia más instituciones y eventualmente una consulta pública, ¿no? Entonces, por
+ejemplo, [Directora ADIP], si algo quieras actualizar sobre esta lista de entregables o si quieres que se
+enfoquen en algo en concreto para esta semana que corre, ¿cómo lo ves tú? No, para mí está
+súper bien, como que para esta semana que corre, la verdad se me hace mucho, [Enlace ADIP], para
+esta semana.
+
+Yo preferiría que incluso una, dos semanas, tres semanas, las que vienen, se dedicaran al punto
+uno y ese fuera como el entregable más importante, yo creo. Y de ahí creo que, o sea, una vez,
+creo que teniendo ese punto uno podríamos avanzar de diferente manera en los siguientes
+puntos. Pero yo creo que el uno, incluso para una semana a mí, no lo sé, no sé, este, el horario,
+la facilidad, disponibilidad, lo que sea, del equipo, pero el punto uno, incluso yo lo mandaría
+hasta tres semanas para que pudiéramos verlo en tres semanas.
+
+Está excelente, excelente. Mil gracias, [Enlace ADIP]. Mil gracias también por proyectar ahí justamente,
+perfecto porque podemos complementar con lo que decía [Directora ADIP] y gracias, [Directora ADIP], por darnos un
+poco esa visión en la prioridad, de qué debe quedar primero.
+
+No sé si, [Enlace ADIP], tenías algún comentario más o tenías ya unas preguntitas de cierre, más
+cuestión tipo operativas, un par de cositas para aclarar, pero nada profundo. Ah, buenísimo. Si
+quieres tus preguntas, [Integrante TEC 1], para ustedes profundizantes.
+
+Una pregunta, [Directora ADIP], y también [Enlace ADIP], creo que acá ya lo mencionabas. Las dos capas nos las
+entrega [Enlace ADIP], ¿verdad? O tú, no sé, simplemente preguntar sobre eso y por cuál medio. Sí, sí,
+te las puedo.
+
+Digo, no tengo el contacto de ustedes. Podemos hacerlo a través de [Enlace ADIP]. Si no tiene tema, yo
+te las mando en un zip, [Enlace ADIP], y con gusto los puedes compartir.
+
+Claro, perfecto. Justamente era ese punto. No sé si de repente te sentías cómoda, [Directora ADIP],
+compartiéndonos tu correo.
+
+Si no, si prefieres que lo manejemos a través de [Enlace ADIP], sin ningún problema, ya hemos hablado
+con [Enlace ADIP]. Es más, esta sesión la cuadramos con él y todo súper bien. Si no las quieres
+compartir, buenísimo.
+
+O si no, lo manejamos con él. No, claro, sin tema. Sin tema, quieren que se los ponga aquí en el
+chat o [Enlace ADIP] también que se los comparta, como quieran ustedes.
+
+Perfecto. Y quien no le dé tiempo de apuntarlo, pues lo puede... Se lo puede pedir [Enlace ADIP], sin
+problema. ¿Cómo es, [Enlace ADIP], Ciudad de México? ¿Es verdad? Sí, [Enlace ADIP], estoy también acá
+buscando.
+
+Creo que es así, ¿verdad? Los correos institucionales. Ajá, cdmx.gob.mx. Cdmx.gob.mx.
+Perfecto, mil gracias. Y mil gracias, [Participante ADIP].
+
+No había visto también el sitio de Singapur. Sí, sí, ahí está. No era Corea del Sur, era Singapur.
+
+Está perfecto, no he estado tan lejos. Y sí, esto, un detallito. No creo, porque justamente
+mencionabas, [Directora ADIP], que preferías que lo trabajáramos en local.
+
+¿Hay algún requerimiento de acceso VPN? Algo que debamos considerar, como justamente en
+términos de acceso o no. No, no lo hay. No sé, [Enlace ADIP], bueno, [Participante ADIP], si pudiera tener que
+definirse ahorita, antes de que comience a hacerse la arquitectura.
+
+No por mi parte. O sea, VPN es no, porque realmente las bases, pienso que podría incluso en un
+futuro consumir desde donde consume datos abiertos. Entonces no creo que lo tenga, porque
+además tendríamos que generarles a los usuarios una VPN.
+
+Sí, yo creo que va a empantanar mucho todo si nos esperamos a que nos den acceso para ello.
+Perfecto. No es que trabajen en local y en algún momento ya integraremos.
+
+Pero sí, o sea, a lo mejor será bueno ir pidiendo por si acaso, pero no contar con ello en una
+primera etapa. Totalmente de acuerdo. Mil gracias, [Directora ADIP].
+
+Mil gracias, [Participante ADIP]. Perfecto. Me acuerdo.
+
+Va a ser más tardado el proceso. Perfecto. Dale.
+
+Excelente. Pues gracias a todos por su tiempo. No sé si tengan alguna pregunta final.
+
+No.
+

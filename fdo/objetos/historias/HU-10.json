@@ -1,0 +1,79 @@
+{
+  "pid": "urn:uuid:13dadc80-9d7d-5f1d-ba77-1c4f52c75fee",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/HistoriaDeUsuario.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/historias/HU-10.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "07a2b537b4e30d2f4f535dfc5500e111381bed1ba9ac52590514779045068ecf"
+    }
+  },
+  "metadatos": {
+    "titulo": "Probar con una tarea real sin guiar",
+    "descripcion": "Como equipo que valida el prototipo, quiero observar a cada perfil completar una tarea sin indicarle los clics, para saber si el visor funciona y no sólo si gusta.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "HU-10",
+    "prioridad": "P1",
+    "titulo": "Probar con una tarea real sin guiar",
+    "como": "equipo que valida el prototipo",
+    "quiero": "observar a cada perfil completar una tarea sin indicarle los clics",
+    "para": "saber si el visor funciona y no sólo si gusta",
+    "texto": "Como equipo que valida el prototipo, quiero observar a cada perfil completar una tarea sin indicarle los clics, para saber si el visor funciona y no sólo si gusta.",
+    "criterios_de_aceptacion": [
+      "La tarea, las condiciones y las ayudas quedan registradas.",
+      "Se separan fallas de comprensión, de software y de contenido.",
+      "Sólo cuentan como éxito las tareas resueltas correctamente."
+    ],
+    "elementos_del_visor_ideal": [],
+    "historias_de_origen": [
+      "E3-US07",
+      "E4-US08",
+      "E5-US09"
+    ]
+  },
+  "relaciones": [
+    {
+      "tipo": "satisface",
+      "objetivo": "urn:uuid:46c44e29-acfe-5e88-aa17-41e4009e3167"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:9ed9b4ce-01aa-52b2-a64a-82201d378d06"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:45cf14fa-0e0f-536c-ae77-3c961ef8e40b"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:d9d1d4f8-2102-5964-bcb8-efea619f3f58"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E3-US07",
+      "ruta": "entrevistas/E3_usuaria_administrativa/paquete/04_desarrollo/historias_de_usuario.json"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E4-US08",
+      "ruta": "entrevistas/E4_desarrollador/paquete/04_desarrollo/historias_de_usuario.json"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E5-US09",
+      "ruta": "entrevistas/E5_cartografo/paquete/04_desarrollo/historias_de_usuario.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "consolidación de 48 historias por entrevista en 11 historias transversales",
+    "fecha": "2026-10-21"
+  }
+}

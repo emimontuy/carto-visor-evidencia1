@@ -1,0 +1,323 @@
+{
+  "entrevista": "E5",
+  "version": "1.0.0",
+  "historias": [
+    {
+      "id": "E5-US01",
+      "titulo": "Reconocer el elemento y la división consultada",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona autorizada que consulta un sector o cuadrante, quiero reconocer la capa, la clave y el nombre del elemento seleccionado para interpretar la referencia correcta sin confundir divisiones territoriales.",
+      "criterio_resumido": "Mapa y ficha mantienen la misma selección, identifican capa y versión y muestran relaciones con otro nivel sólo cuando estén validadas.",
+      "criterios": [
+        "ADIP acuerda la tarea y el campo o forma de localizar un elemento; no se agregan direcciones sin datos y acuerdo.",
+        "La selección conserva clave oficial, nombre y tipo de división y no se pierde al abrir sus atributos.",
+        "La descripción explica el propósito de cada capa y no trata una diferencia con colonias u otras unidades como un error por defecto."
+      ],
+      "segmentos": [
+        "E5-S20",
+        "E5-S24",
+        "E5-S26",
+        "E5-S34",
+        "E5-S50"
+      ],
+      "hallazgos": [
+        "E5-H04",
+        "E5-H07"
+      ],
+      "requisitos": [
+        "E5-R02"
+      ]
+    },
+    {
+      "id": "E5-US02",
+      "titulo": "Identificar la fuente y el significado temporal",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que utiliza una capa, quiero conocer su fuente, versión y fechas explicadas para reconocer qué referencia estoy consultando y qué estado requiere confirmación.",
+      "criterio_resumido": "La ficha distingue fecha del dato, recepción y publicación cuando se conocen, conserva versión y muestra ausencias; la antigüedad no se etiqueta automáticamente como error.",
+      "criterios": [
+        "La ficha identifica versión y fuente y permite acceder a descripción técnica y diccionario disponibles.",
+        "Las fechas se nombran por su significado y se conservan como pendientes o no proporcionadas cuando faltan.",
+        "La vigencia se explica según información del productor; no se sustituye por la fecha de carga ni se promete actualización automática."
+      ],
+      "segmentos": [
+        "E5-S34",
+        "E5-S35",
+        "E5-S36",
+        "E5-S37",
+        "E5-S38"
+      ],
+      "hallazgos": [
+        "E5-H06",
+        "E5-H07"
+      ],
+      "requisitos": [
+        "E5-R03"
+      ]
+    },
+    {
+      "id": "E5-US03",
+      "titulo": "Descargar una capa que conserve su contexto",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona autorizada que reutiliza la información, quiero descargar una capa con identificadores, versión y documentación para reconocerla y usarla fuera del visor sin perder su procedencia.",
+      "criterio_resumido": "La descarga anuncia capa completa y versión, incluye documentación disponible y se abre en otra sesión para contrastar campos, claves y ubicación.",
+      "criterios": [
+        "El MVP declara alcance de capa completa; exportar una selección se acuerda como ampliación separada.",
+        "El formato se confirma según el paquete recibido y las herramientas de los usuarios; conserva los componentes necesarios.",
+        "La comprobación reabre el archivo y contrasta ejemplos acordados; la documentación identifica la fuente sin necesitar volver al visor."
+      ],
+      "segmentos": [
+        "E5-S25",
+        "E5-S40",
+        "E5-S41",
+        "E5-S42",
+        "E5-S50"
+      ],
+      "hallazgos": [
+        "E5-H05",
+        "E5-H07"
+      ],
+      "requisitos": [
+        "E5-R04"
+      ]
+    },
+    {
+      "id": "E5-US04",
+      "titulo": "Comprender la consulta y sus estados",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que consulta sin formación cartográfica especializada, quiero leer nombres y estados claros y reconocer la información importante sin depender sólo del color para entender el resultado y saber cuándo necesito ayuda.",
+      "criterio_resumido": "La primera vista explica capa y selección con texto legible; una clave inexistente y una operación fallida reciben mensajes diferentes y el detalle técnico queda disponible.",
+      "criterios": [
+        "Los nombres se revisan en pantalla pequeña y con ampliación; se usan señales adicionales al color para capa y selección.",
+        "La interfaz distingue una consulta sin resultados de una falla y muestra el canal acordado para dudas o su estado pendiente.",
+        "La prueba pregunta qué entendió la persona sin pedirle validar límites operativos que no conoce."
+      ],
+      "segmentos": [
+        "E5-S34",
+        "E5-S35",
+        "E5-S48",
+        "E5-S50",
+        "E5-S51",
+        "E5-S52"
+      ],
+      "hallazgos": [
+        "E5-H07",
+        "E5-H09"
+      ],
+      "requisitos": [
+        "E5-R02",
+        "E5-R08"
+      ]
+    },
+    {
+      "id": "E5-US05",
+      "titulo": "Comunicar una duda identificable",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que encuentra una duda en la información, quiero describir qué buscaba y qué elemento genera la duda y conocer su estado de revisión para retomarla sin volver a explicarla desde cero.",
+      "criterio_resumido": "Un canal acordado permite conservar capa, versión, clave disponible, descripción, estado y responsable; el usuario no debe diagnosticar la causa ni obtiene permiso de edición por reportar.",
+      "criterios": [
+        "El canal puede ser un procedimiento manual o contacto acordado; el prototipo no exige construir un sistema de tickets.",
+        "La incidencia distingue aviso recibido, revisión, respuesta y confirmación de incorporación cuando corresponda.",
+        "Si no existe todavía un responsable o procedimiento se señala como pendiente, sin inventar contacto, resolución o plazo."
+      ],
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S47",
+        "E5-S48",
+        "E5-S49"
+      ],
+      "hallazgos": [
+        "E5-H03"
+      ],
+      "requisitos": [
+        "E5-R05"
+      ]
+    },
+    {
+      "id": "E5-US06",
+      "titulo": "Distinguir las acciones autorizadas",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que accede al visor institucional, quiero saber si puedo consultar, descargar o publicar información para realizar mi tarea conforme a los permisos acordados.",
+      "criterio_resumido": "Consulta, descarga y publicación se tratan como acciones distintas; ADIP confirma los permisos y el contenido que puede compartirse.",
+      "criterios": [
+        "El perfil de consulta no concede por defecto publicación o modificación de la fuente.",
+        "El equipo técnico aplica las reglas acordadas también al entregar archivos y no sólo en los botones.",
+        "Se informa la restricción con el procedimiento real cuando exista y no se mezclan registros adicionales sin autorización."
+      ],
+      "segmentos": [
+        "E5-S24",
+        "E5-S50",
+        "E5-S53",
+        "E5-S60"
+      ],
+      "hallazgos": [
+        "E5-H03",
+        "E5-H07",
+        "E5-H09"
+      ],
+      "requisitos": [
+        "E5-R06"
+      ]
+    },
+    {
+      "id": "E5-US07",
+      "titulo": "Recibir y comprobar una entrega sin alterar el original",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como integrante del equipo que carga las capas, quiero conservar el paquete original e identificar campos, claves y referencia espacial para mostrar la entrega recibida y explicar cualquier derivado.",
+      "criterio_resumido": "Un descriptor registra procedencia, componentes, versión y transformaciones; los controles de campos y geometría generan excepciones para revisar, sin limpieza o reparación automática sobre el original.",
+      "criterios": [
+        "La recepción conserva quién entrega, cuándo, componentes y documentación; el derivado se vincula al original.",
+        "Se revisan diccionario, claves, vacíos y reglas de unicidad sólo cuando correspondan; el número de fila no se usa como clave oficial.",
+        "La carga de ambas capas se prueba; una geometría o relación que genere dudas se consulta con SSC sin asumir incompatibilidad ni autorización de cambiar límites."
+      ],
+      "segmentos": [
+        "E5-S24",
+        "E5-S25",
+        "E5-S26",
+        "E5-S27",
+        "E5-S28",
+        "E5-S29",
+        "E5-S32"
+      ],
+      "hallazgos": [
+        "E5-H04",
+        "E5-H05"
+      ],
+      "requisitos": [
+        "E5-R01"
+      ]
+    },
+    {
+      "id": "E5-US08",
+      "titulo": "Registrar correcciones y reemplazos autorizados",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como responsable de mantener una referencia de trabajo, quiero registrar cambios autorizados y el retorno de observaciones a la fuente para reconocer qué versión se usa y qué incidencia continúa pendiente.",
+      "criterio_resumido": "La bitácora vincula incidencia, respuesta y confirmación de la fuente; el reemplazo conserva versión anterior y repite consulta y descarga antes de aceptarse.",
+      "criterios": [
+        "Una corrección local no se presenta como incorporación al registro de origen si falta confirmación.",
+        "La entrega nueva identifica origen, cambios, autorización y versión previa; no requiere mostrar todo el historial en la primera pantalla.",
+        "Los cambios de clave, división o significado se advierten y su comparación temporal se valida para cada uso; no se promete correspondencia uno a uno."
+      ],
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S18",
+        "E5-S38",
+        "E5-S39",
+        "E5-S49"
+      ],
+      "hallazgos": [
+        "E5-H03",
+        "E5-H04",
+        "E5-H06"
+      ],
+      "requisitos": [
+        "E5-R05",
+        "E5-R07"
+      ]
+    },
+    {
+      "id": "E5-US09",
+      "titulo": "Evaluar una tarea correcta y comparable",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como persona encargada de validar el prototipo, quiero observar una tarea sin guiar los clics y compararla con el proceso actual en condiciones descritas para evaluar utilidad, ayudas y corrección antes de afirmar ahorro de tiempo.",
+      "criterio_resumido": "La prueba registra tarea, perfil, versión, condiciones, ayudas y resultado correcto; la validación operativa corresponde a quien conoce las capas y los tiempos se reportan después de medirlos.",
+      "criterios": [
+        "Se acuerda un ejemplo con ADIP y SSC y se observa localizar, reconocer fuente y comprobar descarga cuando esté autorizada.",
+        "La comprensión de un usuario general se distingue de confirmación cartográfica y operativa; se ensaya una clave inexistente.",
+        "La referencia previa y la prueba del prototipo describen condiciones comparables y corrección; sin medición no se publica un porcentaje de ahorro o beneficio ciudadano."
+      ],
+      "segmentos": [
+        "E5-S50",
+        "E5-S51",
+        "E5-S52",
+        "E5-S54",
+        "E5-S55",
+        "E5-S56",
+        "E5-S59"
+      ],
+      "hallazgos": [
+        "E5-H07",
+        "E5-H09"
+      ],
+      "requisitos": [
+        "E5-R08"
+      ]
+    },
+    {
+      "id": "E5-US10",
+      "titulo": "Continuar el trabajo con decisiones recuperables",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como persona que retoma el proyecto, quiero reconocer originales, derivados, permisos y decisiones y repetir una consulta verificada para continuar sin depender de la memoria de quien coordinaba.",
+      "criterio_resumido": "La entrega documenta archivos, transformaciones, consulta, permisos y pendientes con responsables; conserva las copias identificadas necesarias para reproducir resultados.",
+      "criterios": [
+        "El equipo acuerda quién recibe la administración y registra tareas y dudas que necesitan seguimiento.",
+        "Una persona distinta puede seguir el ejemplo de carga y consulta y reconocer sus límites; el resultado sólo se reporta después de probarlo.",
+        "La conservación de versiones tiene propósito y procedencia; no se borran todas las copias para forzar adopción."
+      ],
+      "segmentos": [
+        "E5-S17",
+        "E5-S25",
+        "E5-S43",
+        "E5-S44",
+        "E5-S59",
+        "E5-S60"
+      ],
+      "hallazgos": [
+        "E5-H05",
+        "E5-H08",
+        "E5-H09"
+      ],
+      "requisitos": [
+        "E5-R09"
+      ]
+    },
+    {
+      "id": "E5-US11",
+      "titulo": "Incorporar cruces con reglas y excepciones explícitas",
+      "tipo": "fase_posterior",
+      "prioridad": "P2",
+      "historia": "Como persona que analiza una nueva base territorial, quiero conocer la unidad de cada registro, la referencia acordada y las excepciones de las uniones o asignaciones para comparar información sin convertir una coincidencia dudosa en un resultado confirmado.",
+      "criterio_resumido": "La ampliación requiere pregunta y fuentes autorizadas, control de filas y claves, regla espacial y estados pendientes; no atribuye prioridad de servicio a los conteos sin evidencia adicional.",
+      "criterios": [
+        "La función queda fuera del MVP; nuevas bases, direcciones, geocodificación o agregaciones requieren acuerdo de uso y responsables.",
+        "Las uniones registran filas de entrada y salida, multiplicidad y no coincidencias; los casos de borde conservan regla y revisión sin asignación por cercanía arbitraria.",
+        "Las comparaciones explican cambios de versión, unidad, repetición e incertidumbre y mantienen pendientes; los títulos no prometen necesidad o mejora de servicio no demostradas."
+      ],
+      "segmentos": [
+        "E5-S02",
+        "E5-S05",
+        "E5-S08",
+        "E5-S12",
+        "E5-S13",
+        "E5-S20",
+        "E5-S21",
+        "E5-S22",
+        "E5-S23",
+        "E5-S30",
+        "E5-S31",
+        "E5-S32",
+        "E5-S39"
+      ],
+      "hallazgos": [
+        "E5-H01",
+        "E5-H02",
+        "E5-H04",
+        "E5-H05"
+      ],
+      "requisitos": [
+        "E5-R10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "entrevista": "E5",
+  "version": "1.0.0",
+  "contratos": [
+    {
+      "tipo": "DescriptorEntrega",
+      "proposito": "Reconocer lo recibido y su relación con un derivado de visualización.",
+      "campos": "id_capa string; id_version string; productor string; fecha_recepcion date o null; componentes array; ruta_original string; sha256 string; diccionario string o null; referencia_espacial string o null; derivados array; excepciones array.",
+      "regla": "Conservar paquete original y componentes. Cada derivado documenta entrada, operación y motivo; una excepción requiere revisión sin autorizar por sí sola cambios.",
+      "segmentos": [
+        "E5-S24",
+        "E5-S25",
+        "E5-S26",
+        "E5-S27",
+        "E5-S28",
+        "E5-S29"
+      ]
+    },
+    {
+      "tipo": "FichaElemento",
+      "proposito": "Explicar la selección y permitir acceso a procedencia y detalle técnico.",
+      "campos": "id_capa string; id_version string; clave_origen string; tipo_elemento string; nombre string; descripcion string o null; fuente string; fecha_dato date o null; fecha_recepcion date o null; fecha_publicacion date o null; relaciones_validadas array.",
+      "regla": "Mapa y ficha mantienen la misma selección. Los campos ausentes se identifican y las relaciones se muestran sólo con validación.",
+      "segmentos": [
+        "E5-S24",
+        "E5-S34",
+        "E5-S35",
+        "E5-S36",
+        "E5-S37"
+      ]
+    },
+    {
+      "tipo": "IncidenciaDato",
+      "proposito": "Conservar una duda y su seguimiento hasta la fuente.",
+      "campos": "id_incidencia string; id_capa string; id_version string; clave_origen string o null; descripcion_usuario string; estado string; responsable string o null; respuesta string o null; incorporacion_fuente string; evidencia_confirmacion string o null; avisos_relacionados array.",
+      "regla": "El reportante describe, quien revisa clasifica. Respuesta y corrección aplicada se distinguen y los avisos repetidos no se cuentan automáticamente como problemas diferentes.",
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S47",
+        "E5-S48",
+        "E5-S49"
+      ]
+    },
+    {
+      "tipo": "ReferenciaDescarga",
+      "proposito": "Identificar una capa reutilizable y su documentación fuera del visor.",
+      "campos": "id_capa string; id_version string; alcance enum capa_completa; formato string o null; componentes array; ruta_paquete string; ruta_documentacion string o null; sha256 string; permiso string o null.",
+      "regla": "Conservar identificadores y versión; comprobar apertura y ejemplos. El formato y el contenido permitido se confirman según la entrega.",
+      "segmentos": [
+        "E5-S25",
+        "E5-S40",
+        "E5-S41",
+        "E5-S42",
+        "E5-S53"
+      ]
+    },
+    {
+      "tipo": "CambioVersion",
+      "proposito": "Explicar un reemplazo y sus posibles consecuencias para análisis previos.",
+      "campos": "id_cambio string; version_anterior string; version_nueva string; origen string; diferencias array; autoriza string o null; evidencia_autorizacion string o null; pruebas array; impacto_comparabilidad string; ruta_previa string.",
+      "regla": "No reemplazar sin autorización ni borrar la referencia anterior. La correspondencia entre periodos puede requerir revisión y no se presupone uno a uno.",
+      "segmentos": [
+        "E5-S21",
+        "E5-S37",
+        "E5-S38",
+        "E5-S39",
+        "E5-S44"
+      ]
+    },
+    {
+      "tipo": "RegistroValidacion",
+      "proposito": "Comparar una tarea y documentar comprensión y corrección.",
+      "campos": "id_prueba string; fase enum referencia_actual/prototipo; tarea string; perfil string; versiones array; condiciones string; ayudas array; resultado_correcto boolean o null; tiempo_segundos number o null; observaciones string; fecha date o null.",
+      "regla": "Completar mediciones sólo después de la prueba y describir comparabilidad. Una consulta rápida con resultado equivocado no acredita mejora.",
+      "segmentos": [
+        "E5-S50",
+        "E5-S51",
+        "E5-S52",
+        "E5-S54",
+        "E5-S55",
+        "E5-S56"
+      ]
+    },
+    {
+      "tipo": "AsignacionFutura",
+      "proposito": "Conservar reglas y excepciones de una futura unión o asignación territorial.",
+      "campos": "id_operacion string; unidad_registro string; fuente_registros string; id_capa string; id_version string; regla string; filas_entrada integer; filas_salida integer; coincidencias_multiples array; sin_coincidencia array; aproximados array; pendientes array.",
+      "regla": "Fuera del MVP. Acordar pregunta, referencias y reglas antes de ejecutar; no eliminar repeticiones ni forzar bordes por cercanía sin evidencia y autorización.",
+      "segmentos": [
+        "E5-S02",
+        "E5-S05",
+        "E5-S08",
+        "E5-S20",
+        "E5-S21",
+        "E5-S30",
+        "E5-S31",
+        "E5-S32",
+        "E5-S39"
+      ]
+    }
+  ]
+}

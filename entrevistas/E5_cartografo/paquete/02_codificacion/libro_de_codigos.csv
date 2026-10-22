@@ -1,0 +1,23 @@
+﻿id,nombre,definicion,incluir,excluir,ejemplo_segmento
+E5-C00,Perfil cartográfico y límites,Funciones y alcance de la perspectiva de [Cartógrafo].,Trabajo técnico municipal y límites de su conocimiento de SSC.,Aprobación institucional o identificación de una alcaldía no nombrada.,E5-S24
+E5-C01,Pregunta y unidad de análisis,Definición de lo que se necesita conocer y de cada registro.,"Propósito, decisión, solicitud, visita o elemento físico.",Convertir todo registro en una falla distinta.,E5-S02
+E5-C02,Repeticiones por confirmar,Posibles duplicidades y relaciones entre registros.,"Folio, cercanía y confirmación con la fuente.",Borrar filas sólo por proximidad o apariencia.,E5-S05
+E5-C03,Incertidumbre de localización,Ubicación aproximada y asignación pendiente.,"Referencias ambiguas, límites y parte sin asignar.",Forzar un punto para completar totales.,E5-S08
+E5-C04,Incidencias y retorno a la fuente,Comunicación y seguimiento de una duda o corrección.,"Folio, revisión, respuesta y estado de incorporación.",Confundir corrección local con actualización de origen.,E5-S10
+E5-C05,Facultades y poder de decisión,"Responsabilidad para confirmar, compartir, cambiar o actuar.",Autoridad según la decisión y conocimiento del registro.,Asignar poder e interés como valores universales.,E5-S16
+E5-C06,Coordinación y memoria compartida,Contexto que permite resolver dudas y continuar el trabajo.,"Contactos, decisiones y pendientes documentados.",Depender de la memoria de una sola persona.,E5-S17
+E5-C07,Propósito y acuerdo territorial,Diferencias entre unidades y referencias de uso.,División operativa o administrativa y acuerdo de versión.,Exigir que todos los límites coincidan.,E5-S20
+E5-C08,Recepción y procedencia del original,Conservación del paquete recibido y de sus derivados.,"Entrega, componentes, original y transformaciones.",Sobrescribir la fuente o perder el vínculo con una copia.,E5-S25
+E5-C09,Claves campos y relaciones,Significado y conservación de atributos y uniones.,"Diccionario, unicidad condicional, vacío, cero y cardinalidad.",Usar la fila como clave o asumir relaciones por nombre.,E5-S27
+E5-C10,Geometría referencia y escala,Condiciones para interpretar y comprobar lo espacial.,"Referencia, transformación, topología, zoom y reglas de borde.",Tomar una reparación automática como autorizada.,E5-S28
+E5-C11,Fuente fechas y descripción,Metadatos que identifican y explican una capa.,"Versión de origen, fecha del dato, recepción y publicación.",Rellenar ausencias con la fecha del día.,E5-S36
+E5-C12,Cambios y comparación temporal,Reemplazo de versión y consecuencias para el análisis.,"Cambio de clave, zona o significado y correspondencias.",Suponer comparabilidad automática entre periodos.,E5-S39
+E5-C13,Consulta reconocible y comprensible,Presentación que permite entender la selección.,"Capa, clave, nombre, detalle, lectura y señales sin color.",Inventar atributos para llenar una ficha.,E5-S34
+E5-C14,Descarga con contexto,Archivo utilizable con alcance y documentación.,"Capa o selección, versión, reapertura y procedencia.",Tratar una imagen como sustituto de los datos.,E5-S42
+E5-C15,Permisos por acción,"Diferencias entre ver, descargar, publicar y autorizar.",Contenido permitido y reglas confirmadas con ADIP.,Asumir que todo dato recibido puede difundirse.,E5-S53
+E5-C16,Prueba de tarea por perfil,"Verificación de uso, resultado y condiciones.","Intento sin guía, muestra de contenido y ayudas.",Pedir validación de límites a quien no los conoce.,E5-S51
+E5-C17,Adopción y copias necesarias,Motivos para usar la referencia o conservar otra copia.,"Versión y propósito reconocibles, confianza y tarea.",Eliminar todas las copias para imponer la plataforma.,E5-S44
+E5-C18,Mecanismos causales por contrastar,Relaciones posibles entre causas y efectos.,"Copias ambiguas, retrabajo y mecanismos de seguimiento.",Presentar un bucle hipotético como comprobado.,E5-S45
+E5-C19,Medición y beneficios comprobables,"Condiciones para interpretar tiempos, avisos y resultados.","Referencia previa, corrección, confirmaciones y efecto indirecto.",Prometer ahorro o impacto ciudadano sin medirlo.,E5-S55
+E5-C20,Alcance aceptación y continuidad,Límites del prototipo y condiciones para entregarlo.,"Dos capas, usuarios reales, siguiente responsable y preguntas abiertas.",Añadir casos municipales o analítica como requisito inicial.,E5-S59
+E5-C21,Interpretación de conteos,Relación entre registro y afirmación que se comunica.,"Sesgo de reporte, periodos, título y límites de inferencia.",Deducir prioridad o peor servicio por más solicitudes.,E5-S13

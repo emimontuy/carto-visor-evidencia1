@@ -1,0 +1,42 @@
+{
+  "pid": "urn:uuid:a57bb30b-75be-52a0-a8ef-41edda2e1516",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q45.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "b5e165b34c7f7768446a24591e79d95fdcb54ebe35c53bf220aca1e26e47fd12"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q45 · E5, p. 5",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q45",
+    "entrevista": "E5",
+    "pagina": 5,
+    "texto_literal": "no terminar con cinco archivos llamados final sin saber cuál salió de cuál.",
+    "codigos": [
+      "T10"
+    ],
+    "fragmentos": [],
+    "transcripcion": "entrevistas/E5_cartografo/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

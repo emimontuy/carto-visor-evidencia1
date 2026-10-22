@@ -1,0 +1,511 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "hallazgos": [
+    {
+      "id": "E3-H01",
+      "titulo": "Una referencia completa puede ser inadecuada para la actividad",
+      "hallazgo": "[Usuaria administrativa] relata que una dirección guardada tenía apariencia completa, pero correspondía a otro momento y a otra sede. Confirmar la actividad, la sede y el acceso evitó enviar una referencia que no correspondía a la reunión.",
+      "segmentos": [
+        "E3-S04",
+        "E3-S05",
+        "E3-S06",
+        "E3-S07",
+        "E3-S10",
+        "E3-S13",
+        "E3-S33",
+        "E3-S35"
+      ],
+      "codigos": [
+        "E3-C01",
+        "E3-C02",
+        "E3-C03",
+        "E3-C04",
+        "E3-C15"
+      ],
+      "implicacion": "Distinguir significado, fecha y contexto de la información. En el visor, indicar la finalidad y vigencia de cada capa sin tratar una publicación reciente como una revisión del contenido.",
+      "limite": "El caso describe ubicaciones administrativas; no acredita errores en sectores o cuadrantes ni requiere incorporar oficinas a la primera entrega."
+    },
+    {
+      "id": "E3-H02",
+      "titulo": "Confirmar depende de identificar a quien conoce el dato",
+      "hallazgo": "La entrevistada ubica la dificultad principal en recibir una respuesta o encontrar a quien puede confirmar. Un archivo oficial puede corresponder a una actividad anterior y alguien que orienta no siempre conoce todos los detalles.",
+      "segmentos": [
+        "E3-S08",
+        "E3-S09",
+        "E3-S10",
+        "E3-S15",
+        "E3-S16",
+        "E3-S17",
+        "E3-S20"
+      ],
+      "codigos": [
+        "E3-C03",
+        "E3-C08",
+        "E3-C10",
+        "E3-C14"
+      ],
+      "implicacion": "La ficha debe mostrar fuente y responsable de revisión, o señalar que están pendientes. Las dudas se canalizan al actor que ADIP designe y las correcciones de fuentes ajenas siguen una autorización.",
+      "limite": "No se conocen plazos, nombres o canales para todos los casos; una plataforma no asegura por sí sola una confirmación institucional."
+    },
+    {
+      "id": "E3-H03",
+      "titulo": "La comprensión exige explicar términos y estados de la consulta",
+      "hallazgo": "[Usuaria administrativa] prefiere nombres de acciones que entiende, como fuente de la información o fecha de actualización. Las siglas, los botones ambiguos y la falta de distinción entre abrir, previsualizar y descargar pueden hacer que pida ayuda o busque otra vía.",
+      "segmentos": [
+        "E3-S18",
+        "E3-S19",
+        "E3-S20",
+        "E3-S21",
+        "E3-S22",
+        "E3-S23",
+        "E3-S24",
+        "E3-S25",
+        "E3-S37"
+      ],
+      "codigos": [
+        "E3-C04",
+        "E3-C05",
+        "E3-C06",
+        "E3-C07",
+        "E3-C09",
+        "E3-C12"
+      ],
+      "implicacion": "Usar etiquetas comprensibles, explicar sectores y cuadrantes y mostrar qué capa está activa. La ficha principal debe presentar lo necesario para entender el contenido y permitir un detalle posterior.",
+      "limite": "Son preferencias y dificultades relatadas, todavía sin una prueba del Carto-Visor. Una interfaz clara no acredita calidad o vigencia del contenido."
+    },
+    {
+      "id": "E3-H04",
+      "titulo": "El resultado debe conservar las dudas que el mapa no resuelve",
+      "hallazgo": "Una dirección aproximada o cercana a una línea genera incertidumbre. [Usuaria administrativa] pide que lo que no está disponible no parezca confirmado y distingue una división territorial de una decisión sobre qué autoridad atiende un asunto.",
+      "segmentos": [
+        "E3-S20",
+        "E3-S25",
+        "E3-S26",
+        "E3-S27",
+        "E3-S37",
+        "E3-S38"
+      ],
+      "codigos": [
+        "E3-C04",
+        "E3-C07",
+        "E3-C08",
+        "E3-C11"
+      ],
+      "implicacion": "Mostrar cobertura y límites del dato y evitar mensajes de certeza que no estén respaldados. El visor describe las divisiones de SSC sin asignar competencias o resolver trámites.",
+      "limite": "No se ofrece un caso de asignación territorial verificada ni una evaluación de precisión. La entrevista no define reglas de competencia institucional."
+    },
+    {
+      "id": "E3-H05",
+      "titulo": "Consultar compartir y descargar responden a necesidades distintas",
+      "hallazgo": "Para una ubicación, [Usuaria administrativa] prefiere verla y comunicar una referencia comprensible; un archivo técnico de cartografía no resuelve necesariamente su tarea. Compartir una vista requiere saber si la otra persona tiene acceso, y consultar no debe permitir cambios accidentales.",
+      "segmentos": [
+        "E3-S11",
+        "E3-S16",
+        "E3-S17",
+        "E3-S30",
+        "E3-S31",
+        "E3-S32"
+      ],
+      "codigos": [
+        "E3-C09",
+        "E3-C10",
+        "E3-C16"
+      ],
+      "implicacion": "Separar controles y permisos de consulta, descarga y mantenimiento. Explicar qué se entrega al descargar y conservar el contexto del resultado. Una vista compartida o una salida textual se diseñaría con ADIP antes de habilitarla.",
+      "limite": "La entrevista no autoriza una publicación abierta, un directorio de sedes ni el envío de información institucional a personas sin acceso."
+    },
+    {
+      "id": "E3-H06",
+      "titulo": "La validación con este perfil debe observar comprensión sin dirigir la tarea",
+      "hallazgo": "[Usuaria administrativa] propone intentar una tarea sin indicaciones sobre cada botón y después explicar dónde se detuvo. Diferencia no encontrar una acción de no entender el resultado y reconoce que puede revisar comprensión, pero no la calidad técnica de las divisiones.",
+      "segmentos": [
+        "E3-S28",
+        "E3-S29",
+        "E3-S37",
+        "E3-S38"
+      ],
+      "codigos": [
+        "E3-C00",
+        "E3-C06",
+        "E3-C08",
+        "E3-C11",
+        "E3-C16"
+      ],
+      "implicacion": "Preparar un guion de consulta para una persona no especializada, observar ayudas y preguntar qué esperaba de cada acción. Complementar esa prueba con revisión técnica y sectorial de ADIP y SSC.",
+      "limite": "Durante esta entrevista se conversa sobre la idea; no se muestra una pantalla ni se realiza una prueba. No se reportan métricas de usabilidad."
+    },
+    {
+      "id": "E3-H07",
+      "titulo": "La continuidad y el uso dependen de una referencia útil y mantenible",
+      "hallazgo": "La entrevistada recomienda listas revisadas con nombres claros, fecha, responsable y motivo de cambio. Quien llega a un equipo necesita esa explicación. Su uso de un visor sería ocasional y vinculado a una tarea para la que el mapa aporte información.",
+      "segmentos": [
+        "E3-S03",
+        "E3-S07",
+        "E3-S14",
+        "E3-S24",
+        "E3-S34",
+        "E3-S35",
+        "E3-S36"
+      ],
+      "codigos": [
+        "E3-C00",
+        "E3-C02",
+        "E3-C05",
+        "E3-C12",
+        "E3-C13",
+        "E3-C16"
+      ],
+      "implicacion": "Conservar decisiones y cambios de versión de forma sencilla y comprobar qué tarea cubre el prototipo. La validación debe incluir pertinencia, además de que los botones sean comprensibles.",
+      "limite": "El trabajo en una institución federal no demuestra demanda de sectores y cuadrantes ni adopción frecuente. La utilidad debe contrastarse con usuarios efectivos del encargo."
+    }
+  ],
+  "actores": [
+    {
+      "actor": "[Usuaria administrativa]",
+      "papel": "Busca, organiza y comunica información administrativa",
+      "necesidad": "Encontrar una referencia pertinente y saber qué necesita confirmar",
+      "facultad": "Puede registrar una corrección confirmada en su lista; no modifica fuentes ajenas por su cuenta",
+      "estado": "Entrevistada; no representa a ADIP o SSC",
+      "segmentos": [
+        "E3-S02",
+        "E3-S16",
+        "E3-S17",
+        "E3-S28"
+      ]
+    },
+    {
+      "actor": "Persona solicitante u organizadora",
+      "papel": "Plantea la actividad y la sede requerida",
+      "necesidad": "Recibir información correspondiente a esa actividad",
+      "facultad": "Puede precisar la solicitud o confirmar la sede que indicó",
+      "estado": "Actor del proceso relatado",
+      "segmentos": [
+        "E3-S12",
+        "E3-S13",
+        "E3-S15"
+      ]
+    },
+    {
+      "actor": "Responsable de la sede o del dato",
+      "papel": "Confirma ubicación, vigencia y acceso",
+      "necesidad": "Contar con una solicitud identificable para resolver dudas",
+      "facultad": "Aporta confirmación; competencias concretas varían según la información",
+      "estado": "Actor mencionado sin nombre o cargo único",
+      "segmentos": [
+        "E3-S04",
+        "E3-S08",
+        "E3-S10",
+        "E3-S15",
+        "E3-S20"
+      ]
+    },
+    {
+      "actor": "Compañero que orienta",
+      "papel": "Ayuda a localizar la información o el contacto",
+      "necesidad": "Entender qué falta confirmar",
+      "facultad": "Orienta sin asegurar necesariamente todos los detalles",
+      "estado": "Actor mencionado en el relato",
+      "segmentos": [
+        "E3-S08",
+        "E3-S15"
+      ]
+    },
+    {
+      "actor": "Responsable del documento y de su difusión",
+      "papel": "Revisa cambios y autorización para compartir",
+      "necesidad": "Conservar la fuente y las razones de modificación",
+      "facultad": "La autorización se consulta con quien corresponda; [Usuaria administrativa] no se la atribuye por defecto",
+      "estado": "Función declarada, sin política institucional detallada",
+      "segmentos": [
+        "E3-S16",
+        "E3-S17",
+        "E3-S30"
+      ]
+    },
+    {
+      "actor": "Persona destinataria",
+      "papel": "Usa la referencia para llegar o continuar una consulta",
+      "necesidad": "Texto claro, contexto y acceso cuando recibe un enlace",
+      "facultad": "Usa la información según su permiso; puede plantear dudas",
+      "estado": "Actor mencionado, no entrevistado en E3",
+      "segmentos": [
+        "E3-S11",
+        "E3-S32",
+        "E3-S33"
+      ]
+    },
+    {
+      "actor": "ADIP SSC y equipo de desarrollo",
+      "papel": "Validan el contenido y la consulta de las capas iniciales",
+      "necesidad": "Confirmar definiciones, mensajes, permisos y tareas del prototipo",
+      "facultad": "El encargo define sus roles; E3 aporta criterios de comprensión para revisar con ellos",
+      "estado": "Actores del reto, no entrevistados en esta sesión",
+      "segmentos": [
+        "E3-S25",
+        "E3-S28",
+        "E3-S29",
+        "E3-S38"
+      ]
+    }
+  ],
+  "proceso": [
+    {
+      "paso": 1,
+      "actor": "Solicitante y [Usuaria administrativa]",
+      "accion": "Aclarar área, sede y actividad",
+      "control": "No usar un nombre ambiguo como identificación suficiente",
+      "retorno": "Volver a preguntar si la sede no está clara",
+      "segmentos": [
+        "E3-S12",
+        "E3-S13"
+      ]
+    },
+    {
+      "paso": 2,
+      "actor": "[Usuaria administrativa]",
+      "accion": "Revisar correos, documentos y referencias guardadas",
+      "control": "Fuente, fecha y propósito del documento",
+      "retorno": "Buscar otra fuente si corresponde a una actividad anterior",
+      "segmentos": [
+        "E3-S05",
+        "E3-S06",
+        "E3-S09",
+        "E3-S10",
+        "E3-S14"
+      ]
+    },
+    {
+      "paso": 3,
+      "actor": "[Usuaria administrativa] y responsables del dato",
+      "accion": "Conseguir la confirmación que falta",
+      "control": "Distinguir orientación de una confirmación suficiente",
+      "retorno": "Esperar o canalizar la duda a otra persona",
+      "segmentos": [
+        "E3-S08",
+        "E3-S15",
+        "E3-S17",
+        "E3-S20"
+      ]
+    },
+    {
+      "paso": 4,
+      "actor": "[Usuaria administrativa]",
+      "accion": "Revisar la ubicación y las indicaciones prácticas",
+      "control": "Sede y entrada pertinentes; explicar localización aproximada",
+      "retorno": "Confirmar antes de afirmar una correspondencia dudosa",
+      "segmentos": [
+        "E3-S04",
+        "E3-S26",
+        "E3-S33"
+      ]
+    },
+    {
+      "paso": 5,
+      "actor": "Responsable de difusión y [Usuaria administrativa]",
+      "accion": "Verificar qué información puede comunicarse",
+      "control": "Permisos para documento, enlace o descarga",
+      "retorno": "Solicitar autorización o explicar falta de acceso",
+      "segmentos": [
+        "E3-S16",
+        "E3-S17",
+        "E3-S30",
+        "E3-S31",
+        "E3-S32"
+      ]
+    },
+    {
+      "paso": 6,
+      "actor": "[Usuaria administrativa] y destinatario",
+      "accion": "Compartir una referencia con texto y contexto",
+      "control": "Nombre, ubicación y dudas todavía abiertas",
+      "retorno": "Resolver preguntas del destinatario cuando el mapa no basta",
+      "segmentos": [
+        "E3-S11",
+        "E3-S32",
+        "E3-S33"
+      ]
+    },
+    {
+      "paso": 7,
+      "actor": "[Usuaria administrativa] y responsable de la fuente",
+      "accion": "Guardar una nota de cambio y mantener la referencia",
+      "control": "Fecha, motivo y responsable; conservar explicación",
+      "retorno": "Confirmar de nuevo cuando cambie la actividad o la sede",
+      "segmentos": [
+        "E3-S07",
+        "E3-S16",
+        "E3-S34",
+        "E3-S35"
+      ]
+    }
+  ],
+  "empatia": [
+    {
+      "dimension": "Dice",
+      "contenido": "Necesita saber si la referencia corresponde a la actividad y a quién preguntar lo que falta.",
+      "origen": "Expresado por [Usuaria administrativa]",
+      "segmentos": [
+        "E3-S10",
+        "E3-S13",
+        "E3-S20"
+      ]
+    },
+    {
+      "dimension": "Hace",
+      "contenido": "Relata búsqueda en documentos, confirmación con personas, consulta de mapa y envío de referencias.",
+      "origen": "Práctica narrada, sin observación directa",
+      "segmentos": [
+        "E3-S09",
+        "E3-S11",
+        "E3-S12",
+        "E3-S15"
+      ]
+    },
+    {
+      "dimension": "Piensa",
+      "contenido": "Da importancia a entender términos y a no responder como confirmado un dato dudoso.",
+      "origen": "Inferencia analítica respaldada por sus respuestas",
+      "segmentos": [
+        "E3-S20",
+        "E3-S21",
+        "E3-S26"
+      ]
+    },
+    {
+      "dimension": "Siente",
+      "contenido": "Describe dudas ante resultados semejantes y controles que no entiende; una reunión cercana exige estar pendiente.",
+      "origen": "Dificultad relatada; no diagnóstico emocional general",
+      "segmentos": [
+        "E3-S08",
+        "E3-S19",
+        "E3-S23"
+      ]
+    },
+    {
+      "dimension": "Dificultades",
+      "contenido": "Contactos que tardan en responder, archivos difíciles de identificar y vocabulario especializado.",
+      "origen": "Situaciones relatadas",
+      "segmentos": [
+        "E3-S08",
+        "E3-S14",
+        "E3-S23"
+      ]
+    },
+    {
+      "dimension": "Necesidades",
+      "contenido": "Ficha comprensible, fuente y fechas claras, responsable de dudas y acciones acordes con el permiso.",
+      "origen": "Necesidades derivadas para validar",
+      "segmentos": [
+        "E3-S20",
+        "E3-S21",
+        "E3-S22",
+        "E3-S30",
+        "E3-S34"
+      ]
+    }
+  ],
+  "afinidad": [
+    {
+      "id": "E3-A01",
+      "tema": "Reconocer la referencia adecuada y confirmar su vigencia",
+      "codigos": [
+        "E3-C01",
+        "E3-C02",
+        "E3-C03",
+        "E3-C04",
+        "E3-C05",
+        "E3-C15"
+      ],
+      "hallazgos": [
+        "E3-H01",
+        "E3-H02"
+      ],
+      "segmentos": [
+        "E3-S04",
+        "E3-S05",
+        "E3-S06",
+        "E3-S08",
+        "E3-S09",
+        "E3-S10",
+        "E3-S13",
+        "E3-S14",
+        "E3-S19",
+        "E3-S33"
+      ]
+    },
+    {
+      "id": "E3-A02",
+      "tema": "Comprender la consulta y conservar sus límites",
+      "codigos": [
+        "E3-C06",
+        "E3-C07",
+        "E3-C08",
+        "E3-C11"
+      ],
+      "hallazgos": [
+        "E3-H03",
+        "E3-H04",
+        "E3-H06"
+      ],
+      "segmentos": [
+        "E3-S20",
+        "E3-S21",
+        "E3-S22",
+        "E3-S23",
+        "E3-S25",
+        "E3-S26",
+        "E3-S27",
+        "E3-S28",
+        "E3-S29",
+        "E3-S37",
+        "E3-S38"
+      ]
+    },
+    {
+      "id": "E3-A03",
+      "tema": "Comunicar el resultado con permisos",
+      "codigos": [
+        "E3-C09",
+        "E3-C10",
+        "E3-C14",
+        "E3-C16"
+      ],
+      "hallazgos": [
+        "E3-H05"
+      ],
+      "segmentos": [
+        "E3-S11",
+        "E3-S16",
+        "E3-S17",
+        "E3-S30",
+        "E3-S31",
+        "E3-S32"
+      ]
+    },
+    {
+      "id": "E3-A04",
+      "tema": "Mantener una referencia que responda a una tarea",
+      "codigos": [
+        "E3-C00",
+        "E3-C02",
+        "E3-C05",
+        "E3-C12",
+        "E3-C13",
+        "E3-C16"
+      ],
+      "hallazgos": [
+        "E3-H07"
+      ],
+      "segmentos": [
+        "E3-S03",
+        "E3-S07",
+        "E3-S14",
+        "E3-S24",
+        "E3-S34",
+        "E3-S35",
+        "E3-S36"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "segmentos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "pagina": {
+            "type": "integer"
+          },
+          "hablante": {
+            "type": "string"
+          },
+          "fragmento_literal": {
+            "type": "string"
+          },
+          "codigos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "estatus": {
+            "type": "string"
+          },
+          "memo": {
+            "type": "string"
+          },
+          "revision_humana": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "pagina",
+          "hablante",
+          "fragmento_literal",
+          "codigos",
+          "estatus",
+          "memo",
+          "revision_humana"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entrevista",
+    "version",
+    "segmentos"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CorpusCualitativoCodificado E5 1.0.0"
+}

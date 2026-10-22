@@ -1,0 +1,67 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "contratos": [
+    {
+      "tipo": "FichaConsulta",
+      "proposito": "Presentar una explicación comprensible del elemento y de su capa.",
+      "campos": "id_capa string; id_version string; id_elemento string; nombre_oficial string; finalidad string; fuente string; fecha_dato date o null; fecha_publicacion date o null; cobertura string; limites array; responsable_revision string o null.",
+      "regla": "Las etiquetas visibles explican los campos. La fecha de publicación no acredita actualización del dato o confirmación de una sede.",
+      "segmentos": [
+        "E3-S20",
+        "E3-S21",
+        "E3-S22",
+        "E3-S25",
+        "E3-S27"
+      ]
+    },
+    {
+      "tipo": "EstadoOperacion",
+      "proposito": "Distinguir acciones disponibles y el motivo de una restricción.",
+      "campos": "accion enum consultar/descargar/mantener; autorizada boolean; motivo enum disponible/sin_permiso/fallo_tecnico/no_disponible; mensaje string; siguiente_paso string o null.",
+      "regla": "El mensaje coincide con la comprobación técnica de autorización y no expone datos protegidos.",
+      "segmentos": [
+        "E3-S23",
+        "E3-S30",
+        "E3-S31",
+        "E3-S32"
+      ]
+    },
+    {
+      "tipo": "ReferenciaDescarga",
+      "proposito": "Explicar el archivo técnico y su relación con la consulta.",
+      "campos": "id_capa string; id_version string; formato string o null; alcance enum capa_completa; ruta_archivo string; ruta_ficha string; sha256 string; requiere_permiso boolean.",
+      "regla": "No obliga a descargar para completar la consulta. Archivo y ficha pertenecen a la misma versión.",
+      "segmentos": [
+        "E3-S11",
+        "E3-S23",
+        "E3-S31"
+      ]
+    },
+    {
+      "tipo": "RegistroComprension",
+      "proposito": "Documentar una tarea y la interpretación de las acciones.",
+      "campos": "id_prueba string; perfil string; version_prototipo string; tarea string; finalizada boolean o null; ayudas number o null; dificultades array; significado_esperado_por_usuario string o null; observaciones string; fecha date o null.",
+      "regla": "Se registra después de la prueba. No encontrar un botón se distingue de no entender el resultado o no tener permiso.",
+      "segmentos": [
+        "E3-S28",
+        "E3-S29",
+        "E3-S37",
+        "E3-S38"
+      ]
+    },
+    {
+      "tipo": "NotaCambio",
+      "proposito": "Conservar razones y responsabilidades de una revisión de versión.",
+      "campos": "id_nota string; capa string; version_anterior string o null; version_nueva string o null; motivo string; fuente_entrega string; valida_por string o null; autoriza_por string o null; canal_dudas string o null; pendientes array.",
+      "regla": "La persona de consulta no aprueba una modificación de la fuente. Cambios y pendientes siguen el procedimiento acordado con el productor.",
+      "segmentos": [
+        "E3-S07",
+        "E3-S16",
+        "E3-S17",
+        "E3-S34",
+        "E3-S35"
+      ]
+    }
+  ]
+}

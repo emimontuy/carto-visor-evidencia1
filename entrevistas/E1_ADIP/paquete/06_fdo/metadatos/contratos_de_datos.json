@@ -1,0 +1,42 @@
+{
+  "object_key": "contratos_de_datos",
+  "identificador_interno": "urn:uuid:0e76666a-d354-5e0a-a95d-e6576ce782df",
+  "identificador_persistente_resoluble": null,
+  "pid_status": "pendiente_de_registro",
+  "titulo": "Contratos de datos del prototipo",
+  "tipo_semantico_local": "ContratosDatosPrototipo",
+  "tipo_registrado_pid": null,
+  "perfil_fdo_registrado_pid": null,
+  "version": "1.0.0",
+  "fecha_preparacion": "2026-10-09",
+  "fecha_sesion": null,
+  "idioma": "es",
+  "autor_del_trabajo": "Emilio Gómez Montuy",
+  "procedencia": "Entrevista E1 realizada con participantes de ADIP, aportada por el usuario",
+  "metodo": "Codificación temática inicial por fases con asistencia de IA",
+  "agente_procesamiento": "Codex",
+  "revision_humana": "pendiente",
+  "formato": "application/json",
+  "archivo": "04_desarrollo/contratos_de_datos.json",
+  "esquema_local": "06_fdo/tipos/contratos_de_datos.schema.json",
+  "sha256": "42a30c182f4a1a9bf2dba38e605dec39f5065c0e7b93c01b365fd60301aef7c6",
+  "bytes": 4702,
+  "derivados_de": [
+    {
+      "identificador_interno": "urn:uuid:1c4dc6a6-9957-54a4-87da-afc534ca8177",
+      "relacion": "isDerivedFrom",
+      "pid_resoluble": null
+    },
+    {
+      "identificador_interno": "urn:uuid:0274aafe-95dd-5781-a567-195a4f9a7394",
+      "relacion": "isDerivedFrom",
+      "pid_resoluble": null
+    }
+  ],
+  "derechos": "Uso académico del equipo; condiciones de publicación y reutilización por confirmar",
+  "licencia": null,
+  "acceso": "restringido_al_equipo_y_revision_academica",
+  "politica_identificador": "Conservar este identificador interno para el mismo objeto; usar versiones nuevas sin reutilizarlo para otro objeto. Añadir un PID resoluble si se registra.",
+  "estado_fdo": "Paquete de preparación local; sin registro ni certificación de conformidad FDO",
+  "estado_publicacion": "no_publicado"
+}

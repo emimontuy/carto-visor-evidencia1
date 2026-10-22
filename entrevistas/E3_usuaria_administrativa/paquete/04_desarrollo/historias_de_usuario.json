@@ -1,0 +1,264 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "historias": [
+    {
+      "id": "E3-US01",
+      "titulo": "Entender el propósito y la cobertura del visor",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona autorizada que consulta el visor por primera vez, quiero entender qué información incluye y para qué sirve para saber si puedo resolver mi consulta con las capas disponibles.",
+      "criterio_resumido": "La pantalla explica que muestra sectores y cuadrantes de SSC en la Ciudad de México y diferencia ese contenido de un directorio de oficinas o un sistema de trámites.",
+      "criterios": [
+        "El propósito y la cobertura aparecen con palabras comprensibles antes de iniciar la consulta.",
+        "Los mensajes no ofrecen direcciones, oficinas, horarios o trámites que no estén en los datos.",
+        "En una prueba, la persona puede explicar qué consulta permite el prototipo y qué información requiere otra fuente."
+      ],
+      "segmentos": [
+        "E3-S25",
+        "E3-S28",
+        "E3-S36",
+        "E3-S37",
+        "E3-S38"
+      ],
+      "hallazgos": [
+        "E3-H03",
+        "E3-H04",
+        "E3-H07"
+      ],
+      "requisitos": [
+        "E3-R01",
+        "E3-R06"
+      ]
+    },
+    {
+      "id": "E3-US02",
+      "titulo": "Distinguir las capas y sus controles",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que no trabaja con cartografía, quiero activar y desactivar capas con nombres, explicaciones y leyendas claras para reconocer qué división territorial estoy viendo sin confundirla con una colonia o alcaldía.",
+      "criterio_resumido": "Los controles muestran la capa activa y la leyenda explica los colores. La descripción distingue sector, cuadrante y otras unidades territoriales.",
+      "criterios": [
+        "Cada control conserva un nombre visible y comunica cuándo la capa está activa.",
+        "La leyenda permite distinguir las dos capas y se revisa su significado con ADIP y SSC.",
+        "La persona de prueba reconoce qué división consulta y puede alternarla sin instrucciones sobre cada botón."
+      ],
+      "segmentos": [
+        "E3-S21",
+        "E3-S23",
+        "E3-S25",
+        "E3-S29",
+        "E3-S37"
+      ],
+      "hallazgos": [
+        "E3-H03",
+        "E3-H04",
+        "E3-H06"
+      ],
+      "requisitos": [
+        "E3-R01",
+        "E3-R02",
+        "E3-R06"
+      ]
+    },
+    {
+      "id": "E3-US03",
+      "titulo": "Leer una ficha breve con fuente y fechas claras",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que consulta un elemento del mapa, quiero ver una ficha breve con su identificación, la fuente y las fechas explicadas para entender de dónde viene la información y qué significa su actualización.",
+      "criterio_resumido": "La ficha utiliza etiquetas como Fuente de la información y Fecha de los datos, distingue publicación y actualización e indica lo que no fue proporcionado.",
+      "criterios": [
+        "La ficha se vincula a la capa y versión consultadas y conserva su identificación oficial.",
+        "La fecha del dato no se sustituye por la fecha de publicación ni se presenta como una confirmación operativa de una sede.",
+        "Un campo ausente se informa de manera explícita y el detalle técnico queda disponible sin saturar la primera vista."
+      ],
+      "segmentos": [
+        "E3-S05",
+        "E3-S10",
+        "E3-S20",
+        "E3-S21",
+        "E3-S22"
+      ],
+      "hallazgos": [
+        "E3-H01",
+        "E3-H02",
+        "E3-H03"
+      ],
+      "requisitos": [
+        "E3-R03"
+      ]
+    },
+    {
+      "id": "E3-US04",
+      "titulo": "Reconocer lo que necesita confirmación",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que interpreta un resultado territorial, quiero conocer las limitaciones del dato y cómo canalizar una duda para no comunicar como confirmada una conclusión que requiere revisión.",
+      "criterio_resumido": "La ficha distingue información disponible y pendiente, explica el alcance de las divisiones e identifica al responsable o señala que ese canal está por definir.",
+      "criterios": [
+        "La interfaz no convierte una localización aproximada o una superposición visual en una correspondencia confirmada.",
+        "La consulta no asigna competencias de autoridades ni ofrece indicaciones operativas ausentes en la capa.",
+        "Se muestra el canal que ADIP acuerde para dudas, o su estado pendiente, sin inventar un contacto o un plazo de respuesta."
+      ],
+      "segmentos": [
+        "E3-S08",
+        "E3-S17",
+        "E3-S20",
+        "E3-S26",
+        "E3-S27",
+        "E3-S37"
+      ],
+      "hallazgos": [
+        "E3-H02",
+        "E3-H04"
+      ],
+      "requisitos": [
+        "E3-R03",
+        "E3-R07"
+      ]
+    },
+    {
+      "id": "E3-US05",
+      "titulo": "Entender la acción de descarga",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona autorizada que encuentra una opción de descarga, quiero saber qué archivo entrega y para qué puede utilizarlo para decidir si necesito descargarlo o si basta con consultar la información en pantalla.",
+      "criterio_resumido": "La opción explica que entrega la capa cartográfica completa y su documentación, comunica el permiso necesario y conserva la versión mostrada en la ficha.",
+      "criterios": [
+        "La consulta básica puede completarse sin obligar a descargar un archivo técnico.",
+        "El control distingue Abrir información de Descargar capa e informa el formato y alcance cuando se conocen.",
+        "La descarga autorizada entrega la misma versión y sus metadatos; no se presenta como un documento de trámite ni como un directorio de oficinas."
+      ],
+      "segmentos": [
+        "E3-S11",
+        "E3-S23",
+        "E3-S31",
+        "E3-S32"
+      ],
+      "hallazgos": [
+        "E3-H03",
+        "E3-H05"
+      ],
+      "requisitos": [
+        "E3-R04",
+        "E3-R05"
+      ]
+    },
+    {
+      "id": "E3-US06",
+      "titulo": "Entender los permisos y los mensajes de acceso",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que entra al visor para consultar, quiero saber qué acciones permite mi perfil y por qué una opción no está disponible para continuar la tarea sin modificar información por equivocación.",
+      "criterio_resumido": "El perfil de consulta carece de edición; un mensaje comprensible distingue falta de autorización de un fallo técnico y explica el siguiente paso definido por ADIP.",
+      "criterios": [
+        "El mantenimiento queda separado de los controles y permisos del perfil de consulta.",
+        "Una operación no autorizada se rechaza también al solicitar su ruta directamente.",
+        "Los mensajes no revelan información protegida y muestran la vía de acceso acordada; las cuentas y canales reales se validan con el área técnica."
+      ],
+      "segmentos": [
+        "E3-S16",
+        "E3-S17",
+        "E3-S30",
+        "E3-S31",
+        "E3-S32"
+      ],
+      "hallazgos": [
+        "E3-H05"
+      ],
+      "requisitos": [
+        "E3-R05"
+      ]
+    },
+    {
+      "id": "E3-US07",
+      "titulo": "Observar una tarea sin dirigir las acciones",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como persona encargada de validar la consulta, quiero observar a un usuario no especializado intentando una tarea y escuchar cómo interpretó los controles para identificar dificultades de navegación y de comprensión del resultado.",
+      "criterio_resumido": "La prueba indica el objetivo sin explicar cada botón, registra dificultades y ayudas, y después pregunta qué esperaba de las acciones. La revisión sectorial se realiza por separado.",
+      "criterios": [
+        "El guion pide una tarea dentro de las dos capas; no buscar una oficina que el prototipo no incluye.",
+        "Se observa el primer intento antes de explicar las acciones y se distingue dificultad de navegación, contenido o acceso.",
+        "Los resultados se registran tras una prueba real y se complementan con revisión técnica y operativa de ADIP y SSC."
+      ],
+      "segmentos": [
+        "E3-S28",
+        "E3-S29",
+        "E3-S37",
+        "E3-S38"
+      ],
+      "hallazgos": [
+        "E3-H03",
+        "E3-H06",
+        "E3-H07"
+      ],
+      "requisitos": [
+        "E3-R06"
+      ]
+    },
+    {
+      "id": "E3-US08",
+      "titulo": "Mantener la referencia y sus razones de cambio",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como persona que mantiene o retoma la información del proyecto, quiero conservar la fuente, las versiones, las notas de cambio y los responsables para identificar qué referencia está disponible y qué necesita revisión.",
+      "criterio_resumido": "La entrega conserva archivo original, fecha, versión y motivo de cambio. El responsable de una fuente ajena valida las correcciones; las funciones sin designar quedan pendientes.",
+      "criterios": [
+        "La bitácora identifica qué cambió, por qué y quién entrega, valida y autoriza.",
+        "El reemplazo conserva trazabilidad del original y no equivale a borrar una referencia sin explicación.",
+        "La ficha documental es breve y mantenible; una persona nueva puede reconocer versión, alcance y contacto o pendiente."
+      ],
+      "segmentos": [
+        "E3-S07",
+        "E3-S14",
+        "E3-S16",
+        "E3-S17",
+        "E3-S34",
+        "E3-S35"
+      ],
+      "hallazgos": [
+        "E3-H01",
+        "E3-H02",
+        "E3-H07"
+      ],
+      "requisitos": [
+        "E3-R07"
+      ]
+    },
+    {
+      "id": "E3-US09",
+      "titulo": "Buscar ubicaciones con contexto verificable",
+      "tipo": "fase_posterior",
+      "prioridad": "P2",
+      "historia": "Como persona que necesita localizar una oficina para una actividad, quiero buscar por nombre o dirección y distinguir sede, vigencia e indicaciones confirmadas para seleccionar una referencia pertinente y comunicarla con su contexto.",
+      "criterio_resumido": "La ampliación requiere un directorio autorizado y validado, resultados distinguibles y permisos de comunicación. El enlace de una vista respeta el acceso del destinatario.",
+      "criterios": [
+        "ADIP valida el nuevo caso de uso y obtiene fuentes que contengan oficinas, sedes o direcciones; las capas de sectores y cuadrantes no se usan para inventarlas.",
+        "Los resultados muestran identificador, nombre completo, sede, propósito cuando corresponda y vigencia documentada; no se elige por ser el primer resultado.",
+        "Un enlace contextual conserva la referencia y verifica autorización; el texto sólo contiene información permitida. Esta historia queda fuera de la primera entrega."
+      ],
+      "segmentos": [
+        "E3-S04",
+        "E3-S13",
+        "E3-S18",
+        "E3-S19",
+        "E3-S20",
+        "E3-S31",
+        "E3-S32",
+        "E3-S33",
+        "E3-S36"
+      ],
+      "hallazgos": [
+        "E3-H01",
+        "E3-H03",
+        "E3-H05",
+        "E3-H07"
+      ],
+      "requisitos": [
+        "E3-R08"
+      ]
+    }
+  ]
+}

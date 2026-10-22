@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:45cf14fa-0e0f-536c-ae77-3c961ef8e40b",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q15.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "068c904a35ea733c36dd40a7bcd7b44ae17d260dc1ba92e86a994ded17e18e6d"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q15 · E3, p. 5",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q15",
+    "entrevista": "E3",
+    "pagina": 5,
+    "texto_literal": "Si me vas diciendo cada botón, al final vamos a pensar que lo entendí, pero a lo mejor no lo habría hecho sola.",
+    "codigos": [
+      "T08"
+    ],
+    "fragmentos": [
+      "E3-S29"
+    ],
+    "transcripcion": "entrevistas/E3_usuaria_administrativa/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:e1472d19-a0d4-5615-845b-21ee745813a5"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E3-S29",
+      "ruta": "entrevistas/E3_usuaria_administrativa/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

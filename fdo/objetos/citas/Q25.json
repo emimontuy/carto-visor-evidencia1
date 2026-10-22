@@ -1,0 +1,49 @@
+{
+  "pid": "urn:uuid:d9d1d4f8-2102-5964-bcb8-efea619f3f58",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q25.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "c8ed4569709edd1b11b242753bda4963cd5f1c36481aaa911863ac7e196a88d2"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q25 · E5, p. 10",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q25",
+    "entrevista": "E5",
+    "pagina": 10,
+    "texto_literal": "Encontrar rápido una versión equivocada no sería una mejora",
+    "codigos": [
+      "T08"
+    ],
+    "fragmentos": [
+      "E5-S55"
+    ],
+    "transcripcion": "entrevistas/E5_cartografo/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E5-S55",
+      "ruta": "entrevistas/E5_cartografo/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

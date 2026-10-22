@@ -1,0 +1,8 @@
+﻿paso,actor,accion,control,estado,segmentos
+1,SSC,"Produce la cartografía y conserva su autoridad sobre nombres, claves y nuevas versiones",Conservar origen e identidad,Situación declarada,E1-S13 | E1-S23 | E1-S25
+2,[Directora ADIP] y [Enlace ADIP],Entregarían las dos capas al equipo en un ZIP,"Registrar archivo recibido, fecha de recepción y fuente","Entrega acordada, recepción no acreditada en E1",E1-S46
+3,Equipo técnico,"Revisaría integridad, identificadores, geometrías y metadatos",Informe de validación y conservación del original,Paso derivado por el análisis,E1-S23 | E1-S25 | E1-S26 | E1-S28
+4,Responsable de la publicación por definir,Autorizaría qué versión y qué usuarios pueden consultar,Decisión registrada y permisos,Gobernanza propuesta por validar,E1-S17 | E1-S19 | E1-S21
+5,Usuario institucional autorizado,"Consultaría el mapa, leería la ficha y descargaría la misma versión",Sin edición; descarga con autorización,Recorrido solicitado,E1-S18 | E1-S21 | E1-S41 | E1-S43
+6,[Directora ADIP] o enlace designado y SSC,"Ante un cambio, se pediría la nueva capa al productor y se entregaría al técnico",No confundir aviso con actualización efectiva,Proceso futuro descrito,E1-S14 | E1-S22
+7,Equipo técnico y responsable designado,Validarían y publicarían una nueva versión con trazabilidad,Historial y posibilidad de volver a la versión anterior,Control derivado; fuera de automatización inicial,E1-S14 | E1-S29 | E1-S30 | E1-S37

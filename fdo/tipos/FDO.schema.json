@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/FDO.schema.json",
+  "title": "Registro FDO (sobre)",
+  "type": "object",
+  "required": [
+    "pid",
+    "kernel",
+    "metadatos",
+    "datos",
+    "relaciones"
+  ],
+  "properties": {
+    "pid": {
+      "type": "string",
+      "pattern": "^urn:uuid:"
+    },
+    "pid_estado": {
+      "type": "string"
+    },
+    "kernel": {
+      "type": "object",
+      "required": [
+        "digitalObjectType",
+        "digitalObjectLocation",
+        "dateCreated",
+        "version",
+        "license",
+        "creator",
+        "checksum"
+      ]
+    },
+    "metadatos": {
+      "type": "object",
+      "required": [
+        "titulo",
+        "descripcion"
+      ]
+    },
+    "datos": {
+      "type": "object"
+    },
+    "relaciones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "tipo",
+          "objetivo"
+        ]
+      }
+    },
+    "procedencia": {
+      "type": "object"
+    }
+  }
+}

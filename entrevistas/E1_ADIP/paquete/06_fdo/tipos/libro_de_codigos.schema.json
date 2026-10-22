@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Libro de códigos cualitativos",
+  "description": "Tipo semántico local propuesto; no registrado en un registro FDO.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "nombre",
+      "definicion",
+      "incluir",
+      "excluir",
+      "ejemplo_segmento"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "nombre": {
+        "type": "string"
+      },
+      "definicion": {
+        "type": "string"
+      },
+      "incluir": {
+        "type": "string"
+      },
+      "excluir": {
+        "type": "string"
+      },
+      "ejemplo_segmento": {
+        "type": "string"
+      },
+      "revision_humana": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Corpus cualitativo codificado",
+  "description": "Tipo semántico local propuesto; no registrado en un registro FDO.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "pagina",
+      "pagina_fin",
+      "hablante",
+      "fragmento_literal",
+      "codigos",
+      "estatus",
+      "memo"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "pagina": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 16
+      },
+      "pagina_fin": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 16
+      },
+      "hablante": {
+        "type": "string"
+      },
+      "atribucion": {
+        "type": "string"
+      },
+      "fragmento_literal": {
+        "type": "string"
+      },
+      "codigos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "estatus": {
+        "type": "string"
+      },
+      "memo": {
+        "type": "string"
+      },
+      "revision_humana": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

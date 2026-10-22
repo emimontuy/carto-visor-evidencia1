@@ -1,0 +1,538 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "segmentos": [
+    {
+      "id": "E3-S01",
+      "pagina": 1,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Nada más que de mapas y de esas cosas sí sé poquito. Pero no trabajo haciendo mapas.",
+      "codigos": [
+        "E3-C00",
+        "E3-C08"
+      ],
+      "estatus": "contexto",
+      "memo": "Su perspectiva es administrativa y de comprensión de la consulta, no de producción cartográfica.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S02",
+      "pagina": 1,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "En mi caso hago actividades administrativas, como organizar documentos, apoyar con la agenda, revisar información que me solicitan y comunicarme con otras personas para confirmar pendientes.",
+      "codigos": [
+        "E3-C00",
+        "E3-C01",
+        "E3-C09"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Describe tareas de su puesto; no acredita funciones de análisis territorial o de decisión sobre sedes.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S03",
+      "pagina": 1,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Hay ocasiones en las que ya tengo el contacto y es rápido; cuando no conozco el lugar, necesito buscar y preguntar. No es algo que haga todo el día, pero sí aparece dentro del trabajo.",
+      "codigos": [
+        "E3-C01",
+        "E3-C03",
+        "E3-C12"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La consulta de ubicaciones es ocasional; no se presume una demanda diaria del Carto-Visor.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S04",
+      "pagina": 1,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "El nombre era prácticamente el mismo, entonces al principio pensé que hablábamos del mismo lugar. Antes de mandar la información tuve que confirmar la dirección y cómo se entraba.",
+      "codigos": [
+        "E3-C01",
+        "E3-C03",
+        "E3-C04",
+        "E3-C15"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La sede y el acceso se confirmaron antes de compartir; no se relata un envío erróneo consumado.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S05",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "El archivo tenía una dirección completa y no se veía raro. Pero no decía cuándo se había revisado.",
+      "codigos": [
+        "E3-C02",
+        "E3-C03",
+        "E3-C08"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La apariencia completa del registro no acredita su vigencia para la actividad.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S06",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "El problema no era que yo hubiera escrito mal la calle, sino que estaba usando una referencia de otro momento.",
+      "codigos": [
+        "E3-C01",
+        "E3-C02"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La discrepancia es de contexto temporal y de uso, no un error de captura declarado.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S07",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Guardé la nueva referencia con una nota para no confundirla con la anterior. Pero si más adelante me la volvían a pedir para otra cosa, igual tendría que confirmar que correspondiera.",
+      "codigos": [
+        "E3-C01",
+        "E3-C02",
+        "E3-C13"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Conservar una referencia no evita confirmar que corresponda a una nueva actividad.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S08",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Lo que tarda es que la persona que sabe te responda o que te digan con quién debes verlo. A veces una persona te orienta, pero no está segura de todos los detalles.",
+      "codigos": [
+        "E3-C03",
+        "E3-C08",
+        "E3-C14"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La dificultad relatada es conseguir una confirmación, sin medición de tiempos o demora generalizada.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S09",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Primero reviso si tengo algún correo o documento relacionado con la solicitud. Después busco información publicada por la institución correspondiente.",
+      "codigos": [
+        "E3-C03",
+        "E3-C05"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La búsqueda combina archivos propios, fuentes institucionales y consulta a personas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S10",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Y un documento puede ser oficial y aun así corresponder a una actividad anterior. Por eso me sirve que tenga fecha y un contacto.",
+      "codigos": [
+        "E3-C01",
+        "E3-C02",
+        "E3-C03"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La procedencia oficial no basta para confirmar pertinencia; fecha y responsable ayudan a revisar.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S11",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "No me gusta mandar solamente una imagen porque a veces no se alcanza a leer o no se entiende qué punto es. Si la persona no conoce la zona, le ayuda tener las dos cosas. Y si hay una duda que todavía no se resolvió, se la digo.",
+      "codigos": [
+        "E3-C08",
+        "E3-C09",
+        "E3-C15"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La comunicación combina dirección escrita y mapa; conserva dudas y referencias de acceso confirmadas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S12",
+      "pagina": 2,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Primero entendería qué lugar necesitan y para qué actividad. Después revisaría la información que ya tengo. Si no estoy segura, buscaría quién me la puede confirmar.",
+      "codigos": [
+        "E3-C01",
+        "E3-C03",
+        "E3-C05"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Ordena las primeras etapas; el proceso continúa con consulta, comunicación y conservación de la referencia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S13",
+      "pagina": 3,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "El nombre del área o la oficina, qué actividad van a hacer y, si hay más de una sede, cuál les indicaron. También me sirve saber quién organizó la actividad, porque esa persona puede confirmar.",
+      "codigos": [
+        "E3-C01",
+        "E3-C03",
+        "E3-C04"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La solicitud debe distinguir área, edificio, sede y actividad antes de buscar.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S14",
+      "pagina": 3,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "En esas situaciones terminas preguntando aunque probablemente ya tengas la información guardada.",
+      "codigos": [
+        "E3-C04",
+        "E3-C05",
+        "E3-C13"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Los nombres distintos de archivos dificultan reconocer un registro que podría estar disponible.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S15",
+      "pagina": 3,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "La persona que me pide la ubicación, yo que hago la búsqueda y quien conoce o puede confirmar la información de la sede. A veces participa otro compañero para orientarme.",
+      "codigos": [
+        "E3-C00",
+        "E3-C03",
+        "E3-C09",
+        "E3-C14"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Identifica funciones de solicitud, búsqueda, confirmación y apoyo, sin asignar cargos universales.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S16",
+      "pagina": 3,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Si es un documento que pertenece a otra área, no me tocaría cambiarlo por mi cuenta. Avisaría a quien lo lleva.",
+      "codigos": [
+        "E3-C10",
+        "E3-C13",
+        "E3-C14"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Distingue una corrección de su lista de la modificación de un documento ajeno.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S17",
+      "pagina": 3,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Pero no necesariamente soy quien puede confirmar todos los datos ni quien decide qué información se comparte. Depende de lo que me estén pidiendo.",
+      "codigos": [
+        "E3-C00",
+        "E3-C03",
+        "E3-C10",
+        "E3-C14"
+      ],
+      "estatus": "incertidumbre_explicita",
+      "memo": "Ser intermediaria no le concede validación o autorización sobre toda la información.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S18",
+      "pagina": 3,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Por un buscador. Yo normalmente ya tengo el nombre de algo y quiero encontrarlo. Si al abrir veo nada más un mapa con muchos puntos, no sé por dónde empezar.",
+      "codigos": [
+        "E3-C05",
+        "E3-C06",
+        "E3-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Propone una entrada por búsqueda para ubicaciones; la funcionalidad debe contrastarse con el alcance SSC.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S19",
+      "pagina": 4,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "A veces el nombre corto se repite y no te dice suficiente. Si uno está en otra zona o corresponde a otra actividad, quisiera verlo antes de abrirlo. Yo no escogería sólo porque fue el primero que apareció.",
+      "codigos": [
+        "E3-C01",
+        "E3-C04",
+        "E3-C05",
+        "E3-C08"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Distinguir resultados antes de seleccionar; el primer resultado no acredita que sea el correcto.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S20",
+      "pagina": 4,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Pero si la página no tiene esa información, que no parezca que me la está confirmando. Para mí sería suficiente una ficha que se entienda y que me permita saber a quién preguntar lo que falta.",
+      "codigos": [
+        "E3-C03",
+        "E3-C06",
+        "E3-C08",
+        "E3-C14"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La ficha debe diferenciar datos disponibles y faltantes; no completar accesos u horarios sin confirmación.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S21",
+      "pagina": 4,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Yo no sabría qué abrir si un botón dijera solamente “metadatos”. Me sería más claro algo como “fuente de la información” o “fecha de actualización”.",
+      "codigos": [
+        "E3-C03",
+        "E3-C06"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El vocabulario de los controles debe explicar su función para un perfil no especializado.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S22",
+      "pagina": 4,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Porque puede ser la fecha en que subieron el archivo y no cuando alguien confirmó la dirección. Para mí sería importante saber esa diferencia sin tener que adivinarla.",
+      "codigos": [
+        "E3-C02",
+        "E3-C03",
+        "E3-C06"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Diferenciar la publicación del archivo de la fecha de actualización o comprobación del contenido.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S23",
+      "pagina": 4,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "También cuando todo viene con siglas o nombres que sólo entiende quien trabaja en esa área. A veces sí puedo encontrar el documento, pero no sé si debo descargarlo, si ya se abrió o si estoy viendo una vista previa.",
+      "codigos": [
+        "E3-C06",
+        "E3-C09"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "La dificultad incluye significado de acciones y estados de interfaz, además de localizar información.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S24",
+      "pagina": 4,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Pero sí puede pasar que, después de varias veces, ya vayas directo con quien te ayuda y dejes de usar la página.",
+      "codigos": [
+        "E3-C06",
+        "E3-C12"
+      ],
+      "estatus": "expectativa_condicional",
+      "memo": "Plantea posible abandono ante dificultades repetidas; no mide abandono del Carto-Visor.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S25",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "No quisiera pensar que una de esas zonas es una colonia cuando en realidad es otra cosa.",
+      "codigos": [
+        "E3-C06",
+        "E3-C07",
+        "E3-C08",
+        "E3-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Explicar sectores y cuadrantes y su finalidad, después de la aclaración realizada por Emilio.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S26",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "También si no encuentro la dirección exacta y el mapa me manda a un lugar aproximado. Ahí preguntaría antes de decir que pertenece a una zona.",
+      "codigos": [
+        "E3-C04",
+        "E3-C08"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Una localización aproximada o cercana al límite conserva incertidumbre; no es una correspondencia ya verificada.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S27",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Y aunque el mapa me lo muestre, yo no usaría eso para decidir a qué autoridad le corresponde un asunto. Esa parte tendría que confirmarla con quien conoce el tema.",
+      "codigos": [
+        "E3-C07",
+        "E3-C08",
+        "E3-C14"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La lectura de una división territorial no se convierte en decisión de competencia de una autoridad.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S28",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Yo no podría decirles si las divisiones están bien ni qué necesita un analista de Seguridad Ciudadana. Tampoco conozco el trabajo de la ADIP.",
+      "codigos": [
+        "E3-C00",
+        "E3-C08",
+        "E3-C11",
+        "E3-C16"
+      ],
+      "estatus": "incertidumbre_explicita",
+      "memo": "Su aporte a comprensión de la interfaz no sustituye validación técnica o sectorial con ADIP y SSC.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S29",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Si me vas diciendo cada botón, al final vamos a pensar que lo entendí, pero a lo mejor no lo habría hecho sola. Después ya te puedo contar dónde me atoré.",
+      "codigos": [
+        "E3-C06",
+        "E3-C11"
+      ],
+      "estatus": "prueba_propuesta",
+      "memo": "Propone observación sin dirigir las acciones y explicación posterior de dificultades.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S30",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Si sólo voy a consultar, no quiero terminar cambiando algo por equivocación. Si una opción no está disponible para mi usuario, que me diga qué pasa.",
+      "codigos": [
+        "E3-C06",
+        "E3-C10"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La interfaz debe separar consulta de mantenimiento y explicar las acciones no autorizadas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S31",
+      "pagina": 5,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "No sabría qué hacer con un archivo técnico de un mapa. Si me piden un documento o una lista, ahí sí podría necesitar descargarlo, siempre que tenga permitido hacerlo.",
+      "codigos": [
+        "E3-C00",
+        "E3-C09",
+        "E3-C10",
+        "E3-C12"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La descarga depende de la tarea y del permiso; no implica que todos requieran el archivo cartográfico completo.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S32",
+      "pagina": 6,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Pero también tendría que saber si la otra persona puede entrar. Si no puede, no sirve mandarle solamente el enlace. Para algo tan sencillo como una dirección, tenerla por escrito sigue siendo útil.",
+      "codigos": [
+        "E3-C09",
+        "E3-C10",
+        "E3-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Compartir una vista necesita autorización y contexto; no se acuerda una apertura pública.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S33",
+      "pagina": 6,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Alguna vez llegué al edificio que aparecía en el mapa, pero el módulo al que tenía que ir estaba en otro acceso.",
+      "codigos": [
+        "E3-C01",
+        "E3-C04",
+        "E3-C15"
+      ],
+      "estatus": "situacion_relatada",
+      "memo": "Ejemplo fuera del trabajo: localizar el edificio no identifica necesariamente el acceso operativo.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S34",
+      "pagina": 6,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Ayuda tener una lista revisada y saber quién la mantiene. Si sólo te pasan muchos archivos sin explicación, te tardas en reconocer cuál sirve.",
+      "codigos": [
+        "E3-C03",
+        "E3-C05",
+        "E3-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La continuidad necesita referencias identificables y un responsable; no se cuantifica el tiempo de aprendizaje.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S35",
+      "pagina": 6,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Si una sede dejó de usarse para cierta actividad, que quede explicado y no solamente se borre una dirección sin que sepamos por qué.",
+      "codigos": [
+        "E3-C01",
+        "E3-C02",
+        "E3-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El cambio debe preservar su motivo y contexto, en lugar de borrar silenciosamente la referencia anterior.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S36",
+      "pagina": 6,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Y si sólo tiene información que no necesito para mis tareas, tampoco lo abriría diario. Eso no significa que no le sirva a alguien más.",
+      "codigos": [
+        "E3-C00",
+        "E3-C12",
+        "E3-C16"
+      ],
+      "estatus": "expectativa_condicional",
+      "memo": "La adopción depende de una tarea pertinente; el empleo en gobierno no prueba uso frecuente del visor.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S37",
+      "pagina": 7,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Si me quedo atorada, te diría exactamente en qué parte, porque no es lo mismo no encontrar el botón que no saber qué significa el resultado.",
+      "codigos": [
+        "E3-C06",
+        "E3-C08",
+        "E3-C11"
+      ],
+      "estatus": "prueba_propuesta",
+      "memo": "Separar dificultad de navegación de dificultad para interpretar el contenido.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E3-S38",
+      "pagina": 7,
+      "hablante": "[Usuaria administrativa]",
+      "fragmento_literal": "Yo no puedo evaluar la parte técnica, pero sí les puedo decir qué entendí y qué me falta para usarlo.",
+      "codigos": [
+        "E3-C00",
+        "E3-C08",
+        "E3-C11",
+        "E3-C16"
+      ],
+      "estatus": "incertidumbre_explicita",
+      "memo": "La prueba con este perfil aporta a comprensión; no valida geometría, operaciones de SSC o seguridad técnica.",
+      "revision_humana": "pendiente"
+    }
+  ]
+}

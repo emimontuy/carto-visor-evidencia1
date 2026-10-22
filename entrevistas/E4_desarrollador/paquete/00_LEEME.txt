@@ -1,0 +1,37 @@
+Análisis de la cuarta entrevista del Carto-Visor
+[Desarrollador] — Emilio Gómez Montuy — Versión 1.0.0 — 2026-10-15
+
+ORDEN DE LECTURA
+1. 01_fuente: PDF original completo y texto separado por páginas con salto de página.
+2. 02_codificacion: libro de 20 códigos y 46 fragmentos con cita literal, página, códigos, estatus y memo.
+3. 03_analisis: 8 hallazgos, actores, proceso propuesto, mapa de empatía y afinidad.
+4. 04_desarrollo: 10 historias, criterios completos, requisitos, decisiones, preguntas y contratos.
+5. 05_metadatos: objetos internos, procedencia, integridad y esquemas locales.
+6. 06_revision: hoja para registrar acuerdos, cambios y comentarios de revisión humana.
+7. 07_reproduccion: guion de validación del paquete.
+
+COMPROBACIÓN
+Desde la carpeta descomprimida ejecutar: python3 07_reproduccion/validar_paquete.py
+La comprobación usa la biblioteca estándar de Python y el validador local incluido.
+Revisa tipos, campos requeridos, propiedades adicionales y listas de estos esquemas.
+La comprobación técnica no sustituye una segunda codificación ni una prueba con usuarios.
+
+ALCANCE
+El PDF fuente se conserva íntegro. Los fragmentos son extractos sustantivos y pueden recibir
+varios códigos. No se mezclan fragmentos de otras entrevistas. Se mantienen los marcadores
+inaudibles sin completar palabras. Los ejemplos generales no se reportan como fallos del
+Carto-Visor. [Desarrollador] no inspeccionó los archivos SSC ni representa acuerdos de ADIP o Google.
+Las preguntas de Emilio son contexto; la compatibilidad comunicada y la hipótesis de cambio
+por entregas no se convierten en verificación ni periodicidad confirmada.
+Las cinco historias iniciales son de producto; cuatro apoyan desarrollo y validación; la búsqueda
+de direcciones queda en una fase posterior, condicionada a fuentes y acuerdos.
+
+PREPARACIÓN DE OBJETOS DIGITALES
+Los URN UUID son identificadores internos estables. No son DOI ni PID publicados.
+Cada objeto conserva tipo local, versión, datos, metadatos, procedencia y huella SHA-256.
+La conformidad FDO formal requiere revisar y registrar tipos y perfiles y vincular PID
+resolubles; permanece pendiente. No se creó un repositorio Zenodo.
+La revisión humana, la licencia y las condiciones de difusión quedan pendientes.
+
+El reporte Word se entrega por separado e incluye una síntesis breve para el reporte principal.
+Los criterios completos y los vínculos detallados se conservan en este paquete.

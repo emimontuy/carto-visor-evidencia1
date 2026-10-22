@@ -1,0 +1,142 @@
+{
+  "entrevista": "E3",
+  "version": "1.0.0",
+  "codigos": [
+    {
+      "id": "E3-C00",
+      "nombre": "Perfil administrativo y límites",
+      "definicion": "Funciones declaradas y alcance de la perspectiva de [Usuaria administrativa].",
+      "incluir": "Organizar, buscar y comunicar sin producir cartografía.",
+      "excluir": "Representar a todas las personas de la institución federal o a usuarios de SSC.",
+      "ejemplo_segmento": "E3-S02"
+    },
+    {
+      "id": "E3-C01",
+      "nombre": "Actividad sede y propósito",
+      "definicion": "Contexto de la solicitud que permite elegir la referencia pertinente.",
+      "incluir": "Distinguir área, edificio, sede y actividad.",
+      "excluir": "Suponer que el mismo nombre identifica siempre el mismo lugar.",
+      "ejemplo_segmento": "E3-S13"
+    },
+    {
+      "id": "E3-C02",
+      "nombre": "Vigencia contextual y cambios",
+      "definicion": "Periodo o revisión que permite evaluar una referencia.",
+      "incluir": "Fecha, sede que cambia y razón de conservar otra referencia.",
+      "excluir": "Confundir publicación con comprobación de vigencia.",
+      "ejemplo_segmento": "E3-S22"
+    },
+    {
+      "id": "E3-C03",
+      "nombre": "Fuente y confirmación responsable",
+      "definicion": "Procedencia y persona que puede verificar la información.",
+      "incluir": "Contacto, fuente institucional y necesidad de confirmación.",
+      "excluir": "Tomar una dirección completa o un documento oficial como confirmación suficiente.",
+      "ejemplo_segmento": "E3-S10"
+    },
+    {
+      "id": "E3-C04",
+      "nombre": "Ambigüedad de nombres y localización",
+      "definicion": "Dudas por sedes semejantes o ubicación imprecisa.",
+      "incluir": "Nombres repetidos, referencia aproximada o acceso distinto.",
+      "excluir": "Afirmar que hubo error geométrico en los datos SSC.",
+      "ejemplo_segmento": "E3-S26"
+    },
+    {
+      "id": "E3-C05",
+      "nombre": "Búsqueda y reconocimiento de archivos",
+      "definicion": "Forma de encontrar y distinguir la información disponible.",
+      "incluir": "Búsqueda por nombre, documentos y nombres de archivos.",
+      "excluir": "Atribuir un directorio de oficinas al prototipo inicial.",
+      "ejemplo_segmento": "E3-S18"
+    },
+    {
+      "id": "E3-C06",
+      "nombre": "Lenguaje comprensible y orientación",
+      "definicion": "Comprensión de términos, botones y estados de consulta.",
+      "incluir": "Etiquetas, explicación breve, siglas y resultado interpretable.",
+      "excluir": "Confundir comprensión de la interfaz con formación técnica en cartografía.",
+      "ejemplo_segmento": "E3-S21"
+    },
+    {
+      "id": "E3-C07",
+      "nombre": "Significado de las divisiones",
+      "definicion": "Qué representa una capa y qué conclusiones admite.",
+      "incluir": "Distinguir sector, cuadrante, colonia y otras unidades.",
+      "excluir": "Deducir competencia de una autoridad a partir del polígono.",
+      "ejemplo_segmento": "E3-S27"
+    },
+    {
+      "id": "E3-C08",
+      "nombre": "Incertidumbre y límites",
+      "definicion": "Dato desconocido, conclusión dudosa o límite del testimonio.",
+      "incluir": "Información sin confirmar y límites de representación.",
+      "excluir": "Rellenar desconocidos o presentar una prueba propuesta como realizada.",
+      "ejemplo_segmento": "E3-S20"
+    },
+    {
+      "id": "E3-C09",
+      "nombre": "Consulta y comunicación del resultado",
+      "definicion": "Información que se lee o se comparte para una tarea.",
+      "incluir": "Texto, mapa, referencia y descarga según necesidad.",
+      "excluir": "Suponer que una imagen o un archivo técnico sirve a todos por igual.",
+      "ejemplo_segmento": "E3-S11"
+    },
+    {
+      "id": "E3-C10",
+      "nombre": "Permisos y facultad de modificación",
+      "definicion": "Acciones autorizadas de acceso, descarga, comunicación o cambio.",
+      "incluir": "Consulta separada de editar y confirmación antes de compartir.",
+      "excluir": "Conceder edición o acceso público por una petición de consulta.",
+      "ejemplo_segmento": "E3-S30"
+    },
+    {
+      "id": "E3-C11",
+      "nombre": "Prueba de comprensión por tarea",
+      "definicion": "Observación de la consulta sin dirigir cada acción.",
+      "incluir": "Tarea, significado anticipado de botones y dificultad identificada.",
+      "excluir": "Declarar éxito del prototipo sin mostrarlo ni probarlo.",
+      "ejemplo_segmento": "E3-S29"
+    },
+    {
+      "id": "E3-C12",
+      "nombre": "Uso según utilidad concreta",
+      "definicion": "Adopción ligada a tareas pertinentes y esfuerzo de consulta.",
+      "incluir": "Uso ocasional, abandono posible y beneficio para una necesidad.",
+      "excluir": "Afirmar uso diario por trabajar en gobierno.",
+      "ejemplo_segmento": "E3-S36"
+    },
+    {
+      "id": "E3-C13",
+      "nombre": "Continuidad y mantenimiento",
+      "definicion": "Información que permite retomar y revisar referencias.",
+      "incluir": "Listas revisadas, nombres, motivos de cambio y notas.",
+      "excluir": "Modificar una fuente ajena sin la aprobación del responsable.",
+      "ejemplo_segmento": "E3-S35"
+    },
+    {
+      "id": "E3-C14",
+      "nombre": "Canalización de dudas y decisiones",
+      "definicion": "Quién confirma, autoriza o recibe un dato por revisar.",
+      "incluir": "Orientación, responsable y reporte de una corrección.",
+      "excluir": "Asignar a [Usuaria administrativa] facultades no declaradas.",
+      "ejemplo_segmento": "E3-S17"
+    },
+    {
+      "id": "E3-C15",
+      "nombre": "Acceso físico e indicaciones prácticas",
+      "definicion": "Cómo llegar a la entrada o módulo que se necesita.",
+      "incluir": "Entrada confirmada y diferencia entre edificio y acceso operativo.",
+      "excluir": "Confundir acceso al inmueble con permiso de entrada al sistema.",
+      "ejemplo_segmento": "E3-S33"
+    },
+    {
+      "id": "E3-C16",
+      "nombre": "Alcance inicial y ampliaciones",
+      "definicion": "Relación de la necesidad con las dos capas de SSC.",
+      "incluir": "Comprensión del prototipo y funciones futuras condicionadas.",
+      "excluir": "Prometer búsquedas de oficinas o trámites en la primera entrega.",
+      "ejemplo_segmento": "E3-S28"
+    }
+  ]
+}

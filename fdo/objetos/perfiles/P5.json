@@ -1,0 +1,46 @@
+{
+  "pid": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Perfil.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/perfiles/P5.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "2e15580cf6e1cc421a7bcf755f8435c7dbd100a39b8d675aa72aa66b43a1eb87"
+    }
+  },
+  "metadatos": {
+    "titulo": "El cartógrafo de alcaldía",
+    "descripcion": "Perfil construido a partir de la entrevista E5 (anonimizada).",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "P5",
+    "rol": "El cartógrafo de alcaldía",
+    "tipo_de_actor": "Produce y actualiza el dato",
+    "entrevista": "E5",
+    "fecha_entrevista": "2026-10-15",
+    "contexto": "Cartógrafo y analista SIG en el área técnica de planeación de una alcaldía",
+    "hace": "Recibe bases de otras áreas, ubica registros, corrige y devuelve dudas a la fuente.",
+    "le_frena": "Su corrección local no llega al registro de origen y vuelve a aparecer el mes siguiente.",
+    "necesita": "Conservar el original, versiones identificables y un canal de incidencias con estado."
+  },
+  "relaciones": [
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:d498b600-e076-5e38-a013-b79c90ddb03a"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "entrevistas/E5_cartografo/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "síntesis de fragmentos codificados de una entrevista"
+  }
+}

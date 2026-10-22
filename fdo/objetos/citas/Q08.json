@@ -1,0 +1,43 @@
+{
+  "pid": "urn:uuid:f7082ac3-5a8e-5c3a-9460-082fa9c67fb3",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q08.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "0ba360c406f6f941b1b05fea341e49902ef9bdfb7669191dc7ff2418d4d7efef"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q08 · E2, p. 2",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q08",
+    "entrevista": "E2",
+    "pagina": 2,
+    "texto_literal": "que la explicación viaje junto con el archivo, aunque sea con una ficha sencilla.",
+    "codigos": [
+      "T07",
+      "T10"
+    ],
+    "fragmentos": [],
+    "transcripcion": "entrevistas/E2_analista_territorial/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:f010fc57-562a-5c24-890b-956553a7e329"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

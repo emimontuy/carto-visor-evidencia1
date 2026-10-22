@@ -1,0 +1,35 @@
+Análisis de la tercera entrevista del Carto-Visor
+[Usuaria administrativa] — Emilio Gómez Montuy — Versión 1.0.0 — 2026-10-14
+
+ORDEN DE LECTURA
+1. 01_fuente: PDF original completo y texto separado por páginas con el carácter de salto de página.
+2. 02_codificacion: libro de 17 códigos y 38 fragmentos con cita literal, página, códigos, estatus y memo.
+3. 03_analisis: siete hallazgos, actores, proceso relatado, mapa de empatía y agrupación de afinidad.
+4. 04_desarrollo: nueve historias, criterios completos, requisitos, decisiones, preguntas y contratos de datos.
+5. 05_metadatos: objetos internos, procedencia, integridad y esquemas locales.
+6. 06_revision: hoja para que la revisión humana registre acuerdos, cambios y comentarios.
+7. 07_reproduccion: validación del paquete.
+
+COMPROBACIÓN
+Desde la carpeta descomprimida ejecutar: python3 07_reproduccion/validar_paquete.py
+La comprobación usa la biblioteca estándar de Python y el validador local incluido.
+Revisa los tipos, campos requeridos, propiedades adicionales y listas definidos en estos esquemas.
+La comprobación técnica no sustituye una segunda codificación ni una prueba con usuarios.
+
+ALCANCE
+El PDF fuente se conserva íntegro. Los fragmentos no equivalen al total de turnos y un mismo
+fragmento puede recibir varios códigos. No se mezclan fragmentos de las otras entrevistas.
+Las preguntas que resumen el encargo ADIP permanecen en la fuente; no se atribuyen a [Usuaria administrativa]
+como acuerdos nuevos. La comparación con la ficha y E1 aparece separada en el blueprint.
+Las seis historias iniciales son de consulta y producto; dos apoyan el desarrollo y la
+continuidad; una ampliación queda condicionada a datos y validación institucional.
+
+PREPARACIÓN DE OBJETOS DIGITALES
+Los URN UUID son identificadores internos estables. No son DOI ni PID publicados.
+Cada objeto conserva tipo local, versión, datos, metadatos, procedencia y huella SHA-256.
+La conformidad FDO formal requiere revisar y registrar tipos y perfiles, y vincular PID
+resolubles. Estos pasos quedan registrados como pendientes. No se creó un repositorio Zenodo.
+La revisión humana, la licencia y las condiciones de difusión quedan pendientes.
+
+El reporte Word se entrega por separado e incluye una síntesis breve para el reporte principal.
+La trazabilidad detallada y los criterios completos de aceptación se conservan en este paquete.

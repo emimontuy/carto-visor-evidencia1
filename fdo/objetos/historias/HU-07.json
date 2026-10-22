@@ -1,0 +1,81 @@
+{
+  "pid": "urn:uuid:a7ad4ebd-052b-5a8f-bf11-e60259fe9d7e",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/HistoriaDeUsuario.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/historias/HU-07.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "6998daa168924c861136662389b10e437363ee8ab502e26e7b13d20c701bfec4"
+    }
+  },
+  "metadatos": {
+    "titulo": "Incorporar una nueva versión autorizada",
+    "descripcion": "Como coordinadora de la biblioteca, quiero recibir el aviso de una nueva versión, revisarla y publicarla conservando la anterior, para mantener la biblioteca vigente sin romper análisis previos.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "HU-07",
+    "prioridad": "P1",
+    "titulo": "Incorporar una nueva versión autorizada",
+    "como": "coordinadora de la biblioteca",
+    "quiero": "recibir el aviso de una nueva versión, revisarla y publicarla conservando la anterior",
+    "para": "mantener la biblioteca vigente sin romper análisis previos",
+    "texto": "Como coordinadora de la biblioteca, quiero recibir el aviso de una nueva versión, revisarla y publicarla conservando la anterior, para mantener la biblioteca vigente sin romper análisis previos.",
+    "criterios_de_aceptacion": [
+      "Queda registrado quién entregó, quién revisó y quién autorizó.",
+      "La versión anterior se puede recuperar.",
+      "Se documentan cambios de claves o divisiones."
+    ],
+    "elementos_del_visor_ideal": [
+      "V8"
+    ],
+    "historias_de_origen": [
+      "E1-US09",
+      "E3-US08",
+      "E5-US08"
+    ]
+  },
+  "relaciones": [
+    {
+      "tipo": "satisface",
+      "objetivo": "urn:uuid:957be1da-f9ed-5ce2-bc51-c6e08352ba1e"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:6f8a78f9-008d-566d-9f53-5f5a74064352"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:1aa0cb3d-49f4-520d-ac6c-12f964ad4731"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E1-US09",
+      "ruta": "entrevistas/E1_ADIP/paquete/04_desarrollo/historias_de_usuario.json"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E3-US08",
+      "ruta": "entrevistas/E3_usuaria_administrativa/paquete/04_desarrollo/historias_de_usuario.json"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "E5-US08",
+      "ruta": "entrevistas/E5_cartografo/paquete/04_desarrollo/historias_de_usuario.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "consolidación de 48 historias por entrevista en 11 historias transversales",
+    "fecha": "2026-10-21"
+  }
+}

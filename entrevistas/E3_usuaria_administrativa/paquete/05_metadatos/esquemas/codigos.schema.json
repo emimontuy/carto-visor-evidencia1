@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "codigos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "definicion": {
+            "type": "string"
+          },
+          "incluir": {
+            "type": "string"
+          },
+          "excluir": {
+            "type": "string"
+          },
+          "ejemplo_segmento": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "nombre",
+          "definicion",
+          "incluir",
+          "excluir",
+          "ejemplo_segmento"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entrevista",
+    "version",
+    "codigos"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LibroCodigosCualitativo E3 1.0.0"
+}

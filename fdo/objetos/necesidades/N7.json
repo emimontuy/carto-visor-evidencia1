@@ -1,0 +1,58 @@
+{
+  "pid": "urn:uuid:957be1da-f9ed-5ce2-bc51-c6e08352ba1e",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Necesidad.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/necesidades/N7.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "5d9f684407f0b6734d1179ad7b41ab84d56e4658844a0145b611faa2938a3f7b"
+    }
+  },
+  "metadatos": {
+    "titulo": "Reconocer qué cambió entre versiones y si puedo comparar con un análisis anterior.",
+    "descripcion": "Necesidad de información verificable derivada de las entrevistas.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "N7",
+    "prioridad": "P2",
+    "sector": "Mantenimiento de capas",
+    "enunciado": "Reconocer qué cambió entre versiones y si puedo comparar con un análisis anterior.",
+    "criterio_de_verificacion": "Un cambio autorizado registra origen y diferencias; la versión previa se recupera.",
+    "perfiles": [
+      "P1",
+      "P5"
+    ]
+  },
+  "relaciones": [
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:6f8a78f9-008d-566d-9f53-5f5a74064352"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:1aa0cb3d-49f4-520d-ac6c-12f964ad4731"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    }
+  ],
+  "procedencia": {
+    "metodo": "agrupación de fragmentos por afinidad entre entrevistas",
+    "fuentes": [
+      "entrevistas/E1_ADIP/paquete/01_fuente/E1_transcripcion_anonimizada.pdf",
+      "entrevistas/E1_ADIP/paquete/01_fuente/E1_transcripcion_anonimizada.pdf"
+    ]
+  }
+}

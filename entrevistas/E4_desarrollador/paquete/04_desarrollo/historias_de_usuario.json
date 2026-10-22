@@ -1,0 +1,283 @@
+{
+  "entrevista": "E4",
+  "version": "1.0.0",
+  "historias": [
+    {
+      "id": "E4-US01",
+      "titulo": "Reconocer el mismo elemento en mapa y ficha",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona autorizada que consulta un sector o cuadrante, quiero encontrarlo por un campo acordado y ver la misma clave y nombre en el mapa y en la ficha para reconocer el resultado de mi consulta.",
+      "criterio_resumido": "Mapa y ficha corresponden a la misma capa, clave y versión; al cambiar de selección, una respuesta anterior no reemplaza la consulta más reciente.",
+      "criterios": [
+        "ADIP acuerda si la localización se realiza por clave, nombre existente o selección directa; no se inventan campos.",
+        "La selección identifica capa, clave y versión y conserva los identificadores de origen.",
+        "Con cambios rápidos entre dos elementos, la ficha y el resaltado corresponden a la selección actual; un resultado anterior se retira o identifica explícitamente."
+      ],
+      "segmentos": [
+        "E4-S03",
+        "E4-S04",
+        "E4-S08",
+        "E4-S22",
+        "E4-S27",
+        "E4-S36",
+        "E4-S41"
+      ],
+      "hallazgos": [
+        "E4-H01",
+        "E4-H02",
+        "E4-H03"
+      ],
+      "requisitos": [
+        "E4-R02"
+      ]
+    },
+    {
+      "id": "E4-US02",
+      "titulo": "Consultar la fuente y el significado de las fechas",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que interpreta una capa, quiero reconocer su fuente, versión y fechas explicadas para saber qué información estoy usando y qué falta confirmar.",
+      "criterio_resumido": "La ficha distingue fecha del dato y fecha de carga cuando se conocen y muestra pendientes; cargar hoy no se presenta como información vigente hoy.",
+      "criterios": [
+        "La ficha se vincula a la versión recibida y contiene procedencia y explicación de cobertura.",
+        "Cada fecha tiene una etiqueta que corresponde a su significado confirmado; un dato ausente se conserva como pendiente o no proporcionado.",
+        "El procedimiento de una nueva entrega indica quién proporciona y confirma la versión; no se anuncia actualización automática sin implementarla y probarla."
+      ],
+      "segmentos": [
+        "E4-S18",
+        "E4-S19",
+        "E4-S20",
+        "E4-S45"
+      ],
+      "hallazgos": [
+        "E4-H04",
+        "E4-H05"
+      ],
+      "requisitos": [
+        "E4-R03"
+      ]
+    },
+    {
+      "id": "E4-US03",
+      "titulo": "Recibir la capa que anuncia la descarga",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona autorizada que reutiliza los datos, quiero descargar un archivo con alcance y versión identificables para trabajar con la misma información que describe el visor.",
+      "criterio_resumido": "El botón anuncia la capa completa y su versión; el archivo se vuelve a abrir y se contrastan claves y nombres con ejemplos acordados.",
+      "criterios": [
+        "La primera versión declara descarga de capa completa; una exportación filtrada sólo se añade si se acuerda por separado.",
+        "El archivo conserva identificadores, nombres y referencia de versión y se entrega con su documentación disponible.",
+        "La comprobación abre el archivo descargado y compara ejemplos confirmados, sin dar por suficiente que el navegador haya recibido bytes."
+      ],
+      "segmentos": [
+        "E4-S22",
+        "E4-S34",
+        "E4-S35",
+        "E4-S41",
+        "E4-S44"
+      ],
+      "hallazgos": [
+        "E4-H03"
+      ],
+      "requisitos": [
+        "E4-R04"
+      ]
+    },
+    {
+      "id": "E4-US04",
+      "titulo": "Entender por qué una operación no terminó",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que consulta o descarga, quiero distinguir carga en curso, ausencia de resultados, fallo y restricción de acceso para saber qué ocurrió y qué puedo intentar.",
+      "criterio_resumido": "Los estados y mensajes corresponden al motivo real; se comprueba el permiso donde se entrega la información y los datos anteriores no parecen una respuesta nueva.",
+      "criterios": [
+        "La consulta distingue cargando, completada sin resultados y fallida, y señala si todavía se presenta información anterior.",
+        "La falta de sesión, falta de permiso y archivo no disponible se comunican de forma distinta con el siguiente paso real cuando exista.",
+        "ADIP confirma acciones y perfiles; una operación restringida se rechaza también por solicitud directa, sin exponer el detalle técnico al usuario."
+      ],
+      "segmentos": [
+        "E4-S27",
+        "E4-S28",
+        "E4-S31",
+        "E4-S32",
+        "E4-S33"
+      ],
+      "hallazgos": [
+        "E4-H03",
+        "E4-H05",
+        "E4-H06"
+      ],
+      "requisitos": [
+        "E4-R05"
+      ]
+    },
+    {
+      "id": "E4-US05",
+      "titulo": "Usar controles comprensibles con distintas formas de interacción",
+      "tipo": "producto",
+      "prioridad": "P0",
+      "historia": "Como persona que consulta el visor, quiero reconocer la capa y la selección mediante nombres, leyenda y controles que pueda usar con teclado y ampliación para comprender la información sin depender sólo del color o del ratón.",
+      "criterio_resumido": "Los controles tienen nombres visibles, la capa activa se reconoce y la ficha se puede abrir sin depender de pasar el ratón; se revisan teclado y ampliación.",
+      "criterios": [
+        "Sectores y cuadrantes tienen nombre visible, estado activo y leyenda; la selección incorpora una señal adicional al color.",
+        "El recorrido acordado se prueba con teclado y al aumentar el tamaño de la página, sin ocultar la información necesaria para terminar la tarea.",
+        "La primera vista explica qué se puede consultar y permite acceder al detalle técnico; el registro indica lo revisado sin afirmar certificación general."
+      ],
+      "segmentos": [
+        "E4-S23",
+        "E4-S24",
+        "E4-S38"
+      ],
+      "hallazgos": [
+        "E4-H06"
+      ],
+      "requisitos": [
+        "E4-R06"
+      ]
+    },
+    {
+      "id": "E4-US06",
+      "titulo": "Cargar la fuente con un contrato explícito",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como integrante del desarrollo, quiero documentar los campos y la referencia del archivo y hacer una carga de prueba para consumir las capas recibidas conservando sus identificadores.",
+      "criterio_resumido": "Se identifica clave, etiqueta, versión y referencia espacial disponible; una transformación sólo se realiza si se justifica y conserva el original.",
+      "criterios": [
+        "Se documenta qué campo identifica cada elemento y cuál se muestra como nombre, sin convertir claves a números si eso altera su valor.",
+        "Las dos capas iniciales se prueban tal como se reciben; su compatibilidad comunicada no sustituye la comprobación ni obliga a inventar una incompatibilidad.",
+        "Las nuevas fuentes requieren revisar su contrato; cualquier transformación documenta entrada, salida, motivo y responsable de confirmación."
+      ],
+      "segmentos": [
+        "E4-S08",
+        "E4-S13",
+        "E4-S15",
+        "E4-S16",
+        "E4-S17"
+      ],
+      "hallazgos": [
+        "E4-H03",
+        "E4-H08"
+      ],
+      "requisitos": [
+        "E4-R01"
+      ]
+    },
+    {
+      "id": "E4-US07",
+      "titulo": "Registrar y canalizar una incidencia reproducible",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como persona que revisa una incidencia, quiero disponer del objetivo, pasos, entorno y diferencia entre lo esperado y lo observado para identificar si corresponde al software o requiere confirmar el dato.",
+      "criterio_resumido": "El registro conserva contexto y versión; si no se reproduce queda pendiente y las dudas sobre el territorio se canalizan al responsable de contenido.",
+      "criterios": [
+        "La ficha registra tarea, pasos, entorno, frecuencia reportada, esperado, observado y versiones cuando estén disponibles.",
+        "La revisión compara archivo o respuesta y presentación antes de modificar coordenadas o campos.",
+        "La clasificación conserva causa por confirmar cuando falta evidencia; reportar no concede edición sobre la fuente oficial."
+      ],
+      "segmentos": [
+        "E4-S04",
+        "E4-S05",
+        "E4-S06",
+        "E4-S07",
+        "E4-S10",
+        "E4-S17",
+        "E4-S21",
+        "E4-S37"
+      ],
+      "hallazgos": [
+        "E4-H02",
+        "E4-H05"
+      ],
+      "requisitos": [
+        "E4-R07"
+      ]
+    },
+    {
+      "id": "E4-US08",
+      "titulo": "Comprobar una tarea y repetir la prueba",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como integrante que valida el prototipo, quiero observar una consulta sin guiar cada clic y registrar las condiciones de la prueba para comprobar reconocimiento del resultado y repetir los problemas encontrados.",
+      "criterio_resumido": "La prueba usa archivos reales de la entrega y una tarea acordada, registra entorno, ayudas y resultado y distingue comprensión, contenido, acceso y rendimiento.",
+      "criterios": [
+        "El usuario intenta localizar un elemento y reconocer su fuente antes de recibir instrucciones sobre botones; después explica sus dudas.",
+        "La prueba verifica la clave del resultado y la correspondencia de la descarga cuando esté autorizada; la revisión sectorial confirma ejemplos por separado.",
+        "Se registran equipo, conexión, archivos, pasos y dificultades. Las mediciones se completan tras la prueba y no se fijan promesas de rapidez con el número de polígonos."
+      ],
+      "segmentos": [
+        "E4-S29",
+        "E4-S30",
+        "E4-S35",
+        "E4-S36",
+        "E4-S37",
+        "E4-S38",
+        "E4-S43",
+        "E4-S44"
+      ],
+      "hallazgos": [
+        "E4-H01",
+        "E4-H06"
+      ],
+      "requisitos": [
+        "E4-R07"
+      ]
+    },
+    {
+      "id": "E4-US09",
+      "titulo": "Retomar y revertir una entrega identificada",
+      "tipo": "soporte_desarrollo",
+      "prioridad": "P0",
+      "historia": "Como persona que retoma el proyecto, quiero identificar las versiones de código y datos, las decisiones y los pendientes y poder recuperar una entrega anterior para continuar el trabajo sin depender de conversaciones pasadas.",
+      "criterio_resumido": "Una entrega vincula código y datos con notas y pruebas esenciales; se demuestra cómo recuperar la versión previa y repetir las consultas, selecciones y descargas.",
+      "criterios": [
+        "Una referencia compartida identifica versiones, motivo de cambios, responsables o pendientes y campos acordados para consulta.",
+        "Los cambios de código y datos se distinguen y se conserva una versión anterior que permita repetir el recorrido esencial.",
+        "Otra persona puede seguir las instrucciones de entrega y reconocer qué se probó, qué falló y qué falta acordar con ADIP o SSC."
+      ],
+      "segmentos": [
+        "E4-S11",
+        "E4-S12",
+        "E4-S14",
+        "E4-S20",
+        "E4-S39",
+        "E4-S40",
+        "E4-S42",
+        "E4-S45"
+      ],
+      "hallazgos": [
+        "E4-H04",
+        "E4-H07"
+      ],
+      "requisitos": [
+        "E4-R08"
+      ]
+    },
+    {
+      "id": "E4-US10",
+      "titulo": "Evaluar una futura búsqueda de direcciones",
+      "tipo": "fase_posterior",
+      "prioridad": "P2",
+      "historia": "Como persona que necesita localizar una dirección, quiero conocer la aproximación y los límites de la ubicación propuesta para decidir qué requiere confirmación antes de relacionarla con una división territorial.",
+      "criterio_resumido": "La ampliación requiere validar tarea, fuente de direcciones, condiciones de uso e incertidumbre; no atribuye competencia institucional a partir de una coincidencia espacial.",
+      "criterios": [
+        "ADIP valida primero el caso de uso y las fuentes o servicios necesarios; esta función queda fuera del recorrido inicial.",
+        "El resultado comunica cuando es aproximado o no se pudo localizar y trata con cautela los puntos cercanos al límite.",
+        "La ubicación no se presenta como asignación de autoridad o confirmación operativa; nuevas capas se incorporan con su contrato y responsable."
+      ],
+      "segmentos": [
+        "E4-S16",
+        "E4-S25",
+        "E4-S26",
+        "E4-S42",
+        "E4-S43"
+      ],
+      "hallazgos": [
+        "E4-H08"
+      ],
+      "requisitos": [
+        "E4-R09"
+      ]
+    }
+  ]
+}

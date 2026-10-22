@@ -1,0 +1,13 @@
+# Memo analítico de la primera entrevista
+
+El hallazgo principal es que el prototipo debe resolver primero la identificación y distribución de una referencia institucional. La biblioteca puede hacer visible qué capa se usa, quién la produce y qué versión se descarga. Esa decisión se deriva del relato sobre cruces distintos y de la exigencia de conservar claves y nombres oficiales. No se demuestra que un visor de sectores y cuadrantes resuelva todas las diferencias entre capas de colonias.
+
+La afirmación de que otras áreas usarían el visor permanece abierta. Las respuestas negativas y los límites de conocimiento de [Directora ADIP] se conservaron como código C03, sin descartarlos para acomodar la solución. Esto ajusta la problematización: existe un problema relatado de referencias distintas, pero no una demanda interinstitucional cuantificada. La validación debe pedir una tarea real, su insumo, decisión, salida y dificultad actual.
+
+La revisión de calidad propuesta es un control técnico de entrada. [Directora ADIP] declara compatibilidad de las capas, por lo que no corresponde inventar geometrías inválidas ni prometer una reparación como necesidad observada. Del mismo modo, la actualización nocturna y el chatbot pertenecen al tablero de Fiscalía explicado como contexto; no son requisitos del prototipo inicial.
+
+El mecanismo narrado es: referencias distintas → cruces y resultados diferentes → dificultad para compartir una misma referencia. La biblioteca identificada es una intervención propuesta. La entrevista no estima el efecto causal de esa intervención ni demuestra sus resultados. El mapa de empatía conserva como desconocidos pensamientos y emociones de usuarios externos que no hablaron en esta sesión.
+
+La sesión tiene varios participantes y preguntas que en ocasiones anticipan una respuesta. Las propuestas de [Enlace ADIP] se identificaron como tales y se vincularon con el respaldo y la priorización de [Directora ADIP]. Las atribuciones de hablantes se infieren por los turnos; el transcript no ofrece etiquetas sistemáticas ni marcas de tiempo. Se conserva el texto original y se indican las atribuciones de cierre que requieren confirmación con audio.
+
+Este análisis se elaboró con asistencia de IA, trabajando únicamente la entrevista E1 por fases. Se comprobaron fragmentos contra las 16 páginas de la transcripción y se verificaron vínculos entre códigos, hallazgos e historias. La revisión humana y una segunda codificación siguen pendientes. No se reportan saturación teórica, concordancia entre codificadores, ejecución de Atlas.ti o resultados de JANUS que no se hayan realizado.

@@ -1,0 +1,7 @@
+﻿dimension,contenido,origen,segmentos
+Dice,"Necesita saber qué hizo la persona, qué esperaba y qué ocurrió para empezar a diagnosticar.",Criterio expresado por [Desarrollador],E4-S02 | E4-S06 | E4-S07
+Hace,Relata desarrollo y revisión de software; intenta registrar qué entendió y qué falta cuando trabaja remoto.,"Práctica narrada, sin observar sistemas internos",E4-S01 | E4-S02 | E4-S11
+Piensa,Da prioridad a una consulta que se pueda comprobar y a distinguir sus causas antes de corregir.,Inferencia analítica respaldada por recomendaciones,E4-S03 | E4-S07 | E4-S17 | E4-S41 | E4-S44
+Siente,No declara una emoción concreta. Describe esperas y confusión cuando falta contexto o hay versiones ambiguas.,Límite de la evidencia; no se atribuye una emoción por inferencia,E4-S11 | E4-S12 | E4-S14 | E4-S39
+Dificultades,"Reportes vagos, interpretaciones pendientes, fallos no reproducibles y cambios simultáneos en código y datos.",Ejemplos generales y dificultades relatadas,E4-S05 | E4-S06 | E4-S12 | E4-S14 | E4-S40
+Necesidades,"Consulta acordada, fuente identificable, persona que confirme contenido y registro breve para repetir pruebas y retomar cambios.",Necesidades derivadas para revisar con el equipo,E4-S13 | E4-S18 | E4-S30 | E4-S39 | E4-S43 | E4-S45

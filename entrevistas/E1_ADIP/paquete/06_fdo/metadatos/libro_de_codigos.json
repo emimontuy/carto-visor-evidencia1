@@ -1,0 +1,37 @@
+{
+  "object_key": "libro_de_codigos",
+  "identificador_interno": "urn:uuid:487a8da3-8913-5619-a78f-f61adc6522fb",
+  "identificador_persistente_resoluble": null,
+  "pid_status": "pendiente_de_registro",
+  "titulo": "Libro de códigos de E1",
+  "tipo_semantico_local": "LibroCodigosCualitativo",
+  "tipo_registrado_pid": null,
+  "perfil_fdo_registrado_pid": null,
+  "version": "1.0.0",
+  "fecha_preparacion": "2026-10-09",
+  "fecha_sesion": null,
+  "idioma": "es",
+  "autor_del_trabajo": "Emilio Gómez Montuy",
+  "procedencia": "Entrevista E1 realizada con participantes de ADIP, aportada por el usuario",
+  "metodo": "Codificación temática inicial por fases con asistencia de IA",
+  "agente_procesamiento": "Codex",
+  "revision_humana": "pendiente",
+  "formato": "application/json",
+  "archivo": "02_codificacion/libro_de_codigos.json",
+  "esquema_local": "06_fdo/tipos/libro_de_codigos.schema.json",
+  "sha256": "58e59dcb26ff3184a9112dc72810fdcdda46b173621e3a7ee4c055c6b20cfcb7",
+  "bytes": 7395,
+  "derivados_de": [
+    {
+      "identificador_interno": "urn:uuid:9299eaa3-88d9-5c8a-a04c-683f37aed2f7",
+      "relacion": "isDerivedFrom",
+      "pid_resoluble": null
+    }
+  ],
+  "derechos": "Uso académico del equipo; condiciones de publicación y reutilización por confirmar",
+  "licencia": null,
+  "acceso": "restringido_al_equipo_y_revision_academica",
+  "politica_identificador": "Conservar este identificador interno para el mismo objeto; usar versiones nuevas sin reutilizarlo para otro objeto. Añadir un PID resoluble si se registra.",
+  "estado_fdo": "Paquete de preparación local; sin registro ni certificación de conformidad FDO",
+  "estado_publicacion": "no_publicado"
+}

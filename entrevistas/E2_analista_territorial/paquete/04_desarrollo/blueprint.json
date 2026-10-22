@@ -1,0 +1,266 @@
+{
+  "entrevista": "E2",
+  "version": "1.0.0",
+  "requisitos": [
+    {
+      "id": "E2-R01",
+      "modulo": "Mapa y detalle",
+      "construir": "Controles de capas, leyenda, selección de un elemento y acceso a ficha y atributos.",
+      "comprobar": "Completar navegación, alternancia y apertura de detalle; registrar confusiones y ayudas.",
+      "historias": [
+        "E2-US01",
+        "E2-US05"
+      ]
+    },
+    {
+      "id": "E2-R02",
+      "modulo": "Ficha de metadatos",
+      "construir": "Fuente, versión, finalidad, fechas diferenciadas, cobertura, limitaciones y restricciones.",
+      "comprobar": "Leer procedencia y alcance; un dato ausente no aparece como cero ni como fecha del visor.",
+      "historias": [
+        "E2-US01",
+        "E2-US02",
+        "E2-US03",
+        "E2-US05"
+      ]
+    },
+    {
+      "id": "E2-R03",
+      "modulo": "Descarga documentada",
+      "construir": "Archivo de la versión consultada con su explicación y alcance visible de capa completa.",
+      "comprobar": "Identidad de versión y archivo coincide; documentación disponible y alcance explícito.",
+      "historias": [
+        "E2-US04"
+      ]
+    },
+    {
+      "id": "E2-R04",
+      "modulo": "Autorización por acción",
+      "construir": "Control de consulta y descarga; mantenimiento separado de la interfaz de consulta.",
+      "comprobar": "Perfiles de prueba sólo realizan acciones permitidas, también por solicitudes directas.",
+      "historias": [
+        "E2-US04",
+        "E2-US06"
+      ]
+    },
+    {
+      "id": "E2-R05",
+      "modulo": "Revisión de entrada",
+      "construir": "Registro del original e informe de validación y de transformaciones necesarias.",
+      "comprobar": "Una entrega con fallo bloqueante no se publica; el original sigue íntegro.",
+      "historias": [
+        "E2-US07"
+      ]
+    },
+    {
+      "id": "E2-R06",
+      "modulo": "Significado de la referencia",
+      "construir": "Descripción de divisiones y relación entre capas sólo si el productor la confirma.",
+      "comprobar": "No se igualan geometrías ni se presenta una correspondencia no documentada.",
+      "historias": [
+        "E2-US02",
+        "E2-US07"
+      ]
+    },
+    {
+      "id": "E2-R07",
+      "modulo": "Versiones y decisiones",
+      "construir": "Registro del corte, decisión de publicación y procedimiento de sustitución.",
+      "comprobar": "Una persona nueva identifica versión, razón de uso y responsabilidades acordadas o pendientes.",
+      "historias": [
+        "E2-US03",
+        "E2-US08"
+      ]
+    },
+    {
+      "id": "E2-R08",
+      "modulo": "Pruebas y entrega",
+      "construir": "Guion de consulta general, revisión sectorial y transferencia documental.",
+      "comprobar": "Se guardan resultados reales de pruebas; cualquier dificultad genera una decisión o pendiente.",
+      "historias": [
+        "E2-US01",
+        "E2-US08"
+      ]
+    },
+    {
+      "id": "E2-R09",
+      "modulo": "Ampliación condicionada",
+      "construir": "Especificación futura de otras capas y de la pregunta que permitirían analizar.",
+      "comprobar": "No incorpora población o servicios a esta entrega; exige validación de datos, roles y límites.",
+      "historias": [
+        "E2-US09"
+      ]
+    }
+  ],
+  "decisiones": [
+    {
+      "id": "E2-D01",
+      "decision": "Mantener separadas las dos referencias y describir su finalidad; la homologación inicial se refiere a identificación, documentación y consumo reproducible.",
+      "razon": "Divisiones con funciones distintas no deben igualarse por defecto.",
+      "requisitos": [
+        "E2-R02",
+        "E2-R06"
+      ],
+      "segmentos": [
+        "E2-S08",
+        "E2-S26",
+        "E2-S28"
+      ]
+    },
+    {
+      "id": "E2-D02",
+      "decision": "Vincular mapa, ficha y descarga a un mismo identificador de versión y mostrar el alcance de la descarga.",
+      "razon": "La confianza disminuye si el archivo no corresponde a la consulta o si su cobertura es ambigua.",
+      "requisitos": [
+        "E2-R02",
+        "E2-R03",
+        "E2-R07"
+      ],
+      "segmentos": [
+        "E2-S29",
+        "E2-S31",
+        "E2-S40"
+      ]
+    },
+    {
+      "id": "E2-D03",
+      "decision": "Mostrar campos desconocidos y limitaciones; no rellenar con cero ni inferir ausencia de servicios.",
+      "razon": "Un registro parcial cambia lo que puede concluirse.",
+      "requisitos": [
+        "E2-R02"
+      ],
+      "segmentos": [
+        "E2-S22",
+        "E2-S23",
+        "E2-S42"
+      ]
+    },
+    {
+      "id": "E2-D04",
+      "decision": "Empezar con navegación del mapa y una ficha en dos niveles; probar claridad antes de agregar una búsqueda externa o análisis avanzado.",
+      "razon": "La tarea propuesta cabe en la consulta de dos capas y el especialista requiere detalle.",
+      "requisitos": [
+        "E2-R01",
+        "E2-R08"
+      ],
+      "segmentos": [
+        "E2-S21",
+        "E2-S32",
+        "E2-S33",
+        "E2-S35"
+      ]
+    },
+    {
+      "id": "E2-D05",
+      "decision": "Separar permisos por operación y conservar el procedimiento técnico de incorporación fuera de la consulta.",
+      "razon": "Ver un dato no equivale a poder descargarlo o modificarlo.",
+      "requisitos": [
+        "E2-R04",
+        "E2-R05"
+      ],
+      "segmentos": [
+        "E2-S24",
+        "E2-S31",
+        "E2-S34"
+      ]
+    },
+    {
+      "id": "E2-D06",
+      "decision": "Preparar pruebas con consulta general y operación SSC, además de una revisión de continuidad documental.",
+      "razon": "La experiencia externa aporta a la interfaz, pero no cubre todos los usos sectoriales.",
+      "requisitos": [
+        "E2-R07",
+        "E2-R08"
+      ],
+      "segmentos": [
+        "E2-S36",
+        "E2-S39",
+        "E2-S41"
+      ]
+    },
+    {
+      "id": "E2-D07",
+      "decision": "Conservar escuelas, capacidad y accesibilidad como criterios para una futura ampliación condicionada.",
+      "razon": "Las capas iniciales no permiten sustituir la validación territorial o de viabilidad.",
+      "requisitos": [
+        "E2-R09"
+      ],
+      "segmentos": [
+        "E2-S05",
+        "E2-S11",
+        "E2-S12",
+        "E2-S25",
+        "E2-S37"
+      ]
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "E2-Q01",
+      "pregunta": "¿Qué tarea de consulta con sectores y cuadrantes debe poder completar cada perfil de ADIP y SSC?",
+      "proposito": "Fijar una tarea real y validar el vocabulario de capas y atributos."
+    },
+    {
+      "id": "E2-Q02",
+      "pregunta": "¿Qué finalidad, cobertura, campos y relación entre capas documenta la entrega del productor?",
+      "proposito": "Evitar inventar correspondencias o interpretar una división como equivalente a otra."
+    },
+    {
+      "id": "E2-Q03",
+      "pregunta": "¿Qué fechas distinguen periodo del dato, recepción y publicación, y cuál es el corte de esta entrega?",
+      "proposito": "Completar la ficha sin prometer una periodicidad no confirmada."
+    },
+    {
+      "id": "E2-Q04",
+      "pregunta": "¿Quién entrega, valida, autoriza una sustitución y recibe dudas o incidencias?",
+      "proposito": "Cerrar responsabilidades y canales antes de automatizar cambios."
+    },
+    {
+      "id": "E2-Q05",
+      "pregunta": "¿Qué perfiles podrán consultar y descargar, y cómo se aprobará la matriz de permisos para la prueba?",
+      "proposito": "Separar las acciones de consulta de las de mantenimiento."
+    },
+    {
+      "id": "E2-Q06",
+      "pregunta": "¿La descarga inicial entrega la capa completa con sus metadatos y conserva la versión de la ficha?",
+      "proposito": "Acordar el alcance visible del archivo y su correspondencia con el mapa."
+    },
+    {
+      "id": "E2-Q07",
+      "pregunta": "¿Quiénes realizarán la prueba de consulta general y quién validará la interpretación sectorial?",
+      "proposito": "Observar tareas sin explicación previa y fijar criterios antes de medir."
+    }
+  ],
+  "contraste": [
+    {
+      "dimension": "Finalidad de homologar",
+      "documentado": "La ficha propone una base común y una metodología para consumir la cartografía SSC.",
+      "relatado": "[Analista territorial] distingue diferencias de captura o versión de divisiones con finalidades distintas.",
+      "implicacion": "Homologar identificación, metadatos y uso; no deformar divisiones para hacerlas iguales."
+    },
+    {
+      "dimension": "Ciclo básico del dato",
+      "documentado": "La ficha pide metadatos y lógica de actualización; declara periodicidad anual.",
+      "relatado": "[Analista territorial] recomienda fecha de corte, versiones y responsables; no promete automatización. La periodicidad fue introducida por Emilio al resumir E1.",
+      "implicacion": "Verificar frecuencia con el productor y conservar separadas fecha del dato, recepción y publicación."
+    },
+    {
+      "dimension": "Experiencia de consulta",
+      "documentado": "La ficha pide prender y apagar capas y descargar información de forma clara.",
+      "relatado": "[Analista territorial] propone una tarea concreta, leyenda distinguible, ficha breve, detalle y descarga de la misma versión.",
+      "implicacion": "Traducir claridad en acciones observables y pruebas con perfiles distintos."
+    },
+    {
+      "dimension": "Uso institucional y validación",
+      "documentado": "ADIP valida la primera versión; la integración de otros actores y capas queda sujeta a contacto y validación.",
+      "relatado": "[Analista territorial] aporta experiencia de planeación, pero declara que no conoce la operación de SSC como su usuario sectorial.",
+      "implicacion": "Usar su entrevista para orientar la consulta y validar el contenido operativo con ADIP y SSC."
+    },
+    {
+      "dimension": "Decisión territorial",
+      "documentado": "El prototipo tiene un alcance básico y no exige IA ni ingesta masiva.",
+      "relatado": "La recomendación de una ubicación depende de capacidad, acceso, viabilidad y presupuesto que el mapa no confirma.",
+      "implicacion": "No incorporar selección automática de ubicaciones ni capas escolares a la primera entrega."
+    }
+  ]
+}

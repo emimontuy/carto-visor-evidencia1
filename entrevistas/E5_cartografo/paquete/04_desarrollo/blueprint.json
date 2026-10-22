@@ -1,0 +1,311 @@
+{
+  "entrevista": "E5",
+  "version": "1.0.0",
+  "requisitos": [
+    {
+      "id": "E5-R01",
+      "modulo": "Recepción y comprobaciones",
+      "construir": "Descriptor de entrega con original, componentes, diccionario, claves, referencia y derivados.",
+      "comprobar": "Cargar ambas capas y registrar excepciones sin alterar la fuente ni inventar incompatibilidades.",
+      "historias": [
+        "E5-US07"
+      ]
+    },
+    {
+      "id": "E5-R02",
+      "modulo": "Selección y ficha",
+      "construir": "Identificación de capa, tipo, clave, nombre y selección coherente con detalle comprensible.",
+      "comprobar": "Reconocer división y elemento sin perder la selección o inventar relaciones entre niveles.",
+      "historias": [
+        "E5-US01",
+        "E5-US04"
+      ]
+    },
+    {
+      "id": "E5-R03",
+      "modulo": "Fuente fechas y versión",
+      "construir": "Metadatos por significado, descripción y ausencias explícitas.",
+      "comprobar": "Distinguir dato, recepción y publicación y conservar versión de origen sin inferir vigencia por fecha.",
+      "historias": [
+        "E5-US02"
+      ]
+    },
+    {
+      "id": "E5-R04",
+      "modulo": "Descarga con documentación",
+      "construir": "Paquete de capa completa con alcance, formato y versión identificados.",
+      "comprobar": "Abrir en otra sesión y contrastar campos, clave y ubicación; reconocer procedencia fuera del visor.",
+      "historias": [
+        "E5-US03"
+      ]
+    },
+    {
+      "id": "E5-R05",
+      "modulo": "Canal y registro de dudas",
+      "construir": "Procedimiento simple con capa, versión, elemento, descripción, estado y responsable.",
+      "comprobar": "Retomar una duda y distinguir respuesta de corrección incorporada; sin exigir diagnóstico al usuario.",
+      "historias": [
+        "E5-US05",
+        "E5-US08"
+      ]
+    },
+    {
+      "id": "E5-R06",
+      "modulo": "Acceso y acciones",
+      "construir": "Permisos acordados para consulta, descarga y publicación, con mensajes claros.",
+      "comprobar": "Restringir acciones no autorizadas al entregar información y separar consulta de edición.",
+      "historias": [
+        "E5-US06"
+      ]
+    },
+    {
+      "id": "E5-R07",
+      "modulo": "Cambio de versión",
+      "construir": "Bitácora de origen, diferencias, autorización, referencia previa y efecto sobre usos anteriores.",
+      "comprobar": "Repetir consulta y descarga al reemplazar y señalar comparabilidad pendiente cuando cambien claves o divisiones.",
+      "historias": [
+        "E5-US08"
+      ]
+    },
+    {
+      "id": "E5-R08",
+      "modulo": "Pruebas por tarea y perfil",
+      "construir": "Guion sin guía de clics, ejemplos confirmados, condiciones, ayudas y corrección del resultado.",
+      "comprobar": "Separar comprensión y validación sectorial; comparar tareas antes de reportar tiempos o beneficios.",
+      "historias": [
+        "E5-US04",
+        "E5-US09"
+      ]
+    },
+    {
+      "id": "E5-R09",
+      "modulo": "Transferencia y continuidad",
+      "construir": "Instrucciones de carga y consulta, originales, derivados, permisos, decisiones y pendientes.",
+      "comprobar": "Otra persona repite el recorrido y reconoce por qué se conservan versiones y quién continúa.",
+      "historias": [
+        "E5-US10"
+      ]
+    },
+    {
+      "id": "E5-R10",
+      "modulo": "Cruces y comparación futura",
+      "construir": "Especificación condicionada de unidad, regla espacial, cardinalidad, versiones y excepciones.",
+      "comprobar": "Validar caso y fuentes antes de añadirlo; conservar pendientes sin inferir prioridad por conteos.",
+      "historias": [
+        "E5-US11"
+      ]
+    }
+  ],
+  "decisiones": [
+    {
+      "id": "E5-D01",
+      "decision": "Describir el propósito de cada división y conservar su identidad.",
+      "razon": "Referencias con fines distintos pueden ser legítimas aunque sus límites difieran.",
+      "requisitos": [
+        "E5-R01",
+        "E5-R02",
+        "E5-R10"
+      ],
+      "segmentos": [
+        "E5-S20",
+        "E5-S21",
+        "E5-S22",
+        "E5-S23",
+        "E5-S24"
+      ]
+    },
+    {
+      "id": "E5-D02",
+      "decision": "Conservar original, componentes y relación con los derivados antes de cargar.",
+      "razon": "La recepción y la transformación deben poder distinguirse para repetir o revisar un resultado.",
+      "requisitos": [
+        "E5-R01",
+        "E5-R09"
+      ],
+      "segmentos": [
+        "E5-S25",
+        "E5-S26",
+        "E5-S27",
+        "E5-S28",
+        "E5-S29",
+        "E5-S60"
+      ]
+    },
+    {
+      "id": "E5-D03",
+      "decision": "Explicar fuente, versión y cada fecha sin completar ausencias.",
+      "razon": "Carga reciente y antigüedad no bastan para decidir vigencia.",
+      "requisitos": [
+        "E5-R03",
+        "E5-R07"
+      ],
+      "segmentos": [
+        "E5-S34",
+        "E5-S35",
+        "E5-S36",
+        "E5-S37",
+        "E5-S38",
+        "E5-S39"
+      ]
+    },
+    {
+      "id": "E5-D04",
+      "decision": "Entregar la capa completa con contexto y comprobar el archivo abierto.",
+      "razon": "Una descarga puede circular fuera del visor y necesita conservar su procedencia.",
+      "requisitos": [
+        "E5-R04",
+        "E5-R06"
+      ],
+      "segmentos": [
+        "E5-S40",
+        "E5-S41",
+        "E5-S42",
+        "E5-S53"
+      ]
+    },
+    {
+      "id": "E5-D05",
+      "decision": "Acordar un canal simple de dudas con estado y responsable.",
+      "razon": "La revisión no debe depender de reiniciar la explicación ni confundirse con una corrección aplicada.",
+      "requisitos": [
+        "E5-R05",
+        "E5-R07"
+      ],
+      "segmentos": [
+        "E5-S09",
+        "E5-S10",
+        "E5-S47",
+        "E5-S48",
+        "E5-S49"
+      ]
+    },
+    {
+      "id": "E5-D06",
+      "decision": "Separar comprensión de la pantalla y confirmación del contenido operativo.",
+      "razon": "La experiencia técnica de [Cartógrafo] no sustituye a quienes producen y usan sectores y cuadrantes.",
+      "requisitos": [
+        "E5-R02",
+        "E5-R08"
+      ],
+      "segmentos": [
+        "E5-S24",
+        "E5-S50",
+        "E5-S51",
+        "E5-S52",
+        "E5-S59"
+      ]
+    },
+    {
+      "id": "E5-D07",
+      "decision": "Conservar versiones útiles y documentar quién retoma la entrega.",
+      "razon": "Una copia identificada puede ser necesaria y la coordinación no debe depender de una memoria individual.",
+      "requisitos": [
+        "E5-R07",
+        "E5-R09"
+      ],
+      "segmentos": [
+        "E5-S17",
+        "E5-S38",
+        "E5-S43",
+        "E5-S44",
+        "E5-S59",
+        "E5-S60"
+      ]
+    },
+    {
+      "id": "E5-D08",
+      "decision": "Condicionar los cruces y el análisis agregado a una pregunta y fuentes autorizadas.",
+      "razon": "La incertidumbre, duplicidad y referencia pueden cambiar los conteos sin demostrar necesidad o desempeño.",
+      "requisitos": [
+        "E5-R10"
+      ],
+      "segmentos": [
+        "E5-S02",
+        "E5-S05",
+        "E5-S08",
+        "E5-S12",
+        "E5-S13",
+        "E5-S21",
+        "E5-S30",
+        "E5-S31",
+        "E5-S32",
+        "E5-S39"
+      ]
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "E5-Q01",
+      "pregunta": "¿Qué consulta real deben completar los primeros usuarios de ADIP con sectores y cuadrantes?",
+      "proposito": "Definir tarea, perfil y aceptación sin suponer demanda por tener acceso."
+    },
+    {
+      "id": "E5-Q02",
+      "pregunta": "¿Quién entrega y confirma claves, campos, relaciones, referencia espacial y versión de cada capa?",
+      "proposito": "Completar el descriptor con SSC sin inventar atributos o jerarquías."
+    },
+    {
+      "id": "E5-Q03",
+      "pregunta": "¿Qué fechas se proporcionan y cómo se confirma la vigencia y una nueva entrega?",
+      "proposito": "Acordar mantenimiento y aclarar la periodicidad de la ficha frente al relato."
+    },
+    {
+      "id": "E5-Q04",
+      "pregunta": "¿Qué canal recibirá dudas y cómo distinguirá respuesta de corrección incorporada a la fuente?",
+      "proposito": "Asignar seguimiento y estados realistas sin prometer plazos."
+    },
+    {
+      "id": "E5-Q05",
+      "pregunta": "¿Qué formato, componentes y documentación se pueden descargar y compartir?",
+      "proposito": "Acordar alcance y permisos según archivos y usuarios reales."
+    },
+    {
+      "id": "E5-Q06",
+      "pregunta": "¿Qué casos, perfiles y condiciones se usarán para comprobar corrección y comparar la tarea actual?",
+      "proposito": "Diseñar pruebas y una referencia previa antes de reportar ahorro."
+    },
+    {
+      "id": "E5-Q07",
+      "pregunta": "¿Quién continuará la administración y qué recorrido deberá poder repetir?",
+      "proposito": "Probar transferencia con versiones, decisiones y pendientes identificados."
+    }
+  ],
+  "contraste": [
+    {
+      "dimension": "Problema y propósito",
+      "documentado": "La ficha plantea una base común de cartografía para consulta y reutilización institucional.",
+      "relatado": "[Cartógrafo] sitúa la dificultad en reconocer y usar una referencia adecuada; el significado y los acuerdos también importan.",
+      "implicacion": "Definir el problema por la tarea y evitar presentar la plataforma como única respuesta causal."
+    },
+    {
+      "dimension": "Capas iniciales",
+      "documentado": "El prototipo inicia con dos capas SSC y un ciclo básico de datos.",
+      "relatado": "Propone comprobar la entrega compatible según lo comunicado por Emilio, conservando identidad sin corregir límites por defecto.",
+      "implicacion": "Mantener el alcance inicial y confirmar contenido con SSC; su experiencia municipal no valida geometrías."
+    },
+    {
+      "dimension": "Homologación",
+      "documentado": "Se pide una metodología para estandarizar bases antes de incorporarlas.",
+      "relatado": "Diferencias operativas y administrativas pueden ser legítimas; algunas requieren acuerdo institucional.",
+      "implicacion": "Documentar propósito, claves y versión; no igualar límites por apariencia ni generalizar un acuerdo de uso."
+    },
+    {
+      "dimension": "Actualización",
+      "documentado": "La ficha señala actualización anual y lógica básica de mantenimiento.",
+      "relatado": "[Cartógrafo] refiere una explicación de [Directora ADIP] sobre cambios del productor y pide conocer la llegada de nuevas versiones.",
+      "implicacion": "Conservar la distinción entre ficha y relato y confirmar el procedimiento con ADIP y SSC."
+    },
+    {
+      "dimension": "Consulta y descarga",
+      "documentado": "Mapa, activación de capas, descarga, metadatos y seguridad básica.",
+      "relatado": "Pide selección reconocible y archivo utilizable con contexto, comprobado en otra sesión.",
+      "implicacion": "Traducir funciones en criterios verificables sin añadir gráficos o exportación filtrada como obligación."
+    },
+    {
+      "dimension": "Validación y beneficio",
+      "documentado": "ADIP valida utilidad del prototipo y producción queda fuera del bloque.",
+      "relatado": "Propone perfiles distintos y comparar tareas correctas; un mapa no resuelve por sí solo un servicio.",
+      "implicacion": "Medir la utilidad institucional inmediata y conservar los efectos ciudadanos como relación por evaluar."
+    }
+  ]
+}

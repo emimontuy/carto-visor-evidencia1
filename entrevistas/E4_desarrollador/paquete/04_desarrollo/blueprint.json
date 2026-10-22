@@ -1,0 +1,294 @@
+{
+  "entrevista": "E4",
+  "version": "1.0.0",
+  "requisitos": [
+    {
+      "id": "E4-R01",
+      "modulo": "Contrato y carga de capas",
+      "construir": "Descriptor de archivo, campos, referencia espacial disponible y prueba de carga sin alterar el original.",
+      "comprobar": "Identificar cada capa y conservar claves y nombres; documentar cualquier transformación justificada.",
+      "historias": [
+        "E4-US06"
+      ]
+    },
+    {
+      "id": "E4-R02",
+      "modulo": "Selección coherente",
+      "construir": "Consulta por campo acordado y estado compartido de capa, versión y elemento en mapa y ficha.",
+      "comprobar": "Alternar elementos rápidamente sin mostrar una selección anterior como actual.",
+      "historias": [
+        "E4-US01"
+      ]
+    },
+    {
+      "id": "E4-R03",
+      "modulo": "Procedencia y fechas",
+      "construir": "Ficha con fuente, versión, cobertura, significado de fechas y datos pendientes.",
+      "comprobar": "Distinguir fecha de información y carga; no rellenar ausencias ni prometer actualización automática.",
+      "historias": [
+        "E4-US02"
+      ]
+    },
+    {
+      "id": "E4-R04",
+      "modulo": "Descarga de capa completa",
+      "construir": "Archivo y documentación con alcance, claves y versión identificables.",
+      "comprobar": "Reabrir la descarga y contrastar ejemplos acordados con el responsable de la fuente.",
+      "historias": [
+        "E4-US03"
+      ]
+    },
+    {
+      "id": "E4-R05",
+      "modulo": "Estados y permisos",
+      "construir": "Estados de consulta y mensajes diferenciados; control de permiso al entregar información.",
+      "comprobar": "Ensayar fallo, ausencia de resultados y acceso restringido; identificar información anterior y rechazar solicitudes no autorizadas.",
+      "historias": [
+        "E4-US04"
+      ]
+    },
+    {
+      "id": "E4-R06",
+      "modulo": "Controles y accesibilidad",
+      "construir": "Nombres visibles, leyenda, selección sin depender sólo del color y recorrido con teclado y ampliación.",
+      "comprobar": "Abrir ficha y reconocer capa y elemento con distintas formas de interacción.",
+      "historias": [
+        "E4-US05"
+      ]
+    },
+    {
+      "id": "E4-R07",
+      "modulo": "Incidencias y validación",
+      "construir": "Ficha de incidencia y guion de tarea con entorno, pasos, resultado y canal de revisión.",
+      "comprobar": "Reproducir o dejar pendiente; distinguir dato y programa, observar sin guía y registrar lo realmente probado.",
+      "historias": [
+        "E4-US07",
+        "E4-US08"
+      ]
+    },
+    {
+      "id": "E4-R08",
+      "modulo": "Versiones y transferencia",
+      "construir": "Referencia compartida de código y datos, decisiones, pendientes e instrucciones de reversión.",
+      "comprobar": "Recuperar una versión previa y repetir consultas esenciales con otra persona.",
+      "historias": [
+        "E4-US09"
+      ]
+    },
+    {
+      "id": "E4-R09",
+      "modulo": "Ampliación de localización",
+      "construir": "Especificación condicionada de direcciones, incertidumbre y contrato de nuevas fuentes.",
+      "comprobar": "Mantener fuera del MVP hasta acordar necesidad, datos, responsables y condiciones de uso.",
+      "historias": [
+        "E4-US10"
+      ]
+    }
+  ],
+  "decisiones": [
+    {
+      "id": "E4-D01",
+      "decision": "Comenzar por una consulta completa en una capa y repetirla con la segunda.",
+      "razon": "La tarea acordada permite detectar carencias reales antes de ampliar menús.",
+      "requisitos": [
+        "E4-R01",
+        "E4-R02",
+        "E4-R03",
+        "E4-R04"
+      ],
+      "segmentos": [
+        "E4-S13",
+        "E4-S15",
+        "E4-S41",
+        "E4-S42"
+      ]
+    },
+    {
+      "id": "E4-D02",
+      "decision": "Conservar identificadores de origen y relacionar capa, versión y selección entre componentes.",
+      "razon": "Una ficha anterior o una clave alterada puede aparentar un error del territorio.",
+      "requisitos": [
+        "E4-R01",
+        "E4-R02",
+        "E4-R04"
+      ],
+      "segmentos": [
+        "E4-S03",
+        "E4-S08",
+        "E4-S22",
+        "E4-S27",
+        "E4-S34",
+        "E4-S35"
+      ]
+    },
+    {
+      "id": "E4-D03",
+      "decision": "Distinguir cada fecha y conservar ausencias como pendientes.",
+      "razon": "La carga reciente no demuestra vigencia y el significado temporal necesita confirmación de la fuente.",
+      "requisitos": [
+        "E4-R03",
+        "E4-R08"
+      ],
+      "segmentos": [
+        "E4-S18",
+        "E4-S19",
+        "E4-S20",
+        "E4-S45"
+      ]
+    },
+    {
+      "id": "E4-D04",
+      "decision": "Separar estados de operación y controlar acceso al entregar datos.",
+      "razon": "Ausencia de resultados, fallo y falta de permiso requieren mensajes y respuestas diferentes.",
+      "requisitos": [
+        "E4-R05"
+      ],
+      "segmentos": [
+        "E4-S28",
+        "E4-S31",
+        "E4-S32",
+        "E4-S33"
+      ]
+    },
+    {
+      "id": "E4-D05",
+      "decision": "Mantener etiquetas y señales sin depender sólo del color y probar teclado y ampliación.",
+      "razon": "El desarrollador no puede asumir que todos reconocen sus controles o usan el ratón.",
+      "requisitos": [
+        "E4-R06",
+        "E4-R07"
+      ],
+      "segmentos": [
+        "E4-S23",
+        "E4-S24",
+        "E4-S36",
+        "E4-S38"
+      ]
+    },
+    {
+      "id": "E4-D06",
+      "decision": "Registrar incidencias y probar con archivos y condiciones de los usuarios.",
+      "razon": "Una captura o el desempeño en un solo equipo no permiten localizar ni descartar el problema.",
+      "requisitos": [
+        "E4-R07"
+      ],
+      "segmentos": [
+        "E4-S04",
+        "E4-S05",
+        "E4-S06",
+        "E4-S29",
+        "E4-S30",
+        "E4-S37"
+      ]
+    },
+    {
+      "id": "E4-D07",
+      "decision": "Conservar decisiones, versiones y una ruta de reversión en la entrega.",
+      "razon": "La coordinación remota y la continuidad necesitan contexto que no dependa de una llamada.",
+      "requisitos": [
+        "E4-R08"
+      ],
+      "segmentos": [
+        "E4-S11",
+        "E4-S12",
+        "E4-S14",
+        "E4-S39",
+        "E4-S40",
+        "E4-S45"
+      ]
+    },
+    {
+      "id": "E4-D08",
+      "decision": "Incorporar nuevas fuentes o direcciones sólo después de validar su propósito y contrato.",
+      "razon": "La compatibilidad comunicada de las primeras capas no resuelve las condiciones de una ampliación.",
+      "requisitos": [
+        "E4-R01",
+        "E4-R09"
+      ],
+      "segmentos": [
+        "E4-S15",
+        "E4-S16",
+        "E4-S17",
+        "E4-S25",
+        "E4-S26",
+        "E4-S42",
+        "E4-S43"
+      ]
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "E4-Q01",
+      "pregunta": "¿Quiénes harán las primeras consultas y qué elemento deben poder encontrar?",
+      "proposito": "Acordar tarea, perfil y campo de consulta con ADIP."
+    },
+    {
+      "id": "E4-Q02",
+      "pregunta": "¿Qué archivos y versiones se reciben y qué campos conservan clave y nombre oficiales?",
+      "proposito": "Completar el descriptor de cada capa sin inventar campos o incompatibilidades."
+    },
+    {
+      "id": "E4-Q03",
+      "pregunta": "¿Qué significa cada fecha y quién confirma el contenido y una nueva entrega?",
+      "proposito": "Precisar procedencia, actualización y responsabilidades con SSC y ADIP."
+    },
+    {
+      "id": "E4-Q04",
+      "pregunta": "¿Qué acciones estarán autorizadas y cómo se accederá al entorno de prueba?",
+      "proposito": "Definir permisos y condiciones del prototipo con el área técnica de ADIP."
+    },
+    {
+      "id": "E4-Q05",
+      "pregunta": "¿Qué ejemplos y archivos de descarga usarán para comprobar la correspondencia?",
+      "proposito": "Vincular selección, ficha y archivo a casos reconocibles por el responsable del dato."
+    },
+    {
+      "id": "E4-Q06",
+      "pregunta": "¿En qué equipos y conexiones se probará y qué resultado se considerará suficiente?",
+      "proposito": "Acordar condiciones y aceptación antes de publicar mediciones o promesas de rendimiento."
+    },
+    {
+      "id": "E4-Q07",
+      "pregunta": "¿Quién retoma la entrega y cómo repetirá el recorrido o recuperará una versión previa?",
+      "proposito": "Probar continuidad y dejar responsables y pendientes identificados."
+    }
+  ],
+  "contraste": [
+    {
+      "dimension": "Capas y homologación",
+      "documentado": "La ficha inicia con dos capas SSC y una ruta de estandarización para escalar.",
+      "relatado": "[Desarrollador] propone consumir las dos capas compatibles según lo explicado por Emilio y revisar el contrato de otras fuentes.",
+      "implicacion": "Comprobar la entrega inicial y documentar incorporación sin afirmar incompatibilidades no observadas."
+    },
+    {
+      "dimension": "Consulta y descarga",
+      "documentado": "Mapa interactivo con encendido y apagado y descarga; consulta clara y estable.",
+      "relatado": "Propone verificar el mismo elemento entre mapa y ficha y abrir la descarga para contrastar claves y versión.",
+      "implicacion": "Convertir estabilidad y descarga en un recorrido comprobable con ejemplos acordados."
+    },
+    {
+      "dimension": "Metadatos y actualización",
+      "documentado": "La ficha indica periodicidad anual y pide metadatos y lógica básica de actualización.",
+      "relatado": "Recomienda nombrar fechas según significado y documentar versiones fijas si eso se acuerda para el semestre.",
+      "implicacion": "No sustituir la periodicidad documentada con una pregunta hipotética; confirmar entrega y procedimiento real."
+    },
+    {
+      "dimension": "Validación",
+      "documentado": "[Directora ADIP] y usuarios ADIP validan el prototipo; SSC es la fuente.",
+      "relatado": "[Desarrollador] distingue revisión de software de confirmación del territorio y propone tareas sin guía.",
+      "implicacion": "Complementar pruebas técnicas, de comprensión y de revisión sectorial sin atribuirle aprobación institucional."
+    },
+    {
+      "dimension": "Acceso y alcance",
+      "documentado": "Prototipo institucional con seguridad básica; producción y publicación sensible quedan fuera.",
+      "relatado": "Recomienda permisos por acción y proteger archivos desde el entorno de prueba.",
+      "implicacion": "Acordar accesos y no interpretar entrega sin restricciones para el ejercicio como autorización de publicación general."
+    },
+    {
+      "dimension": "Siguiente fase",
+      "documentado": "Nuevas dependencias, API y consulta pública se plantean como posibilidades por validar.",
+      "relatado": "Direcciones y otras capas requieren uso claro, referencia espacial, responsables e incertidumbre visible.",
+      "implicacion": "Mantener ampliaciones condicionadas y entregar decisiones y contrato para retomarlas."
+    }
+  ]
+}

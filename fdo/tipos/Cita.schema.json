@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+  "title": "Cita",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "entrevista",
+    "pagina",
+    "texto_literal"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^Q[0-9]+$"
+    },
+    "entrevista": {
+      "type": "string"
+    },
+    "pagina": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "texto_literal": {
+      "type": "string"
+    },
+    "codigos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fragmentos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transcripcion": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "entrevista": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "contratos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tipo": {
+            "type": "string"
+          },
+          "proposito": {
+            "type": "string"
+          },
+          "campos": {
+            "type": "string"
+          },
+          "regla": {
+            "type": "string"
+          },
+          "segmentos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "tipo",
+          "proposito",
+          "campos",
+          "regla",
+          "segmentos"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entrevista",
+    "version",
+    "contratos"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContratosDatosPrototipo E5 1.0.0"
+}

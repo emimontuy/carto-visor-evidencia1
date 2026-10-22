@@ -1,0 +1,63 @@
+{
+  "pid": "urn:uuid:8baf25c8-2643-5af3-8180-a7df266c68b5",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Necesidad.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/necesidades/N2.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "3c00b263d3c227b0004a71a550408ccfd4305c2cb8dc01984adb78f663d25ead"
+    }
+  },
+  "metadatos": {
+    "titulo": "Conocer origen, versión y el significado de cada fecha para decidir si la capa sirve a mi tarea.",
+    "descripcion": "Necesidad de información verificable derivada de las entrevistas.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "N2",
+    "prioridad": "P1",
+    "sector": "Análisis territorial",
+    "enunciado": "Conocer origen, versión y el significado de cada fecha para decidir si la capa sirve a mi tarea.",
+    "criterio_de_verificacion": "Distingue fecha de la información y fecha de carga; reconoce un dato faltante sin suponer que es actual.",
+    "perfiles": [
+      "P2",
+      "P3",
+      "P5"
+    ]
+  },
+  "relaciones": [
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:64b9307e-c8d0-565a-8788-30f6d423e12a"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:fbdc54a0-6bce-5303-b504-95f6aac16868"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:f010fc57-562a-5c24-890b-956553a7e329"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:e1472d19-a0d4-5615-845b-21ee745813a5"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    }
+  ],
+  "procedencia": {
+    "metodo": "agrupación de fragmentos por afinidad entre entrevistas",
+    "fuentes": [
+      "entrevistas/E2_analista_territorial/paquete/01_fuente/E2_transcripcion_anonimizada.pdf",
+      "entrevistas/E3_usuaria_administrativa/paquete/01_fuente/E3_transcripcion_anonimizada.pdf"
+    ]
+  }
+}

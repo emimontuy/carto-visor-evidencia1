@@ -1,0 +1,166 @@
+{
+  "entrevista": "E4",
+  "version": "1.0.0",
+  "codigos": [
+    {
+      "id": "E4-C00",
+      "nombre": "Perfil y alcance de la experiencia",
+      "definicion": "Funciones y límites que [Desarrollador] declara.",
+      "incluir": "Desarrollo remoto y revisión de comportamiento.",
+      "excluir": "Representación oficial de Google o decisiones de ADIP.",
+      "ejemplo_segmento": "E4-S01"
+    },
+    {
+      "id": "E4-C01",
+      "nombre": "Consulta y resultado esperado",
+      "definicion": "Definición de quién necesita qué y para qué.",
+      "incluir": "Objetivo, pasos y criterio comprobable.",
+      "excluir": "Agregar funciones sin una tarea identificada.",
+      "ejemplo_segmento": "E4-S02"
+    },
+    {
+      "id": "E4-C02",
+      "nombre": "Reproducción y diagnóstico",
+      "definicion": "Información para repetir y localizar una incidencia.",
+      "incluir": "Secuencia, entorno, esperado y observado.",
+      "excluir": "Dar por resuelta la causa con una captura.",
+      "ejemplo_segmento": "E4-S06"
+    },
+    {
+      "id": "E4-C03",
+      "nombre": "Dato interpretación y software",
+      "definicion": "Diferencias entre causas de un resultado incorrecto.",
+      "incluir": "Contrastar fuente y programa con conocimiento sectorial.",
+      "excluir": "Cambiar territorio desde el código sin confirmación.",
+      "ejemplo_segmento": "E4-S07"
+    },
+    {
+      "id": "E4-C04",
+      "nombre": "Identificadores de origen",
+      "definicion": "Conservación y uso de claves y nombres.",
+      "incluir": "Ceros iniciales, campo clave y etiqueta.",
+      "excluir": "Cambiar un identificador para hacerlo más legible.",
+      "ejemplo_segmento": "E4-S08"
+    },
+    {
+      "id": "E4-C05",
+      "nombre": "Responsables de decisión y validación",
+      "definicion": "Facultades para definir uso, confirmar datos y autorizar cambios.",
+      "incluir": "Entrega, contenido, validación y consulta.",
+      "excluir": "Atribuir todas las funciones al desarrollador.",
+      "ejemplo_segmento": "E4-S09"
+    },
+    {
+      "id": "E4-C06",
+      "nombre": "Acuerdos y contexto compartido",
+      "definicion": "Registro de definiciones y dudas para trabajar en equipo.",
+      "incluir": "Qué se entendió, qué falta y referencia común.",
+      "excluir": "Suponer que todos escucharon las mismas llamadas.",
+      "ejemplo_segmento": "E4-S11"
+    },
+    {
+      "id": "E4-C07",
+      "nombre": "Carga y contrato de incorporación",
+      "definicion": "Requisitos del archivo y prueba de consumo.",
+      "incluir": "Campos, referencia espacial y compatibilidad por revisar.",
+      "excluir": "Presumir que las capas iniciales son incompatibles.",
+      "ejemplo_segmento": "E4-S16"
+    },
+    {
+      "id": "E4-C08",
+      "nombre": "Procedencia fechas y versiones",
+      "definicion": "Contexto documental que permite reconocer una entrega.",
+      "incluir": "Fuente, versión y fechas con significado.",
+      "excluir": "Completar una fecha ausente con el día de carga.",
+      "ejemplo_segmento": "E4-S18"
+    },
+    {
+      "id": "E4-C09",
+      "nombre": "Cambios e incidencias del dato",
+      "definicion": "Separación entre reportar, revisar y modificar.",
+      "incluir": "Original, reemplazo y autorización.",
+      "excluir": "Edición directa de la fuente por cualquier usuario.",
+      "ejemplo_segmento": "E4-S21"
+    },
+    {
+      "id": "E4-C10",
+      "nombre": "Coherencia entre componentes",
+      "definicion": "Correspondencia entre consulta, mapa, ficha y archivo.",
+      "incluir": "Selección activa, versión y campos coincidentes.",
+      "excluir": "Afirmar un defecto real a partir de un ejemplo general.",
+      "ejemplo_segmento": "E4-S27"
+    },
+    {
+      "id": "E4-C11",
+      "nombre": "Comprensión y accesibilidad",
+      "definicion": "Reconocimiento de opciones con distintas formas de interacción.",
+      "incluir": "Etiquetas, leyenda, teclado, ampliación y señales sin color.",
+      "excluir": "Confundir una revisión inicial con certificación.",
+      "ejemplo_segmento": "E4-S38"
+    },
+    {
+      "id": "E4-C12",
+      "nombre": "Alcance y avance por recorridos",
+      "definicion": "Funciones acordes con el uso y el tiempo del prototipo.",
+      "incluir": "Consulta completa inicial y ampliación justificada.",
+      "excluir": "Rutas, geocodificación o automatización sin acuerdo.",
+      "ejemplo_segmento": "E4-S41"
+    },
+    {
+      "id": "E4-C13",
+      "nombre": "Localización aproximada",
+      "definicion": "Incertidumbre de una futura búsqueda de direcciones.",
+      "incluir": "Exactitud, límites y confirmación pendiente.",
+      "excluir": "Asignar competencia institucional sólo por ubicación.",
+      "ejemplo_segmento": "E4-S26"
+    },
+    {
+      "id": "E4-C14",
+      "nombre": "Estados y mensajes de operación",
+      "definicion": "Explicación de lo que logró o no logró una consulta.",
+      "incluir": "Cargando, sin resultados, fallo y datos anteriores.",
+      "excluir": "Interpretar un mapa en blanco como inexistencia.",
+      "ejemplo_segmento": "E4-S28"
+    },
+    {
+      "id": "E4-C15",
+      "nombre": "Rendimiento en condiciones reales",
+      "definicion": "Prueba de respuesta con archivos y entorno representativos.",
+      "incluir": "Conexión, equipo, pasos y carga repetida.",
+      "excluir": "Prometer rapidez sólo por el número de polígonos.",
+      "ejemplo_segmento": "E4-S30"
+    },
+    {
+      "id": "E4-C16",
+      "nombre": "Acceso por acción",
+      "definicion": "Comprobación de quién puede consultar, descargar o administrar.",
+      "incluir": "Permisos al entregar información y mensajes por motivo.",
+      "excluir": "Proteger una acción únicamente ocultando el botón.",
+      "ejemplo_segmento": "E4-S31"
+    },
+    {
+      "id": "E4-C17",
+      "nombre": "Descarga verificable",
+      "definicion": "Correspondencia entre alcance anunciado y archivo recibido.",
+      "incluir": "Capa completa o filtro acordado, claves y reapertura.",
+      "excluir": "Aceptar la descarga porque apareció un botón.",
+      "ejemplo_segmento": "E4-S35"
+    },
+    {
+      "id": "E4-C18",
+      "nombre": "Prueba de tarea y comprensión",
+      "definicion": "Observación del uso con resultado reconocible.",
+      "incluir": "Intento sin guía, dudas y revisión de contenido.",
+      "excluir": "Tomar gusto por la pantalla como tarea completada.",
+      "ejemplo_segmento": "E4-S36"
+    },
+    {
+      "id": "E4-C19",
+      "nombre": "Continuidad y reversión",
+      "definicion": "Identificación de cambios y posibilidad de retomar una entrega.",
+      "incluir": "Código y datos compartidos, notas y versión anterior.",
+      "excluir": "Depender de un mensaje que sólo dice el último.",
+      "ejemplo_segmento": "E4-S40"
+    }
+  ]
+}

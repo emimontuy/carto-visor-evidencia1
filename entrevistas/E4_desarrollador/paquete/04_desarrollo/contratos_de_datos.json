@@ -1,0 +1,88 @@
+{
+  "entrevista": "E4",
+  "version": "1.0.0",
+  "contratos": [
+    {
+      "tipo": "DescriptorCapa",
+      "proposito": "Identificar la entrega y lo que el programa espera de ella.",
+      "campos": "id_capa string; id_version string; campo_clave string; campo_nombre string; fuente string; referencia_espacial string o null; fecha_dato date o null; fecha_carga date o null; ruta_original string; transformaciones array.",
+      "regla": "Conservar la clave como identificador de origen; la referencia o fecha ausente se mantiene pendiente. Una transformación incluye motivo y original.",
+      "segmentos": [
+        "E4-S08",
+        "E4-S15",
+        "E4-S16",
+        "E4-S17",
+        "E4-S18",
+        "E4-S19"
+      ]
+    },
+    {
+      "tipo": "EstadoConsulta",
+      "proposito": "Mantener coherencia entre selección y respuesta visible.",
+      "campos": "id_consulta string; id_capa string; id_version string; clave_origen string o null; estado enum cargando/completada/sin_resultados/fallida; respuesta_anterior_visible boolean; motivo enum ninguno/conexion/sesion_requerida/sin_permiso/archivo_no_disponible/otro; mensaje string.",
+      "regla": "Sólo la respuesta correspondiente a la consulta actual actualiza la ficha; si se conserva información previa se identifica su estado.",
+      "segmentos": [
+        "E4-S03",
+        "E4-S04",
+        "E4-S27",
+        "E4-S28",
+        "E4-S32"
+      ]
+    },
+    {
+      "tipo": "RegistroIncidencia",
+      "proposito": "Reproducir un problema y canalizar su revisión.",
+      "campos": "id_incidencia string; objetivo string; pasos array; entorno string; version_codigo string o null; version_datos string o null; esperado string; observado string; frecuencia_reportada string; causa enum por_confirmar/dato/interpretacion/software; estado string; responsable_revision string o null.",
+      "regla": "Si no se reproduce, el caso no se cierra como inexistente. Las dudas del territorio requieren confirmación y no autorizan cambios del dato.",
+      "segmentos": [
+        "E4-S05",
+        "E4-S06",
+        "E4-S07",
+        "E4-S10",
+        "E4-S21",
+        "E4-S37"
+      ]
+    },
+    {
+      "tipo": "ReferenciaDescarga",
+      "proposito": "Vincular el contenido anunciado con el archivo de la capa.",
+      "campos": "id_capa string; id_version string; alcance enum capa_completa; formato string o null; ruta_archivo string; ruta_documentacion string o null; sha256 string; permiso_requerido string o null.",
+      "regla": "El permiso se comprueba al entregar el archivo. La validación reabre la descarga y compara ejemplos; una exportación filtrada requiere otro acuerdo.",
+      "segmentos": [
+        "E4-S31",
+        "E4-S34",
+        "E4-S35"
+      ]
+    },
+    {
+      "tipo": "RegistroValidacion",
+      "proposito": "Documentar una tarea en condiciones que puedan repetirse.",
+      "campos": "id_prueba string; tarea string; perfil string; version_codigo string; version_datos string; entorno string; pasos array; ayudas array; resultado_reconocido boolean o null; dificultades array; observaciones string; fecha date o null.",
+      "regla": "El registro distingue observación de navegación, comprensión, acceso y rendimiento; los resultados se completan después de la prueba real.",
+      "segmentos": [
+        "E4-S29",
+        "E4-S30",
+        "E4-S35",
+        "E4-S36",
+        "E4-S37",
+        "E4-S38",
+        "E4-S44"
+      ]
+    },
+    {
+      "tipo": "VersionEntrega",
+      "proposito": "Permitir que otra persona reconozca y recupere el estado de trabajo.",
+      "campos": "id_entrega string; version_codigo string; versiones_datos array; decisiones array; pendientes array; pruebas_repetir array; version_previa string o null; instrucciones_reversion string; responsables array.",
+      "regla": "Los cambios de código y datos se distinguen; recuperar una versión previa requiere comprobar el recorrido esencial y los permisos acordados.",
+      "segmentos": [
+        "E4-S11",
+        "E4-S12",
+        "E4-S20",
+        "E4-S39",
+        "E4-S40",
+        "E4-S42",
+        "E4-S45"
+      ]
+    }
+  ]
+}

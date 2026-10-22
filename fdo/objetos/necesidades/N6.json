@@ -1,0 +1,63 @@
+{
+  "pid": "urn:uuid:e82af71c-0d2b-5557-bf0a-ad6cae01f41e",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Necesidad.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/necesidades/N6.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "81e604f1e05ade7fb585200698ce710f6adf64dd3bddf8d9c83e5ea5c8797f11"
+    }
+  },
+  "metadatos": {
+    "titulo": "Saber a quién preguntar y si mi duda llegó a la fuente.",
+    "descripcion": "Necesidad de información verificable derivada de las entrevistas.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "N6",
+    "prioridad": "P2",
+    "sector": "Coordinación entre áreas",
+    "enunciado": "Saber a quién preguntar y si mi duda llegó a la fuente.",
+    "criterio_de_verificacion": "Una duda conserva elemento, versión, responsable, estado y respuesta.",
+    "perfiles": [
+      "P5",
+      "P3",
+      "P2"
+    ]
+  },
+  "relaciones": [
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:ea033d8a-d613-5cf4-b02c-18010978378d"
+    },
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:d498b600-e076-5e38-a013-b79c90ddb03a"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:e1472d19-a0d4-5615-845b-21ee745813a5"
+    },
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:f010fc57-562a-5c24-890b-956553a7e329"
+    }
+  ],
+  "procedencia": {
+    "metodo": "agrupación de fragmentos por afinidad entre entrevistas",
+    "fuentes": [
+      "entrevistas/E3_usuaria_administrativa/paquete/01_fuente/E3_transcripcion_anonimizada.pdf",
+      "entrevistas/E5_cartografo/paquete/01_fuente/E5_transcripcion_anonimizada.pdf"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+Análisis de la quinta entrevista del Carto-Visor
+[Cartógrafo] — Emilio Gómez Montuy — Versión 1.0.0 — 2026-10-15
+
+ORDEN DE LECTURA
+1. 01_fuente: PDF original de once páginas y texto por páginas con salto de página.
+2. 02_codificacion: libro de 22 códigos y 60 fragmentos con cita literal, página, códigos, estatus y memo.
+3. 03_analisis: 9 hallazgos, actores, proceso, empatía, afinidad y dos hipótesis de bucles.
+4. 04_desarrollo: 11 historias, criterios completos, requisitos, decisiones, preguntas y contratos.
+5. 05_metadatos: objetos internos, procedencia, integridad y esquemas locales.
+6. 06_revision: hoja para acuerdos y cambios de revisión humana.
+7. 07_reproduccion: guion de validación.
+
+COMPROBACIÓN
+Desde la carpeta descomprimida ejecutar: python3 07_reproduccion/validar_paquete.py
+Se usa la biblioteca estándar y el validador local incluido. Comprueba tipos, campos,
+propiedades adicionales y listas definidos en estos esquemas locales. No sustituye
+una segunda codificación, prueba con usuarios o confirmación del contenido territorial.
+
+ALCANCE
+La transcripción se conserva íntegra. Cada fragmento representa una idea sustantiva y
+puede tener varios códigos. No se mezclan fragmentos de otras entrevistas. El caso de
+alumbrado es municipal y no acredita defectos en las capas SSC. [Cartógrafo] no identifica
+su alcaldía ni representa a ADIP o SSC. La compatibilidad inicial es contexto comunicado,
+no una inspección técnica. Las hipótesis causales conservan sus límites de evidencia.
+Se distingue la periodicidad anual de la ficha de la explicación atribuida a [Directora ADIP];
+el procedimiento requiere confirmación con ADIP y SSC.
+Las seis historias iniciales son de producto, cuatro apoyan el desarrollo y una ampliación
+de cruces y asignaciones queda condicionada. El canal de dudas puede ser manual;
+no se exige crear un sistema de tickets. No hay cifras de ahorro ni impacto ciudadano probado.
+
+PREPARACIÓN DE OBJETOS DIGITALES
+URN UUID son identificadores internos estables; no son DOI ni PID publicados.
+Cada objeto conserva tipo local, versión, datos, metadatos, procedencia e integridad.
+Conformidad FDO formal requiere revisar y registrar tipos y perfiles y vincular PID
+resolubles; pendiente. No se creó un repositorio Zenodo ni se publicaron datos.
+Revisión humana, licencia y difusión permanecen pendientes.
+
+El Word se entrega por separado con una síntesis para el reporte principal.
+Este paquete conserva criterios completos y trazabilidad detallada.

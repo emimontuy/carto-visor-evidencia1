@@ -1,0 +1,640 @@
+{
+  "entrevista": "E4",
+  "version": "1.0.0",
+  "segmentos": [
+    {
+      "id": "E4-S01",
+      "pagina": 1,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Trabajo como programador, en un área relacionada con plataformas de mapas digitales, y trabajo de forma remota. Mi parte es desarrollar y revisar software que trabaja con mapas e información de ubicaciones. Entonces me toca pensar en cómo se muestra la información, qué pasa cuando alguien busca o selecciona algo y cómo detectar errores. Eso no significa que yo decida qué información geográfica es oficial.",
+      "codigos": [
+        "E4-C00",
+        "E4-C03"
+      ],
+      "estatus": "contexto",
+      "memo": "Delimita su experiencia de desarrollo; no lo convierte en portavoz de Google ni en autoridad del dato oficial.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S02",
+      "pagina": 1,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Si te dicen “la búsqueda está mal”, tienes que entender qué buscó la persona, qué esperaba y qué apareció. Después revisas el comportamiento, haces el cambio y compruebas que no hayas afectado otra cosa.",
+      "codigos": [
+        "E4-C01",
+        "E4-C02",
+        "E4-C19"
+      ],
+      "estatus": "practica_relatada",
+      "memo": "Una solicitud necesita comportamiento esperado, observado y una comprobación posterior.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S03",
+      "pagina": 1,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "El usuario veía varios resultados, seleccionaba uno y el mapa seguía mostrando la selección anterior. Entonces decía que la ubicasión estaba mal. A primera vista podía parecer que había una coordenada equivocada, pero el problema estaba en cómo se actualizaba la selección en la pantalla. El dato era uno y lo que estaba viendo la persona era otra cosa.",
+      "codigos": [
+        "E4-C02",
+        "E4-C03",
+        "E4-C10"
+      ],
+      "estatus": "ejemplo_general",
+      "memo": "Ejemplo general de selección desfasada; no es un defecto observado en el Carto-Visor.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S04",
+      "pagina": 2,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Si la información que llega corresponde al lugar correcto, ya tienes una pista. También revisaría si sucede siempre o sólo cuando cambias rápido entre resultados. Necesitas ir separando las posibilidades, porque con una captura sola puedes equivocarte de diagnóstico.",
+      "codigos": [
+        "E4-C02",
+        "E4-C10"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Comparar la respuesta recibida y la selección visible; incluir cambios rápidos en la prueba.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S05",
+      "pagina": 2,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "También puede cambiar según la conexión o el tamaño de la pantalla. No es decirle que está inventando el problema; es conseguir suficiente información para encontrarlo. Si todavía no lo reproduzco, lo dejaría registrado como pendiente de revisar.",
+      "codigos": [
+        "E4-C02",
+        "E4-C15"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Conservar condiciones del caso y estado pendiente cuando no se logra reproducir.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S06",
+      "pagina": 2,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Que me diga qué quería hacer, los pasos que siguió, qué esperaba ver y qué vio realmente. Una captura ayuda si se entiende qué está señalado, pero no reemplaza los pasos. Si se puede compartir, también sirve un ejemplo de la búsqueda o del archivo que estaba usando. Y decir si pasa siempre.",
+      "codigos": [
+        "E4-C01",
+        "E4-C02"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Reporte de incidencia con contexto suficiente y ejemplos que se puedan compartir.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S07",
+      "pagina": 2,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Puede haber un dato incorrecto, una interpretación equivocada de ese dato o un error del programa al mostrarlo. Si una división territorial cambió y el archivo sigue siendo anterior, arreglar un botón no lo resuelve. Si el archivo está bien y el programa mezcla dos campos, ahí sí toca corregir el software. Necesitas hablar con quien conoce la información, porque yo no puedo decidir la realidad del territorio viendo el código.",
+      "codigos": [
+        "E4-C03",
+        "E4-C05"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Distinguir diagnóstico de software y confirmación de contenido con la persona responsable.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S08",
+      "pagina": 2,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Conservaría esas claves tal como están definidas. A veces alguien quiere “limpiar” un campo y termina cambiando algo que sirve para identificarlo. Por ejemplo, si una clave tiene ceros al principio, habría que confirmar que no se pierdan al cargarla. También revisaría qué campo es la clave y cuál es un nombre para mostrar.",
+      "codigos": [
+        "E4-C04",
+        "E4-C07"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Conservar identificadores de origen y separar clave de etiqueta visible; los ceros son un caso de prueba, no un error acreditado.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S09",
+      "pagina": 2,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Estaría quien entrega y conoce los datos, la persona que define para qué se va a usar la herramienta, quienes la desarrollan y quienes hacen las consultas. Puede haber alguien que revise el diseño o que ayude a probarla. También necesitas ubicar quién puede autorizar un cambio en la información.",
+      "codigos": [
+        "E4-C05"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Mapa funcional de actores; las personas y facultades concretas deben acordarse en el reto.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S10",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Pero para saber si un cuadrante está bien delimitado necesito a quien conoce esa división. También puedo señalar una inconsistencia, aunque no me toque resolverla por mi cuenta. Esa separación evita que una decisión de programación termine cambiando información oficial.",
+      "codigos": [
+        "E4-C03",
+        "E4-C05",
+        "E4-C09"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El desarrollo puede detectar y canalizar inconsistencias, sin modificar límites por decisión propia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S11",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Remoto, si me mandan un mensaje y luego no coincidimos en horario, puedo quedarme esperando una aclaración. Por eso intento dejar por escrito qué entendí y qué falta. No necesitas un documento enorme, pero sí algo que otra persona pueda retomar sin haber estado en todas las llamadas.",
+      "codigos": [
+        "E4-C06",
+        "E4-C19"
+      ],
+      "estatus": "practica_relatada",
+      "memo": "La falta de contexto puede generar esperas; una nota breve permite retomar acuerdos y pendientes.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S12",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Una persona entiende que se deben ver todos y otra que sólo se muestran los que cumplen un filtro. Si nadie lo aclara, los dos pueden hacer bien su parte y aun así entregar algo que no coincide. También pasa cuando hay dos archivos con el mismo nombre. Ahí una referencia compartida y una descripción corta de lo que esperan ayudan mucho.",
+      "codigos": [
+        "E4-C01",
+        "E4-C06",
+        "E4-C19"
+      ],
+      "estatus": "ejemplo_general",
+      "memo": "Acordar alcance de resultados y referencia del archivo evita interpretaciones divergentes; no se cuantifica su frecuencia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S13",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Primero aclararía qué pregunta va a responder y quién la va a usar. Después revisaría el archivo y la información que lo acompaña. Haría una carga de prueba para ver qué contiene y cómo se muestra. Luego trabajaría la consulta y comprobaría resultados con ejemplos que alguien del área pueda confirmar. Al final probaría el recorrido completo con un usuario.",
+      "codigos": [
+        "E4-C01",
+        "E4-C05",
+        "E4-C07",
+        "E4-C18"
+      ],
+      "estatus": "proceso_propuesto",
+      "memo": "Secuencia recomendada de desarrollo, con validación de contenido y de uso; no es observación del flujo actual de ADIP.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S14",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Puedes tener el archivo y no saber si es la versión que debes usar, o qué campo necesitas mostrar. También se atora cuando esperas que alguien confirme una interpretación. El código puede avanzar, pero si programas sobre una suposición que luego cambia, tienes que rehacerlo. Yo intentaría encontrar esas dudas temprano y dejar visible cuáles siguen abiertas.",
+      "codigos": [
+        "E4-C05",
+        "E4-C06",
+        "E4-C08",
+        "E4-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Mecanismo plausible entre definiciones pendientes y retrabajo; se propone identificar dudas antes de programar.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S15",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Si ya les confirmaron que son compatibles, no empezaría inventando un problema de homologación. Revisaría que el programa conserve los campos y que se pueda identificar cada capa. Luego probaría una consulta completa, desde elegir un sector o cuadrante hasta ver su información. Esa prueba les ayuda a descubrir lo que realmente falta en la herramienta.",
+      "codigos": [
+        "E4-C04",
+        "E4-C07",
+        "E4-C12"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Consejo condicionado a la compatibilidad comunicada por Emilio; [Desarrollador] no inspeccionó los archivos.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S16",
+      "pagina": 3,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Ahí dejaría documentado qué información espera el programa de cada archivo. Por ejemplo, qué campo lo identifica y cómo vienen las coordenadas. Si una capa nueva usa otra referencia para ubicar los datos, hay que revisarlo antes de combinarla. Pero eso sería una necesidad que se confirma con esa capa, no algo que ustedes deban asumir de las dos primeras.",
+      "codigos": [
+        "E4-C07",
+        "E4-C12"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Contrato de incorporación para ampliaciones; no presume incompatibilidad ni transformación necesaria en SSC.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S17",
+      "pagina": 4,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Dos archivos pueden expresar la ubicación de maneras distintas y el programa tiene que interpretarlas correctamente. Pero no todo desplazamiento tiene esa causa. También podrías estar viendo un resultado anterior o haber confundido campos. Revisaría [inaudible], bueno, la referencia del archivo y qué está haciendo el programa antes de modificar algo. Y si el archivo necesita una transformación, la documentaría y conservaría el original.",
+      "codigos": [
+        "E4-C02",
+        "E4-C03",
+        "E4-C07",
+        "E4-C09"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Conservar el marcador inaudible y contrastar causas antes de transformar; preservar original si una transformación llega a justificarse.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S18",
+      "pagina": 4,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Que cada conjunto de datos tenga su fuente, la versión o fecha que les hayan proporcionado y una explicación de lo que contiene. Si no les entregaron alguna fecha, no pondría la del día para completar el campo. Mostraría que ese dato está pendiente de confirmar.",
+      "codigos": [
+        "E4-C08"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Metadatos vinculados a la capa y ausencias explícitas; ninguna fecha se completa por suposición.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S19",
+      "pagina": 4,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Pondría el nombre de la fecha, por ejemplo “fecha de carga” o “fecha de la información”, según lo que realmente represente. Que la capa esté actualisada en la pantalla porque acabas de subirla no significa que describa lo que ocurre hoy. Si mezclas esas cosas, el usuario puede confiar de más. Ese texto hay que acordarlo con quien entrega el dato, no sólo decidirlo desde el diseño.",
+      "codigos": [
+        "E4-C05",
+        "E4-C08",
+        "E4-C11"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Etiquetas temporales según significado confirmado por la fuente, sin confundir carga con vigencia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S20",
+      "pagina": 4,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Tendría que saberse quién la proporciona, quién confirma que se puede usar y cómo se sustituye la anterior. Para el prototipo del semestre, si van a trabajar con archivos fijos, lo pueden documentar así. No hace falta prometer una actualización automática que todavía no existe. Más adelante pueden diseñar ese proceso con la dependencia y probar qué pasa cuando cambian los datos.",
+      "codigos": [
+        "E4-C05",
+        "E4-C08",
+        "E4-C09",
+        "E4-C12"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Reemplazo controlado y alcance de archivos fijos si se acuerda; no confirma una periodicidad diferente de la ficha.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S21",
+      "pagina": 4,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Una cosa es avisar que encontró una inconsistencia y otra modificar la información que todos consultan. Para una primera versión podría ser suficiente indicar a quién reportarla. Si más adelante quieren permitir ediciones, necesitarían definir quién las revisa y cómo quedan registradas. Tener un botón para editar no resuelve esas decisiones.",
+      "codigos": [
+        "E4-C05",
+        "E4-C09"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Canal de incidencias y edición institucional tienen facultades diferentes; edición queda como ampliación condicionada.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S22",
+      "pagina": 4,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "En el mapa querría entender dónde está lo que seleccioné y qué extensión tiene. En una ficha o tabla revisaría su clave, su nombre y los datos que permitan reconocerlo. La descarga me serviría si necesito trabajar con esa información en otro programa. Son consultas distintas.",
+      "codigos": [
+        "E4-C04",
+        "E4-C10",
+        "E4-C17"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Mapa, ficha y archivo responden a usos relacionados pero distintos; definir qué representa cada uno.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S23",
+      "pagina": 5,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Empezaría por decir qué puede consultar ahí y poner nombres que le ayuden a reconocer las opciones. Si dice “capas”, agregaría una explicación breve. Cuando seleccione algo, la ficha tendría que mostrar claramente qué está viendo. Los detalles técnicos pueden estar disponibles para quien los necesita, pero no tienen que ocupar toda la pantalla desde el inicio. Eso lo probaría con ella, porque algo que a mí me parece obvio puede no serlo.",
+      "codigos": [
+        "E4-C10",
+        "E4-C11",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Primera vista comprensible con detalle accesible y validación futura con el perfil destinatario.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S24",
+      "pagina": 5,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Mantendría un nombre visible y una leyenda sencilla. Además, no dependería solamente del color, porque no todos lo distinguen igual. Una etiqueta o un borde claro puede ayudar. Antes de agregar más cosas, vería si se entiende con una capa a la vez.",
+      "codigos": [
+        "E4-C10",
+        "E4-C11",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Nombre y selección visibles, señales adicionales al color y prueba inicial con una capa.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S25",
+      "pagina": 5,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Primero preguntaría qué consulta les pidió la ADIP para esta etapa. Si la tarea es encontrar un sector por nombre o clave, ese buscador puede ser suficiente para empezar. Buscar direcciones agrega otras preguntas: qué servicio las interpreta, qué tan exacto es el resultado y qué pasa si no encuentra una.",
+      "codigos": [
+        "E4-C01",
+        "E4-C12",
+        "E4-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "La búsqueda por campo existente es propuesta para acordar; geocodificación requiere un caso y condiciones adicionales.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S26",
+      "pagina": 5,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Que el resultado es aproximado y que no se puede tratar como una confirmación exacta. Si el punto queda cerca de un límite, esa duda importa. Yo mostraría la información que tienen y dejaría claro qué falta por confirmar. Tampoco concluiría por ese resultado qué autoridad debe atender un asunto.",
+      "codigos": [
+        "E4-C03",
+        "E4-C13"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Para una ampliación con ubicaciones, hacer visible la incertidumbre y no derivar competencia institucional del mapa.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S27",
+      "pagina": 5,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "También que cambie un filtro y la lista no se actualice, o que la ficha muestre el nombre de una selección anterior. Son detalles que afectan mucho la confianza. Hay que revisar que el mapa, la lista y la información del elemento estén respondiendo a la misma consulta.",
+      "codigos": [
+        "E4-C10",
+        "E4-C14"
+      ],
+      "estatus": "ejemplo_general",
+      "memo": "Conservar coherencia de consulta entre componentes; los fallos son ejemplos y no defectos verificados en el prototipo.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S28",
+      "pagina": 5,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "También distinguiría una coneción interrumpida de una búsqueda sin resultados. No hace falta mostrarle al usuario todo el error técnico. Para quien desarrolla sí puede quedar un registro más detallado. Y si sigues mostrando información que ya estaba cargada, tendría que quedar claro que la nueva consulta no terminó.",
+      "codigos": [
+        "E4-C10",
+        "E4-C14"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Separar estados de carga, ausencia de resultados y fallo; la información anterior debe reconocerse como tal.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S29",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Revisaría si están volviendo a cargar algo sin necesidad. No prometería que será rápido por tener pocos elementos ni diría que necesita algo muy grande sin probarlo primero.",
+      "codigos": [
+        "E4-C12",
+        "E4-C15"
+      ],
+      "estatus": "recomendacion",
+      "memo": "El volumen de polígonos no sustituye la prueba; evitar promesas de rendimiento o infraestructura sin evidencia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S30",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Mi computadora y mi conexión pueden ser diferentes. Por eso sirve probar en las condiciones de las personas que van a consultarlo. También dejar por escrito cómo corriste la prueba, porque si otra persona la repite de otra forma, parece que están hablando del mismo resultado y no es así.",
+      "codigos": [
+        "E4-C06",
+        "E4-C15",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Registrar entorno y pasos para repetir pruebas comparables; no hay mediciones de rendimiento en esta entrevista.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S31",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Primero haría una lista corta de las acciones y de quién puede hacerlas. Consultar, descargar y administrar información no son automáticamente el mismo permiso. Después el programa tendría que comprobar esos permisos donde se entrega la información. Ocultar un botón puede ayudar a la interfaz, pero no basta para impedir una acción. Eso sí, tendrían que confirmar con la ADIP qué roles necesitan; no inventarlos porque suenen bien.",
+      "codigos": [
+        "E4-C05",
+        "E4-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Matriz mínima de acciones y comprobación del permiso al entregar información; roles concretos pendientes de ADIP.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S32",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Si la descarga no está disponible para su cuenta, decirlo de una forma clara y señalar cómo consultar esa duda, si existe ese procedimiento. Si no inició sesión, explicar que debe hacerlo. Son situaciones distintas a que el archivo no esté disponible. También evitaría que la pantalla parezca que está cargando para siempre cuando ya sabe que esa acción no se puede completar.",
+      "codigos": [
+        "E4-C14",
+        "E4-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Mensajes diferenciados por motivo y procedimiento real; no inventar contactos o cuentas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S33",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Podrían usar un entorno de prueba y concentrarse en el recorrido que necesitan demostrar. Pero sí cuidaría desde el inicio dónde están los archivos y quién entra. No asumiría que todo lo que reciben se puede publicar porque aparece en un mapa. Y dejaría claras las condiciones del prototipo para que una prueba no se confunda con una herramienta que ya está lista para operar.",
+      "codigos": [
+        "E4-C12",
+        "E4-C16"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Prototipo interno con condiciones de acceso acordadas; los datos compartidos para el ejercicio no implican publicación general.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S34",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Definiría qué descarga ese botón. Si descarga toda la capa, que lo diga. Si descarga sólo los resultados de un filtro, comprobaría que correspondan a lo que seleccionaste. También que el archivo conserve las claves y que se pueda reconocer su versión.",
+      "codigos": [
+        "E4-C04",
+        "E4-C10",
+        "E4-C17"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Definir el alcance de descarga; el filtro es una alternativa condicionada, no una función obligatoria inicial.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S35",
+      "pagina": 6,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Ver si está la clave que esperabas, si el nombre corresponde y si el contenido es el que dice la herramienta. Para la versión inicial pueden acordar qué ejemplos usarán con quien conoce las capas. Esa revisíon conecta lo que ve el usuario con el dato que realmente se lleva. Si hay filtros, también probaría qué pasa cuando no hay resultados.",
+      "codigos": [
+        "E4-C04",
+        "E4-C05",
+        "E4-C17",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Reabrir el archivo y contrastar ejemplos acordados; un botón visible o una descarga exitosa no acredita correspondencia.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S36",
+      "pagina": 7,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Les daría una tarea concreta, como encontrar un cuadrante por su clave y decir qué fuente aparece. Los dejaría intentar sin señalarles todos los botones. Después preguntaría qué pensaron que significaba cada opción o dónde dudaron. Si les explicas el recorrido antes, pruebas que siguieron tus instrucciones. También observaría si creen que terminaron cuando en realidad están viendo otro elemento.",
+      "codigos": [
+        "E4-C01",
+        "E4-C10",
+        "E4-C18"
+      ],
+      "estatus": "prueba_propuesta",
+      "memo": "Evaluar tarea, reconocimiento y comprensión antes de dar ayuda; no se realizó esta prueba durante la entrevista.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S37",
+      "pagina": 7,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Puede no haber encontrado el botón, no entender el nombre o no reconocer el resultado. Yo preguntaría qué esperaba encontrar justo en ese momento. También anotaría los pasos, porque un error al principio puede explicar lo que pasó al final. Antes de cambiar toda la pantalla, intentaría identificar cuál de esas cosas falló y probar una modificación que responda a esa duda.",
+      "codigos": [
+        "E4-C02",
+        "E4-C11",
+        "E4-C18"
+      ],
+      "estatus": "prueba_propuesta",
+      "memo": "Diagnosticar navegación, lenguaje o reconocimiento antes de rediseñar; registrar la secuencia completa.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S38",
+      "pagina": 7,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Que los textos se lean, que puedas distinguir las opciones y que los botones tengan nombres comprensibles. También probaría navegar con el teclado y aumentar el tamaño de la página. Si una ficha sólo se abre pasando el ratón, puede dejar fuera a alguien. Y, como te decía, que el color no sea la única manera de entender la información.",
+      "codigos": [
+        "E4-C11",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Revisión temprana de lectura, teclado y ampliación; no constituye una certificación de accesibilidad.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S39",
+      "pagina": 7,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Usaría un lugar compartido para el código y una forma clara de identificar los archivos de datos. Lo importante es poder saber qué cambio hicimos y qué versión estamos probando. Un mensaje de “te mandé el último” se vuelve confuso muy rápido. Tambien anotaría las decisiones pequeñas que afectan a todos, como qué campo se usa para buscar.",
+      "codigos": [
+        "E4-C06",
+        "E4-C08",
+        "E4-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Referencia compartida de código, datos y decisiones para coordinar desarrollo y pruebas.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S40",
+      "pagina": 7,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Primero necesitas poder reconocer qué cambió y volver a una versión que funcionaba mientras lo revisas. Eso aplica al programa y a los archivos. Si cambias los dos al mismo tiempo, cuesta más encontrar la causa. Yo separaría los cambios cuando se pueda y repetiría las consultas importantes.",
+      "codigos": [
+        "E4-C02",
+        "E4-C09",
+        "E4-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Cambios identificables y reversibles con repetición de consultas esenciales; no se afirma que exista ya ese mecanismo.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S41",
+      "pagina": 7,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Con lo que me has contado, empezaría por abrir una de las capas, encontrar un elemento y consultar su información de origen. Luego comprobaría la descarga, si forma parte de lo que les pidieron. Cuando eso funciona completo, ya puedes mostrarlo y escuchar dudas reales.",
+      "codigos": [
+        "E4-C01",
+        "E4-C12",
+        "E4-C17",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Primer recorrido completo en una capa y después repetición con la otra; la ficha del reto sí incluye descarga.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S42",
+      "pagina": 8,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Meter funciones sin una pregunta detrás. Por ejemplo, querer agregar rutas o muchas estadísticas porque se ven bien en otros mapas. También elegir una solución que nadie del equipo entiende y luego depender de una sola persona para cambiarla. Yo buscaría que puedan explicar cómo funciona lo que están construyendo y que otra persona pueda retomarlo.",
+      "codigos": [
+        "E4-C01",
+        "E4-C12",
+        "E4-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Ajustar funciones al uso y mantener la solución comprensible para más de una persona.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S43",
+      "pagina": 8,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Quiénes van a hacer las primeras consultas, qué necesitan encontrar y qué archivos van a recibir exactamente. También cómo se espera acceder al prototipo y qué consideran una entrega satisfactoria. Y preguntaría quién puede confirmar los resultados de las pruebas. De la operación de la ADIP no te podría responder por mi cuenta; eso sí tendrían que hablarlo con [Directora ADIP] y con las personas que ella les indique.",
+      "codigos": [
+        "E4-C00",
+        "E4-C01",
+        "E4-C05",
+        "E4-C16",
+        "E4-C18"
+      ],
+      "estatus": "incertidumbre_explicita",
+      "memo": "Preguntas que debe cerrar ADIP; [Desarrollador] no define la operación institucional por su cuenta.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S44",
+      "pagina": 8,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Que una persona pueda hacer la consulta que acordaron, reconocer el resultado y entender de dónde viene. Que ustedes puedan comprobar que el programa está mostrando el archivo correcto y explicar qué pasa si algo falla. Si hay una descarga, que corresponda a lo que promete. Y que las dudas que salgan en las pruebas queden registradas.",
+      "codigos": [
+        "E4-C01",
+        "E4-C10",
+        "E4-C14",
+        "E4-C17",
+        "E4-C18"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Éxito acotado al recorrido demostrado y pendientes documentados, sin afirmar resolución completa del sistema.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S45",
+      "pagina": 8,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "A veces el problema es que nadie sabe quién confirma una fecha o quién entrega la siguiente versión. Puedes programar más botones y esa duda sigue ahí. Y desde el trabajo remoto, dejaría [inaudible], dejaría una explicación corta de las decisiones, porque quien retome el proyecto no va a haber escuchado todas estas conversaciones.",
+      "codigos": [
+        "E4-C05",
+        "E4-C06",
+        "E4-C08",
+        "E4-C19"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Gobierno de la información y memoria breve de decisiones; se mantiene el marcador inaudible de la fuente.",
+      "revision_humana": "pendiente"
+    },
+    {
+      "id": "E4-S46",
+      "pagina": 8,
+      "hablante": "[Desarrollador]",
+      "fragmento_literal": "Yo les puedo ayudar a revisar cómo se comporta el programa; para confirmar que la información representa bien el territorio necesitan a las personas que la conocen. Si esas dos partes se hablan desde el principio, se ahorran varias vueltas.",
+      "codigos": [
+        "E4-C00",
+        "E4-C03",
+        "E4-C05"
+      ],
+      "estatus": "recomendacion",
+      "memo": "Complementar revisión de software y revisión sectorial; la reducción de vueltas es una expectativa, no una medición.",
+      "revision_humana": "pendiente"
+    }
+  ]
+}

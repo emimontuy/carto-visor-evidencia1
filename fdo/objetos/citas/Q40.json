@@ -1,0 +1,50 @@
+{
+  "pid": "urn:uuid:0d9d4d8c-b61c-51c6-9240-1727fb45d148",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Cita.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/citas/Q40.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "LicenseRef-uso-academico-restringido",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "49589ce28c3d7f3af634592f175170094357deaefa86e33d9233265e4f5b6193"
+    }
+  },
+  "metadatos": {
+    "titulo": "Cita Q40 · E5, p. 4",
+    "descripcion": "Cita literal verificada contra la transcripción anonimizada.",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "Q40",
+    "entrevista": "E5",
+    "pagina": 4,
+    "texto_literal": "Hay diferencias que se pueden resolver técnicamente y otras que necesitan un acuerdo entre instituciones.",
+    "codigos": [
+      "T01",
+      "T03"
+    ],
+    "fragmentos": [
+      "E5-S22"
+    ],
+    "transcripcion": "entrevistas/E5_cartografo/paquete/01_fuente/transcripcion_por_paginas.txt"
+  },
+  "relaciones": [
+    {
+      "tipo": "expresadaPor",
+      "objetivo": "urn:uuid:2a17927f-1324-59bb-ab0c-3e14aad31204"
+    },
+    {
+      "tipo": "fragmentoFuente",
+      "objetivo": "E5-S22",
+      "ruta": "entrevistas/E5_cartografo/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "selección manual y verificación automática de coincidencia literal (scripts/verificar_entrega.py)"
+  }
+}

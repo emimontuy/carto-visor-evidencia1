@@ -1,0 +1,182 @@
+{
+  "entrevista": "E5",
+  "version": "1.0.0",
+  "codigos": [
+    {
+      "id": "E5-C00",
+      "nombre": "Perfil cartográfico y límites",
+      "definicion": "Funciones y alcance de la perspectiva de [Cartógrafo].",
+      "incluir": "Trabajo técnico municipal y límites de su conocimiento de SSC.",
+      "excluir": "Aprobación institucional o identificación de una alcaldía no nombrada.",
+      "ejemplo_segmento": "E5-S24"
+    },
+    {
+      "id": "E5-C01",
+      "nombre": "Pregunta y unidad de análisis",
+      "definicion": "Definición de lo que se necesita conocer y de cada registro.",
+      "incluir": "Propósito, decisión, solicitud, visita o elemento físico.",
+      "excluir": "Convertir todo registro en una falla distinta.",
+      "ejemplo_segmento": "E5-S02"
+    },
+    {
+      "id": "E5-C02",
+      "nombre": "Repeticiones por confirmar",
+      "definicion": "Posibles duplicidades y relaciones entre registros.",
+      "incluir": "Folio, cercanía y confirmación con la fuente.",
+      "excluir": "Borrar filas sólo por proximidad o apariencia.",
+      "ejemplo_segmento": "E5-S05"
+    },
+    {
+      "id": "E5-C03",
+      "nombre": "Incertidumbre de localización",
+      "definicion": "Ubicación aproximada y asignación pendiente.",
+      "incluir": "Referencias ambiguas, límites y parte sin asignar.",
+      "excluir": "Forzar un punto para completar totales.",
+      "ejemplo_segmento": "E5-S08"
+    },
+    {
+      "id": "E5-C04",
+      "nombre": "Incidencias y retorno a la fuente",
+      "definicion": "Comunicación y seguimiento de una duda o corrección.",
+      "incluir": "Folio, revisión, respuesta y estado de incorporación.",
+      "excluir": "Confundir corrección local con actualización de origen.",
+      "ejemplo_segmento": "E5-S10"
+    },
+    {
+      "id": "E5-C05",
+      "nombre": "Facultades y poder de decisión",
+      "definicion": "Responsabilidad para confirmar, compartir, cambiar o actuar.",
+      "incluir": "Autoridad según la decisión y conocimiento del registro.",
+      "excluir": "Asignar poder e interés como valores universales.",
+      "ejemplo_segmento": "E5-S16"
+    },
+    {
+      "id": "E5-C06",
+      "nombre": "Coordinación y memoria compartida",
+      "definicion": "Contexto que permite resolver dudas y continuar el trabajo.",
+      "incluir": "Contactos, decisiones y pendientes documentados.",
+      "excluir": "Depender de la memoria de una sola persona.",
+      "ejemplo_segmento": "E5-S17"
+    },
+    {
+      "id": "E5-C07",
+      "nombre": "Propósito y acuerdo territorial",
+      "definicion": "Diferencias entre unidades y referencias de uso.",
+      "incluir": "División operativa o administrativa y acuerdo de versión.",
+      "excluir": "Exigir que todos los límites coincidan.",
+      "ejemplo_segmento": "E5-S20"
+    },
+    {
+      "id": "E5-C08",
+      "nombre": "Recepción y procedencia del original",
+      "definicion": "Conservación del paquete recibido y de sus derivados.",
+      "incluir": "Entrega, componentes, original y transformaciones.",
+      "excluir": "Sobrescribir la fuente o perder el vínculo con una copia.",
+      "ejemplo_segmento": "E5-S25"
+    },
+    {
+      "id": "E5-C09",
+      "nombre": "Claves campos y relaciones",
+      "definicion": "Significado y conservación de atributos y uniones.",
+      "incluir": "Diccionario, unicidad condicional, vacío, cero y cardinalidad.",
+      "excluir": "Usar la fila como clave o asumir relaciones por nombre.",
+      "ejemplo_segmento": "E5-S27"
+    },
+    {
+      "id": "E5-C10",
+      "nombre": "Geometría referencia y escala",
+      "definicion": "Condiciones para interpretar y comprobar lo espacial.",
+      "incluir": "Referencia, transformación, topología, zoom y reglas de borde.",
+      "excluir": "Tomar una reparación automática como autorizada.",
+      "ejemplo_segmento": "E5-S28"
+    },
+    {
+      "id": "E5-C11",
+      "nombre": "Fuente fechas y descripción",
+      "definicion": "Metadatos que identifican y explican una capa.",
+      "incluir": "Versión de origen, fecha del dato, recepción y publicación.",
+      "excluir": "Rellenar ausencias con la fecha del día.",
+      "ejemplo_segmento": "E5-S36"
+    },
+    {
+      "id": "E5-C12",
+      "nombre": "Cambios y comparación temporal",
+      "definicion": "Reemplazo de versión y consecuencias para el análisis.",
+      "incluir": "Cambio de clave, zona o significado y correspondencias.",
+      "excluir": "Suponer comparabilidad automática entre periodos.",
+      "ejemplo_segmento": "E5-S39"
+    },
+    {
+      "id": "E5-C13",
+      "nombre": "Consulta reconocible y comprensible",
+      "definicion": "Presentación que permite entender la selección.",
+      "incluir": "Capa, clave, nombre, detalle, lectura y señales sin color.",
+      "excluir": "Inventar atributos para llenar una ficha.",
+      "ejemplo_segmento": "E5-S34"
+    },
+    {
+      "id": "E5-C14",
+      "nombre": "Descarga con contexto",
+      "definicion": "Archivo utilizable con alcance y documentación.",
+      "incluir": "Capa o selección, versión, reapertura y procedencia.",
+      "excluir": "Tratar una imagen como sustituto de los datos.",
+      "ejemplo_segmento": "E5-S42"
+    },
+    {
+      "id": "E5-C15",
+      "nombre": "Permisos por acción",
+      "definicion": "Diferencias entre ver, descargar, publicar y autorizar.",
+      "incluir": "Contenido permitido y reglas confirmadas con ADIP.",
+      "excluir": "Asumir que todo dato recibido puede difundirse.",
+      "ejemplo_segmento": "E5-S53"
+    },
+    {
+      "id": "E5-C16",
+      "nombre": "Prueba de tarea por perfil",
+      "definicion": "Verificación de uso, resultado y condiciones.",
+      "incluir": "Intento sin guía, muestra de contenido y ayudas.",
+      "excluir": "Pedir validación de límites a quien no los conoce.",
+      "ejemplo_segmento": "E5-S51"
+    },
+    {
+      "id": "E5-C17",
+      "nombre": "Adopción y copias necesarias",
+      "definicion": "Motivos para usar la referencia o conservar otra copia.",
+      "incluir": "Versión y propósito reconocibles, confianza y tarea.",
+      "excluir": "Eliminar todas las copias para imponer la plataforma.",
+      "ejemplo_segmento": "E5-S44"
+    },
+    {
+      "id": "E5-C18",
+      "nombre": "Mecanismos causales por contrastar",
+      "definicion": "Relaciones posibles entre causas y efectos.",
+      "incluir": "Copias ambiguas, retrabajo y mecanismos de seguimiento.",
+      "excluir": "Presentar un bucle hipotético como comprobado.",
+      "ejemplo_segmento": "E5-S45"
+    },
+    {
+      "id": "E5-C19",
+      "nombre": "Medición y beneficios comprobables",
+      "definicion": "Condiciones para interpretar tiempos, avisos y resultados.",
+      "incluir": "Referencia previa, corrección, confirmaciones y efecto indirecto.",
+      "excluir": "Prometer ahorro o impacto ciudadano sin medirlo.",
+      "ejemplo_segmento": "E5-S55"
+    },
+    {
+      "id": "E5-C20",
+      "nombre": "Alcance aceptación y continuidad",
+      "definicion": "Límites del prototipo y condiciones para entregarlo.",
+      "incluir": "Dos capas, usuarios reales, siguiente responsable y preguntas abiertas.",
+      "excluir": "Añadir casos municipales o analítica como requisito inicial.",
+      "ejemplo_segmento": "E5-S59"
+    },
+    {
+      "id": "E5-C21",
+      "nombre": "Interpretación de conteos",
+      "definicion": "Relación entre registro y afirmación que se comunica.",
+      "incluir": "Sesgo de reporte, periodos, título y límites de inferencia.",
+      "excluir": "Deducir prioridad o peor servicio por más solicitudes.",
+      "ejemplo_segmento": "E5-S13"
+    }
+  ]
+}

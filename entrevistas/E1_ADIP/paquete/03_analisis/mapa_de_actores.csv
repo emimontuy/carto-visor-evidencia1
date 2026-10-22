@@ -1,0 +1,8 @@
+﻿actor,papel,evidencia,necesidad,certeza
+[Directora ADIP] y dirección de ADIP,Promueve y precisa el alcance del Carto-Visor,E1-S01 | E1-S02 | E1-S45,Acordar arquitectura y supervisar una biblioteca utilizable,Participación observada en la sesión
+[Enlace ADIP],Enlace entre ADIP y equipo del TEC,E1-S36 | E1-S44 | E1-S46,"Canalizar entregas, dudas y revisiones",Papel descrito en la sesión
+[Participante ADIP] de ADIP,Participante que aporta referencias y criterios de acceso,E1-S17 | E1-S48,Compartir capas con permisos y sin bloquear la primera etapa,Participación observada; cargo específico no confirmado
+SSC y su área de estadística,Productor de sectores y cuadrantes,E1-S13 | E1-S23 | E1-S25,Que se conserven nombres y claves de sus capas,Actor mencionado; no entrevistado directamente en E1
+Técnico encargado de carga,Incorporaría archivos y nuevas versiones,E1-S14,Recibir fuente identificada y procedimiento reproducible,Función mencionada; persona concreta no identificada
+Personal autorizado de dependencias,Usuario potencial de consulta y descarga,E1-S10 | E1-S18 | E1-S20,Consultar una referencia y reutilizarla,Perfil provisional; tareas de terceros no validadas
+Equipo estudiantil del TEC,Diseñaría y desarrollaría el prototipo,Presentación del equipo en página 2 | E1-S39 | E1-S45,"Arquitectura, datos de entrada y criterios de aceptación",Equipo identificado en la sesión; no representa la demanda final

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contratos de datos del prototipo",
+  "description": "Tipo semántico local propuesto; no registrado en un registro FDO.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "tipo",
+      "finalidad",
+      "campos",
+      "regla",
+      "evidencia"
+    ],
+    "properties": {
+      "tipo": {
+        "type": "string"
+      },
+      "finalidad": {
+        "type": "string"
+      },
+      "campos": {
+        "type": "string"
+      },
+      "regla": {
+        "type": "string"
+      },
+      "evidencia": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

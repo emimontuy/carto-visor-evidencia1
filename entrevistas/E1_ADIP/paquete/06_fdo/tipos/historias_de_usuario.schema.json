@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Historias de usuario con trazabilidad",
+  "description": "Tipo semántico local propuesto; no registrado en un registro FDO.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "historia",
+      "segmentos",
+      "hallazgos",
+      "criterios_aceptacion",
+      "requisitos",
+      "prioridad",
+      "estatus"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "titulo": {
+        "type": "string"
+      },
+      "rol": {
+        "type": "string"
+      },
+      "accion": {
+        "type": "string"
+      },
+      "beneficio": {
+        "type": "string"
+      },
+      "historia": {
+        "type": "string"
+      },
+      "hallazgos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "segmentos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "prioridad": {
+        "type": "string"
+      },
+      "estatus": {
+        "type": "string"
+      },
+      "criterios_aceptacion": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "requisitos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "revision_humana": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

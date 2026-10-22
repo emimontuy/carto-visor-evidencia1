@@ -1,0 +1,46 @@
+{
+  "pid": "urn:uuid:8792a5d5-418b-5492-b878-7928aebc993c",
+  "pid_estado": "local (URN UUID v5); pendiente de registro en un servicio resoluble",
+  "kernel": {
+    "digitalObjectType": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/tipos/Perfil.schema.json",
+    "digitalObjectLocation": "https://github.com/emimontuy/carto-visor-evidencia1/blob/main/fdo/objetos/perfiles/P1.json",
+    "dateCreated": "2026-10-21",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "creator": "Emilio Gómez Montuy",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "4a1c59ed55d0da3320d55626da5485956897ad9b46457f00e0981d02792971cd"
+    }
+  },
+  "metadatos": {
+    "titulo": "La coordinadora del encargo",
+    "descripcion": "Perfil construido a partir de la entrevista E1 (anonimizada).",
+    "idioma": "es",
+    "proyecto": "Carto-Visor (ADIP) · Evidencia 1"
+  },
+  "datos": {
+    "id": "P1",
+    "rol": "La coordinadora del encargo",
+    "tipo_de_actor": "Coordina y consume",
+    "entrevista": "E1",
+    "fecha_entrevista": "2026-09-30",
+    "contexto": "Directora de área en la ADIP (sesión grupal con el enlace institucional y un participante de la agencia)",
+    "hace": "Define el alcance del Carto-Visor, pide las capas a la SSC y decide quién puede consultarlas.",
+    "le_frena": "No controla cuándo cambia una capa; hoy las pide por contacto directo, WhatsApp u oficio.",
+    "necesita": "Una biblioteca que cualquiera con acceso entienda sin capacitación, con metadatos y roles."
+  },
+  "relaciones": [
+    {
+      "tipo": "evidenciadoPor",
+      "objetivo": "urn:uuid:110bacbe-9cae-5e81-acb3-112698b3181a"
+    },
+    {
+      "tipo": "derivaDe",
+      "objetivo": "entrevistas/E1_ADIP/paquete/02_codificacion/corpus_codificado.json"
+    }
+  ],
+  "procedencia": {
+    "metodo": "síntesis de fragmentos codificados de una entrevista"
+  }
+}
